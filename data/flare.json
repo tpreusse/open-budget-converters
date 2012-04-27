@@ -1,0 +1,382 @@
+{
+    "name": "",
+    "children": [{
+        "name": "GEMEINDE UND BEH\u00d6RDEN",
+        "children": [{
+            "name": "Stadtrat*",
+            "children": [{
+                "name": "Stadtrat*",
+                "size": 909688
+            }, {
+                "name": "Ratssekretariat*",
+                "size": 932622
+            }]
+        }, {
+            "name": "Ombudsstelle",
+            "children": [{
+                "name": "Ombudst\u00e4tigkeit und Datenschutz",
+                "size": 390639
+            }]
+        }, {
+            "name": "Gemeinderat*",
+            "children": [{
+                "name": "Gemeinderat*",
+                "size": 3242764
+            }]
+        }, {
+            "name": "Stadtkanzlei",
+            "children": [{
+                "name": "Leistungen f\u00fcr Politik und Verwaltungsf\u00fchrung*",
+                "size": 1954990
+            }, {
+                "name": "Dienstleistungen f\u00fcr Dritte*",
+                "size": 1975920
+            }, {
+                "name": "Stadtarchiv",
+                "size": 1324767
+            }]
+        }, {
+            "name": "Informationsdienst*",
+            "children": [{
+                "name": "Informationsdienst*",
+                "size": 1090953
+            }]
+        }, {
+            "name": "Finanzinspektorat*",
+            "children": [{
+                "name": "Revision*",
+                "size": 1158286
+            }]
+        }]
+    }, {
+        "name": "PR\u00c4SIDIALDIREKTION",
+        "children": [{
+            "name": "Direktionsstabsdienste, Gleichstellung\nund Rechtsdienst",
+            "children": [{
+                "name": "Leistungen f\u00fcr Politik und Verwaltungsf\u00fchrung*",
+                "size": 1977239
+            }, {
+                "name": "Zentrale Dienste*",
+                "size": 1249704
+            }, {
+                "name": "Gleichstellung",
+                "size": 455826
+            }, {
+                "name": "Enteignungen, Bausperren*",
+                "size": 364681
+            }]
+        }, {
+            "name": "Abteilung Kulturelles",
+            "children": [{
+                "name": "Kulturf\u00f6rderung",
+                "size": 34574700
+            }]
+        }, {
+            "name": "Denkmalpflege",
+            "children": [{
+                "name": "Denkmalpflege",
+                "size": 766321
+            }]
+        }, {
+            "name": "Abteilung Stadtentwicklung",
+            "children": [{
+                "name": "Stadtentwicklung und Statistik",
+                "size": 2283276
+            }]
+        }, {
+            "name": "Bauinspektorat",
+            "children": [{
+                "name": "Baurechtliche Bewilligungsverfahren \/\nVoranfragen",
+                "size": 1368956
+            }, {
+                "name": "Beschwerden \/ Widerrechtliches Bauen",
+                "size": 191444
+            }, {
+                "name": "Baurechtliche Ausk\u00fcnfte und Stellung-\nnahmen \/ Archiv",
+                "size": 377434
+            }]
+        }, {
+            "name": "Stadtplanungsamt*",
+            "children": [{
+                "name": "Stadtplanung*",
+                "size": 4654189
+            }]
+        }]
+    }, {
+        "name": "DIREKTION F\u00dcR SICHERHEIT, UMWELT\nUND ENERGIE",
+        "children": [{
+            "name": "Direktionsstabsdienste*",
+            "children": [{
+                "name": "Leistungen f\u00fcr Politik und Verwaltungsf\u00fchrung*",
+                "size": 1083777
+            }, {
+                "name": "Stabsdienstleistungen*",
+                "size": 1202910
+            }]
+        }, {
+            "name": "Kantonspolizei",
+            "children": [{
+                "name": "Kantonspolizei",
+                "size": 31475094
+            }]
+        }, {
+            "name": "Amt f\u00fcr Umweltschutz",
+            "children": [{
+                "name": "Umweltschutz",
+                "size": 4740450
+            }]
+        }, {
+            "name": "Polizeiinspektorat",
+            "children": [{
+                "name": "Dienstleistungen",
+                "size": 733980
+            }, {
+                "name": "Regelung des Einwohnerwesens",
+                "size": 5830683
+            }]
+        }, {
+            "name": "Feuerwehr, Zivilschutz und Quartieramt",
+            "children": [{
+                "name": "Feuerwehraufgaben",
+                "size": 13650192
+            }, {
+                "name": "Hilfe- und Dienstleistungen",
+                "size": 521118
+            }, {
+                "name": "Zivilschutz",
+                "size": 4012023
+            }, {
+                "name": "Quartieramt",
+                "size": 1751047
+            }]
+        }, {
+            "name": "Wirtschaftsamt",
+            "children": [{
+                "name": "Wirtschaftsf\u00f6rderung",
+                "size": 3682916
+            }]
+        }, {
+            "name": "Tierpark",
+            "children": [{
+                "name": "Tierpark",
+                "size": 7080187
+            }]
+        }, {
+            "name": "Amt f\u00fcr Erwachsenen- und Kindesschutz",
+            "children": [{
+                "name": "Vormundschaftspflege",
+                "size": 1628060
+            }, {
+                "name": "Schutz von Erwachsenen und Kindern",
+                "size": 8420518
+            }, {
+                "name": "Erbgangssicherung",
+                "size": 1150177
+            }]
+        }]
+    }, {
+        "name": "DIREKTION F\u00dcR BILDUNG, SOZIALES\nUND SPORT",
+        "children": [{
+            "name": "Direktionsstabsdienste",
+            "children": [{
+                "name": "Leistungen f\u00fcr Politik und Verwaltungsf\u00fchrung*",
+                "size": 1608448
+            }, {
+                "name": "Koordinationsstelle Sucht",
+                "size": 254707
+            }, {
+                "name": "Kompetenzzentrum Integration",
+                "size": 539571
+            }]
+        }, {
+            "name": "Sozialamt",
+            "children": [{
+                "name": "Soziale Einrichtungen",
+                "size": 2991439
+            }, {
+                "name": "Ambulante Sozialhilfe",
+                "size": 86708854
+            }, {
+                "name": "Berufliche und soziale Integration",
+                "size": 1970827
+            }]
+        }, {
+            "name": "Schulamt",
+            "children": [{
+                "name": "Kinderg\u00e4rten, Volks- und Sonderschulen",
+                "size": 85314198
+            }, {
+                "name": "Tagesbetreuung",
+                "size": 3482588
+            }, {
+                "name": "Bildungsnahe Institutionen*",
+                "size": 6818348
+            }]
+        }, {
+            "name": "Jugendamt",
+            "children": [{
+                "name": "Kinder- u. Jugendf\u00f6rderung\/Gemeinwesenarbeit",
+                "size": 9879715
+            }, {
+                "name": "Ambulante Jugendhilfe",
+                "size": 3460335
+            }, {
+                "name": "Familienerg\u00e4nzende Tagesbetreuung\nf\u00fcr Kinder",
+                "size": 31144590
+            }]
+        }, {
+            "name": "Alters- und Versicherungsamt",
+            "children": [{
+                "name": "Sozialversicherungen",
+                "size": 31261200
+            }, {
+                "name": "Alter",
+                "size": 1069221
+            }]
+        }, {
+            "name": "Schulzahnmedizinischer Dienst",
+            "children": [{
+                "name": "Schulzahnpflege",
+                "size": 493690
+            }, {
+                "name": "Zahnmedizinische Leistungen",
+                "size": 1060163
+            }]
+        }, {
+            "name": "Gesundheitsdienst",
+            "children": [{
+                "name": "Gesundheitsvorsorge und -beratung",
+                "size": 2793697
+            }, {
+                "name": "Gesundheitsinformation",
+                "size": 303187
+            }, {
+                "name": "Gesundheitsf\u00f6rderung und Pr\u00e4vention",
+                "size": 1207119
+            }]
+        }, {
+            "name": "Sportamt",
+            "children": [{
+                "name": "Betriebe Eis und Wasser",
+                "size": 14522039
+            }, {
+                "name": "Sportanlagen, Sportbetrieb",
+                "size": 7012962
+            }]
+        }]
+    }, {
+        "name": "DIREKTION F\u00dcR TIEFBAU, VERKEHR\nUND STADTGR\u00dcN",
+        "children": [{
+            "name": "Direktionsstabsdienste*",
+            "children": [{
+                "name": "Leistungen f\u00fcr Politik und Verwaltungsf\u00fchrung*",
+                "size": 1641355
+            }, {
+                "name": "Zentrale Dienste*",
+                "size": 1478758
+            }, {
+                "name": "Konzepte\/Koordination \u00f6ffentlicher Verkehr*",
+                "size": 29595431
+            }]
+        }, {
+            "name": "Tiefbauamt",
+            "children": [{
+                "name": "Planung und Koordination",
+                "size": 2353637
+            }, {
+                "name": "Realisierung",
+                "size": 19389927
+            }, {
+                "name": "Betrieb und Unterhalt",
+                "size": 28991453
+            }, {
+                "name": "Stadtbeleuchtung",
+                "size": 5810000
+            }]
+        }, {
+            "name": "Stadtg\u00e4rtnerei \/ Friedh\u00f6fe",
+            "children": [{
+                "name": "Gr\u00fcnraumgestaltung",
+                "size": 1448227
+            }, {
+                "name": "Gr\u00fcnfl\u00e4chenpflege",
+                "size": 10628890
+            }, {
+                "name": "Gr\u00fcnkultur",
+                "size": 844196
+            }, {
+                "name": "Friedh\u00f6fe",
+                "size": 4327337
+            }]
+        }, {
+            "name": "Vermessungsamt",
+            "children": [{
+                "name": "Geoinformation und Vermessung",
+                "size": 1441633
+            }]
+        }, {
+            "name": "Verkehrsplanung",
+            "children": [{
+                "name": "Verkehrsplanung",
+                "size": 4377385
+            }]
+        }]
+    }, {
+        "name": "DIREKTION F\u00dcR FINANZEN, PERSONAL\nUND INFORMATIK",
+        "children": [{
+            "name": "Direktionsstabsdienste \/\nFachstelle Beschaffungswesen",
+            "children": [{
+                "name": "Leistungen f\u00fcr Politik und Verwaltungsf\u00fchrung*",
+                "size": 1001546
+            }, {
+                "name": "Beschaffungsb\u00fcro",
+                "size": 347717
+            }]
+        }, {
+            "name": "Finanzverwaltung",
+            "children": [{
+                "name": "Finanzdienstleistungen Stadtverwaltung*",
+                "size": 1295952
+            }]
+        }, {
+            "name": "Liegenschaftsverwaltung",
+            "children": [{
+                "name": "Liegenschaften im \u00d6ffentlichen Interesse*",
+                "size": 363600
+            }]
+        }, {
+            "name": "Steuerverwaltung",
+            "children": [{
+                "name": "Steuerregister \/ Veranlagung",
+                "size": 4693753
+            }, {
+                "name": "Erhebung besondere Gemeindesteuern*",
+                "size": 1229400
+            }]
+        }, {
+            "name": "Personalamt*",
+            "children": [{
+                "name": "Personaldienstleistungen Stadtverwaltung*",
+                "size": 4222441
+            }, {
+                "name": "Zentrale Dienste \/ Telefonzentrale*",
+                "size": 1075633
+            }]
+        }, {
+            "name": "Informatikdienste",
+            "children": [{
+                "name": "Entwicklung\/Betrieb\/Support Kommunikation",
+                "size": 1238
+            }, {
+                "name": "Informatikcontrolling",
+                "size": 187864
+            }]
+        }, {
+            "name": "Schul- und B\u00fcromaterialzentrale",
+            "children": [{
+                "name": "Dienstleistungen",
+                "size": 104185
+            }]
+        }]
+    }]
+}
