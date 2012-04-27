@@ -5,12 +5,12 @@
 	<body>
 <?php
 
-$directions = array();
+$directorates = array();
 
 $overviewFile = file_get_contents('overview-utf8.csv');
 preg_match_all('/\n([^,]*,){9}.*/', $overviewFile, $overviewRows);
 
-$curDirection = NULL;
+$curDirectorate = NULL;
 $curAgency = NULL;
 
 function clean_text($string) {
@@ -27,7 +27,7 @@ function convert_to_float($number) {
 foreach($overviewRows[0] as &$row) {
 	$row = explode(',', $row);
 	if(preg_match('/^[0-9]{4}$/', $row[1])) {
-		$directions[$row[1]] = array(
+		$directorates[$row[1]] = array(
 			'number' => $row[1],
 			'name' => clean_text($row[2]),
 			'budgets' => array(
@@ -39,11 +39,11 @@ foreach($overviewRows[0] as &$row) {
 			),
 			'agencies' => array()
 		);
-		$curDirection = $row[1];
+		$curDirectorate = $row[1];
 		$curAgency = NULL;
 	}
-	else if(!is_null($curDirection) && preg_match('/^[0-9]{3}$/', $row[2])) {
-		$directions[$curDirection]['agencies'][$row[2]] = array(
+	else if(!is_null($curDirectorate) && preg_match('/^[0-9]{3}$/', $row[2])) {
+		$directorates[$curDirectorate]['agencies'][$row[2]] = array(
 			'number' => $row[2],
 			'name' => clean_text($row[3]),
 			'budgets' => array(
@@ -58,7 +58,7 @@ foreach($overviewRows[0] as &$row) {
 		$curAgency = $row[2];
 	}
 	else if(!is_null($curAgency) && preg_match('/^PG[0-9]{6}$/', $row[3])) {
-		$directions[$curDirection]['agencies'][$curAgency]['product_groups'][$row[3]] = array(
+		$directorates[$curDirectorate]['agencies'][$curAgency]['product_groups'][$row[3]] = array(
 			'number' => $row[3],
 			'name' => clean_text($row[4]),
 			'budgets' => array(
@@ -74,16 +74,16 @@ foreach($overviewRows[0] as &$row) {
 //$overview = explode(',', $overview);
 
 echo '<pre>';
-var_dump($directions);
+var_dump($directorates);
 echo '</pre>';
 
-//echo json_encode($directions);
+//echo json_encode($directorates);
 
 $flare = array('name' => ' ');
 $rootChilds = array();
-foreach($directions as &$direction) {
-	$directionChilds = array();
-	foreach($direction['agencies'] as &$agency) {
+foreach($directorates as &$directorate) {
+	$directorateChilds = array();
+	foreach($directorate['agencies'] as &$agency) {
 		$agencyChilds = array();
 		foreach($agency['product_groups'] as &$product_group) {
 			if($product_group['budgets'][2012] > 0) {
@@ -94,16 +94,16 @@ foreach($directions as &$direction) {
 			}
 		}
 		if(!empty($agencyChilds)) {
-			$directionChilds[] = array(
+			$directorateChilds[] = array(
 				'name' => '', //$agency['name'],
 				'children' => $agencyChilds
 			);
 		}
 	}
-	if(!empty($directionChilds)) {
+	if(!empty($directorateChilds)) {
 		$rootChilds[] = array(
-			'name' => $direction['name'],
-			'children' => $directionChilds
+			'name' => $directorate['name'],
+			'children' => $directorateChilds
 		);
 	}
 }
@@ -113,11 +113,11 @@ $flare['children'] = $rootChilds;
 
 //CSV for openspending (not working yet)
 $csv = 'nummer;direktion;dienststelle;produktgruppe;date;budget'."\n";
-foreach($directions as &$direction) {
-	foreach($direction['agencies'] as &$agency) {
+foreach($directorates as &$directorate) {
+	foreach($directorate['agencies'] as &$agency) {
 		foreach($agency['product_groups'] as &$product_group) {
 			if($product_group['budgets'][2012] > 0) {
-				$csv .= $product_group['number'].';'.$direction['name'].';'.$agency['name'].';'.$product_group['name'].';2012;'.ceil($product_group['budgets'][2012])."\n";
+				$csv .= $product_group['number'].';'.$directorate['name'].';'.$agency['name'].';'.$product_group['name'].';2012;'.ceil($product_group['budgets'][2012])."\n";
 			}
 		}
 	}
