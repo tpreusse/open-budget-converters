@@ -1,0 +1,1880 @@
+{
+    "1000": {
+        "number": "1000",
+        "name": "GEMEINDE UND BEH\u00d6RDEN",
+        "budgets": {
+            "2012": 12980626.6,
+            "2011": 12329207.48
+        },
+        "bills": {
+            "2010": 12519914
+        },
+        "agencies": {
+            "010": {
+                "number": "010",
+                "name": "Stadtrat*",
+                "budgets": {
+                    "2012": 1842309.2,
+                    "2011": 1894810
+                },
+                "bills": {
+                    "2010": 1788612.91
+                },
+                "product_groups": {
+                    "PG010000": {
+                        "number": "PG010000",
+                        "name": "Stadtrat*",
+                        "budgets": {
+                            "2012": 909687.25,
+                            "2011": 890988.77
+                        },
+                        "bills": {
+                            "2010": 840512.65
+                        }
+                    },
+                    "PG010100": {
+                        "number": "PG010100",
+                        "name": "Ratssekretariat*",
+                        "budgets": {
+                            "2012": 932621.95,
+                            "2011": 1003821.23
+                        },
+                        "bills": {
+                            "2010": 948100.26
+                        }
+                    }
+                }
+            },
+            "020": {
+                "number": "020",
+                "name": "Ombudsstelle",
+                "budgets": {
+                    "2012": 390638.64,
+                    "2011": 388114.54
+                },
+                "bills": {
+                    "2010": 325454.18
+                },
+                "product_groups": {
+                    "PG020000": {
+                        "number": "PG020000",
+                        "name": "Ombudst\u00e4tigkeit und Datenschutz",
+                        "budgets": {
+                            "2012": 390638.64,
+                            "2011": 388114.54
+                        },
+                        "bills": {
+                            "2010": 325454.18
+                        }
+                    }
+                }
+            },
+            "030": {
+                "number": "030",
+                "name": "Gemeinderat*",
+                "budgets": {
+                    "2012": 3242764,
+                    "2011": 3111292.6
+                },
+                "bills": {
+                    "2010": 3234926.69
+                },
+                "product_groups": {
+                    "PG030000": {
+                        "number": "PG030000",
+                        "name": "Gemeinderat*",
+                        "budgets": {
+                            "2012": 3242764,
+                            "2011": 3111292.6
+                        },
+                        "bills": {
+                            "2010": 3234926.69
+                        }
+                    }
+                }
+            },
+            "040": {
+                "number": "040",
+                "name": "Stadtkanzlei",
+                "budgets": {
+                    "2012": 5255676.01,
+                    "2011": 4754175.35
+                },
+                "bills": {
+                    "2010": 5319137.57
+                },
+                "product_groups": {
+                    "PG040000": {
+                        "number": "PG040000",
+                        "name": "Leistungen f\u00fcr Politik und Verwaltungsf\u00fchrung*",
+                        "budgets": {
+                            "2012": 1954989.87,
+                            "2011": 1868183.81
+                        },
+                        "bills": {
+                            "2010": 1810764.94
+                        }
+                    },
+                    "PG040100": {
+                        "number": "PG040100",
+                        "name": "Dienstleistungen f\u00fcr Dritte*",
+                        "budgets": {
+                            "2012": 1975919.22,
+                            "2011": 1662438.34
+                        },
+                        "bills": {
+                            "2010": 1669350.67
+                        }
+                    },
+                    "PG040200": {
+                        "number": "PG040200",
+                        "name": "Stadtarchiv",
+                        "budgets": {
+                            "2012": 1324766.92,
+                            "2011": 1223553.2
+                        },
+                        "bills": {
+                            "2010": 1224645.19
+                        }
+                    },
+                    "PG040300": {
+                        "number": "PG040300",
+                        "name": "Arbeitsgericht*",
+                        "budgets": {
+                            "2012": 0,
+                            "2011": 0
+                        },
+                        "bills": {
+                            "2010": 218967.68
+                        }
+                    },
+                    "PG040400": {
+                        "number": "PG040400",
+                        "name": "Mietamt*",
+                        "budgets": {
+                            "2012": 0,
+                            "2011": 0
+                        },
+                        "bills": {
+                            "2010": 395409.09
+                        }
+                    }
+                }
+            },
+            "050": {
+                "number": "050",
+                "name": "Informationsdienst*",
+                "budgets": {
+                    "2012": 1090952.97,
+                    "2011": 1026154.75
+                },
+                "bills": {
+                    "2010": 822290.13
+                },
+                "product_groups": {
+                    "PG050000": {
+                        "number": "PG050000",
+                        "name": "Informationsdienst*",
+                        "budgets": {
+                            "2012": 1090952.97,
+                            "2011": 1026154.75
+                        },
+                        "bills": {
+                            "2010": 822290.13
+                        }
+                    }
+                }
+            },
+            "060": {
+                "number": "060",
+                "name": "Finanzinspektorat*",
+                "budgets": {
+                    "2012": 1158285.78,
+                    "2011": 1154660.24
+                },
+                "bills": {
+                    "2010": 1029492.52
+                },
+                "product_groups": {
+                    "PG060000": {
+                        "number": "PG060000",
+                        "name": "Revision*",
+                        "budgets": {
+                            "2012": 1158285.78,
+                            "2011": 1154660.24
+                        },
+                        "bills": {
+                            "2010": 1029492.52
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "1100": {
+        "number": "1100",
+        "name": "PR\u00c4SIDIALDIREKTION",
+        "budgets": {
+            "2012": 48263764.71,
+            "2011": 47714790.6
+        },
+        "bills": {
+            "2010": 45176344.25
+        },
+        "agencies": {
+            "100": {
+                "number": "100",
+                "name": "Direktionsstabsdienste, Gleichstellung\nund Rechtsdienst",
+                "budgets": {
+                    "2012": 4047446.95,
+                    "2011": 4406823.04
+                },
+                "bills": {
+                    "2010": 3588647.86
+                },
+                "product_groups": {
+                    "PG100100": {
+                        "number": "PG100100",
+                        "name": "Leistungen f\u00fcr Politik und Verwaltungsf\u00fchrung*",
+                        "budgets": {
+                            "2012": 1977238.27,
+                            "2011": 2310353.59
+                        },
+                        "bills": {
+                            "2010": 1552807.14
+                        }
+                    },
+                    "PG100200": {
+                        "number": "PG100200",
+                        "name": "Zentrale Dienste*",
+                        "budgets": {
+                            "2012": 1249703.61,
+                            "2011": 1219930
+                        },
+                        "bills": {
+                            "2010": 1191483.54
+                        }
+                    },
+                    "PG100300": {
+                        "number": "PG100300",
+                        "name": "Gleichstellung",
+                        "budgets": {
+                            "2012": 455825.03,
+                            "2011": 416607.45
+                        },
+                        "bills": {
+                            "2010": 395069.98
+                        }
+                    },
+                    "PG100500": {
+                        "number": "PG100500",
+                        "name": "Enteignungen, Bausperren*",
+                        "budgets": {
+                            "2012": 364680.04,
+                            "2011": 459932
+                        },
+                        "bills": {
+                            "2010": 449287.2
+                        }
+                    }
+                }
+            },
+            "110": {
+                "number": "110",
+                "name": "Abteilung Kulturelles",
+                "budgets": {
+                    "2012": 34574699.81,
+                    "2011": 33816105.25
+                },
+                "bills": {
+                    "2010": 33336004.62
+                },
+                "product_groups": {
+                    "PG110000": {
+                        "number": "PG110000",
+                        "name": "Kulturf\u00f6rderung",
+                        "budgets": {
+                            "2012": 34574699.81,
+                            "2011": 33816105.25
+                        },
+                        "bills": {
+                            "2010": 33336004.62
+                        }
+                    }
+                }
+            },
+            "120": {
+                "number": "120",
+                "name": "Denkmalpflege",
+                "budgets": {
+                    "2012": 766320.82,
+                    "2011": 682876.9
+                },
+                "bills": {
+                    "2010": 678005.73
+                },
+                "product_groups": {
+                    "PG120000": {
+                        "number": "PG120000",
+                        "name": "Denkmalpflege",
+                        "budgets": {
+                            "2012": 766320.82,
+                            "2011": 682876.9
+                        },
+                        "bills": {
+                            "2010": 678005.73
+                        }
+                    }
+                }
+            },
+            "130": {
+                "number": "130",
+                "name": "Abteilung Stadtentwicklung",
+                "budgets": {
+                    "2012": 2283275.05,
+                    "2011": 2446884.14
+                },
+                "bills": {
+                    "2010": 2297948.99
+                },
+                "product_groups": {
+                    "PG130000": {
+                        "number": "PG130000",
+                        "name": "Stadtentwicklung und Statistik",
+                        "budgets": {
+                            "2012": 2283275.05,
+                            "2011": 2446884.14
+                        },
+                        "bills": {
+                            "2010": 2297948.99
+                        }
+                    }
+                }
+            },
+            "150": {
+                "number": "150",
+                "name": "Bauinspektorat",
+                "budgets": {
+                    "2012": 1937833.33,
+                    "2011": 1868310.62
+                },
+                "bills": {
+                    "2010": 1113794.99
+                },
+                "product_groups": {
+                    "PG150000": {
+                        "number": "PG150000",
+                        "name": "Baurechtliche Bewilligungsverfahren \/\nVoranfragen",
+                        "budgets": {
+                            "2012": 1368955.59,
+                            "2011": 1305688.39
+                        },
+                        "bills": {
+                            "2010": 609838.33
+                        }
+                    },
+                    "PG150100": {
+                        "number": "PG150100",
+                        "name": "Beschwerden \/ Widerrechtliches Bauen",
+                        "budgets": {
+                            "2012": 191443.96,
+                            "2011": 189256.2
+                        },
+                        "bills": {
+                            "2010": 113036.01
+                        }
+                    },
+                    "PG150200": {
+                        "number": "PG150200",
+                        "name": "Baurechtliche Ausk\u00fcnfte und Stellung-\nnahmen \/ Archiv",
+                        "budgets": {
+                            "2012": 377433.78,
+                            "2011": 373366.03
+                        },
+                        "bills": {
+                            "2010": 390920.65
+                        }
+                    }
+                }
+            },
+            "170": {
+                "number": "170",
+                "name": "Stadtplanungsamt*",
+                "budgets": {
+                    "2012": 4654188.75,
+                    "2011": 4493790.65
+                },
+                "bills": {
+                    "2010": 4161942.06
+                },
+                "product_groups": {
+                    "PG170500": {
+                        "number": "PG170500",
+                        "name": "Stadtplanung*",
+                        "budgets": {
+                            "2012": 4654188.75,
+                            "2011": 4493790.65
+                        },
+                        "bills": {
+                            "2010": 4161942.06
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "1200": {
+        "number": "1200",
+        "name": "DIREKTION F\u00dcR SICHERHEIT, UMWELT\nUND ENERGIE",
+        "budgets": {
+            "2012": 42288660.66,
+            "2011": 17214258.75
+        },
+        "bills": {
+            "2010": 14641609.29
+        },
+        "agencies": {
+            "200": {
+                "number": "200",
+                "name": "Direktionsstabsdienste*",
+                "budgets": {
+                    "2012": 2286686.83,
+                    "2011": 2278507.37
+                },
+                "bills": {
+                    "2010": 2429130.12
+                },
+                "product_groups": {
+                    "PG200100": {
+                        "number": "PG200100",
+                        "name": "Leistungen f\u00fcr Politik und Verwaltungsf\u00fchrung*",
+                        "budgets": {
+                            "2012": 1083776.99,
+                            "2011": 1116725
+                        },
+                        "bills": {
+                            "2010": 1060407.51
+                        }
+                    },
+                    "PG200200": {
+                        "number": "PG200200",
+                        "name": "Stabsdienstleistungen*",
+                        "budgets": {
+                            "2012": 1202909.84,
+                            "2011": 1161782.37
+                        },
+                        "bills": {
+                            "2010": 1368722.61
+                        }
+                    }
+                }
+            },
+            "210": {
+                "number": "210",
+                "name": "Kantonspolizei",
+                "budgets": {
+                    "2012": 31475094,
+                    "2011": 30195137
+                },
+                "bills": {
+                    "2010": 29739803.1
+                },
+                "product_groups": {
+                    "PG210100": {
+                        "number": "PG210100",
+                        "name": "Kantonspolizei",
+                        "budgets": {
+                            "2012": 31475094,
+                            "2011": 30195137
+                        },
+                        "bills": {
+                            "2010": 29739803.1
+                        }
+                    }
+                }
+            },
+            "220": {
+                "number": "220",
+                "name": "Amt f\u00fcr Umweltschutz",
+                "budgets": {
+                    "2012": 4740449.92,
+                    "2011": 5533705.68
+                },
+                "bills": {
+                    "2010": 4843217.03
+                },
+                "product_groups": {
+                    "PG220100": {
+                        "number": "PG220100",
+                        "name": "Umweltschutz",
+                        "budgets": {
+                            "2012": 4740449.92,
+                            "2011": 5533705.68
+                        },
+                        "bills": {
+                            "2010": 4843217.03
+                        }
+                    }
+                }
+            },
+            "230": {
+                "number": "230",
+                "name": "Polizeiinspektorat",
+                "budgets": {
+                    "2012": 4900866.51,
+                    "2011": 5150213.71
+                },
+                "bills": {
+                    "2010": 4387503.12
+                },
+                "product_groups": {
+                    "PG230100": {
+                        "number": "PG230100",
+                        "name": "Dienstleistungen",
+                        "budgets": {
+                            "2012": 733979.24,
+                            "2011": 2993390.21
+                        },
+                        "bills": {
+                            "2010": 1962981.19
+                        }
+                    },
+                    "PG230200": {
+                        "number": "PG230200",
+                        "name": "Ruhe und Ordnung",
+                        "budgets": {
+                            "2012": -1597032.61,
+                            "2011": -1181361.93
+                        },
+                        "bills": {
+                            "2010": -2136196.96
+                        }
+                    },
+                    "PG230300": {
+                        "number": "PG230300",
+                        "name": "Gewerbe, Betrieb und Markt",
+                        "budgets": {
+                            "2012": -66763.05,
+                            "2011": -248173.14
+                        },
+                        "bills": {
+                            "2010": -88540.4
+                        }
+                    },
+                    "PG230400": {
+                        "number": "PG230400",
+                        "name": "Regelung des Einwohnerwesens",
+                        "budgets": {
+                            "2012": 5830682.93,
+                            "2011": 3586358.57
+                        },
+                        "bills": {
+                            "2010": 4649259.29
+                        }
+                    }
+                }
+            },
+            "240": {
+                "number": "240",
+                "name": "Sanit\u00e4tspolizei",
+                "budgets": {
+                    "2012": -10669.22,
+                    "2011": -458277.91
+                },
+                "bills": {
+                    "2010": -563425.34
+                },
+                "product_groups": {
+                    "PG240100": {
+                        "number": "PG240100",
+                        "name": "Hilfeleistungen",
+                        "budgets": {
+                            "2012": 0,
+                            "2011": -447461.27
+                        },
+                        "bills": {
+                            "2010": -558682.66
+                        }
+                    },
+                    "PG240200": {
+                        "number": "PG240200",
+                        "name": "\u00dcbrige Dienstleistungen",
+                        "budgets": {
+                            "2012": -10669.22,
+                            "2011": -10816.64
+                        },
+                        "bills": {
+                            "2010": -4742.68
+                        }
+                    }
+                }
+            },
+            "250": {
+                "number": "250",
+                "name": "Feuerwehr, Zivilschutz und Quartieramt",
+                "budgets": {
+                    "2012": 19934377.52,
+                    "2011": 19882785.23
+                },
+                "bills": {
+                    "2010": 18738084.6
+                },
+                "product_groups": {
+                    "PG250100": {
+                        "number": "PG250100",
+                        "name": "Feuerwehraufgaben",
+                        "budgets": {
+                            "2012": 13650191.74,
+                            "2011": 13519153.94
+                        },
+                        "bills": {
+                            "2010": 12828105.7
+                        }
+                    },
+                    "PG250200": {
+                        "number": "PG250200",
+                        "name": "Hilfe- und Dienstleistungen",
+                        "budgets": {
+                            "2012": 521117.57,
+                            "2011": 628758.8
+                        },
+                        "bills": {
+                            "2010": 597612.68
+                        }
+                    },
+                    "PG250300": {
+                        "number": "PG250300",
+                        "name": "Zivilschutz",
+                        "budgets": {
+                            "2012": 4012022.09,
+                            "2011": 3935053.64
+                        },
+                        "bills": {
+                            "2010": 3896324.4
+                        }
+                    },
+                    "PG250400": {
+                        "number": "PG250400",
+                        "name": "Quartieramt",
+                        "budgets": {
+                            "2012": 1751046.12,
+                            "2011": 1799818.85
+                        },
+                        "bills": {
+                            "2010": 1416041.82
+                        }
+                    }
+                }
+            },
+            "260": {
+                "number": "260",
+                "name": "Wirtschaftsamt",
+                "budgets": {
+                    "2012": 3682915.84,
+                    "2011": 3897501.12
+                },
+                "bills": {
+                    "2010": 3970466.37
+                },
+                "product_groups": {
+                    "PG260100": {
+                        "number": "PG260100",
+                        "name": "Wirtschaftsf\u00f6rderung",
+                        "budgets": {
+                            "2012": 3682915.84,
+                            "2011": 3897501.12
+                        },
+                        "bills": {
+                            "2010": 3970466.37
+                        }
+                    }
+                }
+            },
+            "270": {
+                "number": "270",
+                "name": "Tierpark",
+                "budgets": {
+                    "2012": 7080186.02,
+                    "2011": 7081938.19
+                },
+                "bills": {
+                    "2010": 6995735.11
+                },
+                "product_groups": {
+                    "PG270100": {
+                        "number": "PG270100",
+                        "name": "Tierpark",
+                        "budgets": {
+                            "2012": 7080186.02,
+                            "2011": 7081938.19
+                        },
+                        "bills": {
+                            "2010": 6995735.11
+                        }
+                    }
+                }
+            },
+            "280": {
+                "number": "280",
+                "name": "Amt f\u00fcr Erwachsenen- und Kindesschutz",
+                "budgets": {
+                    "2012": 11198753.24,
+                    "2011": 10652748.36
+                },
+                "bills": {
+                    "2010": 9101095.18
+                },
+                "product_groups": {
+                    "PG280100": {
+                        "number": "PG280100",
+                        "name": "Vormundschaftspflege",
+                        "budgets": {
+                            "2012": 1628059.6,
+                            "2011": 1728259.57
+                        },
+                        "bills": {
+                            "2010": 1560679.07
+                        }
+                    },
+                    "PG280200": {
+                        "number": "PG280200",
+                        "name": "Schutz von Erwachsenen und Kindern",
+                        "budgets": {
+                            "2012": 8420517.6,
+                            "2011": 7597836.79
+                        },
+                        "bills": {
+                            "2010": 6429524.83
+                        }
+                    },
+                    "PG280300": {
+                        "number": "PG280300",
+                        "name": "Erbgangssicherung",
+                        "budgets": {
+                            "2012": 1150176.04,
+                            "2011": 1326652
+                        },
+                        "bills": {
+                            "2010": 1110891.28
+                        }
+                    }
+                }
+            },
+            "290": {
+                "number": "290",
+                "name": "Energie Wasser Bern (ewb)",
+                "budgets": {
+                    "2012": -43000000,
+                    "2011": -67000000
+                },
+                "bills": {
+                    "2010": -65000000
+                },
+                "product_groups": {
+                    "PG290100": {
+                        "number": "PG290100",
+                        "name": "Energie Wasser Bern (ewb)",
+                        "budgets": {
+                            "2012": -43000000,
+                            "2011": -67000000
+                        },
+                        "bills": {
+                            "2010": -65000000
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "1300": {
+        "number": "1300",
+        "name": "DIREKTION F\u00dcR BILDUNG, SOZIALES\nUND SPORT",
+        "budgets": {
+            "2012": 237636858.1,
+            "2011": 232327463.21
+        },
+        "bills": {
+            "2010": 215354695.55
+        },
+        "agencies": {
+            "300": {
+                "number": "300",
+                "name": "Direktionsstabsdienste",
+                "budgets": {
+                    "2012": -53254104.35,
+                    "2011": -65511809.4
+                },
+                "bills": {
+                    "2010": -86592520.2
+                },
+                "product_groups": {
+                    "PG300100": {
+                        "number": "PG300100",
+                        "name": "Leistungen f\u00fcr Politik und Verwaltungsf\u00fchrung*",
+                        "budgets": {
+                            "2012": 1608448,
+                            "2011": 1588775.6
+                        },
+                        "bills": {
+                            "2010": 1473345.89
+                        }
+                    },
+                    "PG300200": {
+                        "number": "PG300200",
+                        "name": "Koordinationsstelle Sucht",
+                        "budgets": {
+                            "2012": 254707,
+                            "2011": 253349.96
+                        },
+                        "bills": {
+                            "2010": 245838.55
+                        }
+                    },
+                    "PG300300": {
+                        "number": "PG300300",
+                        "name": "Zentrale Dienste*",
+                        "budgets": {
+                            "2012": -55656829.75,
+                            "2011": -67895197.72
+                        },
+                        "bills": {
+                            "2010": -88825822.11
+                        }
+                    },
+                    "PG300400": {
+                        "number": "PG300400",
+                        "name": "Kompetenzzentrum Integration",
+                        "budgets": {
+                            "2012": 539570.4,
+                            "2011": 541262.76
+                        },
+                        "bills": {
+                            "2010": 514117.47
+                        }
+                    }
+                }
+            },
+            "310": {
+                "number": "310",
+                "name": "Sozialamt",
+                "budgets": {
+                    "2012": 91067917.6,
+                    "2011": 93955821.69
+                },
+                "bills": {
+                    "2010": 92505129.11
+                },
+                "product_groups": {
+                    "PG310100": {
+                        "number": "PG310100",
+                        "name": "Soziale Einrichtungen",
+                        "budgets": {
+                            "2012": 2991438.82,
+                            "2011": 2989574.78
+                        },
+                        "bills": {
+                            "2010": 7170510.51
+                        }
+                    },
+                    "PG310300": {
+                        "number": "PG310300",
+                        "name": "Inkasso Sozialhilfe, Bevorschussung",
+                        "budgets": {
+                            "2012": -603201.27,
+                            "2011": -449403.04
+                        },
+                        "bills": {
+                            "2010": -71919.1
+                        }
+                    },
+                    "PG310400": {
+                        "number": "PG310400",
+                        "name": "Ambulante Sozialhilfe",
+                        "budgets": {
+                            "2012": 86708853.87,
+                            "2011": 84104405.03
+                        },
+                        "bills": {
+                            "2010": 78723746.36
+                        }
+                    },
+                    "PG310600": {
+                        "number": "PG310600",
+                        "name": "Berufliche und soziale Integration",
+                        "budgets": {
+                            "2012": 1970826.18,
+                            "2011": 7311244.92
+                        },
+                        "bills": {
+                            "2010": 6682791.34
+                        }
+                    }
+                }
+            },
+            "320": {
+                "number": "320",
+                "name": "Schulamt",
+                "budgets": {
+                    "2012": 95615131.92,
+                    "2011": 97561338.55
+                },
+                "bills": {
+                    "2010": 97189882.29
+                },
+                "product_groups": {
+                    "PG320100": {
+                        "number": "PG320100",
+                        "name": "Kinderg\u00e4rten, Volks- und Sonderschulen",
+                        "budgets": {
+                            "2012": 85314197.4,
+                            "2011": 86566845.83
+                        },
+                        "bills": {
+                            "2010": 85183129.44
+                        }
+                    },
+                    "PG320200": {
+                        "number": "PG320200",
+                        "name": "Tagesbetreuung",
+                        "budgets": {
+                            "2012": 3482587.12,
+                            "2011": 3643703.04
+                        },
+                        "bills": {
+                            "2010": 4779929.4
+                        }
+                    },
+                    "PG320300": {
+                        "number": "PG320300",
+                        "name": "Bildungsnahe Institutionen*",
+                        "budgets": {
+                            "2012": 6818347.4,
+                            "2011": 7350789.68
+                        },
+                        "bills": {
+                            "2010": 7226823.45
+                        }
+                    }
+                }
+            },
+            "330": {
+                "number": "330",
+                "name": "Jugendamt",
+                "budgets": {
+                    "2012": 44484638.02,
+                    "2011": 43647471.67
+                },
+                "bills": {
+                    "2010": 36978427.18
+                },
+                "product_groups": {
+                    "PG330100": {
+                        "number": "PG330100",
+                        "name": "Kinder- u. Jugendf\u00f6rderung\/Gemeinwesenarbeit",
+                        "budgets": {
+                            "2012": 9879714.3,
+                            "2011": 9793402.14
+                        },
+                        "bills": {
+                            "2010": 5366507.86
+                        }
+                    },
+                    "PG330200": {
+                        "number": "PG330200",
+                        "name": "Ambulante Jugendhilfe",
+                        "budgets": {
+                            "2012": 3460334.56,
+                            "2011": 3370999.91
+                        },
+                        "bills": {
+                            "2010": 3170644.83
+                        }
+                    },
+                    "PG330300": {
+                        "number": "PG330300",
+                        "name": "Kompetenzzentrum Jugend\/Familie Schlossmatt",
+                        "budgets": {
+                            "2012": 0,
+                            "2011": 0
+                        },
+                        "bills": {
+                            "2010": 168577.95
+                        }
+                    },
+                    "PG330400": {
+                        "number": "PG330400",
+                        "name": "Familienerg\u00e4nzende Tagesbetreuung\nf\u00fcr Kinder",
+                        "budgets": {
+                            "2012": 31144589.16,
+                            "2011": 30483069.62
+                        },
+                        "bills": {
+                            "2010": 28272696.54
+                        }
+                    }
+                }
+            },
+            "350": {
+                "number": "350",
+                "name": "Alters- und Versicherungsamt",
+                "budgets": {
+                    "2012": 32330419.84,
+                    "2011": 35899549.84
+                },
+                "bills": {
+                    "2010": 49416616.63
+                },
+                "product_groups": {
+                    "PG350100": {
+                        "number": "PG350100",
+                        "name": "Sozialversicherungen",
+                        "budgets": {
+                            "2012": 31261199.52,
+                            "2011": 34771102.64
+                        },
+                        "bills": {
+                            "2010": 29552070.76
+                        }
+                    },
+                    "PG350200": {
+                        "number": "PG350200",
+                        "name": "Station\u00e4re und teilstation\u00e4re Betagtenhilfe",
+                        "budgets": {
+                            "2012": 0,
+                            "2011": 173126.36
+                        },
+                        "bills": {
+                            "2010": 6115413.06
+                        }
+                    },
+                    "PG350300": {
+                        "number": "PG350300",
+                        "name": "Ambulante Kranken- und Betagtenhilfe",
+                        "budgets": {
+                            "2012": 0,
+                            "2011": 158440.32
+                        },
+                        "bills": {
+                            "2010": 12529458.22
+                        }
+                    },
+                    "PG350400": {
+                        "number": "PG350400",
+                        "name": "Offene Altersarbeit",
+                        "budgets": {
+                            "2012": 0,
+                            "2011": 446880.52
+                        },
+                        "bills": {
+                            "2010": 164179.44
+                        }
+                    },
+                    "PG350500": {
+                        "number": "PG350500",
+                        "name": "Alter",
+                        "budgets": {
+                            "2012": 1069220.32,
+                            "2011": 350000
+                        },
+                        "bills": {
+                            "2010": 1055495.15
+                        }
+                    }
+                }
+            },
+            "360": {
+                "number": "360",
+                "name": "Schulzahnmedizinischer Dienst",
+                "budgets": {
+                    "2012": 1553852.48,
+                    "2011": 2129027.16
+                },
+                "bills": {
+                    "2010": 2135420.63
+                },
+                "product_groups": {
+                    "PG360100": {
+                        "number": "PG360100",
+                        "name": "Schulzahnpflege",
+                        "budgets": {
+                            "2012": 493689.68,
+                            "2011": 1045803.8
+                        },
+                        "bills": {
+                            "2010": 859749.44
+                        }
+                    },
+                    "PG360200": {
+                        "number": "PG360200",
+                        "name": "Zahnmedizinische Leistungen",
+                        "budgets": {
+                            "2012": 1060162.8,
+                            "2011": 1083223.36
+                        },
+                        "bills": {
+                            "2010": 1275671.19
+                        }
+                    }
+                }
+            },
+            "370": {
+                "number": "370",
+                "name": "Gesundheitsdienst",
+                "budgets": {
+                    "2012": 4304001.96,
+                    "2011": 4266519.08
+                },
+                "bills": {
+                    "2010": 4246595.06
+                },
+                "product_groups": {
+                    "PG370100": {
+                        "number": "PG370100",
+                        "name": "Gesundheitsvorsorge und -beratung",
+                        "budgets": {
+                            "2012": 2793696.64,
+                            "2011": 2749853.56
+                        },
+                        "bills": {
+                            "2010": 2668195.2
+                        }
+                    },
+                    "PG370200": {
+                        "number": "PG370200",
+                        "name": "Gesundheitsinformation",
+                        "budgets": {
+                            "2012": 303186.32,
+                            "2011": 284929.72
+                        },
+                        "bills": {
+                            "2010": 307650.51
+                        }
+                    },
+                    "PG370300": {
+                        "number": "PG370300",
+                        "name": "Gesundheitsf\u00f6rderung und Pr\u00e4vention",
+                        "budgets": {
+                            "2012": 1207119,
+                            "2011": 1231735.8
+                        },
+                        "bills": {
+                            "2010": 1270749.35
+                        }
+                    }
+                }
+            },
+            "380": {
+                "number": "380",
+                "name": "Sportamt",
+                "budgets": {
+                    "2012": 21535000.63,
+                    "2011": 20379544.62
+                },
+                "bills": {
+                    "2010": 19475144.85
+                },
+                "product_groups": {
+                    "PG380100": {
+                        "number": "PG380100",
+                        "name": "Betriebe Eis und Wasser",
+                        "budgets": {
+                            "2012": 14522038.96,
+                            "2011": 13764945.42
+                        },
+                        "bills": {
+                            "2010": 13402613.58
+                        }
+                    },
+                    "PG380200": {
+                        "number": "PG380200",
+                        "name": "Sportanlagen, Sportbetrieb",
+                        "budgets": {
+                            "2012": 7012961.67,
+                            "2011": 6614599.2
+                        },
+                        "bills": {
+                            "2010": 6072531.27
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "1500": {
+        "number": "1500",
+        "name": "DIREKTION F\u00dcR TIEFBAU, VERKEHR\nUND STADTGR\u00dcN",
+        "budgets": {
+            "2012": 106967539.37,
+            "2011": 101963889.1
+        },
+        "bills": {
+            "2010": 105861775.85
+        },
+        "agencies": {
+            "500": {
+                "number": "500",
+                "name": "Direktionsstabsdienste*",
+                "budgets": {
+                    "2012": 32715542.41,
+                    "2011": 32680611.48
+                },
+                "bills": {
+                    "2010": 33659740.63
+                },
+                "product_groups": {
+                    "PG500100": {
+                        "number": "PG500100",
+                        "name": "Leistungen f\u00fcr Politik und Verwaltungsf\u00fchrung*",
+                        "budgets": {
+                            "2012": 1641354.49,
+                            "2011": 1643957.9
+                        },
+                        "bills": {
+                            "2010": 1526428.53
+                        }
+                    },
+                    "PG500400": {
+                        "number": "PG500400",
+                        "name": "Zentrale Dienste*",
+                        "budgets": {
+                            "2012": 1478757.56,
+                            "2011": 1400347.7
+                        },
+                        "bills": {
+                            "2010": 2096759.2
+                        }
+                    },
+                    "PG500500": {
+                        "number": "PG500500",
+                        "name": "Konzepte\/Koordination \u00f6ffentlicher Verkehr*",
+                        "budgets": {
+                            "2012": 29595430.36,
+                            "2011": 29636305.88
+                        },
+                        "bills": {
+                            "2010": 30036552.9
+                        }
+                    }
+                }
+            },
+            "510": {
+                "number": "510",
+                "name": "Tiefbauamt",
+                "budgets": {
+                    "2012": 51184331.44,
+                    "2011": 47872196.76
+                },
+                "bills": {
+                    "2010": 48425024.64
+                },
+                "product_groups": {
+                    "PG510100": {
+                        "number": "PG510100",
+                        "name": "Planung und Koordination",
+                        "budgets": {
+                            "2012": 2353636.24,
+                            "2011": 2318496.56
+                        },
+                        "bills": {
+                            "2010": 1988802.67
+                        }
+                    },
+                    "PG510200": {
+                        "number": "PG510200",
+                        "name": "Realisierung",
+                        "budgets": {
+                            "2012": 19389926.04,
+                            "2011": 16024690.24
+                        },
+                        "bills": {
+                            "2010": 15371122.94
+                        }
+                    },
+                    "PG510300": {
+                        "number": "PG510300",
+                        "name": "Betrieb und Unterhalt",
+                        "budgets": {
+                            "2012": 28991452.44,
+                            "2011": 28407685.24
+                        },
+                        "bills": {
+                            "2010": 30482156.92
+                        }
+                    },
+                    "PG510400": {
+                        "number": "PG510400",
+                        "name": "Tiefbauinspektorat*",
+                        "budgets": {
+                            "2012": -5360683.28,
+                            "2011": -5078675.28
+                        },
+                        "bills": {
+                            "2010": -5734090.39
+                        }
+                    },
+                    "PG510500": {
+                        "number": "PG510500",
+                        "name": "Stadtbeleuchtung",
+                        "budgets": {
+                            "2012": 5810000,
+                            "2011": 6200000
+                        },
+                        "bills": {
+                            "2010": 6317032.5
+                        }
+                    }
+                }
+            },
+            "520": {
+                "number": "520",
+                "name": "Stadtg\u00e4rtnerei \/ Friedh\u00f6fe",
+                "budgets": {
+                    "2012": 17248648.71,
+                    "2011": 16457487.41
+                },
+                "bills": {
+                    "2010": 16284901.42
+                },
+                "product_groups": {
+                    "PG520100": {
+                        "number": "PG520100",
+                        "name": "Gr\u00fcnraumgestaltung",
+                        "budgets": {
+                            "2012": 1448226.83,
+                            "2011": 1408951.73
+                        },
+                        "bills": {
+                            "2010": 1352293.22
+                        }
+                    },
+                    "PG520200": {
+                        "number": "PG520200",
+                        "name": "Gr\u00fcnfl\u00e4chenpflege",
+                        "budgets": {
+                            "2012": 10628889.7,
+                            "2011": 10081568.41
+                        },
+                        "bills": {
+                            "2010": 9823991.04
+                        }
+                    },
+                    "PG520300": {
+                        "number": "PG520300",
+                        "name": "Gr\u00fcnkultur",
+                        "budgets": {
+                            "2012": 844195.76,
+                            "2011": 955048.89
+                        },
+                        "bills": {
+                            "2010": 1045614.47
+                        }
+                    },
+                    "PG521100": {
+                        "number": "PG521100",
+                        "name": "Friedh\u00f6fe",
+                        "budgets": {
+                            "2012": 4327336.42,
+                            "2011": 4011918.38
+                        },
+                        "bills": {
+                            "2010": 4063002.69
+                        }
+                    }
+                }
+            },
+            "570": {
+                "number": "570",
+                "name": "Vermessungsamt",
+                "budgets": {
+                    "2012": 1441632.67,
+                    "2011": 1207956.2
+                },
+                "bills": {
+                    "2010": 1287852.03
+                },
+                "product_groups": {
+                    "PG570100": {
+                        "number": "PG570100",
+                        "name": "Geoinformation und Vermessung",
+                        "budgets": {
+                            "2012": 1441632.67,
+                            "2011": 1207956.2
+                        },
+                        "bills": {
+                            "2010": 1287852.03
+                        }
+                    }
+                }
+            },
+            "580": {
+                "number": "580",
+                "name": "Verkehrsplanung",
+                "budgets": {
+                    "2012": 4377384.14,
+                    "2011": 3745637.25
+                },
+                "bills": {
+                    "2010": 6204257.13
+                },
+                "product_groups": {
+                    "PG580100": {
+                        "number": "PG580100",
+                        "name": "Verkehrsplanung",
+                        "budgets": {
+                            "2012": 4377384.14,
+                            "2011": 3745637.25
+                        },
+                        "bills": {
+                            "2010": 6204257.13
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "1600": {
+        "number": "1600",
+        "name": "DIREKTION F\u00dcR FINANZEN, PERSONAL\nUND INFORMATIK",
+        "budgets": {
+            "2012": -448137449.92,
+            "2011": -411549608.86
+        },
+        "bills": {
+            "2010": -411111801.76
+        },
+        "agencies": {
+            "600": {
+                "number": "600",
+                "name": "Direktionsstabsdienste \/\nFachstelle Beschaffungswesen",
+                "budgets": {
+                    "2012": 1349262.24,
+                    "2011": 1378528.61
+                },
+                "bills": {
+                    "2010": 1126536.18
+                },
+                "product_groups": {
+                    "PG600100": {
+                        "number": "PG600100",
+                        "name": "Leistungen f\u00fcr Politik und Verwaltungsf\u00fchrung*",
+                        "budgets": {
+                            "2012": 1001545.82,
+                            "2011": 1048276.09
+                        },
+                        "bills": {
+                            "2010": 915377.78
+                        }
+                    },
+                    "PG600300": {
+                        "number": "PG600300",
+                        "name": "Beschaffungsb\u00fcro",
+                        "budgets": {
+                            "2012": 347716.42,
+                            "2011": 330252.52
+                        },
+                        "bills": {
+                            "2010": 211158.4
+                        }
+                    }
+                }
+            },
+            "610": {
+                "number": "610",
+                "name": "Finanzverwaltung",
+                "budgets": {
+                    "2012": -26293370.3,
+                    "2011": -5182799.53
+                },
+                "bills": {
+                    "2010": 41759132.18
+                },
+                "product_groups": {
+                    "PG610100": {
+                        "number": "PG610100",
+                        "name": "Finanzdienstleistungen Stadtverwaltung*",
+                        "budgets": {
+                            "2012": 1295951.52,
+                            "2011": 1258108.78
+                        },
+                        "bills": {
+                            "2010": 1531234.9
+                        }
+                    },
+                    "PG610200": {
+                        "number": "PG610200",
+                        "name": "Verm\u00f6gens- und Schuldenbewirtschaftung*",
+                        "budgets": {
+                            "2012": -13351721.9,
+                            "2011": -9293611.03
+                        },
+                        "bills": {
+                            "2010": -5203805.82
+                        }
+                    },
+                    "PG610400": {
+                        "number": "PG610400",
+                        "name": "Finanzausgleich und Beitr\u00e4ge",
+                        "budgets": {
+                            "2012": -14237599.92,
+                            "2011": 2852702.72
+                        },
+                        "bills": {
+                            "2010": 45431703.1
+                        }
+                    }
+                }
+            },
+            "620": {
+                "number": "620",
+                "name": "Liegenschaftsverwaltung",
+                "budgets": {
+                    "2012": 363600,
+                    "2011": 546321.11
+                },
+                "bills": {
+                    "2010": 297867.77
+                },
+                "product_groups": {
+                    "PG620100": {
+                        "number": "PG620100",
+                        "name": "Liegenschaften im \u00d6ffentlichen Interesse*",
+                        "budgets": {
+                            "2012": 363600,
+                            "2011": 578911.11
+                        },
+                        "bills": {
+                            "2010": 216423.84
+                        }
+                    },
+                    "PG621100": {
+                        "number": "PG621100",
+                        "name": "Rebgut Neuenstadt",
+                        "budgets": {
+                            "2012": 0,
+                            "2011": -32590
+                        },
+                        "bills": {
+                            "2010": 81443.93
+                        }
+                    }
+                }
+            },
+            "630": {
+                "number": "630",
+                "name": "Steuerverwaltung",
+                "budgets": {
+                    "2012": -409587279.8,
+                    "2011": -395855192.12
+                },
+                "bills": {
+                    "2010": -441419330.9
+                },
+                "product_groups": {
+                    "PG630100": {
+                        "number": "PG630100",
+                        "name": "Steuerregister \/ Veranlagung",
+                        "budgets": {
+                            "2012": 4693752.96,
+                            "2011": 4738976.72
+                        },
+                        "bills": {
+                            "2010": 4391739.83
+                        }
+                    },
+                    "PG630200": {
+                        "number": "PG630200",
+                        "name": "Steuerinkasso*",
+                        "budgets": {
+                            "2012": -410432,
+                            "2011": -449595.8
+                        },
+                        "bills": {
+                            "2010": -385794.01
+                        }
+                    },
+                    "PG630300": {
+                        "number": "PG630300",
+                        "name": "Erhebung besondere Gemeindesteuern*",
+                        "budgets": {
+                            "2012": 1229399.24,
+                            "2011": 1085426.96
+                        },
+                        "bills": {
+                            "2010": 1056758.67
+                        }
+                    },
+                    "PG630400": {
+                        "number": "PG630400",
+                        "name": "Steuereinnahmen*",
+                        "budgets": {
+                            "2012": -415100000,
+                            "2011": -401230000
+                        },
+                        "bills": {
+                            "2010": -446482035.39
+                        }
+                    }
+                }
+            },
+            "640": {
+                "number": "640",
+                "name": "Personalamt*",
+                "budgets": {
+                    "2012": 5298073.16,
+                    "2011": 4733934.87
+                },
+                "bills": {
+                    "2010": 3788341.06
+                },
+                "product_groups": {
+                    "PG640100": {
+                        "number": "PG640100",
+                        "name": "Personaldienstleistungen Stadtverwaltung*",
+                        "budgets": {
+                            "2012": 4222440.8,
+                            "2011": 4137817.48
+                        },
+                        "bills": {
+                            "2010": 226948.85
+                        }
+                    },
+                    "PG640200": {
+                        "number": "PG640200",
+                        "name": "Strategische Personalarbeit*",
+                        "budgets": {
+                            "2012": 0,
+                            "2011": 0
+                        },
+                        "bills": {
+                            "2010": 3036372.58
+                        }
+                    },
+                    "PG640300": {
+                        "number": "PG640300",
+                        "name": "Dienstleistungen f\u00fcr Dritte",
+                        "budgets": {
+                            "2012": 0,
+                            "2011": 0
+                        },
+                        "bills": {
+                            "2010": 42622.04
+                        }
+                    },
+                    "PG640400": {
+                        "number": "PG640400",
+                        "name": "Zentrale Dienste \/ Telefonzentrale*",
+                        "budgets": {
+                            "2012": 1075632.36,
+                            "2011": 596117.39
+                        },
+                        "bills": {
+                            "2010": 482397.59
+                        }
+                    }
+                }
+            },
+            "650": {
+                "number": "650",
+                "name": "Informatikdienste",
+                "budgets": {
+                    "2012": 187864.78,
+                    "2011": 119100
+                },
+                "bills": {
+                    "2010": -218914.3
+                },
+                "product_groups": {
+                    "PG650100": {
+                        "number": "PG650100",
+                        "name": "Zentrale st\u00e4dtische Informatikdienst-\nleistungen",
+                        "budgets": {
+                            "2012": -392.19,
+                            "2011": -296.04
+                        },
+                        "bills": {
+                            "2010": -215802.63
+                        }
+                    },
+                    "PG650200": {
+                        "number": "PG650200",
+                        "name": "Entwicklung\/Betrieb\/Unterhalt Anwendungen",
+                        "budgets": {
+                            "2012": -844.76,
+                            "2011": 423.43
+                        },
+                        "bills": {
+                            "2010": -909397.47
+                        }
+                    },
+                    "PG650300": {
+                        "number": "PG650300",
+                        "name": "Entwicklung\/Betrieb\/Support Kommunikation",
+                        "budgets": {
+                            "2012": 1237.73,
+                            "2011": -127.39
+                        },
+                        "bills": {
+                            "2010": -445097.8
+                        }
+                    },
+                    "PG650400": {
+                        "number": "PG650400",
+                        "name": "Informatikcontrolling",
+                        "budgets": {
+                            "2012": 187864,
+                            "2011": 119100
+                        },
+                        "bills": {
+                            "2010": 1351383.6
+                        }
+                    }
+                }
+            },
+            "660": {
+                "number": "660",
+                "name": "Schul- und B\u00fcromaterialzentrale",
+                "budgets": {
+                    "2012": 0,
+                    "2011": -17600
+                },
+                "bills": {
+                    "2010": 18848.89
+                },
+                "product_groups": {
+                    "PG660100": {
+                        "number": "PG660100",
+                        "name": "Handelsprodukte",
+                        "budgets": {
+                            "2012": -95547.4,
+                            "2011": -187251.36
+                        },
+                        "bills": {
+                            "2010": -81044.22
+                        }
+                    },
+                    "PG660200": {
+                        "number": "PG660200",
+                        "name": "Drucksachenproduktion",
+                        "budgets": {
+                            "2012": -8637.32,
+                            "2011": -224.22
+                        },
+                        "bills": {
+                            "2010": -11222.18
+                        }
+                    },
+                    "PG660300": {
+                        "number": "PG660300",
+                        "name": "Dienstleistungen",
+                        "budgets": {
+                            "2012": 104184.72,
+                            "2011": 169875.58
+                        },
+                        "bills": {
+                            "2010": 111115.29
+                        }
+                    }
+                }
+            },
+            "690": {
+                "number": "690",
+                "name": "Stadtbauten (StaBe)",
+                "budgets": {
+                    "2012": -19455600,
+                    "2011": -17271901.8
+                },
+                "bills": {
+                    "2010": -16464282.64
+                },
+                "product_groups": {
+                    "PG690100": {
+                        "number": "PG690100",
+                        "name": "Stadtbauten (StaBe)",
+                        "budgets": {
+                            "2012": -19455600,
+                            "2011": -17271901.8
+                        },
+                        "bills": {
+                            "2010": -16464282.64
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "2850": {
+        "number": "2850",
+        "name": "STADTENTW\u00c4SSERUNG",
+        "budgets": {
+            "2012": 0,
+            "2011": 0
+        },
+        "bills": {
+            "2010": 0
+        },
+        "agencies": {
+            "850": {
+                "number": "850",
+                "name": "Tiefbauamt, Stadtentw\u00e4sserung",
+                "budgets": {
+                    "2012": 0,
+                    "2011": 0
+                },
+                "bills": {
+                    "2010": 0
+                },
+                "product_groups": []
+            }
+        }
+    },
+    "2860": {
+        "number": "2860",
+        "name": "FONDS F\u00dcR BODEN- UND WOHNBAUPOLITIK",
+        "budgets": {
+            "2012": 0,
+            "2011": 0
+        },
+        "bills": {
+            "2010": 0
+        },
+        "agencies": {
+            "860": {
+                "number": "860",
+                "name": "Fonds f\u00fcr Boden- und Wohnbaupolitik",
+                "budgets": {
+                    "2012": 0,
+                    "2011": 0
+                },
+                "bills": {
+                    "2010": 0
+                },
+                "product_groups": []
+            }
+        }
+    },
+    "2870": {
+        "number": "2870",
+        "name": "ENTSORGUNG + RECYCLING",
+        "budgets": {
+            "2012": 0,
+            "2011": 0
+        },
+        "bills": {
+            "2010": 0
+        },
+        "agencies": {
+            "870": {
+                "number": "870",
+                "name": "Entsorgung + Recycling",
+                "budgets": {
+                    "2012": 0,
+                    "2011": 0
+                },
+                "bills": {
+                    "2010": 0
+                },
+                "product_groups": []
+            }
+        }
+    }
+}
