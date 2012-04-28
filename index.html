@@ -121,7 +121,7 @@ $(function() {
 			$target.find('p').text('CHF '+node.spending);
 		};
 		
-		$nodeInfo.animate({'opacity': 0}, {'queue':false,'complete':function() {
+		$nodeInfo.stop().animate({'opacity':0}, {'queue':false,'complete':function() {
 			setText($sizeCalculator);
 			setText($nodeInfo);
 			$nodeInfo.slideDown();
