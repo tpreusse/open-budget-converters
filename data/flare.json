@@ -1,380 +1,482 @@
 {
     "name": "",
     "children": [{
-        "name": "GEMEINDE UND BEH\u00d6RDEN",
+        "name": "GuB",
+        "type": "directorate",
         "children": [{
             "name": "Stadtrat*",
+            "type": "agency",
             "children": [{
                 "name": "Stadtrat*",
+                "type": "product_group",
                 "size": 909688
             }, {
                 "name": "Ratssekretariat*",
+                "type": "product_group",
                 "size": 932622
             }]
         }, {
             "name": "Ombudsstelle",
+            "type": "agency",
             "children": [{
                 "name": "Ombudst\u00e4tigkeit und Datenschutz",
+                "type": "product_group",
                 "size": 390639
             }]
         }, {
             "name": "Gemeinderat*",
-            "children": [{
-                "name": "Gemeinderat*",
-                "size": 3242764
-            }]
+            "type": "agency",
+            "size": 3242764
         }, {
             "name": "Stadtkanzlei",
+            "type": "agency",
             "children": [{
                 "name": "Leistungen f\u00fcr Politik und Verwaltungsf\u00fchrung*",
+                "type": "product_group",
                 "size": 1954990
             }, {
                 "name": "Dienstleistungen f\u00fcr Dritte*",
+                "type": "product_group",
                 "size": 1975920
             }, {
                 "name": "Stadtarchiv",
+                "type": "product_group",
                 "size": 1324767
             }]
         }, {
             "name": "Informationsdienst*",
-            "children": [{
-                "name": "Informationsdienst*",
-                "size": 1090953
-            }]
+            "type": "agency",
+            "size": 1090953
         }, {
             "name": "Finanzinspektorat*",
+            "type": "agency",
             "children": [{
                 "name": "Revision*",
+                "type": "product_group",
                 "size": 1158286
             }]
         }]
     }, {
-        "name": "PR\u00c4SIDIALDIREKTION",
+        "name": "PRD",
+        "type": "directorate",
         "children": [{
-            "name": "Direktionsstabsdienste, Gleichstellung\nund Rechtsdienst",
+            "name": "Direktionsstabsdienste, Gleichstellung und Rechtsdienst",
+            "type": "agency",
             "children": [{
                 "name": "Leistungen f\u00fcr Politik und Verwaltungsf\u00fchrung*",
+                "type": "product_group",
                 "size": 1977239
             }, {
                 "name": "Zentrale Dienste*",
+                "type": "product_group",
                 "size": 1249704
             }, {
                 "name": "Gleichstellung",
+                "type": "product_group",
                 "size": 455826
             }, {
                 "name": "Enteignungen, Bausperren*",
+                "type": "product_group",
                 "size": 364681
             }]
         }, {
             "name": "Abteilung Kulturelles",
+            "type": "agency",
             "children": [{
                 "name": "Kulturf\u00f6rderung",
+                "type": "product_group",
                 "size": 34574700
             }]
         }, {
             "name": "Denkmalpflege",
-            "children": [{
-                "name": "Denkmalpflege",
-                "size": 766321
-            }]
+            "type": "agency",
+            "size": 766321
         }, {
             "name": "Abteilung Stadtentwicklung",
+            "type": "agency",
             "children": [{
                 "name": "Stadtentwicklung und Statistik",
+                "type": "product_group",
                 "size": 2283276
             }]
         }, {
             "name": "Bauinspektorat",
+            "type": "agency",
             "children": [{
-                "name": "Baurechtliche Bewilligungsverfahren \/\nVoranfragen",
+                "name": "Baurechtliche Bewilligungsverfahren \/ Voranfragen",
+                "type": "product_group",
                 "size": 1368956
             }, {
                 "name": "Beschwerden \/ Widerrechtliches Bauen",
+                "type": "product_group",
                 "size": 191444
             }, {
-                "name": "Baurechtliche Ausk\u00fcnfte und Stellung-\nnahmen \/ Archiv",
+                "name": "Baurechtliche Ausk\u00fcnfte und Stellung- nahmen \/ Archiv",
+                "type": "product_group",
                 "size": 377434
             }]
         }, {
             "name": "Stadtplanungsamt*",
+            "type": "agency",
             "children": [{
                 "name": "Stadtplanung*",
+                "type": "product_group",
                 "size": 4654189
             }]
         }]
     }, {
-        "name": "DIREKTION F\u00dcR SICHERHEIT, UMWELT\nUND ENERGIE",
+        "name": "SUE",
+        "type": "directorate",
         "children": [{
             "name": "Direktionsstabsdienste*",
+            "type": "agency",
             "children": [{
                 "name": "Leistungen f\u00fcr Politik und Verwaltungsf\u00fchrung*",
+                "type": "product_group",
                 "size": 1083777
             }, {
                 "name": "Stabsdienstleistungen*",
+                "type": "product_group",
                 "size": 1202910
             }]
         }, {
             "name": "Kantonspolizei",
-            "children": [{
-                "name": "Kantonspolizei",
-                "size": 31475094
-            }]
+            "type": "agency",
+            "size": 31475094
         }, {
             "name": "Amt f\u00fcr Umweltschutz",
+            "type": "agency",
             "children": [{
                 "name": "Umweltschutz",
+                "type": "product_group",
                 "size": 4740450
             }]
         }, {
             "name": "Polizeiinspektorat",
+            "type": "agency",
             "children": [{
                 "name": "Dienstleistungen",
+                "type": "product_group",
                 "size": 733980
             }, {
                 "name": "Regelung des Einwohnerwesens",
+                "type": "product_group",
                 "size": 5830683
             }]
         }, {
             "name": "Feuerwehr, Zivilschutz und Quartieramt",
+            "type": "agency",
             "children": [{
                 "name": "Feuerwehraufgaben",
+                "type": "product_group",
                 "size": 13650192
             }, {
                 "name": "Hilfe- und Dienstleistungen",
+                "type": "product_group",
                 "size": 521118
             }, {
                 "name": "Zivilschutz",
+                "type": "product_group",
                 "size": 4012023
             }, {
                 "name": "Quartieramt",
+                "type": "product_group",
                 "size": 1751047
             }]
         }, {
             "name": "Wirtschaftsamt",
+            "type": "agency",
             "children": [{
                 "name": "Wirtschaftsf\u00f6rderung",
+                "type": "product_group",
                 "size": 3682916
             }]
         }, {
             "name": "Tierpark",
-            "children": [{
-                "name": "Tierpark",
-                "size": 7080187
-            }]
+            "type": "agency",
+            "size": 7080187
         }, {
             "name": "Amt f\u00fcr Erwachsenen- und Kindesschutz",
+            "type": "agency",
             "children": [{
                 "name": "Vormundschaftspflege",
+                "type": "product_group",
                 "size": 1628060
             }, {
                 "name": "Schutz von Erwachsenen und Kindern",
+                "type": "product_group",
                 "size": 8420518
             }, {
                 "name": "Erbgangssicherung",
+                "type": "product_group",
                 "size": 1150177
             }]
         }]
     }, {
-        "name": "DIREKTION F\u00dcR BILDUNG, SOZIALES\nUND SPORT",
+        "name": "BSS",
+        "type": "directorate",
         "children": [{
             "name": "Direktionsstabsdienste",
+            "type": "agency",
             "children": [{
                 "name": "Leistungen f\u00fcr Politik und Verwaltungsf\u00fchrung*",
+                "type": "product_group",
                 "size": 1608448
             }, {
                 "name": "Koordinationsstelle Sucht",
+                "type": "product_group",
                 "size": 254707
             }, {
                 "name": "Kompetenzzentrum Integration",
+                "type": "product_group",
                 "size": 539571
             }]
         }, {
             "name": "Sozialamt",
+            "type": "agency",
             "children": [{
                 "name": "Soziale Einrichtungen",
+                "type": "product_group",
                 "size": 2991439
             }, {
                 "name": "Ambulante Sozialhilfe",
+                "type": "product_group",
                 "size": 86708854
             }, {
                 "name": "Berufliche und soziale Integration",
+                "type": "product_group",
                 "size": 1970827
             }]
         }, {
             "name": "Schulamt",
+            "type": "agency",
             "children": [{
                 "name": "Kinderg\u00e4rten, Volks- und Sonderschulen",
+                "type": "product_group",
                 "size": 85314198
             }, {
                 "name": "Tagesbetreuung",
+                "type": "product_group",
                 "size": 3482588
             }, {
                 "name": "Bildungsnahe Institutionen*",
+                "type": "product_group",
                 "size": 6818348
             }]
         }, {
             "name": "Jugendamt",
+            "type": "agency",
             "children": [{
                 "name": "Kinder- u. Jugendf\u00f6rderung\/Gemeinwesenarbeit",
+                "type": "product_group",
                 "size": 9879715
             }, {
                 "name": "Ambulante Jugendhilfe",
+                "type": "product_group",
                 "size": 3460335
             }, {
-                "name": "Familienerg\u00e4nzende Tagesbetreuung\nf\u00fcr Kinder",
+                "name": "Familienerg\u00e4nzende Tagesbetreuung f\u00fcr Kinder",
+                "type": "product_group",
                 "size": 31144590
             }]
         }, {
             "name": "Alters- und Versicherungsamt",
+            "type": "agency",
             "children": [{
                 "name": "Sozialversicherungen",
+                "type": "product_group",
                 "size": 31261200
             }, {
                 "name": "Alter",
+                "type": "product_group",
                 "size": 1069221
             }]
         }, {
             "name": "Schulzahnmedizinischer Dienst",
+            "type": "agency",
             "children": [{
                 "name": "Schulzahnpflege",
+                "type": "product_group",
                 "size": 493690
             }, {
                 "name": "Zahnmedizinische Leistungen",
+                "type": "product_group",
                 "size": 1060163
             }]
         }, {
             "name": "Gesundheitsdienst",
+            "type": "agency",
             "children": [{
                 "name": "Gesundheitsvorsorge und -beratung",
+                "type": "product_group",
                 "size": 2793697
             }, {
                 "name": "Gesundheitsinformation",
+                "type": "product_group",
                 "size": 303187
             }, {
                 "name": "Gesundheitsf\u00f6rderung und Pr\u00e4vention",
+                "type": "product_group",
                 "size": 1207119
             }]
         }, {
             "name": "Sportamt",
+            "type": "agency",
             "children": [{
                 "name": "Betriebe Eis und Wasser",
+                "type": "product_group",
                 "size": 14522039
             }, {
                 "name": "Sportanlagen, Sportbetrieb",
+                "type": "product_group",
                 "size": 7012962
             }]
         }]
     }, {
-        "name": "DIREKTION F\u00dcR TIEFBAU, VERKEHR\nUND STADTGR\u00dcN",
+        "name": "TVS",
+        "type": "directorate",
         "children": [{
             "name": "Direktionsstabsdienste*",
+            "type": "agency",
             "children": [{
                 "name": "Leistungen f\u00fcr Politik und Verwaltungsf\u00fchrung*",
+                "type": "product_group",
                 "size": 1641355
             }, {
                 "name": "Zentrale Dienste*",
+                "type": "product_group",
                 "size": 1478758
             }, {
                 "name": "Konzepte\/Koordination \u00f6ffentlicher Verkehr*",
+                "type": "product_group",
                 "size": 29595431
             }]
         }, {
             "name": "Tiefbauamt",
+            "type": "agency",
             "children": [{
                 "name": "Planung und Koordination",
+                "type": "product_group",
                 "size": 2353637
             }, {
                 "name": "Realisierung",
+                "type": "product_group",
                 "size": 19389927
             }, {
                 "name": "Betrieb und Unterhalt",
+                "type": "product_group",
                 "size": 28991453
             }, {
                 "name": "Stadtbeleuchtung",
+                "type": "product_group",
                 "size": 5810000
             }]
         }, {
             "name": "Stadtg\u00e4rtnerei \/ Friedh\u00f6fe",
+            "type": "agency",
             "children": [{
                 "name": "Gr\u00fcnraumgestaltung",
+                "type": "product_group",
                 "size": 1448227
             }, {
                 "name": "Gr\u00fcnfl\u00e4chenpflege",
+                "type": "product_group",
                 "size": 10628890
             }, {
                 "name": "Gr\u00fcnkultur",
+                "type": "product_group",
                 "size": 844196
             }, {
                 "name": "Friedh\u00f6fe",
+                "type": "product_group",
                 "size": 4327337
             }]
         }, {
             "name": "Vermessungsamt",
+            "type": "agency",
             "children": [{
                 "name": "Geoinformation und Vermessung",
+                "type": "product_group",
                 "size": 1441633
             }]
         }, {
             "name": "Verkehrsplanung",
-            "children": [{
-                "name": "Verkehrsplanung",
-                "size": 4377385
-            }]
+            "type": "agency",
+            "size": 4377385
         }]
     }, {
-        "name": "DIREKTION F\u00dcR FINANZEN, PERSONAL\nUND INFORMATIK",
+        "name": "FPI",
+        "type": "directorate",
         "children": [{
-            "name": "Direktionsstabsdienste \/\nFachstelle Beschaffungswesen",
+            "name": "Direktionsstabsdienste \/ Fachstelle Beschaffungswesen",
+            "type": "agency",
             "children": [{
                 "name": "Leistungen f\u00fcr Politik und Verwaltungsf\u00fchrung*",
+                "type": "product_group",
                 "size": 1001546
             }, {
                 "name": "Beschaffungsb\u00fcro",
+                "type": "product_group",
                 "size": 347717
             }]
         }, {
             "name": "Finanzverwaltung",
+            "type": "agency",
             "children": [{
                 "name": "Finanzdienstleistungen Stadtverwaltung*",
+                "type": "product_group",
                 "size": 1295952
             }]
         }, {
             "name": "Liegenschaftsverwaltung",
+            "type": "agency",
             "children": [{
                 "name": "Liegenschaften im \u00d6ffentlichen Interesse*",
+                "type": "product_group",
                 "size": 363600
             }]
         }, {
             "name": "Steuerverwaltung",
+            "type": "agency",
             "children": [{
                 "name": "Steuerregister \/ Veranlagung",
+                "type": "product_group",
                 "size": 4693753
             }, {
                 "name": "Erhebung besondere Gemeindesteuern*",
+                "type": "product_group",
                 "size": 1229400
             }]
         }, {
             "name": "Personalamt*",
+            "type": "agency",
             "children": [{
                 "name": "Personaldienstleistungen Stadtverwaltung*",
+                "type": "product_group",
                 "size": 4222441
             }, {
                 "name": "Zentrale Dienste \/ Telefonzentrale*",
+                "type": "product_group",
                 "size": 1075633
             }]
         }, {
             "name": "Informatikdienste",
+            "type": "agency",
             "children": [{
                 "name": "Entwicklung\/Betrieb\/Support Kommunikation",
+                "type": "product_group",
                 "size": 1238
             }, {
                 "name": "Informatikcontrolling",
+                "type": "product_group",
                 "size": 187864
             }]
         }, {
             "name": "Schul- und B\u00fcromaterialzentrale",
+            "type": "agency",
             "children": [{
                 "name": "Dienstleistungen",
+                "type": "product_group",
                 "size": 104185
             }]
         }]

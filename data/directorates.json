@@ -224,7 +224,7 @@
         "agencies": {
             "100": {
                 "number": "100",
-                "name": "Direktionsstabsdienste, Gleichstellung\nund Rechtsdienst",
+                "name": "Direktionsstabsdienste, Gleichstellung und Rechtsdienst",
                 "budgets": {
                     "2012": 4047446.95,
                     "2011": 4406823.04
@@ -364,7 +364,7 @@
                 "product_groups": {
                     "PG150000": {
                         "number": "PG150000",
-                        "name": "Baurechtliche Bewilligungsverfahren \/\nVoranfragen",
+                        "name": "Baurechtliche Bewilligungsverfahren \/ Voranfragen",
                         "budgets": {
                             "2012": 1368955.59,
                             "2011": 1305688.39
@@ -386,7 +386,7 @@
                     },
                     "PG150200": {
                         "number": "PG150200",
-                        "name": "Baurechtliche Ausk\u00fcnfte und Stellung-\nnahmen \/ Archiv",
+                        "name": "Baurechtliche Ausk\u00fcnfte und Stellung- nahmen \/ Archiv",
                         "budgets": {
                             "2012": 377433.78,
                             "2011": 373366.03
@@ -425,7 +425,7 @@
     },
     "1200": {
         "number": "1200",
-        "name": "DIREKTION F\u00dcR SICHERHEIT, UMWELT\nUND ENERGIE",
+        "name": "DIREKTION F\u00dcR SICHERHEIT, UMWELT UND ENERGIE",
         "budgets": {
             "2012": 42288660.66,
             "2011": 17214258.75
@@ -788,7 +788,7 @@
     },
     "1300": {
         "number": "1300",
-        "name": "DIREKTION F\u00dcR BILDUNG, SOZIALES\nUND SPORT",
+        "name": "DIREKTION F\u00dcR BILDUNG, SOZIALES UND SPORT",
         "budgets": {
             "2012": 237636858.1,
             "2011": 232327463.21
@@ -1003,7 +1003,7 @@
                     },
                     "PG330400": {
                         "number": "PG330400",
-                        "name": "Familienerg\u00e4nzende Tagesbetreuung\nf\u00fcr Kinder",
+                        "name": "Familienerg\u00e4nzende Tagesbetreuung f\u00fcr Kinder",
                         "budgets": {
                             "2012": 31144589.16,
                             "2011": 30483069.62
@@ -1202,7 +1202,7 @@
     },
     "1500": {
         "number": "1500",
-        "name": "DIREKTION F\u00dcR TIEFBAU, VERKEHR\nUND STADTGR\u00dcN",
+        "name": "DIREKTION F\u00dcR TIEFBAU, VERKEHR UND STADTGR\u00dcN",
         "budgets": {
             "2012": 106967539.37,
             "2011": 101963889.1
@@ -1434,7 +1434,7 @@
     },
     "1600": {
         "number": "1600",
-        "name": "DIREKTION F\u00dcR FINANZEN, PERSONAL\nUND INFORMATIK",
+        "name": "DIREKTION F\u00dcR FINANZEN, PERSONAL UND INFORMATIK",
         "budgets": {
             "2012": -448137449.92,
             "2011": -411549608.86
@@ -1445,7 +1445,7 @@
         "agencies": {
             "600": {
                 "number": "600",
-                "name": "Direktionsstabsdienste \/\nFachstelle Beschaffungswesen",
+                "name": "Direktionsstabsdienste \/ Fachstelle Beschaffungswesen",
                 "budgets": {
                     "2012": 1349262.24,
                     "2011": 1378528.61
@@ -1686,7 +1686,7 @@
                 "product_groups": {
                     "PG650100": {
                         "number": "PG650100",
-                        "name": "Zentrale st\u00e4dtische Informatikdienst-\nleistungen",
+                        "name": "Zentrale st\u00e4dtische Informatikdienst- leistungen",
                         "budgets": {
                             "2012": -392.19,
                             "2011": -296.04

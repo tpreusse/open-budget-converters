@@ -11,9 +11,14 @@ text {
 
 text.parent {
   fill: #e1353f; /*e1353f*/
- text-shadow:0 0 20px #fff;
+  text-shadow:0 0 20px #fff;
   font-weight:bold;
   font-size:15px;
+}
+
+text.parent.directorate {
+  fill: #a8272d;
+  font-size:20px;
 }
 
 circle {
@@ -29,14 +34,11 @@ circle.parent {
   stroke: #a8272d;
 }
 
-circle.parent:hover {
+circle:hover {
   stroke: #ff7f0e;
   stroke-width: .5px;
 }
 
-circle.child {
-  pointer-events: none;
-}
 
     </style>
   </head>
@@ -44,7 +46,6 @@ circle.child {
   	<div id="infobox">
   		<img id="logo" src="logo.png" />
 		<h1>Stadt Bern Budget 2012</h1>
-		
   	</div>
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
@@ -62,14 +63,20 @@ var w = 0,
     node,
     root;
 
-
-
 var pack = d3.layout.pack()
     .size([r, r])
     .value(function(d) { return d.size; })
 
 var vis = d3.select("body").insert("svg:svg")
   .append("svg:g");
+
+var zoomLevels = {
+	'directorate': 0,
+	'agency': 1,
+	'product_group': 2
+}
+
+var curZoomLevel = 0;
 
 $window.resize(function() {
 	w = $window.width(),
@@ -89,12 +96,10 @@ d3.json("data/flare.json", function(data) {
 
   var nodes = pack.nodes(root);
 
-  
-
   vis.selectAll("circle")
       .data(nodes)
     .enter().append("svg:circle")
-      .attr("class", function(d) { return d.children ? "parent" : "child"; })
+      .attr("class", function(d) { return (d.children ? "parent" : "child")+(d.type ? ' '+d.type : ''); })
       .attr("cx", function(d) { return d.x; })
       .attr("cy", function(d) { return d.y; })
       .attr("r", function(d) { return d.r; })
@@ -103,18 +108,25 @@ d3.json("data/flare.json", function(data) {
   vis.selectAll("text")
       .data(nodes)
     .enter().append("svg:text")
-      .attr("class", function(d) { return d.children ? "parent" : "child"; })
+      .attr("class", function(d) { return (d.children ? "parent" : "child")+(d.type ? ' '+d.type : ''); })
       .attr("x", function(d) { return d.x; })
       .attr("y", function(d) { return d.y; })
       .attr("dy", ".35em")
       .attr("text-anchor", "middle")
-      .style("opacity", function(d) { return d.r > 20 ? 1 : 0; })
+      .style("opacity", function(d) { return zoomLevels[d.type] <= curZoomLevel ? 1 : 0; })
       .text(function(d) { return d.name; });
 
   d3.select(window).on("click", function() { zoom(root); });
 });
 
 function zoom(d, i) {
+	if(zoomLevels[d.type] !== undefined) {
+		curZoomLevel = zoomLevels[d.type] + 1;
+	}
+	else {
+		curZoomLevel = 0;
+	}
+	
   var k = r / d.r / 2;
   x.domain([d.x - d.r, d.x + d.r]);
   y.domain([d.y - d.r, d.y + d.r]);
@@ -130,7 +142,7 @@ function zoom(d, i) {
   t.selectAll("text")
       .attr("x", function(d) { return x(d.x); })
       .attr("y", function(d) { return y(d.y); })
-      .style("opacity", function(d) { return k * d.r > 20 ? 1 : 0; });
+      .style("opacity", function(d) { return (zoomLevels[d.type] <= curZoomLevel) && (k * d.r > 20) ? 1 : 0; });
 
   node = d;
   d3.event.stopPropagation();

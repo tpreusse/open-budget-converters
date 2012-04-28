@@ -13,8 +13,45 @@ preg_match_all('/\n([^,]*,){9}.*/', $overviewFile, $overviewRows);
 $curDirectorate = NULL;
 $curAgency = NULL;
 
+$directorateDetails = array(
+	'1000' => array(
+		'name' => 'Gemeinde und Behörden',
+		'acronym' => 'GuB'
+	),
+	'1100' => array(
+		'name' => 'Präsidialdirektion',
+		'acronym' => 'PRD'
+	),
+	'1200' => array(
+		'name' => 'Direktion für Sicherheit, Umwelt und Energie',
+		'acronym' => 'SUE'
+	),
+	'1300' => array(
+		'name' => 'Direktion für Bildung, Soziales und Sport',
+		'acronym' => 'BSS'
+	),
+	'1500' => array(
+		'name' => 'Direktion für Tiefbau, Verkehr und Stadtgrün',
+		'acronym' => 'TVS'
+	),
+	'1600' => array(
+		'name' => 'Direktion für Finanzen, Personal und Informatik',
+		'acronym' => 'FPI'
+	),
+	'2850' => array(
+		'name' => 'Sonderrechnung Stadtentwässerung'
+	),
+	'2860' => array(
+		'name' => 'Sonderrechnung Fonds für Boden- und Wohnbaupolitik'
+	),
+	'2870' => array(
+		'name' => 'Sonderrechnung Entsorgung + Recycling'
+	)
+);
+
 function clean_text($string) {
 	$string = str_replace('^^^', ',', $string);
+	$string = str_replace("\n", ' ', $string);
 	$string = trim($string, '"');
 	return $string;
 }
@@ -41,6 +78,12 @@ foreach($overviewRows[0] as &$row) {
 		);
 		$curDirectorate = $row[1];
 		$curAgency = NULL;
+		if(isset($directorateDetails[$curDirectorate])) {
+			$directorates[$curDirectorate]['name'] = $directorateDetails[$curDirectorate]['name'];
+			if(isset($directorateDetails[$curDirectorate]['acronym'])) {
+				$directorates[$curDirectorate]['acronym'] = $directorateDetails[$curDirectorate]['acronym'];
+			}
+		}
 	}
 	else if(!is_null($curDirectorate) && preg_match('/^[0-9]{3}$/', $row[2])) {
 		$directorates[$curDirectorate]['agencies'][$row[2]] = array(
@@ -77,9 +120,13 @@ echo '<pre>';
 var_dump($directorates);
 echo '</pre>';
 
-//echo json_encode($directorates);
+echo '<pre>';
+echo json_encode($directorates);
+echo '</pre>';
 
-$flare = array('name' => ' ');
+//file_put_contents('data/directorates.json', json_encode($directorates));
+
+$flare = array('name' => '');
 $rootChilds = array();
 foreach($directorates as &$directorate) {
 	$directorateChilds = array();
@@ -88,28 +135,44 @@ foreach($directorates as &$directorate) {
 		foreach($agency['product_groups'] as &$product_group) {
 			if($product_group['budgets'][2012] > 0) {
 				$agencyChilds[] = array(
-					'name' => '', //$product_group['name'],
+					'name' => $product_group['name'],
+					'type' => 'product_group',
 					'size' => ceil($product_group['budgets'][2012])
 				);
 			}
 		}
 		if(!empty($agencyChilds)) {
-			$directorateChilds[] = array(
-				'name' => '', //$agency['name'],
-				'children' => $agencyChilds
-			);
+			if(count($agencyChilds) == 1 && $agencyChilds[0]['name'] == $agency['name']) {
+				$directorateChilds[] = array(
+					'name' => $agency['name'],
+					'type' => 'agency',
+					'size' => ceil($agency['budgets'][2012])
+				);
+			}
+			else {
+				$directorateChilds[] = array(
+					'name' => $agency['name'],
+					'type' => 'agency',
+					'children' => $agencyChilds
+				);
+			}
 		}
 	}
 	if(!empty($directorateChilds)) {
 		$rootChilds[] = array(
-			'name' => $directorate['name'],
+			'name' => isset($directorate['acronym']) ? $directorate['acronym'] : $directorate['name'],
+			'type' => 'directorate',
 			'children' => $directorateChilds
 		);
 	}
 }
 $flare['children'] = $rootChilds;
 
-//echo json_encode($flare);
+echo '<pre>';
+echo json_encode($flare);
+echo '</pre>';
+
+file_put_contents('data/flare.json', json_encode($flare));
 
 //CSV for openspending (not working yet)
 $csv = 'nummer;direktion;dienststelle;produktgruppe;date;budget'."\n";
