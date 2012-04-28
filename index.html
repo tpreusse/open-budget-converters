@@ -3,6 +3,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
     <link type="text/css" rel="stylesheet" href="flare.css"/>
+	<title>Stadt Bern Nettoausgaben - Budget 2012</title>
     <style type="text/css">
 		text {
 			font-size: 11px;
@@ -119,7 +120,7 @@ $(function() {
 		
 		var setText = function($target) {
 			$target.find('h2').text(node.name + (node.acronym ? ' ('+node.acronym+')': ''));
-			$target.find('p').text('CHF '+node.spending);
+			$target.find('p').text('CHF '+node.spending+'.-');
 		};
 		
 		$nodeInfo.stop().animate({'opacity':0}, {'queue':false,'complete':function() {
@@ -131,38 +132,39 @@ $(function() {
 	}
 	
 	d3.json("data/flare.json", function(data) {
-	  node = root = data;
+		node = root = data;
 	  
-	  setDisplayNodeInfo(node, 'root');
-		/*pack.sort(function(a,b) {
-	  	//console.log(a, b);
-		return Math.ceil((Math.random() * 100) - 50);
-	  });*/
+		setDisplayNodeInfo(node, 'root');
+		
+		pack.sort(function(a, b) {
+			//console.log(a, b);
+			return b.size - a.size;
+		});
+		
+		var nodes = pack.nodes(root);
 	
-	  var nodes = pack.nodes(root);
+		vis.selectAll("circle")
+		    .data(nodes)
+		  .enter().append("svg:circle")
+		    .attr("class", function(d) { return (d.children ? "parent" : "child")+(d.type ? ' '+d.type : ''); })
+		    .attr("cx", function(d) { return d.x; })
+		    .attr("cy", function(d) { return d.y; })
+		    .attr("r", function(d) { return d.r; })
+		    .on("click", function(d) { return zoom(node == d ? root : d); })
+		    .on("mouseover", function(d) { setDisplayNodeInfo(d, 'hover'); });
 	
-	  vis.selectAll("circle")
-	      .data(nodes)
-	    .enter().append("svg:circle")
-	      .attr("class", function(d) { return (d.children ? "parent" : "child")+(d.type ? ' '+d.type : ''); })
-	      .attr("cx", function(d) { return d.x; })
-	      .attr("cy", function(d) { return d.y; })
-	      .attr("r", function(d) { return d.r; })
-	      .on("click", function(d) { return zoom(node == d ? root : d); })
-	      .on("mouseover", function(d) { setDisplayNodeInfo(d, 'hover'); });
+		vis.selectAll("text")
+		    .data(nodes)
+		  .enter().append("svg:text")
+		    .attr("class", function(d) { return (d.children ? "parent" : "child")+(d.type ? ' '+d.type : ''); })
+		    .attr("x", function(d) { return d.x; })
+		    .attr("y", function(d) { return d.y; })
+		    .attr("dy", ".35em")
+		    .attr("text-anchor", "middle")
+		    .style("opacity", function(d) { return zoomLevels[d.type] <= curZoomLevel ? 1 : 0; })
+		    .text(function(d) { return d.acronym ? d.acronym : d.name; });
 	
-	  vis.selectAll("text")
-	      .data(nodes)
-	    .enter().append("svg:text")
-	      .attr("class", function(d) { return (d.children ? "parent" : "child")+(d.type ? ' '+d.type : ''); })
-	      .attr("x", function(d) { return d.x; })
-	      .attr("y", function(d) { return d.y; })
-	      .attr("dy", ".35em")
-	      .attr("text-anchor", "middle")
-	      .style("opacity", function(d) { return zoomLevels[d.type] <= curZoomLevel ? 1 : 0; })
-	      .text(function(d) { return d.acronym ? d.acronym : d.name; });
-	
-	  d3.select(window).on("click", function() { zoom(root); });
+		d3.select(window).on("click", function() { zoom(root); });
 	});
 	
 	function zoom(d, i) {
@@ -173,25 +175,25 @@ $(function() {
 			curZoomLevel = 0;
 		}
 		
-	  var k = r / d.r / 2;
-	  x.domain([d.x - d.r, d.x + d.r]);
-	  y.domain([d.y - d.r, d.y + d.r]);
+		var k = r / d.r / 2;
+		x.domain([d.x - d.r, d.x + d.r]);
+		y.domain([d.y - d.r, d.y + d.r]);
 	
-	  var t = vis.transition()
-	      .duration(d3.event.altKey ? 7500 : 750);
+		var t = vis.transition()
+		    .duration(d3.event.altKey ? 7500 : 750);
 	
-	  t.selectAll("circle")
-	      .attr("cx", function(d) { return x(d.x); })
-	      .attr("cy", function(d) { return y(d.y); })
-	      .attr("r", function(d) { return k * d.r; });
+		t.selectAll("circle")
+		    .attr("cx", function(d) { return x(d.x); })
+		    .attr("cy", function(d) { return y(d.y); })
+		    .attr("r", function(d) { return k * d.r; });
 	
-	  t.selectAll("text")
-	      .attr("x", function(d) { return x(d.x); })
-	      .attr("y", function(d) { return y(d.y); })
-	      .style("opacity", function(d) { return (zoomLevels[d.type] <= curZoomLevel) && (k * d.r > 20) ? 1 : 0; });
+		t.selectAll("text")
+		    .attr("x", function(d) { return x(d.x); })
+		    .attr("y", function(d) { return y(d.y); })
+		    .style("opacity", function(d) { return (zoomLevels[d.type] <= curZoomLevel) && (k * d.r > 20) ? 1 : 0; });
 	
-	  node = d;
-	  d3.event.stopPropagation();
+		node = d;
+		d3.event.stopPropagation();
 	}
 });
 

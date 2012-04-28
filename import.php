@@ -157,6 +157,7 @@ foreach($directorates as &$directorate) {
 			}
 			else {
 				$directorateChild['children'] = $agencyChilds;
+				$directorateChild['size'] = ceil($agencySpending);
 			}
 			$directorateChilds[] = $directorateChild;
 		}
@@ -167,6 +168,7 @@ foreach($directorates as &$directorate) {
 			'name' => $directorate['name'],
 			'type' => 'directorate',
 			'spending' => number_format($directorateSpending),
+			'size' => ceil($directorateSpending),
 			'children' => $directorateChilds
 		);
 		if(isset($directorate['acronym'])) {
@@ -178,6 +180,7 @@ foreach($directorates as &$directorate) {
 }
 $flare['children'] = $rootChilds;
 $flare['spending'] = number_format($rootSpending);
+$flare['size'] = ceil($rootSpending);
 
 echo '<pre>';
 echo json_encode($flare);

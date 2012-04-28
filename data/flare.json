@@ -4,6 +4,7 @@
         "name": "Gemeinde und Beh\u00f6rden",
         "type": "directorate",
         "spending": "12,980,627",
+        "size": 12980627,
         "children": [{
             "name": "Stadtrat",
             "type": "agency",
@@ -18,7 +19,8 @@
                 "type": "product_group",
                 "spending": "932,622",
                 "size": 932622
-            }]
+            }],
+            "size": 1842310
         }, {
             "name": "Ombudsstelle",
             "type": "agency",
@@ -28,7 +30,8 @@
                 "type": "product_group",
                 "spending": "390,639",
                 "size": 390639
-            }]
+            }],
+            "size": 390639
         }, {
             "name": "Gemeinderat",
             "type": "agency",
@@ -53,7 +56,8 @@
                 "type": "product_group",
                 "spending": "1,324,767",
                 "size": 1324767
-            }]
+            }],
+            "size": 5255677
         }, {
             "name": "Informationsdienst",
             "type": "agency",
@@ -68,13 +72,15 @@
                 "type": "product_group",
                 "spending": "1,158,286",
                 "size": 1158286
-            }]
+            }],
+            "size": 1158286
         }],
         "acronym": "GuB"
     }, {
         "name": "Pr\u00e4sidialdirektion",
         "type": "directorate",
         "spending": "48,263,765",
+        "size": 48263765,
         "children": [{
             "name": "Direktionsstabsdienste, Gleichstellung und Rechtsdienst",
             "type": "agency",
@@ -99,7 +105,8 @@
                 "type": "product_group",
                 "spending": "364,680",
                 "size": 364681
-            }]
+            }],
+            "size": 4047447
         }, {
             "name": "Abteilung Kulturelles",
             "type": "agency",
@@ -109,7 +116,8 @@
                 "type": "product_group",
                 "spending": "34,574,700",
                 "size": 34574700
-            }]
+            }],
+            "size": 34574700
         }, {
             "name": "Denkmalpflege",
             "type": "agency",
@@ -124,7 +132,8 @@
                 "type": "product_group",
                 "spending": "2,283,275",
                 "size": 2283276
-            }]
+            }],
+            "size": 2283276
         }, {
             "name": "Bauinspektorat",
             "type": "agency",
@@ -144,7 +153,8 @@
                 "type": "product_group",
                 "spending": "377,434",
                 "size": 377434
-            }]
+            }],
+            "size": 1937834
         }, {
             "name": "Stadtplanungsamt",
             "type": "agency",
@@ -154,13 +164,15 @@
                 "type": "product_group",
                 "spending": "4,654,189",
                 "size": 4654189
-            }]
+            }],
+            "size": 4654189
         }],
         "acronym": "PRD"
     }, {
         "name": "Direktion f\u00fcr Sicherheit, Umwelt und Energie",
         "type": "directorate",
         "spending": "86,963,126",
+        "size": 86963126,
         "children": [{
             "name": "Direktionsstabsdienste",
             "type": "agency",
@@ -175,7 +187,8 @@
                 "type": "product_group",
                 "spending": "1,202,910",
                 "size": 1202910
-            }]
+            }],
+            "size": 2286687
         }, {
             "name": "Kantonspolizei",
             "type": "agency",
@@ -190,7 +203,8 @@
                 "type": "product_group",
                 "spending": "4,740,450",
                 "size": 4740450
-            }]
+            }],
+            "size": 4740450
         }, {
             "name": "Polizeiinspektorat",
             "type": "agency",
@@ -205,7 +219,8 @@
                 "type": "product_group",
                 "spending": "5,830,683",
                 "size": 5830683
-            }]
+            }],
+            "size": 6564663
         }, {
             "name": "Feuerwehr, Zivilschutz und Quartieramt",
             "type": "agency",
@@ -230,7 +245,8 @@
                 "type": "product_group",
                 "spending": "1,751,046",
                 "size": 1751047
-            }]
+            }],
+            "size": 19934378
         }, {
             "name": "Wirtschaftsamt",
             "type": "agency",
@@ -240,7 +256,8 @@
                 "type": "product_group",
                 "spending": "3,682,916",
                 "size": 3682916
-            }]
+            }],
+            "size": 3682916
         }, {
             "name": "Tierpark",
             "type": "agency",
@@ -265,13 +282,15 @@
                 "type": "product_group",
                 "spending": "1,150,176",
                 "size": 1150177
-            }]
+            }],
+            "size": 11198754
         }],
         "acronym": "SUE"
     }, {
         "name": "Direktion f\u00fcr Bildung, Soziales und Sport",
         "type": "directorate",
         "spending": "293,896,889",
+        "size": 293896890,
         "children": [{
             "name": "Direktionsstabsdienste",
             "type": "agency",
@@ -291,7 +310,8 @@
                 "type": "product_group",
                 "spending": "539,570",
                 "size": 539571
-            }]
+            }],
+            "size": 2402726
         }, {
             "name": "Sozialamt",
             "type": "agency",
@@ -311,7 +331,8 @@
                 "type": "product_group",
                 "spending": "1,970,826",
                 "size": 1970827
-            }]
+            }],
+            "size": 91671119
         }, {
             "name": "Schulamt",
             "type": "agency",
@@ -331,7 +352,8 @@
                 "type": "product_group",
                 "spending": "6,818,347",
                 "size": 6818348
-            }]
+            }],
+            "size": 95615132
         }, {
             "name": "Jugendamt",
             "type": "agency",
@@ -351,7 +373,8 @@
                 "type": "product_group",
                 "spending": "31,144,589",
                 "size": 31144590
-            }]
+            }],
+            "size": 44484639
         }, {
             "name": "Alters- und Versicherungsamt",
             "type": "agency",
@@ -366,7 +389,8 @@
                 "type": "product_group",
                 "spending": "1,069,220",
                 "size": 1069221
-            }]
+            }],
+            "size": 32330420
         }, {
             "name": "Schulzahnmedizinischer Dienst",
             "type": "agency",
@@ -381,7 +405,8 @@
                 "type": "product_group",
                 "spending": "1,060,163",
                 "size": 1060163
-            }]
+            }],
+            "size": 1553853
         }, {
             "name": "Gesundheitsdienst",
             "type": "agency",
@@ -401,7 +426,8 @@
                 "type": "product_group",
                 "spending": "1,207,119",
                 "size": 1207119
-            }]
+            }],
+            "size": 4304002
         }, {
             "name": "Sportamt",
             "type": "agency",
@@ -416,13 +442,15 @@
                 "type": "product_group",
                 "spending": "7,012,962",
                 "size": 7012962
-            }]
+            }],
+            "size": 21535001
         }],
         "acronym": "BSS"
     }, {
         "name": "Direktion f\u00fcr Tiefbau, Verkehr und Stadtgr\u00fcn",
         "type": "directorate",
         "spending": "112,328,223",
+        "size": 112328223,
         "children": [{
             "name": "Direktionsstabsdienste",
             "type": "agency",
@@ -442,7 +470,8 @@
                 "type": "product_group",
                 "spending": "29,595,430",
                 "size": 29595431
-            }]
+            }],
+            "size": 32715543
         }, {
             "name": "Tiefbauamt",
             "type": "agency",
@@ -467,7 +496,8 @@
                 "type": "product_group",
                 "spending": "5,810,000",
                 "size": 5810000
-            }]
+            }],
+            "size": 56545015
         }, {
             "name": "Stadtg\u00e4rtnerei \/ Friedh\u00f6fe",
             "type": "agency",
@@ -492,7 +522,8 @@
                 "type": "product_group",
                 "spending": "4,327,336",
                 "size": 4327337
-            }]
+            }],
+            "size": 17248649
         }, {
             "name": "Vermessungsamt",
             "type": "agency",
@@ -502,7 +533,8 @@
                 "type": "product_group",
                 "spending": "1,441,633",
                 "size": 1441633
-            }]
+            }],
+            "size": 1441633
         }, {
             "name": "Verkehrsplanung",
             "type": "agency",
@@ -514,6 +546,7 @@
         "name": "Direktion f\u00fcr Finanzen, Personal und Informatik",
         "type": "directorate",
         "spending": "14,523,326",
+        "size": 14523326,
         "children": [{
             "name": "Direktionsstabsdienste \/ Fachstelle Beschaffungswesen",
             "type": "agency",
@@ -528,7 +561,8 @@
                 "type": "product_group",
                 "spending": "347,716",
                 "size": 347717
-            }]
+            }],
+            "size": 1349263
         }, {
             "name": "Finanzverwaltung",
             "type": "agency",
@@ -538,7 +572,8 @@
                 "type": "product_group",
                 "spending": "1,295,952",
                 "size": 1295952
-            }]
+            }],
+            "size": 1295952
         }, {
             "name": "Liegenschaftsverwaltung",
             "type": "agency",
@@ -548,7 +583,8 @@
                 "type": "product_group",
                 "spending": "363,600",
                 "size": 363600
-            }]
+            }],
+            "size": 363600
         }, {
             "name": "Steuerverwaltung",
             "type": "agency",
@@ -563,7 +599,8 @@
                 "type": "product_group",
                 "spending": "1,229,399",
                 "size": 1229400
-            }]
+            }],
+            "size": 5923153
         }, {
             "name": "Personalamt",
             "type": "agency",
@@ -578,7 +615,8 @@
                 "type": "product_group",
                 "spending": "1,075,632",
                 "size": 1075633
-            }]
+            }],
+            "size": 5298074
         }, {
             "name": "Informatikdienste",
             "type": "agency",
@@ -593,7 +631,8 @@
                 "type": "product_group",
                 "spending": "187,864",
                 "size": 187864
-            }]
+            }],
+            "size": 189102
         }, {
             "name": "Schul- und B\u00fcromaterialzentrale",
             "type": "agency",
@@ -603,9 +642,11 @@
                 "type": "product_group",
                 "spending": "104,185",
                 "size": 104185
-            }]
+            }],
+            "size": 104185
         }],
         "acronym": "FPI"
     }],
-    "spending": "568,955,954"
+    "spending": "568,955,954",
+    "size": 568955955
 }
