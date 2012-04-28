@@ -52,7 +52,7 @@ $directorateDetails = array(
 function clean_text($string) {
 	$string = str_replace('^^^', ',', $string);
 	$string = str_replace("\n", ' ', $string);
-	$string = trim($string, '"');
+	$string = trim($string, '"*');
 	return $string;
 }
 
@@ -126,47 +126,58 @@ echo '</pre>';
 
 //file_put_contents('data/directorates.json', json_encode($directorates));
 
-$flare = array('name' => '');
+$flare = array('name' => 'Total');
 $rootChilds = array();
+$rootSpending = 0.0;
 foreach($directorates as &$directorate) {
 	$directorateChilds = array();
+	$directorateSpending = 0.0;
 	foreach($directorate['agencies'] as &$agency) {
 		$agencyChilds = array();
+		$agencySpending = 0.0;
 		foreach($agency['product_groups'] as &$product_group) {
 			if($product_group['budgets'][2012] > 0) {
 				$agencyChilds[] = array(
 					'name' => $product_group['name'],
 					'type' => 'product_group',
+					'spending' => number_format($product_group['budgets'][2012]),
 					'size' => ceil($product_group['budgets'][2012])
 				);
+				$agencySpending += $product_group['budgets'][2012];
 			}
 		}
 		if(!empty($agencyChilds)) {
+			$directorateChild = array(
+				'name' => $agency['name'],
+				'type' => 'agency',
+				'spending' => number_format($agencySpending)
+			);
 			if(count($agencyChilds) == 1 && $agencyChilds[0]['name'] == $agency['name']) {
-				$directorateChilds[] = array(
-					'name' => $agency['name'],
-					'type' => 'agency',
-					'size' => ceil($agency['budgets'][2012])
-				);
+				$directorateChild['size'] = ceil($agency['budgets'][2012]);
 			}
 			else {
-				$directorateChilds[] = array(
-					'name' => $agency['name'],
-					'type' => 'agency',
-					'children' => $agencyChilds
-				);
+				$directorateChild['children'] = $agencyChilds;
 			}
+			$directorateChilds[] = $directorateChild;
 		}
+		$directorateSpending += $agencySpending;
 	}
 	if(!empty($directorateChilds)) {
-		$rootChilds[] = array(
-			'name' => isset($directorate['acronym']) ? $directorate['acronym'] : $directorate['name'],
+		$rootChild = array(
+			'name' => $directorate['name'],
 			'type' => 'directorate',
+			'spending' => number_format($directorateSpending),
 			'children' => $directorateChilds
 		);
+		if(isset($directorate['acronym'])) {
+			$rootChild['acronym'] = $directorate['acronym'];
+		}
+		$rootChilds[] = $rootChild;
+		$rootSpending += $directorateSpending;
 	}
 }
 $flare['children'] = $rootChilds;
+$flare['spending'] = number_format($rootSpending);
 
 echo '<pre>';
 echo json_encode($flare);
