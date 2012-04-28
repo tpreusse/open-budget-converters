@@ -43,7 +43,7 @@
   <body>
   	<div id="infobox">
   		<a href="http://make.opendata.ch/doku.php?id=project:bern_budget" target="_blank"><img id="logo" src="logo.png" /></a>
-		<h1>Stadt Bern Ausgaben 2012</h1>
+		<h1>Stadt Bern Nettoausgaben<br />Budget 2012</h1>
 		<div id="hoverNodeInfo">
 			<h2></h2>
 			<p></p>
@@ -115,6 +115,7 @@ $(function() {
 			$nodeInfo.animate({'opacity':0,'height':0},{'queue':false});
 			return;
 		}
+		displayedNodes[type] = node;
 		
 		var setText = function($target) {
 			$target.find('h2').text(node.name + (node.acronym ? ' ('+node.acronym+')': ''));
@@ -126,16 +127,11 @@ $(function() {
 			setText($nodeInfo);
 			$nodeInfo.slideDown();
 			$nodeInfo.animate({'opacity': 1,'height':$sizeCalculator.height()},{'queue':false});
-			displayedNodes[type] = node;
 		}});
 	}
 	
 	d3.json("data/flare.json", function(data) {
 	  node = root = data;
-	  
-	  $('svg g').mouseout(function() {
-	  	setDisplayNodeInfo(root, 'hover');
-	  });
 	  
 	  setDisplayNodeInfo(node, 'root');
 		/*pack.sort(function(a,b) {

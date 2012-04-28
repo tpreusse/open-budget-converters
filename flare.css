@@ -47,10 +47,12 @@ body > svg {
 }
 
 #infobox h1 {
-	font-size:20px;
+	font-size:19px;
 	color:#E00;
 	font-weight:bold;
 	margin:10px 0 0;
+	text-align:left;
+	padding:0 25px;
 }
 
 #infobox div {
@@ -61,7 +63,7 @@ body > svg {
 }
 
 #infobox h2 {
-	font-size:16px;
+	font-size:15px;
 	color:#000;
 	font-weight:bold;
 	margin:0;
