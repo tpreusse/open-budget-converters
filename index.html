@@ -160,7 +160,7 @@ $(function() {
 		    .attr("class", function(d) { return (d.children ? "parent" : "child")+(d.type ? ' '+d.type : ''); })
 		    .attr("x", function(d) { return d.x; })
 		    .attr("y", function(d) { return d.y; })
-		    .attr("dy", ".35em")
+		    .attr("dy", function(d) { return ((d.children || d.parent.children.length > 2) ? ".35em" : "2.35em"); })
 		    .attr("text-anchor", "middle")
 		    .style("opacity", function(d) { return zoomLevels[d.type] <= curZoomLevel ? 1 : 0; })
 		    .text(function(d) { return d.acronym ? d.acronym : d.name; });
