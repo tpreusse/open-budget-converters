@@ -77,7 +77,7 @@ $(function() {
 	
 	var pack = d3.layout.pack()
 	    .size([r, r])
-	    .value(function(d) { return d.size; })
+	    .value(function(d) { return d.size; });
 	
 	var vis = d3.select("body").insert("svg:svg")
 	  .append("svg:g");
@@ -102,6 +102,7 @@ $(function() {
 	
 	var displayedNodes = {};
 	
+	var formatCHF = d3.format(',');
 	var setDisplayNodeInfo = function(node, type) {
 		var $nodeInfo, animated = true;
 		if(type == 'root') {
@@ -120,7 +121,7 @@ $(function() {
 		
 		var setText = function($target) {
 			$target.find('h2').text(node.name + (node.acronym ? ' ('+node.acronym+')': ''));
-			$target.find('p').text('CHF '+node.spending+'.-');
+			$target.find('p').text('CHF '+formatCHF(node.size)+'.-');
 		};
 		
 		$nodeInfo.stop().animate({'opacity':0}, {'queue':false,'complete':function() {

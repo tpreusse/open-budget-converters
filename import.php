@@ -140,7 +140,6 @@ foreach($directorates as &$directorate) {
 				$agencyChilds[] = array(
 					'name' => $product_group['name'],
 					'type' => 'product_group',
-					'spending' => number_format($product_group['budgets'][2012]),
 					'size' => ceil($product_group['budgets'][2012])
 				);
 				$agencySpending += $product_group['budgets'][2012];
@@ -150,14 +149,10 @@ foreach($directorates as &$directorate) {
 			$directorateChild = array(
 				'name' => $agency['name'],
 				'type' => 'agency',
-				'spending' => number_format($agencySpending)
+				'size' => ceil($agencySpending)
 			);
-			if(count($agencyChilds) == 1 && $agencyChilds[0]['name'] == $agency['name']) {
-				$directorateChild['size'] = ceil($agency['budgets'][2012]);
-			}
-			else {
+			if(!(count($agencyChilds) == 1 && $agencyChilds[0]['name'] == $agency['name'])) {
 				$directorateChild['children'] = $agencyChilds;
-				$directorateChild['size'] = ceil($agencySpending);
 			}
 			$directorateChilds[] = $directorateChild;
 		}
@@ -167,7 +162,6 @@ foreach($directorates as &$directorate) {
 		$rootChild = array(
 			'name' => $directorate['name'],
 			'type' => 'directorate',
-			'spending' => number_format($directorateSpending),
 			'size' => ceil($directorateSpending),
 			'children' => $directorateChilds
 		);
@@ -179,14 +173,13 @@ foreach($directorates as &$directorate) {
 	}
 }
 $flare['children'] = $rootChilds;
-$flare['spending'] = number_format($rootSpending);
 $flare['size'] = ceil($rootSpending);
 
 echo '<pre>';
 echo json_encode($flare);
 echo '</pre>';
 
-file_put_contents('data/flare.json', json_encode($flare));
+//file_put_contents('data/flare.json', json_encode($flare));
 
 //CSV for openspending (not working yet)
 $csv = 'nummer;direktion;dienststelle;produktgruppe;date;budget'."\n";
