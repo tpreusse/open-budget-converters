@@ -96,7 +96,9 @@ $(function() {
 	var vis = d3.select("body").insert("svg:svg")
 	  .append("svg:g");
 	
-	$('#downloadSVG a').click(function() {
+	$('#downloadSVG a').click(function(e) {
+		e.preventDefault();
+		
 		var svgGroup = d3.select('svg g');
 		
 		var tranform = d3.select('svg g').attr('transform');
@@ -133,6 +135,10 @@ $(function() {
 	}).resize();
 	
 	var $rootNodeInfo = $('#rootNodeInfo'), $hoverNodeInfo = $('#hoverNodeInfo'), $sizeCalculator = $('#sizeCalculator');
+	
+	$('#infobox').click(function(e) {
+		e.stopPropagation();
+	});
 	
 	var displayedNodes = {};
 	
