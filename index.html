@@ -67,6 +67,19 @@
 $(function() {
 	var $window = $(window);
 	
+	if(!(!!document.createElementNS && !!document.createElementNS('http://www.w3.org/2000/svg', "svg").createSVGRect)) {
+		$('body').append('<div id="warning"><h2>Browser inkompatibel</h2><p>Leider unterstüzt ihr Browser kein SVG.<br /><br />Wir empfehlen: <span class="recommendation"></span></p><div class="close">X</div></div>');
+		if(navigator.userAgent.search(/Mac OS X/) !== -1) {
+			$('#warning .recommendation').html('<a href="http://www.apple.com/safari/" target="_blank">Apple Safari</a>');
+		}
+		else {
+			$('#warning .recommendation').html('<a href="http://www.mozilla.org/firefox/" target="_blank">Firefox</a> oder <a href="https://www.google.com/chrome" target="_blank">Google Chrome</a>');
+		}
+		$('#warning .close').click(function(){
+			$('#warning').fadeOut();
+		});
+	}
+	
 	var w = 0,
 	    h = 0,
 	    r = 720,
