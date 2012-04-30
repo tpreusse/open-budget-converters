@@ -118,6 +118,7 @@ body > svg {
 	border:none;
 }
 
-#warning {
-	
+#infobox p#downloadSVG {
+	text-align:left;
+	margin:10px 25px 0;
 }

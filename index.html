@@ -57,6 +57,7 @@
 			<h2></h2>
 			<p></p>
 		</div>
+		<p id="downloadSVG"><a href="#">Download as SVG</a></p>
   	</div>
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
@@ -94,6 +95,26 @@ $(function() {
 	
 	var vis = d3.select("body").insert("svg:svg")
 	  .append("svg:g");
+	
+	$('#downloadSVG a').click(function() {
+		var svgGroup = d3.select('svg g');
+		
+		var tranform = d3.select('svg g').attr('transform');
+		d3.select('svg g').attr('transform', '');
+		
+		$('body').append('<form action="download.php" method="post"><input type="hidden" name="g" value="" /></form>');
+		
+		if(typeof XMLSerializer !== undefined) {
+			$('body > form:last input[name=g]').val((new XMLSerializer()).serializeToString($('svg g').get(0)));
+		}
+		else {
+			$('body > form:last input[name=g]').val($('svg g').get(0).xml);
+		}
+		
+		d3.select('svg g').attr('transform', tranform);
+		
+		$('body > form:last').submit();
+	});
 	
 	var zoomLevels = {
 		'directorate': 0,
