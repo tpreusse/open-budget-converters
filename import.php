@@ -7,7 +7,7 @@
 
 $directorates = array();
 
-$overviewFile = file_get_contents('overview-utf8.csv');
+$overviewFile = file_get_contents('data/source/overview.csv');
 preg_match_all('/\n([^,]*,){9}.*/', $overviewFile, $overviewRows);
 
 $curDirectorate = NULL;
@@ -67,12 +67,14 @@ foreach($overviewRows[0] as &$row) {
 		$directorates[$row[1]] = array(
 			'number' => $row[1],
 			'name' => clean_text($row[2]),
-			'budgets' => array(
-				2012 => convert_to_float(clean_text($row[5])),
-				2011 => convert_to_float(clean_text($row[6]))
-			),
-			'bills' => array(
-				2010 => convert_to_float(clean_text($row[7]))
+			'net_cost' => array(
+				'budgets' => array(
+					2012 => convert_to_float(clean_text($row[5])),
+					2011 => convert_to_float(clean_text($row[6]))
+				),
+				'accounts' => array(
+					2010 => convert_to_float(clean_text($row[7]))
+				)
 			),
 			'agencies' => array()
 		);
@@ -89,36 +91,170 @@ foreach($overviewRows[0] as &$row) {
 		$directorates[$curDirectorate]['agencies'][$row[2]] = array(
 			'number' => $row[2],
 			'name' => clean_text($row[3]),
-			'budgets' => array(
-				2012 => convert_to_float(clean_text($row[5])),
-				2011 => convert_to_float(clean_text($row[6]))
-			),
-			'bills' => array(
-				2010 => convert_to_float(clean_text($row[7]))
+			'net_cost' => array(
+				'budgets' => array(
+					2012 => convert_to_float(clean_text($row[5])),
+					2011 => convert_to_float(clean_text($row[6]))
+				),
+				'accounts' => array(
+					2010 => convert_to_float(clean_text($row[7]))
+				)
 			),
 			'product_groups' => array()
 		);
 		$curAgency = $row[2];
 	}
 	else if(!is_null($curAgency) && preg_match('/^PG[0-9]{6}$/', $row[3])) {
+		//ToDo: verify with city of bern that this is a valid correction
+		if($row[3] == 'PG130000') {
+			$row[3] = 'PG130100';
+		}
 		$directorates[$curDirectorate]['agencies'][$curAgency]['product_groups'][$row[3]] = array(
 			'number' => $row[3],
 			'name' => clean_text($row[4]),
-			'budgets' => array(
-				2012 => convert_to_float(clean_text($row[5])),
-				2011 => convert_to_float(clean_text($row[6]))
+			'net_cost' => array(
+				'budgets' => array(
+					2012 => convert_to_float(clean_text($row[5])),
+					2011 => convert_to_float(clean_text($row[6]))
+				),
+				'accounts' => array(
+					2010 => convert_to_float(clean_text($row[7]))
+				)
 			),
-			'bills' => array(
-				2010 => convert_to_float(clean_text($row[7]))
-			)
+			'products' => array()
 		);
 	}
 }
-//$overview = explode(',', $overview);
+
+$productCostRowProcessor = function($row) {
+	return array(
+		'name' => clean_text($row[1]),
+		'net_cost' => array(
+			'budgets' => array(
+				2012 => convert_to_float(clean_text($row[8])),
+				2011 => convert_to_float(clean_text($row[10]))
+			)
+		),
+		'gross_cost' => array(
+			'budgets' => array(
+				2012 => convert_to_float(clean_text($row[2]))
+			)
+		),
+		'revenue' => array(
+			'budgets' => array(
+				2012 => convert_to_float(clean_text($row[5]))
+			)
+		)
+	);
+};
+$productRevenueRowProcessor = function($row) use ($productCostRowProcessor) {
+	$result = $productCostRowProcessor($row);
+	$result['net_cost']['budgets'][2012] *= -1;
+	$result['net_cost']['budgets'][2011] *= -1;
+	return $result;
+};
+
+foreach($directorates as &$directorate) {
+	$directorateFileName = 'data/source/'.$directorate['number'].'.csv';
+	if(!file_exists($directorateFileName)) {
+		continue;
+	}
+	$directorateFile = file_get_contents($directorateFileName);
+	preg_match_all('/\n([^,]*,){11}.*/', $directorateFile, $directorateRows);
+	
+	$productRowProcessor = NULL;
+	
+	foreach($directorateRows[0] as $rowNumber => &$row) {
+		$row = explode(',', $row);
+		$col0 = trim($row[0]);
+		$isProductRow = preg_match('/^P[0-9]{6}$/', $col0);
+		if($isProductRow) {
+			$agencyNumber = substr($col0, 1, 2).'0';
+			if(!isset($directorate['agencies'][$agencyNumber])) {
+				echo 'WARNING: Agency "'.$agencyNumber.'" not found (Product #'.$col0.').<br />'.PHP_EOL;
+				continue;
+			}
+			$agency = &$directorate['agencies'][$agencyNumber];
+			if($col0 == 'P130210') {
+				$productGroupNumber = 'PG130100';
+			}
+			else {
+				//ToDo: verify that this is a correct assumtion
+				$productGroupNumber = 'PG'.substr($col0, 1, 4).'00';
+			}
+			if(!isset($agency['product_groups'][$productGroupNumber])) {
+				echo 'WARNING: Product group "'.$productGroupNumber.'" not found (Product #'.$col0.').<br />'.PHP_EOL;
+				continue;
+			}
+			if($productRowProcessor !== NULL) {
+				$productGroup = &$agency['product_groups'][$productGroupNumber];
+				$productGroup['products'][$col0] = $productRowProcessor($row);
+			}
+			else {
+				echo 'WARNING: Found product "'.$col0.'" but missing a processor function.<br />'.PHP_EOL;
+			}
+		}
+		else if(
+			$col0 == 'Nummer' && 
+			$row[1] == 'Produkt' && 
+			$row[2] == 'Bruttokosten 2012' && 
+			$row[5] == 'Erlös 2012' && 
+			$row[8] == 'Nettokosten' && 
+			$row[10] == 'Nettokosten' && 
+			trim($row[11]) == 'Abweichung'
+		) {
+			
+			if(isset($directorateRows[0][$rowNumber+1])) {
+				$nextRow = $directorateRows[0][$rowNumber+1];
+				$nextRow = explode(',', $nextRow);
+				if(
+					$nextRow[2] == 'Fr.' &&
+					$nextRow[5] == 'Fr.' &&
+					$nextRow[8] == '2012 / Fr.' &&
+					$nextRow[10] == '2011 / Fr.' &&
+					trim($nextRow[11]) == '2012/2011 %'
+				) {
+					$productRowProcessor = $productCostRowProcessor;
+				}
+				
+			}
+		}
+		else if(
+			$col0 == 'Nummer' && 
+			$row[1] == 'Produkt' && 
+			$row[2] == 'Bruttokosten 2012' && 
+			$row[5] == 'Erlös 2012' && 
+			$row[8] == 'Nettoerlös' && 
+			$row[10] == 'Nettoerlös' && 
+			trim($row[11]) == 'Abweichung'
+		) {
+			
+			if(isset($directorateRows[0][$rowNumber+1])) {
+				$nextRow = $directorateRows[0][$rowNumber+1];
+				$nextRow = explode(',', $nextRow);
+				if(
+					$nextRow[2] == 'Fr.' &&
+					$nextRow[5] == 'Fr.' &&
+					$nextRow[8] == '2012 / Fr.' &&
+					$nextRow[10] == '2011 / Fr.' &&
+					trim($nextRow[11]) == '2012/2011 %'
+				) {
+					$productRowProcessor = $productRevenueRowProcessor;
+				}
+				
+			}
+		}
+		else if(!empty($col0) && !$isProductRow) {
+			$productRowProcessor = NULL;
+		}
+	}
+}
 
 echo '<pre>';
 var_dump($directorates);
 echo '</pre>';
+
+exit;
 
 echo '<pre>';
 echo json_encode($directorates);
