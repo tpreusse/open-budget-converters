@@ -64,6 +64,7 @@ function convert_to_float($number) {
 foreach($overviewRows[0] as &$row) {
 	$row = explode(',', $row);
 	if(preg_match('/^[0-9]{4}$/', $row[1])) {
+		$row[1] = (string)$row[1];
 		$directorates[$row[1]] = array(
 			'number' => $row[1],
 			'name' => clean_text($row[2]),
@@ -88,6 +89,7 @@ foreach($overviewRows[0] as &$row) {
 		}
 	}
 	else if(!is_null($curDirectorate) && preg_match('/^[0-9]{3}$/', $row[2])) {
+		$row[2] = (string)$row[2];
 		$directorates[$curDirectorate]['agencies'][$row[2]] = array(
 			'number' => $row[2],
 			'name' => clean_text($row[3]),
@@ -165,6 +167,8 @@ define('PRODUCT_GROUP_TABLE', 3);
 define('PRODUCT_TABLE', 4);
 define('PRODUCT_REVENUE_TABLE', 5);
 
+$null = NULL;
+
 foreach($directorates as &$directorate) {
 	$directorateFileName = 'data/source/'.$directorate['number'].'.csv';
 	if(!file_exists($directorateFileName)/* || $directorate['number'] != '1200'*/) {
@@ -173,9 +177,9 @@ foreach($directorates as &$directorate) {
 	$directorateFile = file_get_contents($directorateFileName);
 	preg_match_all('/\n([^,]*,){11}.*/', $directorateFile, $directorateRows);
 	
-	$sectionType = NULL;
-	$tableType = NULL;
-	$agency = NULL;
+	$sectionType = $null;
+	$tableType = $null;
+	$agency = &$null;
 	
 	$directorateRowCount = count($directorateRows[0])-1;
 	//echo 'count '.$directorateRowCount.'<br />';
@@ -541,7 +545,7 @@ var_dump($directorates);
 echo '</pre>';
 
 //file_put_contents('data/directorates.json', json_encode($directorates));
-/* flare export not yet working with extended data
+
 $flare = array('name' => 'Total');
 $rootChilds = array();
 $rootSpending = 0.0;
@@ -551,25 +555,39 @@ foreach($directorates as &$directorate) {
 	foreach($directorate['agencies'] as &$agency) {
 		$agencyChilds = array();
 		$agencySpending = 0.0;
+		if(!is_array($agency['product_groups'])) {
+			var_dump($directorate['number'], $agency, $agency['name'], $agency['product_groups']);
+		}
 		foreach($agency['product_groups'] as &$product_group) {
-			if($product_group['budgets'][2012] > 0) {
+			$productGroupChilds = array();
+			$productGroupSpending = 0.0;
+			foreach($product_group['products'] as &$product) {
+				if($product['net_cost']['budgets'][2012] > 0) {
+					$productGroupChilds[] = array(
+						'name' => $product['name'],
+						'type' => 'product',
+						'size' => ceil($product['net_cost']['budgets'][2012])
+					);
+					$productGroupSpending += $product['net_cost']['budgets'][2012];
+				}
+			}
+			if(!empty($productGroupChilds)) {
 				$agencyChilds[] = array(
 					'name' => $product_group['name'],
 					'type' => 'product_group',
-					'size' => ceil($product_group['budgets'][2012])
+					'size' => ceil($productGroupSpending),
+					'children' => $productGroupChilds
 				);
-				$agencySpending += $product_group['budgets'][2012];
 			}
+			$agencySpending += $productGroupSpending;
 		}
 		if(!empty($agencyChilds)) {
 			$directorateChild = array(
 				'name' => $agency['name'],
 				'type' => 'agency',
-				'size' => ceil($agencySpending)
+				'size' => ceil($agencySpending),
+				'children' => $agencyChilds
 			);
-			if(!(count($agencyChilds) == 1 && $agencyChilds[0]['name'] == $agency['name'])) {
-				$directorateChild['children'] = $agencyChilds;
-			}
 			$directorateChilds[] = $directorateChild;
 		}
 		$directorateSpending += $agencySpending;
@@ -593,9 +611,9 @@ $flare['size'] = ceil($rootSpending);
 
 echo '<pre>';
 echo json_encode($flare);
-echo '</pre>';*/
+echo '</pre>';
 
-//file_put_contents('data/flare.json', json_encode($flare));
+//file_put_contents('data/flareWithProducts.json', json_encode($flare));
 
 //CSV for openspending (not working yet)
 /* CSV export not yet working with extended data
