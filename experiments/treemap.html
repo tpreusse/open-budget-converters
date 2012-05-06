@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <title>Treemap</title>
+    <script type="text/javascript" src="../lib/d3.v2.js"></script>
+    <style type="text/css">
+    body {
+    	font-family:"Helvetica Neue", Helvetica;
+    }
+	.chart {
+	  display: block;
+	  margin: auto;
+	  margin-top: 40px;
+	}
+	
+	text {
+	  font-size: 11px;
+	}
+	
+	rect {
+	  fill: none;
+	}
+    </style>
+  </head>
+  <body>
+    <div id="body">
+    </div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript">
+
+var w = 1280 - 80,
+    h = 800 - 180,
+    x = d3.scale.linear().range([0, w]),
+    y = d3.scale.linear().range([0, h]),
+    color = d3.scale.category20c(),
+    root,
+    node;
+
+var treemap = d3.layout.treemap()
+    .round(false)
+    .size([w, h])
+    .sticky(true)
+    .value(function(d) { return d.size; });
+
+var svg = d3.select("#body").append("div")
+    .attr("class", "chart")
+    .style("width", w + "px")
+    .style("height", h + "px")
+  .append("svg:svg")
+    .attr("width", w)
+    .attr("height", h)
+  .append("svg:g")
+    .attr("transform", "translate(.5,.5)");
+
+d3.json("../data/flareWithProducts.json", function(data) {
+  node = root = data;
+
+  var nodes = treemap.nodes(root)
+      .filter(function(d) { return !d.children; });
+
+  var cell = svg.selectAll("g")
+      .data(nodes)
+    .enter().append("svg:g")
+      .attr("class", "cell")
+      .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; })
+      .on("click", function(d) { return zoom(node == d.parent ? root : d.parent); });
+
+  cell.append("svg:rect")
+      .attr("width", function(d) { return d.dx - 1; })
+      .attr("height", function(d) { return d.dy - 1; })
+      .style("fill", function(d) { return color(d.parent.name); });
+
+  cell.append("svg:text")
+      .attr("x", function(d) { return d.dx / 2; })
+      .attr("y", function(d) { return d.dy / 2; })
+      .attr("dy", ".35em")
+      .attr("text-anchor", "middle")
+      .text(function(d) { return d.name; })
+      .style("opacity", function(d) { d.w = this.getComputedTextLength(); return d.dx > d.w ? 1 : 0; });
+
+var formatCHF = d3.format(',');
+var $tip = $('<div></div>').html('<div></div>').hide().appendTo('body').css({
+	'font-size':'12px',
+	'font-family':'"Helvetica Neue", Helvetica',
+	'position':'absolute',
+	'padding':'5px',
+	'z-index':'100000'
+});
+var $tipInner = $tip.find('div').css({
+	'background-color': '#000',
+	'color': '#fff',
+	'color': '#fff',
+	'padding': '5px 8px 4px 8px',
+	'text-align': 'left',
+	'border-radius': '3px',
+	'-moz-border-radius': '3px',
+	'-webkit-border-radius': '3px'
+});
+$(document).mousemove(function(e){
+	$tip.css({
+		'top': e.pageY + 0,
+		'left': e.pageX + 10
+	});
+}); 
+$('svg *').hover(function(){
+	var d = this.__data__;
+	$tipInner.html('<strong>'+d.name+'</strong><br />CHF '+formatCHF(d.size));
+	$tip.show();
+},function(){
+	$tip.hide();
+});
+
+  d3.select(window).on("click", function() { zoom(root); });
+
+  d3.select("select").on("change", function() {
+    treemap.value(this.value == "size" ? size : count).nodes(root);
+    zoom(node);
+  });
+});
+
+function size(d) {
+  return d.size;
+}
+
+function count(d) {
+  return 1;
+}
+
+function zoom(d) {
+  var kx = w / d.dx, ky = h / d.dy;
+  x.domain([d.x, d.x + d.dx]);
+  y.domain([d.y, d.y + d.dy]);
+
+  var t = svg.selectAll("g.cell").transition()
+      .duration(d3.event.altKey ? 7500 : 750)
+      .attr("transform", function(d) { return "translate(" + x(d.x) + "," + y(d.y) + ")"; });
+
+  t.select("rect")
+      .attr("width", function(d) { return kx * d.dx - 1; })
+      .attr("height", function(d) { return ky * d.dy - 1; })
+
+  t.select("text")
+      .attr("x", function(d) { return kx * d.dx / 2; })
+      .attr("y", function(d) { return ky * d.dy / 2; })
+      .style("opacity", function(d) { return kx * d.dx > d.w ? 1 : 0; });
+
+  node = d;
+  d3.event.stopPropagation();
+}
+
+    </script>
+  </body>
+</html>

@@ -122,3 +122,22 @@ body > svg {
 	text-align:left;
 	margin:10px 25px 0;
 }
+
+#tooltip {
+	font-size:12px;
+	font-family:"Helvetica Neue", Helvetica;
+	position:absolute;
+	padding:5px;
+	z-index:100000;
+}
+
+#tooltip div {
+	background-color:#000;
+	color:#fff;
+	color:#fff;
+	padding:5px 8px 4px 8px;
+	text-align:left;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}

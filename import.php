@@ -555,9 +555,6 @@ foreach($directorates as &$directorate) {
 	foreach($directorate['agencies'] as &$agency) {
 		$agencyChilds = array();
 		$agencySpending = 0.0;
-		if(!is_array($agency['product_groups'])) {
-			var_dump($directorate['number'], $agency, $agency['name'], $agency['product_groups']);
-		}
 		foreach($agency['product_groups'] as &$product_group) {
 			$productGroupChilds = array();
 			$productGroupSpending = 0.0;

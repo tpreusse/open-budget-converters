@@ -10,14 +10,19 @@
 			pointer-events: none;
 		}
 		
-		text.parent {
-			fill: #e1353f; /*e1353f*/
+		text.product_group {
+			font-weight:bold;
+		}
+		
+		text.agency, text.directorate {
+			fill: #e1353f;
 			text-shadow:0 0 20px #fff;
 			font-weight:bold;
 			font-size:15px;
+			dy:.35em;
 		}
 		
-		text.parent.directorate {
+		text.directorate {
 			fill: #a8272d;
 			font-size:20px;
 		}
@@ -37,7 +42,7 @@
 		
 		circle:hover {
 			stroke: #ff7f0e;
-			stroke-width: .5px;
+			stroke-width: 2px;
 		}
     </style>
   </head>
@@ -61,15 +66,15 @@
   	</div>
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-	<script src="lib/d3.v2.min.js"></script>
+	<script src="lib/d3.v2.custom.js"></script>
 	
     <script type="text/javascript">
 
 $(function() {
-	var $window = $(window);
+	var $window = $(window), $body = $('body');
 	
 	if(!(!!document.createElementNS && !!document.createElementNS('http://www.w3.org/2000/svg', "svg").createSVGRect)) {
-		$('body').append('<div id="warning"><h2>Browser inkompatibel</h2><p>Leider unterstüzt ihr Browser kein SVG.<br /><br />Wir empfehlen: <span class="recommendation"></span></p><div class="close">X</div></div>');
+		$body.append('<div id="warning"><h2>Browser inkompatibel</h2><p>Leider unterstüzt ihr Browser kein SVG.<br /><br />Wir empfehlen: <span class="recommendation"></span></p><div class="close">X</div></div>');
 		if(navigator.userAgent.search(/Mac OS X/) !== -1) {
 			$('#warning .recommendation').html('<a href="http://www.apple.com/safari/" target="_blank">Apple Safari</a>');
 		}
@@ -104,7 +109,7 @@ $(function() {
 		var tranform = d3.select('svg g').attr('transform');
 		d3.select('svg g').attr('transform', '');
 		
-		$('body').append('<form action="download.php" method="post"><input type="hidden" name="g" value="" /></form>');
+		$body.append('<form action="download.php" method="post"><input type="hidden" name="g" value="" /></form>');
 		
 		if(typeof XMLSerializer !== undefined) {
 			$('body > form:last input[name=g]').val((new XMLSerializer()).serializeToString($('svg g').get(0)));
@@ -151,7 +156,6 @@ $(function() {
 		}
 		else if(type == 'hover') {
 			$nodeInfo = $hoverNodeInfo;
-			//animated = false;
 		}
 		
 		if(displayedNodes['root'] == node) {
@@ -173,7 +177,26 @@ $(function() {
 		}});
 	}
 	
-	d3.json("data/flare.json", function(data) {
+	/* tooltip */
+	var $tip = $('<div id="tooltip"></div>').html('<div></div>').hide().appendTo($body);
+	var $tipInner = $tip.find('div');
+	$(document).mousemove(function(e){
+		$tip.css({
+			'top': e.pageY + 0,
+			'left': e.pageX + 10
+		});
+	}); 
+	$(document).on('mouseover', 'svg circle', function(){
+		var d = this.__data__;
+		$tipInner.html('<strong>'+d.name+(d.acronym ? ' ('+d.acronym+')' : '')+'</strong><br />CHF '+formatCHF(d.size));
+		$tip.show();
+	});
+	$(document).on('mouseout', 'svg circle', function(){
+		$tip.hide();
+	});
+	/* end tooltip */
+	
+	d3.json("data/flareWithProducts.json", function(data) {
 		node = root = data;
 	  
 		setDisplayNodeInfo(node, 'root');
@@ -193,7 +216,7 @@ $(function() {
 		    .attr("cy", function(d) { return d.y; })
 		    .attr("r", function(d) { return d.r; })
 		    .on("click", function(d) { return zoom(node == d ? root : d); })
-		    .on("mouseover", function(d) { setDisplayNodeInfo(d, 'hover'); });
+		    /*.on("mouseover", function(d) { setDisplayNodeInfo(d, 'hover'); });*/
 	
 		vis.selectAll("text")
 		    .data(nodes)
@@ -201,7 +224,19 @@ $(function() {
 		    .attr("class", function(d) { return (d.children ? "parent" : "child")+(d.type ? ' '+d.type : ''); })
 		    .attr("x", function(d) { return d.x; })
 		    .attr("y", function(d) { return d.y; })
-		    .attr("dy", function(d) { return ((d.children || d.parent.children.length > 2) ? ".35em" : "2.35em"); })
+		    .attr("dy", function(d) { 
+				var dy;
+				if(d.type == 'product_group') {
+					dy = '-2.35em';
+				}
+				else if(d.type == 'product' && d.parent.children.length < 3) {
+					dy = '2.35em';
+				}
+				else {
+					dy = '.35em';
+				}
+				return dy; 
+			})
 		    .attr("text-anchor", "middle")
 		    .style("opacity", function(d) { return zoomLevels[d.type] <= curZoomLevel ? 1 : 0; })
 		    .text(function(d) { return d.acronym ? d.acronym : d.name; });
