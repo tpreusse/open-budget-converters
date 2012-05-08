@@ -3,7 +3,7 @@
     "children": [{
         "name": "Gemeinde und Beh\u00f6rden",
         "type": "directorate",
-        "size": 13172603,
+        "size": 11769341,
         "children": [{
             "name": "Stadtrat",
             "type": "agency",
@@ -118,33 +118,19 @@
         }, {
             "name": "Informationsdienst",
             "type": "agency",
-            "size": 1090953,
+            "size": 1037953,
             "children": [{
                 "name": "Informationsdienst",
                 "type": "product_group",
-                "size": 1090953,
+                "size": 1037953,
                 "children": [{
                     "name": "Information (Medienarbeit, Online-Dienst, Corporate Identity\/Corporate Design, Beratung & Schulung)",
                     "type": "product",
-                    "size": 818215
+                    "size": 778465
                 }, {
                     "name": "Interne Kommunikation (MAZ, Intranet)",
                     "type": "product",
-                    "size": 272739
-                }]
-            }]
-        }, {
-            "name": "Finanzinspektorat",
-            "type": "agency",
-            "size": 1350262,
-            "children": [{
-                "name": "Revision",
-                "type": "product_group",
-                "size": 1350262,
-                "children": [{
-                    "name": "Revision nicht verrechenbar",
-                    "type": "product",
-                    "size": 1350262
+                    "size": 259489
                 }]
             }]
         }],
@@ -152,23 +138,19 @@
     }, {
         "name": "Pr\u00e4sidialdirektion",
         "type": "directorate",
-        "size": 48283382,
+        "size": 47963382,
         "children": [{
             "name": "Direktionsstabsdienste, Gleichstellung und Rechtsdienst",
             "type": "agency",
-            "size": 4047447,
+            "size": 3897447,
             "children": [{
                 "name": "Leistungen f\u00fcr Politik und Verwaltungsf\u00fchrung",
                 "type": "product_group",
-                "size": 1977239,
+                "size": 1827239,
                 "children": [{
                     "name": "F\u00fchrungsunterst\u00fctzung",
                     "type": "product",
                     "size": 1827239
-                }, {
-                    "name": "Grossanl\u00e4sse",
-                    "type": "product",
-                    "size": 150000
                 }]
             }, {
                 "name": "Zentrale Dienste",
@@ -221,15 +203,15 @@
         }, {
             "name": "Abteilung Kulturelles",
             "type": "agency",
-            "size": 34574700,
+            "size": 34674700,
             "children": [{
                 "name": "Kulturf\u00f6rderung",
                 "type": "product_group",
-                "size": 34574700,
+                "size": 34674700,
                 "children": [{
                     "name": "Beitr\u00e4ge direkte F\u00f6rderung",
                     "type": "product",
-                    "size": 3207542
+                    "size": 3307542
                 }, {
                     "name": "Abgeltung Leistungsvertr\u00e4ge",
                     "type": "product",
@@ -239,45 +221,45 @@
         }, {
             "name": "Denkmalpflege",
             "type": "agency",
-            "size": 766321,
+            "size": 696321,
             "children": [{
                 "name": "Denkmalpflege",
                 "type": "product_group",
-                "size": 766321,
+                "size": 696321,
                 "children": [{
                     "name": "Baugesuche \/ Restaurierungen",
                     "type": "product",
-                    "size": 559415
+                    "size": 508315
                 }, {
                     "name": "Grundlagenarbeit",
                     "type": "product",
-                    "size": 206907
+                    "size": 188007
                 }]
             }]
         }, {
             "name": "Abteilung Stadtentwicklung",
             "type": "agency",
-            "size": 2283276,
+            "size": 2233276,
             "children": [{
                 "name": "Stadtentwicklung und Statistik",
                 "type": "product_group",
-                "size": 2283276,
+                "size": 2233276,
                 "children": [{
                     "name": "Projekte Stadtentwicklung",
                     "type": "product",
-                    "size": 342000
+                    "size": 327000
                 }, {
                     "name": "F\u00f6rderung Wohnbaut\u00e4tigkeit",
                     "type": "product",
-                    "size": 414800
+                    "size": 397300
                 }, {
                     "name": "Aussenbeziehungen und Politisches Controlling",
                     "type": "product",
-                    "size": 342400
+                    "size": 327400
                 }, {
                     "name": "Dienstleistungen Statistik",
                     "type": "product",
-                    "size": 1184077
+                    "size": 1181577
                 }]
             }]
         }, {
@@ -331,27 +313,27 @@
         }, {
             "name": "Stadtplanungsamt",
             "type": "agency",
-            "size": 4654189,
+            "size": 4504189,
             "children": [{
                 "name": "Stadtplanung",
                 "type": "product_group",
-                "size": 4654189,
+                "size": 4504189,
                 "children": [{
                     "name": "R\u00e4umliche Stadtentwicklung",
                     "type": "product",
-                    "size": 1557610
+                    "size": 1508110
                 }, {
                     "name": "Nutzungsplanung",
                     "type": "product",
-                    "size": 1425829
+                    "size": 1377829
                 }, {
                     "name": "\u00d6ffentlicher Raum",
                     "type": "product",
-                    "size": 561846
+                    "size": 543846
                 }, {
                     "name": "Gr\u00fcnraum",
                     "type": "product",
-                    "size": 1108905
+                    "size": 1074405
                 }]
             }]
         }],
@@ -359,7 +341,7 @@
     }, {
         "name": "Direktion f\u00fcr Sicherheit, Umwelt und Energie",
         "type": "directorate",
-        "size": 91008844,
+        "size": 91158844,
         "children": [{
             "name": "Direktionsstabsdienste",
             "type": "agency",
@@ -416,11 +398,11 @@
         }, {
             "name": "Amt f\u00fcr Umweltschutz",
             "type": "agency",
-            "size": 4740450,
+            "size": 4890450,
             "children": [{
                 "name": "Umweltschutz",
                 "type": "product_group",
-                "size": 4740450,
+                "size": 4890450,
                 "children": [{
                     "name": "Chemie und Umwelt",
                     "type": "product",
@@ -432,7 +414,7 @@
                 }, {
                     "name": "Lokale Agenda 21",
                     "type": "product",
-                    "size": 905601
+                    "size": 1055601
                 }, {
                     "name": "Energie",
                     "type": "product",
@@ -736,7 +718,7 @@
     }, {
         "name": "Direktion f\u00fcr Bildung, Soziales und Sport",
         "type": "directorate",
-        "size": 303604792,
+        "size": 303862792,
         "children": [{
             "name": "Direktionsstabsdienste",
             "type": "agency",
@@ -805,7 +787,7 @@
                     "type": "product",
                     "size": 251893
                 }, {
-                    "name": "Leistungen f\u00fcr Asyl- suchende der Stadt Bern, 2. Unterbringungsphase",
+                    "name": "Leistungen f\u00fcr Asylsuchende der Stadt Bern, 2. Unterbringungsphase",
                     "type": "product",
                     "size": 7939
                 }]
@@ -813,7 +795,7 @@
         }, {
             "name": "Sozialamt",
             "type": "agency",
-            "size": 96929483,
+            "size": 97139483,
             "children": [{
                 "name": "Soziale Einrichtungen",
                 "type": "product_group",
@@ -835,11 +817,11 @@
             }, {
                 "name": "Ambulante Sozialhilfe",
                 "type": "product_group",
-                "size": 86708854,
+                "size": 86918854,
                 "children": [{
                     "name": "Beratung, Betreuung und Unterst\u00fctzung von bed\u00fcrftigen Personen",
                     "type": "product",
-                    "size": 86708854
+                    "size": 86918854
                 }]
             }, {
                 "name": "Berufliche und soziale Integration",
@@ -862,11 +844,11 @@
         }, {
             "name": "Schulamt",
             "type": "agency",
-            "size": 95615132,
+            "size": 95583132,
             "children": [{
                 "name": "Kinderg\u00e4rten, Volks- und Sonderschulen",
                 "type": "product_group",
-                "size": 85314198,
+                "size": 85254198,
                 "children": [{
                     "name": "Betrieb und Organisation",
                     "type": "product",
@@ -882,12 +864,12 @@
                 }, {
                     "name": "Information und Bildungsqualit\u00e4t",
                     "type": "product",
-                    "size": 182543
+                    "size": 122543
                 }]
             }, {
                 "name": "Tagesbetreuung",
                 "type": "product_group",
-                "size": 3482588,
+                "size": 3510588,
                 "children": [{
                     "name": "Tagesschulen",
                     "type": "product",
@@ -895,7 +877,7 @@
                 }, {
                     "name": "Aufgabenhilfe",
                     "type": "product",
-                    "size": 272000
+                    "size": 300000
                 }, {
                     "name": "Ferieninseln",
                     "type": "product",
@@ -1120,7 +1102,7 @@
         }, {
             "name": "Sportamt",
             "type": "agency",
-            "size": 21535001,
+            "size": 21615001,
             "children": [{
                 "name": "Betriebe Eis und Wasser",
                 "type": "product_group",
@@ -1141,7 +1123,7 @@
             }, {
                 "name": "Sportanlagen, Sportbetrieb",
                 "type": "product_group",
-                "size": 7012962,
+                "size": 7092962,
                 "children": [{
                     "name": "Bereitstellung von Turn- \/ Sportanlagen",
                     "type": "product",
@@ -1149,7 +1131,7 @@
                 }, {
                     "name": "Sportf\u00f6rderung und                   -beratung",
                     "type": "product",
-                    "size": 950265
+                    "size": 1030265
                 }]
             }]
         }],
@@ -1157,7 +1139,7 @@
     }, {
         "name": "Direktion f\u00fcr Tiefbau, Verkehr und Stadtgr\u00fcn",
         "type": "directorate",
-        "size": 112984561,
+        "size": 112814561,
         "children": [{
             "name": "Direktionsstabsdienste",
             "type": "agency",
@@ -1209,7 +1191,7 @@
         }, {
             "name": "Tiefbauamt",
             "type": "agency",
-            "size": 56958195,
+            "size": 56788195,
             "children": [{
                 "name": "Planung und Koordination",
                 "type": "product_group",
@@ -1226,11 +1208,11 @@
             }, {
                 "name": "Realisierung",
                 "type": "product_group",
-                "size": 19389927,
+                "size": 19219927,
                 "children": [{
                     "name": "Realisierung Verkehrsfl\u00e4chen",
                     "type": "product",
-                    "size": 9551948
+                    "size": 9381948
                 }, {
                     "name": "Realisierung Kunstbauten",
                     "type": "product",
@@ -1266,7 +1248,7 @@
                     "size": 3724315
                 }]
             }, {
-                "name": "Tiefbauinspektorat",
+                "name": "Bewilligung \/ Bewirtschaftung",
                 "type": "product_group",
                 "size": 413180,
                 "children": [{
@@ -1422,7 +1404,7 @@
     }, {
         "name": "Direktion f\u00fcr Finanzen, Personal und Informatik",
         "type": "directorate",
-        "size": 18161415,
+        "size": 19511676,
         "children": [{
             "name": "Direktionsstabsdienste \/ Fachstelle Beschaffungswesen",
             "type": "agency",
@@ -1494,7 +1476,7 @@
             "type": "agency",
             "size": 363600,
             "children": [{
-                "name": "Liegenschaften im \u00d6ffentlichen Interesse",
+                "name": "Liegenschaften im \u00f6ffentlichen Interesse",
                 "type": "product_group",
                 "size": 363600,
                 "children": [{
@@ -1573,7 +1555,7 @@
                     "size": 1041060
                 }]
             }, {
-                "name": "Zentrale Dienste \/ Telefonzentrale",
+                "name": "Personaldienst FPI \/ Telefonzentrale",
                 "type": "product_group",
                 "size": 1075633,
                 "children": [{
@@ -1645,6 +1627,20 @@
                 }]
             }]
         }, {
+            "name": "Finanzinspektorat",
+            "type": "agency",
+            "size": 1350262,
+            "children": [{
+                "name": "Revision",
+                "type": "product_group",
+                "size": 1350262,
+                "children": [{
+                    "name": "Revision nicht verrechenbar",
+                    "type": "product",
+                    "size": 1350262
+                }]
+            }]
+        }, {
             "name": "Stadtbauten (StaBe)",
             "type": "agency",
             "size": 3044400,
@@ -1661,5 +1657,5 @@
         }],
         "acronym": "FPI"
     }],
-    "size": 587215594
+    "size": 587080594
 }

@@ -20,29 +20,52 @@ header("Content-Type: image/svg+xml");
 		}
 		
 		text.agency, text.directorate {
-			fill: #e1353f;
-			text-shadow:0 0 20px #fff;
+			fill: #fff;
+			text-shadow:0 0 10px #000;
 			font-weight:bold;
 			font-size:15px;
 			dy:.35em;
 		}
 		
 		text.directorate {
-			fill: #a8272d;
-			font-size:20px;
+			font-size:25px;
+		}
+		
+		circle.directorate {
+			stroke-width: 3px;
+		}
+		
+		circle.directorate.GuB {
+			stroke:gray;
+			fill:gray;
+		}
+		circle.directorate.FPI {
+			stroke:#074EA1;
+			fill:#074EA1;
+		}
+		circle.directorate.PRD, circle.directorate.BSS {
+			stroke:#E11F21;
+			fill:#E11F21;
+		}
+		circle.directorate.SUE {
+			stroke:#F07D08;
+			fill:#F07D08;
+		}
+		circle.directorate.TVS {
+			stroke:#060;
+			fill:#060;
 		}
 		
 		circle {
-			fill: #e1353f;
-			fill-opacity: .1;
-			stroke: #e1353f;
+			fill:#000;
+			fill-opacity: .05;
+			stroke: #fff;
+			stroke-width: 1px;
 			pointer-events: all;
 		}
 		
 		circle.parent {
-			fill: #a8272d;
-			fill-opacity: .1;
-			stroke: #a8272d;
+			stroke: #fff;
 		}
 	</style>
 	<?php echo $_POST['g']; ?>

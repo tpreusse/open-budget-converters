@@ -8,7 +8,7 @@
 $directorates = array();
 
 $overviewFile = file_get_contents('data/source/overview.csv');
-preg_match_all('/\n([^,]*,){9}.*/', $overviewFile, $overviewRows);
+preg_match_all('/\n(("[^"]*"|[^,]*),){9}.*/', $overviewFile, $overviewRows);
 
 $curDirectorate = NULL;
 $curAgency = NULL;
@@ -61,8 +61,8 @@ function convert_to_float($number) {
 	return round((float)$number, 2);
 }
 
-foreach($overviewRows[0] as &$row) {
-	$row = explode(',', $row);
+foreach($overviewRows[0] as &$rowText) {
+	$row = str_getcsv($rowText, ',', '"');
 	if(preg_match('/^[0-9]{4}$/', $row[1])) {
 		$row[1] = (string)$row[1];
 		$directorates[$row[1]] = array(
@@ -175,7 +175,7 @@ foreach($directorates as &$directorate) {
 		continue;
 	}
 	$directorateFile = file_get_contents($directorateFileName);
-	preg_match_all('/\n([^,]*,){11}.*/', $directorateFile, $directorateRows);
+	preg_match_all('/\n(("[^"]*"|[^,]*),){11}.*/', $directorateFile, $directorateRows);
 	
 	$sectionType = $null;
 	$tableType = $null;
@@ -186,7 +186,8 @@ foreach($directorates as &$directorate) {
 	
 	foreach($directorateRows[0] as $rowNumber => &$rowText) {
 		//echo $rowNumber.' ';
-		$row = explode(',', $rowText);
+		$row = str_getcsv($rowText, ',', '"');
+		
 		$col0 = trim($row[0]);
 		$rowType = NULL;
 		
@@ -201,7 +202,7 @@ foreach($directorates as &$directorate) {
 			//echo 'section: DIRECTORATE '.$rowText.'<br />'.PHP_EOL;
 			continue;
 		}
-		else if(preg_match('/^([0-9]{3})(-[0-9]{3})?,[^,]*,,,,,,,,,,$/', $rowText, $agencyMatches)) {
+		else if(preg_match('/^([0-9]{3})(-[0-9]{3})?,("[^"]*"|[^,]*),,,,,,,,,,$/', $rowText, $agencyMatches)) {
 			$sectionType = AGENCY;
 			$tableType = NULL;
 			if(!isset($directorate['agencies'][$agencyMatches[1]])) {
@@ -213,7 +214,7 @@ foreach($directorates as &$directorate) {
 			//echo 'section: AGENCY '.$rowText.'<br />'.PHP_EOL;
 			continue;
 		}
-		else if(preg_match('/^,Produktegruppe (PG[0-9]{6}) [^,]+,,,,,,,,,,$/', $rowText, $productGroupMatches)) {
+		else if(preg_match('/^,"?Produktegruppe (PG[0-9]{6}) ([^,]+|[^"]+"),,,,,,,,,,$/', $rowText, $productGroupMatches)) {
 			$sectionType = PRODUCT_GROUP;
 			$tableType = NULL;
 			if(!isset($agency['product_groups'][$productGroupMatches[1]])) {
@@ -222,7 +223,7 @@ foreach($directorates as &$directorate) {
 			else {
 				$productGroup = &$agency['product_groups'][$productGroupMatches[1]];
 			}
-			//echo 'section: AGENCY '.$rowText.'<br />'.PHP_EOL;
+			//echo 'section: PRODUCT_GROUP '.$rowText.'<br />'.PHP_EOL;
 			continue;
 		}
 		
@@ -544,7 +545,7 @@ echo '<pre>';
 var_dump($directorates);
 echo '</pre>';
 
-//file_put_contents('data/directorates.json', json_encode($directorates));
+file_put_contents('data/directorates.json', json_encode($directorates));
 
 $flare = array('name' => 'Total');
 $rootChilds = array();
@@ -610,7 +611,7 @@ echo '<pre>';
 echo json_encode($flare);
 echo '</pre>';
 
-//file_put_contents('data/flareWithProducts.json', json_encode($flare));
+file_put_contents('data/flareWithProducts.json', json_encode($flare));
 
 //CSV for openspending (not working yet)
 /* CSV export not yet working with extended data
