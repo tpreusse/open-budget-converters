@@ -15,7 +15,7 @@ $curAgency = NULL;
 
 $directorateDetails = array(
 	'1000' => array(
-		'name' => 'Gemeinde und Behörden',
+		'name' => 'Gemeinde und '.PHP_EOL.'Behörden',
 		'acronym' => 'GuB'
 	),
 	'1100' => array(
@@ -23,19 +23,19 @@ $directorateDetails = array(
 		'acronym' => 'PRD'
 	),
 	'1200' => array(
-		'name' => 'Direktion für Sicherheit, Umwelt und Energie',
+		'name' => 'Sicherheit, '.PHP_EOL.'Umwelt und Energie',
 		'acronym' => 'SUE'
 	),
 	'1300' => array(
-		'name' => 'Direktion für Bildung, Soziales und Sport',
+		'name' => 'Bildung, '.PHP_EOL.'Soziales und Sport',
 		'acronym' => 'BSS'
 	),
 	'1500' => array(
-		'name' => 'Direktion für Tiefbau, Verkehr und Stadtgrün',
+		'name' => 'Tiefbau, Verkehr '.PHP_EOL.'und Stadtgrün',
 		'acronym' => 'TVS'
 	),
 	'1600' => array(
-		'name' => 'Direktion für Finanzen, Personal und Informatik',
+		'name' => 'Finanzen, Personal '.PHP_EOL.'und Informatik',
 		'acronym' => 'FPI'
 	),
 	'2850' => array(
@@ -545,7 +545,7 @@ echo '<pre>';
 var_dump($directorates);
 echo '</pre>';
 
-file_put_contents('data/directorates.json', json_encode($directorates));
+//file_put_contents('data/directorates.json', json_encode($directorates));
 
 $flare = array('name' => 'Total');
 $rootChilds = array();
@@ -611,7 +611,7 @@ echo '<pre>';
 echo json_encode($flare);
 echo '</pre>';
 
-file_put_contents('data/flareWithProducts.json', json_encode($flare));
+//file_put_contents('data/flareWithProducts.json', json_encode($flare));
 
 //CSV for openspending (not working yet)
 /* CSV export not yet working with extended data

@@ -24,7 +24,7 @@
 		}
 		
 		text.directorate {
-			font-size:25px;
+			font-size:18px;
 		}
 		
 		circle.directorate {
@@ -78,18 +78,16 @@
   <body>
   	<div id="infobox">
   		<a href="http://make.opendata.ch/doku.php?id=project:bern_budget" target="_blank"><img id="logo" src="logo.png" /></a>
-		<h1>Stadt Bern Nettoausgaben<br />Budget 2012</h1>
-		<div id="hoverNodeInfo">
-			<h2></h2>
-			<p></p>
-		</div>
-		<div id="rootNodeInfo">
-			<h2></h2>
-			<p></p>
-		</div>
-		<div id="sizeCalculator">
-			<h2></h2>
-			<p></p>
+		<div class="text">
+			<h1>Stadt Bern Nettoausgaben Budget 2012</h1>
+			<div class="info" id="rootNodeInfo">
+				<h2></h2>
+				<p></p>
+			</div>
+			<div class="info" id="sizeCalculator">
+				<h2></h2>
+				<p></p>
+			</div>
 		</div>
 		<p id="downloadSVG"><a href="#">Als SVG-Datei herunterladen</a></p>
   	</div>
@@ -124,11 +122,38 @@ $(function() {
 	    root;
 	
 	var pack = d3.layout.pack()
-	    .size([r, r])
-	    .value(function(d) { return d.size; });
+	    .value(function(d) { return d.size; })
+		.size([r, r]);
 	
 	var vis = d3.select("body").insert("svg:svg")
 	  .append("svg:g");
+	
+	var $infobox = $('#infobox');
+	
+	$window.resize(function() {
+		w = $window.width();
+	    h = $window.height();
+		var y = 0;
+		
+		if((h + 200) > w || w < 650) {
+			$infobox.addClass('small');
+			y = 90;
+		}
+		else {
+			$infobox.removeClass('small');
+		}
+		
+		scale = (Math.min(w, h - y) - 50) / r;
+		nR = r * scale;
+		
+		vis.attr("width", w)
+			.attr("height", h)
+			.attr("transform", "translate(" + (w - nR) / 2 + "," + ((y / 2) + ((h - nR) / 2)) + ") scale(" + scale + ")");
+	}).resize();
+	
+	$infobox.click(function(e) {
+		e.stopPropagation();
+	});
 	
 	$('#downloadSVG a').click(function(e) {
 		e.preventDefault();
@@ -161,19 +186,7 @@ $(function() {
 	
 	var curZoomLevel = 0;
 	
-	$window.resize(function() {
-		w = $window.width(),
-	    h = $window.height(),
-		vis.attr("width", w)
-			.attr("height", h)
-			.attr("transform", "translate(" + (w - r) / 2 + "," + (h - r) / 2 + ")");
-	}).resize();
-	
 	var $rootNodeInfo = $('#rootNodeInfo'), $hoverNodeInfo = $('#hoverNodeInfo'), $sizeCalculator = $('#sizeCalculator');
-	
-	$('#infobox').click(function(e) {
-		e.stopPropagation();
-	});
 	
 	var displayedNodes = {};
 	
@@ -269,8 +282,18 @@ $(function() {
 			})
 		    .attr("text-anchor", "middle")
 		    .style("opacity", function(d) { return zoomLevels[d.type] <= curZoomLevel ? 1 : 0; })
-		    .text(function(d) { return d.acronym ? d.acronym : d.name; });
-	
+		    .text(function(d) { return d.name; });
+		
+		vis.selectAll("text.directorate").each(function(d) {
+			var lines = d.name.split("\n");
+			var ele = d3.select(this), x = ele.attr('x'), startDY = ((lines.length - 1) / 2) * -1.5;
+			console.log(startDY);
+			ele.text('');
+			$.each(lines, function(i, val) {
+				ele.append('svg:tspan').attr('dy', (startDY + (i * 1.5) + .35) + 'em').attr('x', x).text(val);
+			});
+		});
+		
 		d3.select(window).on("click", function() { zoom(root); });
 	});
 	
@@ -298,7 +321,13 @@ $(function() {
 		    .attr("x", function(d) { return x(d.x); })
 		    .attr("y", function(d) { return y(d.y); })
 		    .style("opacity", function(d) { return (zoomLevels[d.type] <= curZoomLevel) && (k * d.r > 20) ? 1 : 0; });
-	
+		
+		t.selectAll("text tspan")
+		    .attr("x", function(d) { 
+				var pd = this.parentNode.__data__;
+				return x(pd.x); 
+			});
+		
 		node = d;
 		d3.event.stopPropagation();
 	}

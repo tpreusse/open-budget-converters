@@ -1,7 +1,7 @@
 {
     "name": "Total",
     "children": [{
-        "name": "Gemeinde und Beh\u00f6rden",
+        "name": "Gemeinde und \nBeh\u00f6rden",
         "type": "directorate",
         "size": 11769341,
         "children": [{
@@ -339,7 +339,7 @@
         }],
         "acronym": "PRD"
     }, {
-        "name": "Direktion f\u00fcr Sicherheit, Umwelt und Energie",
+        "name": "Sicherheit, \nUmwelt und Energie",
         "type": "directorate",
         "size": 91158844,
         "children": [{
@@ -716,7 +716,7 @@
         }],
         "acronym": "SUE"
     }, {
-        "name": "Direktion f\u00fcr Bildung, Soziales und Sport",
+        "name": "Bildung, \nSoziales und Sport",
         "type": "directorate",
         "size": 303862792,
         "children": [{
@@ -1137,7 +1137,7 @@
         }],
         "acronym": "BSS"
     }, {
-        "name": "Direktion f\u00fcr Tiefbau, Verkehr und Stadtgr\u00fcn",
+        "name": "Tiefbau, Verkehr \nund Stadtgr\u00fcn",
         "type": "directorate",
         "size": 112814561,
         "children": [{
@@ -1402,7 +1402,7 @@
         }],
         "acronym": "TVS"
     }, {
-        "name": "Direktion f\u00fcr Finanzen, Personal und Informatik",
+        "name": "Finanzen, Personal \nund Informatik",
         "type": "directorate",
         "size": 19511676,
         "children": [{
