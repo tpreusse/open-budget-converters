@@ -3,8 +3,8 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
     <link type="text/css" rel="stylesheet" href="flare.css"/>
-	<title>Stadt Bern Nettoausgaben - Budget 2012</title>
-	<meta name="description" content="Die Ausgaben des Berners Budget 2012 in Kreisen visualisiert. Hierarchie der Kreise: Direktionen, Dienstellen, Produkt Gruppen und Produkte." />
+	<title>Stadt Bern Nettoausgaben - Budget 2013</title>
+	<meta name="description" content="Die Ausgaben des Berners Budget 2013 in Kreisen visualisiert. Hierarchie der Kreise: Direktionen, Dienstellen, Produkt Gruppen und Produkte." />
     <style type="text/css">
 		text {
 			font-size: 11px;
@@ -79,7 +79,7 @@
   	<div id="infobox">
   		<a href="http://make.opendata.ch/doku.php?id=project:bern_budget" target="_blank"><img id="logo" src="logo.png" /></a>
 		<div class="text">
-			<h1>Stadt Bern Nettoausgaben Budget 2012</h1>
+			<h1>Stadt Bern Nettoausgaben Budget 2013</h1>
 			<div class="info" id="rootNodeInfo">
 				<h2></h2>
 				<p></p>
@@ -88,11 +88,14 @@
 				<h2></h2>
 				<p></p>
 			</div>
+			<p id="howToUse">
+				Kreise anklicken zum Vergrössern, erneut anklicken zum Verkleinern.
+			</p>
 		</div>
 		<p id="downloadSVG"><a href="#">Als SVG-Datei herunterladen</a></p>
   	</div>
 	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="lib/jquery-1.7.2.min.js"></script>
 	<script src="lib/d3/d3.v2.custom.js"></script>
 	
     <script type="text/javascript">
@@ -129,6 +132,8 @@ $(function() {
 	  .append("svg:g");
 	
 	var $infobox = $('#infobox');
+	$infobox.addClass('small');
+	var infoboxSmallHeight = $infobox.outerHeight();
 	
 	$window.resize(function() {
 		w = $window.width();
@@ -137,7 +142,7 @@ $(function() {
 		
 		if((h + 200) > w || w < 650) {
 			$infobox.addClass('small');
-			y = 90;
+			y = infoboxSmallHeight;
 		}
 		else {
 			$infobox.removeClass('small');
@@ -239,7 +244,7 @@ $(function() {
 	});
 	/* end tooltip */
 	
-	d3.json("data/flareWithProducts.json", function(data) {
+	d3.json("data/flareWithProducts2013.json", function(data) {
 		node = root = data;
 	  
 		setDisplayNodeInfo(node, 'root');
@@ -287,7 +292,6 @@ $(function() {
 		vis.selectAll("text.directorate").each(function(d) {
 			var lines = d.name.split("\n");
 			var ele = d3.select(this), x = ele.attr('x'), startDY = ((lines.length - 1) / 2) * -1.5;
-			console.log(startDY);
 			ele.text('');
 			$.each(lines, function(i, val) {
 				ele.append('svg:tspan').attr('dy', (startDY + (i * 1.5) + .35) + 'em').attr('x', x).text(val);

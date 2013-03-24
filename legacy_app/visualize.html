@@ -1,0 +1,69 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<style>
+			.directorate {
+				clear:left;
+			}
+			.directorate div {
+				
+			}
+			.directorate .bar {
+				background-color:#999;
+				color:#fff;
+				line-height:150%;
+			}
+		</style>
+	</head>
+	<body>
+		
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script>
+			$(function() {
+				$.getJSON('directorates.json', function(directorates) {
+					var $body = $('body');
+					var highestBarVal = 0;
+					$.each(directorates, function(index, directorate) {
+						var $directorate = $('<div class="directorate"></div>');
+						$directorate.append('<h2>'+directorate.name+'</h2>');
+						$directorate.css({
+							'width':'100%'
+						});
+						$.each(directorate.agencies, function(index, agency) {
+							var $agency = $('<div class="agency"></div>');
+							$agency.append('<h3>'+agency.name+'</h3>');
+							$.each(agency.product_groups, function(index, product_group) {
+								if (product_group.budgets['2012'] > 0) {
+									var $product_group = $('<div class="product_group"></div>');
+									$product_group.append('<h4>' + product_group.name + '</h4>');
+									var $bar = $('<div class="bar"></div>');
+									//$bar.width(product_group.budgets['2012'] / 1000);
+									$bar.data('chf', product_group.budgets['2012']).text(product_group.budgets['2012']);
+									highestBarVal = Math.max(highestBarVal, Math.ceil(product_group.budgets['2012']));
+									$bar.appendTo($product_group);
+									$product_group.appendTo($agency);
+								}
+							});
+							$agency.appendTo($directorate);
+						});
+						$directorate.appendTo($body);
+					});
+					
+					var scaleBars = function() {
+						$('.bar').each(function() {
+							$bar = $(this);
+							$bar.width(Math.ceil(($bar.data('chf') / highestBarVal) * 100)+'%');
+						});
+					}
+					
+					var $window = $(window), windowWidth;
+					$window.resize(function() {
+						//windowWidth = $window.width();
+						scaleBars();
+					}).resize();;
+				});
+			});
+		</script>
+	</body>
+</html>

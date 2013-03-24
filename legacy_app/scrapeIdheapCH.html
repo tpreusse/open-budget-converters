@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Scrape idheap.ch</title>
+</head>
+<body>
+	<script src="lib/jquery-1.7.2.min.js"></script>
+	<script src="lib/jquery.xdomainajax.js"></script>
+	<script>
+		var classificationOfFunctionsURL = 'http://www.idheap.ch/srscspcp.nsf/mchbycat_de?OpenView&ExpandView&RestrictToCategory=Funktionale%20Gliederung';
+		var classificationOfFunctions = {};
+		$.get(classificationOfFunctionsURL, function(r) {
+			$scrapedDOM = $(r.responseText);
+			
+			var columnIndex = {};
+			var data = [];
+			
+			$viewPanel = $($scrapedDOM.find('#viewPanel'));
+			$viewPanel.find('tr').each(function() {
+				var $tr = $(this), row = {};
+				if($tr.find('th').length) {
+					$tr.find('th').each(function(index) {
+						var $th = $(this);
+						var text = $.trim($th.text().replace(/&nbsp;/g, ''));
+						if(text.length) {
+							columnIndex[index] = text.toLowerCase();
+						}
+					});
+				}
+				else {
+					$tr.find('td').each(function(index) {
+						if(columnIndex[index] !== undefined) {
+							var $td = $(this);
+							var text = $.trim($td.text());
+							if(text.length) {
+								row[columnIndex[index]] = text;
+							}
+						}
+					});
+					
+					if(row[columnIndex[1]]) {
+						data.push(row);
+					}
+				}
+			});
+			console.log(columnIndex, data);
+			//viewPanel
+		});
+	</script>
+</body>
+</html>
