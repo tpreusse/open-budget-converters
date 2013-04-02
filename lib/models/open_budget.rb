@@ -175,7 +175,7 @@ module OpenBudget
 
         row[:bezeichnung].strip!
         code = row[:code].to_s
-        konto = row[:konto].to_s.strip
+        konto = row[:konto].to_s.strip.gsub(' ', '_')
         account_type = konto[0].to_i
         # if [3, 4, 5, 6].include? account_type
 
