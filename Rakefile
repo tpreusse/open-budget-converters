@@ -4,7 +4,7 @@ require 'csv'
 require 'json'
 require 'active_support/all'
 
-require 'lib/models/open_budget.rb'
+require './lib/models/open_budget.rb'
 
 namespace :bfh do
   namespace :generate_json do
