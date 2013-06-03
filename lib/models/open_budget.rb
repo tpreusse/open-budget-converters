@@ -167,6 +167,31 @@ module OpenBudget
       @meta = JSON.parse File.read(file_path)
     end
 
+    def from_bfh_csv file_path
+      CSV.foreach(file_path, :encoding => 'windows-1251:utf-8', :headers => true, :header_converters => :symbol, :converters => :all) do |row|
+        if !@meta
+          @meta = {
+            name: row[:gemeinde],
+            bfs_no: row[:bfsnr]
+          }
+        end
+
+        account_type = row[:kontenbereich_nummer].to_i
+        if [3, 4, 5, 6].include? account_type
+          node = get_node \
+            [row[:aufgabenbereich_nummer], row[:aufgabe_nummer], row[:aufgabenstelle_nummer]].reject(&:blank?),
+            [row[:aufgabenbereich_name], row[:aufgabe_name], row[:aufgabenstelle_name]].reject(&:blank?)
+
+          # ToDo: seperate "investitionsrechnung" [5, 6] and "laufende rechnung" [3, 4]
+          if [3, 5].include? account_type
+            node.add_gross_cost('accounts', row[:jahr], row[:saldo])
+          elsif [4, 6].include? account_type
+            node.add_revenue('accounts', row[:jahr], row[:saldo])
+          end
+        end
+      end
+    end
+
     def from_zurich_csv file_path
       # :encoding => 'windows-1251:utf-8', 
       CSV.foreach(file_path, :col_sep => ';', :headers => true, :header_converters => :symbol, :converters => :all) do |row|
