@@ -167,7 +167,7 @@ module OpenBudget
       @meta = JSON.parse File.read(file_path)
     end
 
-    def from_bfh_csv file_path
+    def from_finstabe_bfh_csv file_path
       CSV.foreach(file_path, :encoding => 'windows-1251:utf-8', :headers => true, :header_converters => :symbol, :converters => :all) do |row|
         if !@meta
           @meta = {
