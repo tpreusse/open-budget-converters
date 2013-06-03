@@ -7,10 +7,10 @@
 
 $directorates = array();
 
-$overviewFile = file_get_contents('data/source/overview.csv');
-preg_match_all('/\n(("[^"]*"|[^,]*),){9}.*/', $overviewFile, $overviewRows);
-
 $year = 2013;
+
+$overviewFile = file_get_contents('source/bern/'.$year.'/csv/overview.csv');
+preg_match_all('/\n(("[^"]*"|[^,]*),){9}.*/', $overviewFile, $overviewRows);
 
 $curDirectorate = NULL;
 $curAgency = NULL;
@@ -188,7 +188,7 @@ define('PRODUCT_REVENUE_TABLE', 5);
 $null = NULL;
 
 foreach($directorates as &$directorate) {
-	$directorateFileName = 'data/source/'.$directorate['number'].'.csv';
+	$directorateFileName = 'source/bern/'.$year.'/csv/'.$directorate['number'].'.csv';
 	if(!file_exists($directorateFileName)/* || $directorate['number'] != '1200'*/) {
 		continue;
 	}
@@ -559,7 +559,7 @@ foreach($directorates as &$directorate) {
 	}
 }
 
-$directorates2012 = json_decode(file_get_contents('data/directorates.json'), true);
+$directorates2012 = json_decode(file_get_contents('data/bern/directorates.json'), true);
 //var_dump($directorates2012);
 
 foreach($directorates as $dKey => &$directorate) {
@@ -588,7 +588,7 @@ foreach($directorates as $dKey => &$directorate) {
 // var_dump($directorates);
 // echo '</pre>';
 
-// file_put_contents('data/directorates2013.json', json_encode($directorates));
+file_put_contents('data/bern/directorates'.$year.'.json', json_encode($directorates));
 
 $flare = array('name' => 'Total');
 $rootChilds = array();
@@ -654,11 +654,11 @@ $flare['size'] = ceil($rootSpending);
 echo json_encode($flare);
 echo '</pre>';*/
 
-// file_put_contents('data/flareWithProducts2013.json', json_encode($flare));
+// file_put_contents('data/bern/flareWithProducts'.$year.'.json', json_encode($flare));
 
 $newFlare = array(
 	'meta' => array(
-		'name' => 'Stadt Bern Budget 2013',
+		'name' => 'Stadt Bern Budget '.$year,
 		'hierarchy' => array('Direktion', 'Dienststelle', 'Produktegruppe', 'Produkt')
 	)//,
 	// 'type' => 'city'
@@ -729,7 +729,7 @@ $newFlare['nodes'] = $rootChilds;
 // echo json_encode($newFlare);
 // echo '</pre>';
 
-file_put_contents('data/bernbudget2013.ogd.json', json_encode($newFlare));
+file_put_contents('data/bern/bernbudget'.$year.'.ogd.json', json_encode($newFlare));
 
 //CSV for openspending (not working yet)
 /* CSV export not yet working with extended data */
@@ -746,7 +746,7 @@ file_put_contents('data/bernbudget2013.ogd.json', json_encode($newFlare));
 // 		}
 // 	}
 // }
-#file_put_contents('data/stadtbernbudget2013.csv', $csv);
+#file_put_contents('data/bern/stadtbernbudget'.$year.'.csv', $csv);
 
 function twoDecimals($number) {
 	return number_format($number, 2, '.', '');
@@ -816,7 +816,7 @@ function generateCSVRow($directorate, $agency = NULL, $product_group = NULL, $pr
 // 	}
 // }
 
-// file_put_contents('data/stadt-bern-pg-budget-2013.csv', $csv);
+// file_put_contents('data/bern/stadt-bern-pg-budget-2013.csv', $csv);
 
 ?>
 	</body>
