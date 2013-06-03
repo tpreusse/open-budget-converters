@@ -4,7 +4,7 @@ require 'csv'
 require 'json'
 require 'active_support/all'
 
-require './lib/models/open_budget.rb'
+require './lib/open_budget'
 
 namespace :finstabe do
   namespace :bfh do
