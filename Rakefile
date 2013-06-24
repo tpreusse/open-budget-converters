@@ -40,9 +40,25 @@ namespace :zurich do
     budget = OpenBudget::Budget.new
 
     budget.load_meta 'data/zurich/meta.json'
-    budget.from_zurich_csv 'source/zurich/B13_Institution_Konzernkonto.csv'
+    budget.from_zurich_csv 'source/zurich/B13_Institution_Konzernkonto.csv', ';'
 
     File.open("data/zurich/data.json", 'wb') do |file|
+      file.write budget.to_json
+    end
+    puts "done"
+  end
+end
+
+namespace :bern do
+  desc "creates bern json file"
+  task :generate_json_from_csv do
+    puts "start processing"
+    budget = OpenBudget::Budget.new
+
+    budget.load_meta 'data/bern/meta.json'
+    budget.from_zurich_csv 'source/bern/Stadt-Bern-PGB-2013.csv', ','
+
+    File.open("data/bern/data.json", 'wb') do |file|
       file.write budget.to_json
     end
     puts "done"

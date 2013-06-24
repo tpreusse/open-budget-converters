@@ -1,0 +1,306 @@
+Column0,Column1,Column01,Departement,Column2,Code,Column3,Dienstabteilung,Bezeichnung,Budget 2013 Fr.,Budget 2012 Fr.,Rechnung 2011 Fr.
+,,,,,,,,,Nettokosten,,
+VERWALTUNGSDIREKTIONEN,,VERWALTUNGSDIREKTIONEN,Verwaltungsdirektionen,,,,,,"Budget
+2013","Budget
+2012","Rechnung
+2011"
+,,,Verwaltungsdirektionen,GESAMTTOTAL,GESAMTTOTAL,,GESAMTTOTAL,GESAMTTOTAL Total,4.400000035762787,-2375000.480000019,-3.911045407000005E7
+1000,GEMEINDE UND BEHÖRDEN,GEMEINDE UND BEHÖRDEN,Gemeinde Und Behörden,,,,,,1.1744392270000001E7,1.176934082E7,1.1667269379999999E7
+,010,,Gemeinde Und Behörden,Stadtrat*,010,,Stadtrat,Stadtrat* Total,1788399.45,1842309.2,1693302.96
+,,,Gemeinde Und Behörden,PG010000,PG010000,Stadtrat*,Stadtrat,Stadtrat*,865673.21,909687.25,776405.05
+,,,Gemeinde Und Behörden,PG010100,PG010100,Ratssekretariat*,Ratssekretariat,Ratssekretariat*,922726.24,932621.95,916897.91
+,020,,Gemeinde Und Behörden,Ombudsstelle,020,,Ombudsstelle,Ombudsstelle Total,379373.95,390638.64,379361.7
+,,,Gemeinde Und Behörden,PG020000,PG020000,Ombudstätigkeit und Datenschutz,Ombudstätigkeit und Datenschutz,Ombudstätigkeit und Datenschutz,379373.95,390638.64,379361.7
+,030,,Gemeinde Und Behörden,Gemeinderat*,030,,Gemeinderat,Gemeinderat* Total,3810012.5,3242764,3136032.58
+,,,Gemeinde Und Behörden,PG030000,PG030000,Gemeinderat*,Gemeinderat,Gemeinderat*,3810012.5,3242764,3136032.58
+,040,,Gemeinde Und Behörden,Stadtkanzlei,040,,Stadtkanzlei,Stadtkanzlei Total,4768104.72,5255676.01,4343673.82
+,,,Gemeinde Und Behörden,PG040000,PG040000,Leistungen für Politik und Verwaltungsführung*,Leistungen für Politik und Verwaltungsführung,Leistungen für Politik und Verwaltungsführung*,1869070.19,1954989.87,1392478.07
+,,,Gemeinde Und Behörden,PG040100,PG040100,Dienstleistungen für Dritte*,Dienstleistungen für Dritte,Dienstleistungen für Dritte*,1424934.16,1975919.22,1626109.21
+,,,Gemeinde Und Behörden,PG040200,PG040200,Stadtarchiv,Stadtarchiv,Stadtarchiv,1474100.37,1324766.92,1325086.54
+,050,,Gemeinde Und Behörden,Informationsdienst*,050,,Informationsdienst,Informationsdienst* Total,998501.65,1037952.97,987736.78
+,,,Gemeinde Und Behörden,PG050000,PG050000,Informationsdienst*,Informationsdienst,Informationsdienst*,998501.65,1037952.97,987736.78
+,060,,Gemeinde Und Behörden,Finanzinspektorat*,060,,Finanzinspektorat,Finanzinspektorat* Total,0,0,1127161.54
+,,,Gemeinde Und Behörden,PG060000,PG060000,Revision*,Revision,Revision*,0,0,1127161.54
+1100,PRÄSIDIALDIREKTION,PRÄSIDIALDIREKTION,Präsidialdirektion,,,,,,4.742874019E7,4.794376471E7,5.289861796E7
+,100,,Präsidialdirektion,"Direktionsstabsdienste und Gleichstellung
+",,,"Direktionsstabsdienste und Gleichstellung
+","Direktionsstabsdienste und Gleichstellung
+ Total",3724861.7300000004,3897446.95,4269889.600000001
+,,,Präsidialdirektion,PG100100,PG100100,Leistungen für Politik und Verwaltungsführung*,Leistungen für Politik und Verwaltungsführung,Leistungen für Politik und Verwaltungsführung*,1694764.26,1827238.27,2274683.13
+,,,Präsidialdirektion,PG100200,PG100200,Zentrale Dienste*,Zentrale Dienste,Zentrale Dienste*,1273375.7,1249703.61,1188376.78
+,,,Präsidialdirektion,PG100300,PG100300,Gleichstellung,Gleichstellung,Gleichstellung,424934.03,455825.03,414623.64
+,,,Präsidialdirektion,PG100500,PG100500,"Enteignungen, Bausperren*","Enteignungen, Bausperren","Enteignungen, Bausperren*",331787.74,364680.04,392206.05
+,110,,Präsidialdirektion,Abteilung Kulturelles,,,Abteilung Kulturelles,Abteilung Kulturelles Total,3.446711758E7,3.467469981E7,4.019420593E7
+,,,Präsidialdirektion,PG110000,PG110000,Kulturförderung,Kulturförderung,Kulturförderung,3.446711758E7,3.467469981E7,4.019420593E7
+,120,,Präsidialdirektion,Denkmalpflege,,,Denkmalpflege,Denkmalpflege Total,705387.69,696320.82,657901.72
+,,,Präsidialdirektion,PG120000,PG120000,Denkmalpflege,Denkmalpflege,Denkmalpflege,705387.69,696320.82,657901.72
+,130,,Präsidialdirektion,Abteilung Stadtentwicklung,,,Abteilung Stadtentwicklung,Abteilung Stadtentwicklung Total,2339353.8,2233275.05,2195897.6
+,,,Präsidialdirektion,PG130000,PG130000,Stadtentwicklung und Statistik,Stadtentwicklung und Statistik,Stadtentwicklung und Statistik,2339353.8,2233275.05,2195897.6
+,150,,Präsidialdirektion,Bauinspektorat,,,Bauinspektorat,Bauinspektorat Total,1874414.81,1937833.33,1344329.1700000002
+,,,Präsidialdirektion,PG150000,PG150000,"Baurechtliche Bewilligungsverfahren /
+Voranfragen","Baurechtliche Bewilligungsverfahren /
+Voranfragen","Baurechtliche Bewilligungsverfahren /
+Voranfragen",1297189.7,1368955.59,750632.18
+,,,Präsidialdirektion,PG150100,PG150100,Beschwerden / Widerrechtliches Bauen,Beschwerden / Widerrechtliches Bauen,Beschwerden / Widerrechtliches Bauen,194096.04,191443.96,135960.42
+,,,Präsidialdirektion,PG150200,PG150200,"Baurechtliche Auskünfte und Stellung-
+nahmen / Archiv","Baurechtliche Auskünfte und Stellung-
+nahmen / Archiv","Baurechtliche Auskünfte und Stellung-
+nahmen / Archiv",383129.07,377433.78,457736.57
+,170,,Präsidialdirektion,Stadtplanungsamt*,,,Stadtplanungsamt,Stadtplanungsamt* Total,4317604.58,4504188.75,4236393.94
+,,,Präsidialdirektion,PG170500,PG170500,Stadtplanung*,Stadtplanung,Stadtplanung*,4317604.58,4504188.75,4236393.94
+1200,"DIREKTION FÜR SICHERHEIT, UMWELT
+UND ENERGIE","DIREKTION FÜR SICHERHEIT, UMWELT
+UND ENERGIE","Direktion Für Sicherheit, Umwelt
+Und Energie",,,,,,6.231601428999999E7,4.243866066E7,1.4140462329999998E7
+,200,,"Direktion Für Sicherheit, Umwelt
+Und Energie",Direktionsstabsdienste*,,,Direktionsstabsdienste,Direktionsstabsdienste* Total,2249799.09,2286686.83,2156711.54
+,,,"Direktion Für Sicherheit, Umwelt
+Und Energie",PG200100,PG200100,Leistungen für Politik und Verwaltungsführung*,Leistungen für Politik und Verwaltungsführung,Leistungen für Politik und Verwaltungsführung*,1117591.31,1083776.99,989664.65
+,,,"Direktion Für Sicherheit, Umwelt
+Und Energie",PG200200,PG200200,Stabsdienstleistungen*,Stabsdienstleistungen,Stabsdienstleistungen*,1132207.78,1202909.84,1167046.89
+,210,,"Direktion Für Sicherheit, Umwelt
+Und Energie",Kantonspolizei,,,Kantonspolizei,Kantonspolizei Total,3.2229162E7,3.1475094E7,2.994E7
+,,,"Direktion Für Sicherheit, Umwelt
+Und Energie",PG210100,PG210100,Kantonspolizei,Kantonspolizei,Kantonspolizei,3.2229162E7,3.1475094E7,2.994E7
+,220,,"Direktion Für Sicherheit, Umwelt
+Und Energie",Amt für Umweltschutz,,,Amt für Umweltschutz,Amt für Umweltschutz Total,4909359.82,4890449.92,5171797.33
+,,,"Direktion Für Sicherheit, Umwelt
+Und Energie",PG220100,PG220100,Umweltschutz,Umweltschutz,Umweltschutz,4909359.82,4890449.92,5171797.33
+,230,,"Direktion Für Sicherheit, Umwelt
+Und Energie",Polizeiinspektorat,,,Polizeiinspektorat,Polizeiinspektorat Total,4288426.55,4900866.51,4584833.49
+,,,"Direktion Für Sicherheit, Umwelt
+Und Energie",PG230100,PG230100,Dienstleistungen,Dienstleistungen,Dienstleistungen,705549.75,733979.24,1396941.32
+,,,"Direktion Für Sicherheit, Umwelt
+Und Energie",PG230200,PG230200,Ruhe und Ordnung,Ruhe und Ordnung,Ruhe und Ordnung,-1966939.27,-1597032.61,-1657070.4
+,,,"Direktion Für Sicherheit, Umwelt
+Und Energie",PG230300,PG230300,"Gewerbe, Betrieb und Markt","Gewerbe, Betrieb und Markt","Gewerbe, Betrieb und Markt",-87870.95,-66763.05,-8129.82
+,,,"Direktion Für Sicherheit, Umwelt
+Und Energie",PG230400,PG230400,Regelung des Einwohnerwesens,Regelung des Einwohnerwesens,Regelung des Einwohnerwesens,5637687.02,5830682.93,4853092.39
+,240,,"Direktion Für Sicherheit, Umwelt
+Und Energie",Sanitätspolizei,,,Sanitätspolizei,Sanitätspolizei Total,-20854.68,-10669.22,-12011.1
+,,,"Direktion Für Sicherheit, Umwelt
+Und Energie",PG240100,PG240100,Hilfeleistungen,Hilfeleistungen,Hilfeleistungen,0,0,-2568.85
+,,,"Direktion Für Sicherheit, Umwelt
+Und Energie",PG240200,PG240200,Übrige Dienstleistungen,Übrige Dienstleistungen,Übrige Dienstleistungen,-20854.68,-10669.22,-9442.25
+,250,,"Direktion Für Sicherheit, Umwelt
+Und Energie","Feuerwehr, Zivilschutz und Quartieramt",,,"Feuerwehr, Zivilschutz und Quartieramt","Feuerwehr, Zivilschutz und Quartieramt Total",1.9092125519999996E7,1.993437752E7,1.87463462E7
+,,,"Direktion Für Sicherheit, Umwelt
+Und Energie",PG250100,PG250100,Feuerwehraufgaben,Feuerwehraufgaben,Feuerwehraufgaben,1.307029669E7,1.365019174E7,1.297668708E7
+,,,"Direktion Für Sicherheit, Umwelt
+Und Energie",PG250200,PG250200,Hilfe- und Dienstleistungen,Hilfe- und Dienstleistungen,Hilfe- und Dienstleistungen,399097.08,521117.57,419279.73
+,,,"Direktion Für Sicherheit, Umwelt
+Und Energie",PG250300,PG250300,Zivilschutz,Zivilschutz,Zivilschutz,4006652.67,4012022.09,4008896.83
+,,,"Direktion Für Sicherheit, Umwelt
+Und Energie",PG250400,PG250400,Quartieramt,Quartieramt,Quartieramt,1616079.08,1751046.12,1341482.56
+,260,,"Direktion Für Sicherheit, Umwelt
+Und Energie",Wirtschaftsamt,,,Wirtschaftsamt,Wirtschaftsamt Total,4010635.16,3682915.84,3944853.79
+,,,"Direktion Für Sicherheit, Umwelt
+Und Energie",PG260100,PG260100,Wirtschaftsförderung,Wirtschaftsförderung,Wirtschaftsförderung,4010635.16,3682915.84,3944853.79
+,270,,"Direktion Für Sicherheit, Umwelt
+Und Energie",Tierpark,,,Tierpark,Tierpark Total,7252803.63,7080186.02,6977663.05
+,,,"Direktion Für Sicherheit, Umwelt
+Und Energie",PG270100,PG270100,Tierpark,Tierpark,Tierpark,7252803.63,7080186.02,6977663.05
+,280,,"Direktion Für Sicherheit, Umwelt
+Und Energie",Amt für Erwachsenen- und Kindesschutz,,,Amt für Erwachsenen- und Kindesschutz,Amt für Erwachsenen- und Kindesschutz Total,1.08045572E7,1.1198753239999998E7,9630268.03
+,,,"Direktion Für Sicherheit, Umwelt
+Und Energie",PG280100,PG280100,Vormundschaftspflege,Vormundschaftspflege,Vormundschaftspflege,0,1628059.6,1423323.71
+,,,"Direktion Für Sicherheit, Umwelt
+Und Energie",PG280200,PG280200,Schutz von Erwachsenen und Kindern,Schutz von Erwachsenen und Kindern,Schutz von Erwachsenen und Kindern,9568676.2,8420517.6,6933984.72
+,,,"Direktion Für Sicherheit, Umwelt
+Und Energie",PG280300,PG280300,Erbgangssicherung,Erbgangssicherung,Erbgangssicherung,1235881,1150176.04,1272959.6
+,290,,"Direktion Für Sicherheit, Umwelt
+Und Energie",Energie Wasser Bern (ewb),,,Energie Wasser Bern (ewb),Energie Wasser Bern (ewb) Total,-2.25E7,-4.3E7,-6.7E7
+,,,"Direktion Für Sicherheit, Umwelt
+Und Energie",PG290100,PG290100,Energie Wasser Bern (ewb),Energie Wasser Bern (ewb),Energie Wasser Bern (ewb),-2.25E7,-4.3E7,-6.7E7
+1300,"DIREKTION FÜR BILDUNG, SOZIALES
+UND SPORT","DIREKTION FÜR BILDUNG, SOZIALES
+UND SPORT","Direktion Für Bildung, Soziales
+Und Sport",,,,,,2.3483369323000002E8,2.3665485810000002E8,2.2851302904999998E8
+,300,,"Direktion Für Bildung, Soziales
+Und Sport",Direktionsstabsdienste,,,Direktionsstabsdienste,Direktionsstabsdienste Total,-6.2595275879999995E7,-5.449410435E7,-5.4969457160000004E7
+,,,"Direktion Für Bildung, Soziales
+Und Sport",PG300100,PG300100,Leistungen für Politik und Verwaltungsführung*,Leistungen für Politik und Verwaltungsführung,Leistungen für Politik und Verwaltungsführung*,1468070,1608448,1446398.96
+,,,"Direktion Für Bildung, Soziales
+Und Sport",PG300200,PG300200,Koordinationsstelle Sucht,Koordinationsstelle Sucht,Koordinationsstelle Sucht,258015,254707,261701.4
+,,,"Direktion Für Bildung, Soziales
+Und Sport",PG300300,PG300300,Zentrale Dienste*,Zentrale Dienste,Zentrale Dienste*,-6.47873634E7,-5.689682975E7,-5.718447263E7
+,,,"Direktion Für Bildung, Soziales
+Und Sport",PG300400,PG300400,Kompetenzzentrum Integration,Kompetenzzentrum Integration,Kompetenzzentrum Integration,466002.52,539570.4,506915.11
+,310,,"Direktion Für Bildung, Soziales
+Und Sport",Sozialamt,,,Sozialamt,Sozialamt Total,1.0004426264E8,9.127791760000001E7,8.916417008E7
+,,,"Direktion Für Bildung, Soziales
+Und Sport",PG310100,PG310100,Soziale Einrichtungen,Soziale Einrichtungen,Soziale Einrichtungen,2958405.18,2991438.82,2871615.23
+,,,"Direktion Für Bildung, Soziales
+Und Sport",PG310300,PG310300,"Inkasso Sozialhilfe, Bevorschussung","Inkasso Sozialhilfe, Bevorschussung","Inkasso Sozialhilfe, Bevorschussung",-379365.22,-603201.27,-47373.18
+,,,"Direktion Für Bildung, Soziales
+Und Sport",PG310400,PG310400,Ambulante Sozialhilfe,Ambulante Sozialhilfe,Ambulante Sozialhilfe,9.565159712E7,8.691885387E7,7.960135099E7
+,,,"Direktion Für Bildung, Soziales
+Und Sport",PG310600,PG310600,Berufliche und soziale Integration,Berufliche und soziale Integration,Berufliche und soziale Integration,1813625.56,1970826.18,6738577.04
+,320,,"Direktion Für Bildung, Soziales
+Und Sport",Schulamt,,,Schulamt,Schulamt Total,9.085862861E7,9.558313192000002E7,9.353562183E7
+,,,"Direktion Für Bildung, Soziales
+Und Sport",PG320100,PG320100,"Kindergärten, Volks- und Sonderschulen","Kindergärten, Volks- und Sonderschulen","Kindergärten, Volks- und Sonderschulen",8.119660222E7,8.52541974E7,8.36545074E7
+,,,"Direktion Für Bildung, Soziales
+Und Sport",PG320200,PG320200,Tagesbetreuung,Tagesbetreuung,Tagesbetreuung,3024841.43,3510587.12,2607747.08
+,,,"Direktion Für Bildung, Soziales
+Und Sport",PG320300,PG320300,Bildungsnahe Institutionen*,Bildungsnahe Institutionen,Bildungsnahe Institutionen*,6637184.96,6818347.4,7273367.35
+,330,,"Direktion Für Bildung, Soziales
+Und Sport",Jugendamt,,,Jugendamt,Jugendamt Total,4.622975342E7,4.448463802E7,4.288086947E7
+,,,"Direktion Für Bildung, Soziales
+Und Sport",PG330100,PG330100,Kinder- u. Jugendförderung/Gemeinwesenarbeit,Kinder- u. Jugendförderung/Gemeinwesenarbeit,Kinder- u. Jugendförderung/Gemeinwesenarbeit,9211779.89,9879714.3,9770059.77
+,,,"Direktion Für Bildung, Soziales
+Und Sport",PG330200,PG330200,Ambulante Jugendhilfe,Ambulante Jugendhilfe,Ambulante Jugendhilfe,3329255.65,3460334.56,3232496.4
+,,,"Direktion Für Bildung, Soziales
+Und Sport",PG330300,PG330300,Kompetenzzentrum Jugend/Familie Schlossmatt,Kompetenzzentrum Jugend/Familie Schlossmatt,Kompetenzzentrum Jugend/Familie Schlossmatt,0,0,-11410.1
+,,,"Direktion Für Bildung, Soziales
+Und Sport",PG330400,PG330400,"Familienergänzende Tagesbetreuung
+für Kinder","Familienergänzende Tagesbetreuung
+für Kinder","Familienergänzende Tagesbetreuung
+für Kinder",3.368871788E7,3.114458916E7,2.98897234E7
+,350,,"Direktion Für Bildung, Soziales
+Und Sport",Alters- und Versicherungsamt,,,Alters- und Versicherungsamt,Alters- und Versicherungsamt Total,3.275124408E7,3.233041984E7,3.096198217E7
+,,,"Direktion Für Bildung, Soziales
+Und Sport",PG350100,PG350100,Sozialversicherungen,Sozialversicherungen,Sozialversicherungen,3.176528108E7,3.126119952E7,3.048573826E7
+,,,"Direktion Für Bildung, Soziales
+Und Sport",PG350200,PG350200,Stationäre und teilstationäre Betagtenhilfe,Stationäre und teilstationäre Betagtenhilfe,Stationäre und teilstationäre Betagtenhilfe,0,0,22020.62
+,,,"Direktion Für Bildung, Soziales
+Und Sport",PG350300,PG350300,Ambulante Kranken- und Betagtenhilfe,Ambulante Kranken- und Betagtenhilfe,Ambulante Kranken- und Betagtenhilfe,0,0,112447
+,,,"Direktion Für Bildung, Soziales
+Und Sport",PG350400,PG350400,Offene Altersarbeit,Offene Altersarbeit,Offene Altersarbeit,0,0,341776.29
+,,,"Direktion Für Bildung, Soziales
+Und Sport",PG350500,PG350500,Alter,Alter,Alter,985963,1069220.32,0
+,360,,"Direktion Für Bildung, Soziales
+Und Sport",Schulzahnmedizinischer Dienst,,,Schulzahnmedizinischer Dienst,Schulzahnmedizinischer Dienst Total,1326850.8,1553852.48,2207116.66
+,,,"Direktion Für Bildung, Soziales
+Und Sport",PG360100,PG360100,Schulzahnpflege,Schulzahnpflege,Schulzahnpflege,456469.46,493689.68,822188.28
+,,,"Direktion Für Bildung, Soziales
+Und Sport",PG360200,PG360200,Zahnmedizinische Leistungen,Zahnmedizinische Leistungen,Zahnmedizinische Leistungen,870381.34,1060162.8,1384928.38
+,370,,"Direktion Für Bildung, Soziales
+Und Sport",Gesundheitsdienst,,,Gesundheitsdienst,Gesundheitsdienst Total,4635935.96,4304001.96,4316063.21
+,,,"Direktion Für Bildung, Soziales
+Und Sport",PG370100,PG370100,Gesundheitsvorsorge und -beratung,Gesundheitsvorsorge und -beratung,Gesundheitsvorsorge und -beratung,2638311.16,2793696.64,2783743.35
+,,,"Direktion Für Bildung, Soziales
+Und Sport",PG370200,PG370200,Gesundheitsinformation,Gesundheitsinformation,Gesundheitsinformation,293644.52,303186.32,296160.3
+,,,"Direktion Für Bildung, Soziales
+Und Sport",PG370300,PG370300,Gesundheitsförderung und Prävention,Gesundheitsförderung und Prävention,Gesundheitsförderung und Prävention,1703980.28,1207119,1236159.56
+,380,,"Direktion Für Bildung, Soziales
+Und Sport",Sportamt,,,Sportamt,Sportamt Total,2.15822936E7,2.1615000630000003E7,2.041666279E7
+,,,"Direktion Für Bildung, Soziales
+Und Sport",PG380100,PG380100,Betriebe Eis und Wasser,Betriebe Eis und Wasser,Betriebe Eis und Wasser,1.453517308E7,1.452203896E7,1.372418371E7
+,,,"Direktion Für Bildung, Soziales
+Und Sport",PG380200,PG380200,"Sportanlagen, Sportbetrieb","Sportanlagen, Sportbetrieb","Sportanlagen, Sportbetrieb",7047120.52,7092961.67,6692479.08
+1500,"DIREKTION FÜR TIEFBAU, VERKEHR
+UND STADTGRÜN","DIREKTION FÜR TIEFBAU, VERKEHR
+UND STADTGRÜN","Direktion Für Tiefbau, Verkehr
+Und Stadtgrün",,,,,,1.0681370444000001E8,1.0679753937E8,9.871078102E7
+,500,,"Direktion Für Tiefbau, Verkehr
+Und Stadtgrün",Direktionsstabsdienste*,,,Direktionsstabsdienste,Direktionsstabsdienste* Total,3.3695859160000004E7,3.271554241E7,3.310060055E7
+,,,"Direktion Für Tiefbau, Verkehr
+Und Stadtgrün",PG500100,PG500100,Leistungen für Politik und Verwaltungsführung*,Leistungen für Politik und Verwaltungsführung,Leistungen für Politik und Verwaltungsführung*,1597884.91,1641354.49,1543232.58
+,,,"Direktion Für Tiefbau, Verkehr
+Und Stadtgrün",PG500400,PG500400,Zentrale Dienste*,Zentrale Dienste,Zentrale Dienste*,1415905.49,1478757.56,1328215.03
+,,,"Direktion Für Tiefbau, Verkehr
+Und Stadtgrün",PG500500,PG500500,Konzepte/Koordination öffentlicher Verkehr*,Konzepte/Koordination öffentlicher Verkehr,Konzepte/Koordination öffentlicher Verkehr*,3.068206876E7,2.959543036E7,3.022915294E7
+,510,,"Direktion Für Tiefbau, Verkehr
+Und Stadtgrün",Tiefbauamt,,,Tiefbauamt,Tiefbauamt Total,4.9957432120000005E7,5.101433144E7,4.4383040120000005E7
+,,,"Direktion Für Tiefbau, Verkehr
+Und Stadtgrün",PG510100,PG510100,Entwicklung + Erhaltung,Entwicklung + Erhaltung,Entwicklung + Erhaltung,2633468.36,2353636.24,2222639.93
+,,,"Direktion Für Tiefbau, Verkehr
+Und Stadtgrün",PG510200,PG510200,Projektierung + Realisierung,Projektierung + Realisierung,Projektierung + Realisierung,2.036361336E7,1.921992604E7,1.214261927E7
+,,,"Direktion Für Tiefbau, Verkehr
+Und Stadtgrün",PG510300,PG510300,Betrieb + Unterhalt,Betrieb + Unterhalt,Betrieb + Unterhalt,3.180279112E7,2.899145244E7,2.952718572E7
+,,,"Direktion Für Tiefbau, Verkehr
+Und Stadtgrün",PG510400,PG510400,Bewilligung / Bewirtschaftung *,Bewilligung / Bewirtschaftung ,Bewilligung / Bewirtschaftung *,-1.067244072E7,-5360683.28,-4934302.5
+,,,"Direktion Für Tiefbau, Verkehr
+Und Stadtgrün",PG510500,PG510500,Stadtbeleuchtung,Stadtbeleuchtung,Stadtbeleuchtung,5830000,5810000,5424897.7
+,520,,"Direktion Für Tiefbau, Verkehr
+Und Stadtgrün",Stadtgärtnerei,,,Stadtgärtnerei,Stadtgärtnerei Total,1.7387786169999998E7,1.724864871E7,1.64617826E7
+,,,"Direktion Für Tiefbau, Verkehr
+Und Stadtgrün",PG520100,PG520100,Grünraumgestaltung,Grünraumgestaltung,Grünraumgestaltung,1548652.68,1448226.83,1442119.02
+,,,"Direktion Für Tiefbau, Verkehr
+Und Stadtgrün",PG520200,PG520200,Grünflächenpflege,Grünflächenpflege,Grünflächenpflege,1.089671312E7,1.06288897E7,1.003124782E7
+,,,"Direktion Für Tiefbau, Verkehr
+Und Stadtgrün",PG520300,PG520300,Grünkultur,Grünkultur,Grünkultur,733835.5,844195.76,959894.37
+,,,"Direktion Für Tiefbau, Verkehr
+Und Stadtgrün",PG520400,PG520400,Friedhöfe,Friedhöfe,Friedhöfe,4208584.87,4327336.42,4028521.39
+,570,,"Direktion Für Tiefbau, Verkehr
+Und Stadtgrün",Vermessungsamt,,,Vermessungsamt,Vermessungsamt Total,1583466.45,1441632.67,1077029.2
+,,,"Direktion Für Tiefbau, Verkehr
+Und Stadtgrün",PG570100,PG570100,Geoinformation und Vermessung,Geoinformation und Vermessung,Geoinformation und Vermessung,1583466.45,1441632.67,1077029.2
+,580,,"Direktion Für Tiefbau, Verkehr
+Und Stadtgrün",Verkehrsplanung,,,Verkehrsplanung,Verkehrsplanung Total,4189160.54,4377384.14,3688328.55
+,,,"Direktion Für Tiefbau, Verkehr
+Und Stadtgrün",PG580100,PG580100,Verkehrsplanung,Verkehrsplanung,Verkehrsplanung,4189160.54,4377384.14,3688328.55
+1600,"DIREKTION FÜR FINANZEN, PERSONAL
+UND INFORMATIK","DIREKTION FÜR FINANZEN, PERSONAL
+UND INFORMATIK","Direktion Für Finanzen, Personal
+Und Informatik",,,,,,-4.6313654002E8,-4.4797916414000005E8,-4.4504061381E8
+,600,,"Direktion Für Finanzen, Personal
+Und Informatik","Direktionsstabsdienste /
+Fachstelle Beschaffungswesen",,,"Direktionsstabsdienste /
+Fachstelle Beschaffungswesen","Direktionsstabsdienste /
+Fachstelle Beschaffungswesen Total",1406198.08,1349262.24,1070759.88
+,,,"Direktion Für Finanzen, Personal
+Und Informatik",PG600100,PG600100,Leistungen für Politik und Verwaltungsführung*,Leistungen für Politik und Verwaltungsführung,Leistungen für Politik und Verwaltungsführung*,1004176.03,1001545.82,862206.49
+,,,"Direktion Für Finanzen, Personal
+Und Informatik",PG600300,PG600300,Fachstelle Beschaffungswesen,Fachstelle Beschaffungswesen,Fachstelle Beschaffungswesen,402022.05,347716.42,208553.39
+,610,,"Direktion Für Finanzen, Personal
+Und Informatik",Finanzverwaltung,,,Finanzverwaltung,Finanzverwaltung Total,-2.389068078E7,-2.72933703E7,-1.394086523E7
+,,,"Direktion Für Finanzen, Personal
+Und Informatik",PG610100,PG610100,Finanzdienstleistungen Stadtverwaltung*,Finanzdienstleistungen Stadtverwaltung,Finanzdienstleistungen Stadtverwaltung*,1411986.56,1295951.52,1292290.16
+,,,"Direktion Für Finanzen, Personal
+Und Informatik",PG610200,PG610200,Vermögens- und Schuldenbewirtschaftung*,Vermögens- und Schuldenbewirtschaftung,Vermögens- und Schuldenbewirtschaftung*,-1.902219836E7,-1.43517219E7,-7857548.74
+,,,"Direktion Für Finanzen, Personal
+Und Informatik",PG610400,PG610400,Finanzausgleich und Beiträge,Finanzausgleich und Beiträge,Finanzausgleich und Beiträge,-6280468.98,-1.423759992E7,-7375606.65
+,620,,"Direktion Für Finanzen, Personal
+Und Informatik",Liegenschaftsverwaltung,,,Liegenschaftsverwaltung,Liegenschaftsverwaltung Total,295500,363600,-379883.34
+,,,"Direktion Für Finanzen, Personal
+Und Informatik",PG620100,PG620100,Liegenschaften im Öffentlichen Interesse*,Liegenschaften im Öffentlichen Interesse,Liegenschaften im Öffentlichen Interesse*,327000,363600,-379883.34
+,,,"Direktion Für Finanzen, Personal
+Und Informatik",PG621100,PG621100,Rebgut Neuenstadt,Rebgut Neuenstadt,Rebgut Neuenstadt,-31500,0,0
+,630,,"Direktion Für Finanzen, Personal
+Und Informatik",Steuerverwaltung,,,Steuerverwaltung,Steuerverwaltung Total,-4.1738135544E8,-4.095872798E8,-4.1833918338E8
+,,,"Direktion Für Finanzen, Personal
+Und Informatik",PG630100,PG630100,Steuerregister / Veranlagung,Steuerregister / Veranlagung,Steuerregister / Veranlagung,4500437.96,4693752.96,4422967.24
+,,,"Direktion Für Finanzen, Personal
+Und Informatik",PG630200,PG630200,Steuerinkasso*,Steuerinkasso,Steuerinkasso*,-608397.32,-410432,-676544.38
+,,,"Direktion Für Finanzen, Personal
+Und Informatik",PG630300,PG630300,Erhebung besondere Gemeindesteuern*,Erhebung besondere Gemeindesteuern,Erhebung besondere Gemeindesteuern*,1306603.92,1229399.24,1176479.75
+,,,"Direktion Für Finanzen, Personal
+Und Informatik",PG630400,PG630400,Steuereinnahmen*,Steuereinnahmen,Steuereinnahmen*,-4.2258E8,-4.151E8,-4.2326208599E8
+,640,,"Direktion Für Finanzen, Personal
+Und Informatik",Personalamt*,,,Personalamt,Personalamt* Total,6963616,5298073.16,4053876.5300000003
+,,,"Direktion Für Finanzen, Personal
+Und Informatik",PG640100,PG640100,Personaldienstleistungen Stadtverwaltung*,Personaldienstleistungen Stadtverwaltung,Personaldienstleistungen Stadtverwaltung*,5831082.51,4222440.8,3470348.04
+,,,"Direktion Für Finanzen, Personal
+Und Informatik",PG640400,PG640400,Personaldienst FPI / Telefonzentrale*,Personaldienst FPI / Telefonzentrale,Personaldienst FPI / Telefonzentrale*,1132533.49,1075632.36,583528.49
+,650,,"Direktion Für Finanzen, Personal
+Und Informatik",Informatikdienste,,,Informatikdienste,Informatikdienste Total,-131850,187864.78,-460.0099999997765
+,,,"Direktion Für Finanzen, Personal
+Und Informatik",PG650100,PG650100,Informatikservices,Informatikservices,Informatikservices,-131850,187864.78,-460.0099999997765
+,660,,"Direktion Für Finanzen, Personal
+Und Informatik",Schul- und Büromaterialzentrale,,,Schul- und Büromaterialzentrale,Schul- und Büromaterialzentrale Total,-242459,0,-77913.81999999998
+,,,"Direktion Für Finanzen, Personal
+Und Informatik",PG660100,PG660100,Handelsprodukte,Handelsprodukte,Handelsprodukte,-268286.62,-98810.92,-169285.33
+,,,"Direktion Für Finanzen, Personal
+Und Informatik",PG660200,PG660200,Drucksachenproduktion,Drucksachenproduktion,Drucksachenproduktion,-16120.83,-8637.32,-21934.58
+,,,"Direktion Für Finanzen, Personal
+Und Informatik",PG660300,PG660300,Dienstleistungen,Dienstleistungen,Dienstleistungen,41948.45,107448.24,113306.09
+,670,,"Direktion Für Finanzen, Personal
+Und Informatik",Finanzinspektorat*,,,Finanzinspektorat,Finanzinspektorat* Total,1372446.12,1158285.78,0
+,,,"Direktion Für Finanzen, Personal
+Und Informatik",PG670100,PG670100,Revision*,Revision,Revision*,1372446.12,1158285.78,0
+,690,,"Direktion Für Finanzen, Personal
+Und Informatik",Stadtbauten (StaBe),,,Stadtbauten (StaBe),Stadtbauten (StaBe) Total,-3.1527955E7,-1.94556E7,-1.742694444E7
+,,,"Direktion Für Finanzen, Personal
+Und Informatik",PG690100,PG690100,Stadtbauten (StaBe),Stadtbauten (StaBe),Stadtbauten (StaBe),-3.1527955E7,-1.94556E7,-1.742694444E7
+SONDERRECHNUNGEN,,SONDERRECHNUNGEN,Sonderrechnungen,,,,,,,,
+2850,STADTENTWÄSSERUNG,STADTENTWÄSSERUNG,Stadtentwässerung,,,,,,0,0,0
+,850,,Stadtentwässerung,"Tiefbauamt, Stadtentwässerung",,,"Tiefbauamt, Stadtentwässerung","Tiefbauamt, Stadtentwässerung Total",0,0,0
+,,,Stadtentwässerung,Einlage in Spezialfinanzierung ,Einlage in Spezialfinanzierung ,,Einlage in Spezialfinanzierung ,Einlage in Spezialfinanzierung  Total,4741286.2,4738204.76,1.196198678E7
+2860,FONDS FÜR BODEN- UND WOHNBAUPOLITIK,FONDS FÜR BODEN- UND WOHNBAUPOLITIK,Fonds Für Boden- Und Wohnbaupolitik,,,,,,0,0,0
+,860,,Fonds Für Boden- Und Wohnbaupolitik,Fonds für Boden- und Wohnbaupolitik,,,Fonds für Boden- und Wohnbaupolitik,Fonds für Boden- und Wohnbaupolitik Total,0,0,0
+,,,Fonds Für Boden- Und Wohnbaupolitik,Entnahme aus /Einlage in Spezialfinanzierung,Entnahme aus /Einlage in Spezialfinanzierung,,Entnahme aus /Einlage in Spezialfinanzierung,Entnahme aus /Einlage in Spezialfinanzierung Total,-7723560,2480828,1.365010222E7
+2870,ENTSORGUNG + RECYCLING,ENTSORGUNG + RECYCLING,Entsorgung + Recycling,,,,,,0,0,0
+,870,,Entsorgung + Recycling,Entsorgung + Recycling,,,Entsorgung + Recycling,Entsorgung + Recycling Total,0,0,0
+,,,Entsorgung + Recycling,Einlage in Spezialfinanzierung,Einlage in Spezialfinanzierung,,Einlage in Spezialfinanzierung,Einlage in Spezialfinanzierung Total,1279504,1596028.58,3007658.01

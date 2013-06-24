@@ -72,11 +72,13 @@ module OpenBudget
       end
     end
 
-    def from_zurich_csv file_path
+    def from_zurich_csv file_path, col_sep
       # :encoding => 'windows-1251:utf-8', 
-      CSV.foreach(file_path, :col_sep => ';', :headers => true, :header_converters => :symbol, :converters => :all) do |row|
+      CSV.foreach(file_path, :col_sep => col_sep, :headers => true, :header_converters => :symbol, :converters => :all) do |row|
         
         # p row
+        
+        next if row[:bezeichnung].blank?
 
         row[:bezeichnung].strip!
         code = row[:code].to_s

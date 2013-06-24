@@ -1,0 +1,131 @@
+[
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column4 to Budget 2013 Fr.",
+    "oldColumnName": "Column4",
+    "newColumnName": "Budget 2013 Fr."
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column5 to Budget 2012 Fr.",
+    "oldColumnName": "Column5",
+    "newColumnName": "Budget 2012 Fr."
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column6 to Rechnung 2011 Fr.",
+    "oldColumnName": "Column6",
+    "newColumnName": "Rechnung 2011 Fr."
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 8",
+    "columnName": "Column 8"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 9",
+    "columnName": "Column 9"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 10",
+    "columnName": "Column 10"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Bezeichnung at index 4 based on column Column3 using expression grel:if (and(isBlank(value), isNonBlank(cells[\"Column2\"].value)), cells[\"Column2\"].value + \" Total\", value)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "newColumnName": "Bezeichnung",
+    "columnInsertIndex": 4,
+    "baseColumnName": "Column3",
+    "expression": "grel:if (and(isBlank(value), isNonBlank(cells[\"Column2\"].value)), cells[\"Column2\"].value + \" Total\", value)",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column ÜBERSICHT ÜBER DIE GLOBALBUDGETS DER DIENSTSTELLEN to Column0",
+    "oldColumnName": "ÜBERSICHT ÜBER DIE GLOBALBUDGETS DER DIENSTSTELLEN",
+    "newColumnName": "Column0"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column to Column1",
+    "oldColumnName": "Column",
+    "newColumnName": "Column1"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Departement at index 2 based on column Column1 using expression grel:if(or(isBlank(value), isNumeric(value)), cells[\"Column0\"].value, value)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "newColumnName": "Departement",
+    "columnInsertIndex": 2,
+    "baseColumnName": "Column1",
+    "expression": "grel:if(or(isBlank(value), isNumeric(value)), cells[\"Column0\"].value, value)",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Departement to Column01",
+    "oldColumnName": "Departement",
+    "newColumnName": "Column01"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Departement at index 3 based on column Column01 using expression grel:if(isBlank(value), \nrow.record.cells.Column01.value[0], \nvalue)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "newColumnName": "Departement",
+    "columnInsertIndex": 3,
+    "baseColumnName": "Column01",
+    "expression": "grel:if(isBlank(value), \nrow.record.cells.Column01.value[0], \nvalue)",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Departement using expression value.toTitlecase()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Departement",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Code at index 5 based on column Column2 using expression grel:if(startsWith(cells[\"Column1\"].value, \"0\"),cells[\"Column1\"].value,value)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "newColumnName": "Code",
+    "columnInsertIndex": 5,
+    "baseColumnName": "Column2",
+    "expression": "grel:if(startsWith(cells[\"Column1\"].value, \"0\"),cells[\"Column1\"].value,value)",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Dienstabteilung at index 7 based on column Column3 using expression grel:replace(if (and(isBlank(value), isNonBlank(cells[\"Column2\"].value)), cells[\"Column2\"].value, value), \"*\", \"\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "newColumnName": "Dienstabteilung",
+    "columnInsertIndex": 7,
+    "baseColumnName": "Column3",
+    "expression": "grel:replace(if (and(isBlank(value), isNonBlank(cells[\"Column2\"].value)), cells[\"Column2\"].value, value), \"*\", \"\")",
+    "onError": "set-to-blank"
+  }
+]
