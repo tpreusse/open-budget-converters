@@ -37,10 +37,7 @@ module OpenBudget
     end
 
     def as_json(options = nil)
-      {
-        meta: meta,
-        data: nodes
-      }
+      @nodes.collect {|node| node.as_json }
     end
 
     def load_meta file_path
@@ -68,6 +65,45 @@ module OpenBudget
           elsif [4, 6].include? account_type
             node.add_revenue('accounts', row[:jahr], row[:saldo])
           end
+        end
+      end
+    end
+
+    def load_cantonbe_csv file_path
+      csv = CSV.read(file_path, :headers => true, :header_converters => :symbol, :converters => :all)
+
+      number_headers = []
+      csv.headers.each do |header|
+        number_header = header.to_s.match(/_?(?<type>rechnung|voranschlag)_(?<year>[0-9]{4})_(?<collection>kosten|erlse).*/)
+        if number_header
+          number_headers << {
+            method: number_header[:collection] == 'kosten' ? :add_gross_cost : :add_revenue,
+            key: header,
+            type: number_header[:type] == 'voranschlag' ? 'budgets' : 'accounts',
+            year: number_header[:year]
+          }
+        end
+      end
+
+      csv.each do |row|
+        names = [
+          row[:direktion],
+          row[:produktgruppe_zt_gekrzte_bezeichnung]
+        ]
+        id_path = names.dup.each(&:strip).reject(&:blank?).collect {|id_segment|
+          id_segment.downcase.gsub(/[,-]+/, ' ').gsub(/ +/, '_')
+        }
+
+        node = get_node id_path, names
+
+        number_headers.each do |header|
+          node
+            .method(header[:method])
+            .call(
+              header[:type],
+              header[:year],
+              row[header[:key]].to_f * (10 ** 6) # csv provides millions
+            )
         end
       end
     end

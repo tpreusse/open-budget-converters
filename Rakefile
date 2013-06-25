@@ -48,3 +48,20 @@ namespace :zurich do
     puts "done"
   end
 end
+
+namespace :cantonbe do
+  desc "creates canton bern json file"
+  task :generate_json_from_csvs do
+    puts "start processing"
+    budget = OpenBudget::Budget.new
+
+    budget.load_meta 'data/cantonbe/meta.json'
+    budget.load_cantonbe_csv 'source/cantonbe/Kanton BE_Produkgruppen_DB IV nach DIR_2011.csv'
+    budget.load_cantonbe_csv 'source/cantonbe/Kanton BE_Produkgruppen_DB IV nach DIR_2012.csv'
+
+    File.open("data/cantonbe/data.json", 'wb') do |file|
+      file.write budget.to_json
+    end
+    puts "done"
+  end
+end

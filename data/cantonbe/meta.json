@@ -1,0 +1,22 @@
+{
+    "hierarchy": ["Direktion", "Produktgruppe"],
+    "page_title": "Kanton Bern - Produktgruppen-Budget 2012",
+    "h1": "Kanton Bern",
+    "h2": "Produktgruppen-Budget 2012",
+    "description": "Die Kosten und Erlöse des Kanton Bern Budget 2012 in Kreisen visualisiert. Spielerisch und einfach zu verstehen.",
+    "data_link": "http://www.fin.be.ch/fin/de/index/finanzen/finanzen/finanzplanung/voranschlag.assetref/content/dam/documents/FIN/GS/de/va-afp-2012.pdf",
+    "data_title": "Offizielles Budget-PDF",
+    "gross_cost_label": "Kosten",
+    "revenue_label": "Erlöse",
+    "data_url": "/data/be/data.json",
+    "value": {
+        "label": "Rechnung 2012",
+        "type": "accounts",
+        "year": "2012"
+    },
+    "value2": {
+        "label": "Budget 2012",
+        "type": "budgets",
+        "year": "2012"
+    }
+}
