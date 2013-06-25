@@ -127,6 +127,7 @@
     "baseColumnName": "Column3",
     "expression": "grel:replace(if (and(isBlank(value), isNonBlank(cells[\"Column2\"].value)), cells[\"Column2\"].value, value), \"*\", \"\")",
     "onError": "set-to-blank"
+<<<<<<< HEAD
   },
   {
     "op": "core/column-addition",
@@ -208,5 +209,7 @@
     "baseColumnName": "2012",
     "expression": "grel:2011",
     "onError": "set-to-blank"
+=======
+>>>>>>> 9fc05dcdb88e9350abb35e7140624dee56b48c75
   }
 ]
