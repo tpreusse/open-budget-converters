@@ -68,7 +68,7 @@ module OpenBudget
       if balance < 0
         add_revenue(type, year, balance * -1)
         # parent.touch # disabled propagating, needs more thought
-      elsif balance > 0
+      else
         @gross_cost.add(type, year, balance)
       end
     end
@@ -77,7 +77,7 @@ module OpenBudget
       if balance < 0
         add_gross_cost(type, year, balance * -1)
         # parent.touch # disabled propagating, needs more thought
-      elsif balance > 0
+      else
         @revenue.add(type, year, balance)
       end
     end
