@@ -6,7 +6,7 @@
 
 Source data files provided by city of Bern, PHP converting / parsing scripts and resulting JSON files.
 
-[demo](http://bern.budget.opendata.ch/) - [read more about the conversion process](http://make.opendata.ch/wiki/doku.php?id=project:bern_budget).
+[demo](http://bern.budget.opendata.ch/) - [read more about the conversion process](http://make.opendata.ch/wiki/doku.php?id=project:bern_budget)
 
 ## Zurich
 
@@ -16,9 +16,9 @@ See Rakefile for converter.
 
 ## Canton of Bern
 
-### Finanzstatistik der Gemeinden (FINSTA)
+### FINSTA (Finanzstatistik der Gemeinden)
 
-CSV and JSON files containing financial statements from 2006 to 2010 for all municipalities in the canton of bern
+CSV and JSON files containing financial statements from 2006 to 2010 for all municipalities in the canton of bern.
 
 [more infos about FINSTA](http://www.fin.be.ch/de/index/finanzen/finanzen/statistik/finsta.html)
 
@@ -26,7 +26,7 @@ CSV and JSON files containing financial statements from 2006 to 2010 for all mun
 
 XLSX provided by canton of Bern.
 
-### ASP 2014
+### ASP 2014 (Angebots- und Strukturüberprüfung)
 
 Extracted from public PDF.
 
