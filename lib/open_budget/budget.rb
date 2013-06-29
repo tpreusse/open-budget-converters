@@ -69,6 +69,12 @@ module OpenBudget
       end
     end
 
+    def cantonbe_names_to_ids names
+      names.dup.each(&:strip).reject(&:blank?).collect {|id_segment|
+        id_segment.downcase.gsub(/[,-]+/, ' ').gsub(/ +/, '_')
+      }
+    end
+
     def load_cantonbe_csv file_path
       csv = CSV.read(file_path, :headers => true, :header_converters => :symbol, :converters => :all)
 
@@ -90,9 +96,7 @@ module OpenBudget
           row[:direktion],
           row[:produktgruppe_zt_gekrzte_bezeichnung]
         ]
-        id_path = names.dup.each(&:strip).reject(&:blank?).collect {|id_segment|
-          id_segment.downcase.gsub(/[,-]+/, ' ').gsub(/ +/, '_')
-        }
+        id_path = cantonbe_names_to_ids names
 
         node = get_node id_path, names
 
@@ -108,10 +112,27 @@ module OpenBudget
       end
     end
 
+    def load_cantonbe_asp_csv file_path
+      CSV.foreach(file_path, :headers => true, :header_converters => :symbol, :converters => :all) do |row|
+        names = [
+          row[:direktion],
+          row[:massnahme]
+        ]
+        id_path = cantonbe_names_to_ids names
+
+        node = get_node id_path, names
+
+        node.add_revenue('budgets', 2014, row[:'2014_in_mio_chf'].to_s.sub(',', '.').to_f * (10 ** 6))
+        node.add_revenue('budgets', 2015, row[:'2015'].to_s.sub(',', '.').to_f * (10 ** 6))
+        node.add_revenue('budgets', 2016, row[:'2016'].to_s.sub(',', '.').to_f * (10 ** 6))
+        node.add_revenue('budgets', 2017, row[:'2017'].to_s.sub(',', '.').to_f * (10 ** 6))
+      end
+    end
+
     def from_zurich_csv file_path
-      # :encoding => 'windows-1251:utf-8', 
+      # :encoding => 'windows-1251:utf-8',
       CSV.foreach(file_path, :col_sep => ';', :headers => true, :header_converters => :symbol, :converters => :all) do |row|
-        
+
         # p row
 
         row[:bezeichnung].strip!
@@ -180,7 +201,7 @@ module OpenBudget
         end
 
         # budget_2013_fr bezeichnung_sofern_gemss_art_4_fvo_erforderlich:nil
-        
+
         # if [3, 5].include? account_type
         #   node.add_gross_cost('accounts', row[:jahr], row[:saldo])
         # elsif [4, 6].include? account_type

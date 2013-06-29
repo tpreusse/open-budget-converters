@@ -64,4 +64,25 @@ namespace :cantonbe do
     end
     puts "done"
   end
+
+  desc "creates canton bern asp topf 1 and 2 json file"
+  task :generate_json_from_asp_csvs do
+    puts "start processing"
+
+    topf1 = OpenBudget::Budget.new
+    topf1.load_cantonbe_asp_csv 'source/cantonbe/asp/2013-06-28-asp-2014-massnahmen-topf-1-de.csv'
+    FileUtils.mkdir_p 'data/cantonbe/asp/topf1'
+    File.open('data/cantonbe/asp/topf1/data.json', 'wb') do |file|
+      file.write topf1.to_json
+    end
+
+    topf2 = OpenBudget::Budget.new
+    topf2.load_cantonbe_asp_csv 'source/cantonbe/asp/2013-06-28-asp-2014-massnahmen-topf-2-de.csv'
+    FileUtils.mkdir_p 'data/cantonbe/asp/topf2'
+    File.open('data/cantonbe/asp/topf2/data.json', 'wb') do |file|
+      file.write topf2.to_json
+    end
+
+    puts "done"
+  end
 end

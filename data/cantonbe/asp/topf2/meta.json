@@ -1,0 +1,22 @@
+{
+    "hierarchy": ["Direktion", "Massnahme"],
+    "page_title": "Kanton Bern - Angebots- und Strukturüberprüfung 2014",
+    "h1": "Kanton Bern",
+    "h2": "Angebots- und Strukturüberprüfung 2014<br />Topf 2: Kürzung 2014 vs Kürzung 2015",
+    "description": "Die Massnahme des Kanton Bern ASP 2014 in Kreisen visualisiert. Spielerisch und einfach zu verstehen.",
+    "data_link": "http://www.be.ch/portal/de/index/mediencenter/medienmitteilungen.meldungNeu.mm.html/portal/de/meldungen/mm/2013/06/20130628_0848_asp_fuehrt_zu_ausgeglichenembudget2014",
+    "data_title": "Medienmitteilung",
+    "gross_cost_label": "",
+    "revenue_label": "Kürzung",
+    "data_url": "/data/be-asp-topf-1/data.json",
+    "value": {
+        "label": "Kürzung 2014",
+        "type": "budgets",
+        "year": "2014"
+    },
+    "value2": {
+        "label": "Kürzung 2015",
+        "type": "budgets",
+        "year": "2015"
+    }
+}

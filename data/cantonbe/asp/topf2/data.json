@@ -1,0 +1,347 @@
+[{
+    "id": "gesamte_verwaltung",
+    "name": "Gesamte Verwaltung",
+    "revenue": {
+        "budgets": {
+            "2014": 84800000.0,
+            "2015": 49000000.0,
+            "2016": 58600000.0,
+            "2017": 58300000.0
+        }
+    },
+    "children": [{
+        "id": "gesamte_verwaltung_zusätzliche_kürzung_der_lohnmassnahmen",
+        "name": "Zusätzliche Kürzung der Lohnmassnahmen",
+        "revenue": {
+            "budgets": {
+                "2014": 64800000.0,
+                "2015": 29000000.0,
+                "2016": 28600000.0,
+                "2017": 28300000.0
+            }
+        }
+    }, {
+        "id": "gesamte_verwaltung_teilabschöpfung_der_entlastungen_der_gemeinden_durch_asp_2014",
+        "name": "Teilabschöpfung der Entlastungen der Gemeinden durch ASP 2014",
+        "revenue": {
+            "budgets": {
+                "2014": 20000000.0,
+                "2015": 20000000.0,
+                "2016": 30000000.0,
+                "2017": 30000000.0
+            }
+        }
+    }]
+}, {
+    "id": "gesundheit_und_fürsorge",
+    "name": "Gesundheit und Fürsorge",
+    "revenue": {
+        "budgets": {
+            "2014": 40930000.0,
+            "2015": 46230000.0,
+            "2016": 47230000.0,
+            "2017": 50730000.0
+        }
+    },
+    "children": [{
+        "id": "gesundheit_und_fürsorge_verzicht_auf_den_aufbau_ambulanter_leistungen",
+        "name": "Verzicht auf den Aufbau ambulanter Leistungen",
+        "revenue": {
+            "budgets": {
+                "2014": 2960000.0,
+                "2015": 2960000.0,
+                "2016": 2960000.0,
+                "2017": 2960000.0
+            }
+        }
+    }, {
+        "id": "gesundheit_und_fürsorge_streichung_des_beitrags_an_die_zweisprachigkeit_der_psychiatrischen_diens_te_biel_seeland_–_berner_jura",
+        "name": "Streichung des Beitrags an die Zweisprachigkeit der Psychiatrischen Diens- te Biel - Seeland – Berner Jura",
+        "revenue": {
+            "budgets": {
+                "2014": 150000.0,
+                "2015": 150000.0,
+                "2016": 150000.0,
+                "2017": 150000.0
+            }
+        }
+    }, {
+        "id": "gesundheit_und_fürsorge_anschubfinanzierung_ambulante_und_tagesklinische_psychiatrie",
+        "name": "Anschubfinanzierung ambulante und tagesklinische Psychiatrie",
+        "revenue": {
+            "budgets": {
+                "2014": 5500000.0,
+                "2015": 5500000.0,
+                "2016": 5500000.0,
+                "2017": 5500000.0
+            }
+        }
+    }, {
+        "id": "gesundheit_und_fürsorge_streichung_der_mitfinanzierung_von_modellprojekten_in_der_psychiatrie",
+        "name": "Streichung der Mitfinanzierung von Modellprojekten in der Psychiatrie",
+        "revenue": {
+            "budgets": {
+                "2014": 1440000.0,
+                "2015": 1440000.0,
+                "2016": 1440000.0,
+                "2017": 1440000.0
+            }
+        }
+    }, {
+        "id": "gesundheit_und_fürsorge_kürzung_der_bevölkerungsbezogenen_pro_kopf_pauschale_in_der_psychiatrie",
+        "name": "Kürzung der bevölkerungsbezogenen Pro-Kopf-Pauschale in der Psychiatrie",
+        "revenue": {
+            "budgets": {
+                "2014": 990000.0,
+                "2015": 1970000.0,
+                "2016": 1970000.0,
+                "2017": 1970000.0
+            }
+        }
+    }, {
+        "id": "gesundheit_und_fürsorge_kürzung_der_pauschalabgeltung_für_tagesklinische_leistungen",
+        "name": "Kürzung der Pauschalabgeltung für tagesklinische Leistungen",
+        "revenue": {
+            "budgets": {
+                "2014": 820000.0,
+                "2015": 1640000.0,
+                "2016": 1640000.0,
+                "2017": 1640000.0
+            }
+        }
+    }, {
+        "id": "gesundheit_und_fürsorge_streichung_der_mitfinanzierung_des_aufenthaltes_von_personen_die_keine\nspitalpflege_in_einer_psychiatrischen_klinik_mehr_brauchen",
+        "name": "Streichung der Mitfinanzierung des Aufenthaltes von Personen, die keine\nSpitalpflege in einer psychiatrischen Klinik mehr brauchen",
+        "revenue": {
+            "budgets": {
+                "2014": 6570000.0,
+                "2015": 6570000.0,
+                "2016": 6570000.0,
+                "2017": 6570000.0
+            }
+        }
+    }, {
+        "id": "gesundheit_und_fürsorge_erhöhung_der_patientenbeteiligung_auf_maximalansatz_für_alle_personen_die\nälter_als_65_jahre_sind",
+        "name": "Erhöhung der Patientenbeteiligung auf Maximalansatz für alle Personen, die\nälter als 65 Jahre sind",
+        "revenue": {
+            "budgets": {
+                "2014": 15000000.0,
+                "2015": 15000000.0,
+                "2016": 15000000.0,
+                "2017": 15000000.0
+            }
+        }
+    }, {
+        "id": "gesundheit_und_fürsorge_lineare_kürzung_der_nettobetriebskosten_bei_behinderteninstitutionen_für\nkinder_und_jugendliche",
+        "name": "Lineare Kürzung der Nettobetriebskosten bei Behinderteninstitutionen für\nKinder und Jugendliche",
+        "revenue": {
+            "budgets": {
+                "2014": 5500000.0,
+                "2015": 5500000.0,
+                "2016": 5500000.0,
+                "2017": 5500000.0
+            }
+        }
+    }, {
+        "id": "gesundheit_und_fürsorge_verzicht_auf_unterstützungsmassnahmen_im_regelschulbereich",
+        "name": "Verzicht auf Unterstützungsmassnahmen im Regelschulbereich",
+        "revenue": {
+            "budgets": {
+                "2014": 2000000.0,
+                "2015": 5000000.0,
+                "2016": 5000000.0,
+                "2017": 5000000.0
+            }
+        }
+    }, {
+        "id": "gesundheit_und_fürsorge_strukturanpassungen_bei_den_behinderteninstitutionen_für_kinder_und_ju_\ngendliche",
+        "name": "Strukturanpassungen bei den Behinderteninstitutionen für Kinder und Ju-\ngendliche",
+        "revenue": {
+            "budgets": {
+                "2014": 0.0,
+                "2015": 500000.0,
+                "2016": 1500000.0,
+                "2017": 5000000.0
+            }
+        }
+    }]
+}, {
+    "id": "justiz_gemeinde_und_kirchen",
+    "name": "Justiz, Gemeinde und Kirchen",
+    "revenue": {
+        "budgets": {
+            "2014": 74350000.0,
+            "2015": 59350000.0,
+            "2016": 59350000.0,
+            "2017": 59350000.0
+        }
+    },
+    "children": [{
+        "id": "justiz_gemeinde_und_kirchen_ergänzungsleistungen:_reduktion_des_beitrags_für_persönliche_auslagen",
+        "name": "Ergänzungsleistungen: Reduktion des Beitrags für persönliche Auslagen",
+        "revenue": {
+            "budgets": {
+                "2014": 9150000.0,
+                "2015": 9150000.0,
+                "2016": 9150000.0,
+                "2017": 9150000.0
+            }
+        }
+    }, {
+        "id": "justiz_gemeinde_und_kirchen_ergänzungsleistungen:_reduktion_des_höchstbetrags_der_übrigen_heimtarife_um_chf_10_pro_tag",
+        "name": "Ergänzungsleistungen: Reduktion des Höchstbetrags der übrigen Heimtarife um CHF 10 pro Tag",
+        "revenue": {
+            "budgets": {
+                "2014": 6200000.0,
+                "2015": 6200000.0,
+                "2016": 6200000.0,
+                "2017": 6200000.0
+            }
+        }
+    }, {
+        "id": "justiz_gemeinde_und_kirchen_kranken_und_unfallversicherung:_zusätzliche_kürzungen_bei_der_prämien_\nverbilligung",
+        "name": "Kranken und Unfallversicherung: Zusätzliche Kürzungen bei der Prämien-\nverbilligung",
+        "revenue": {
+            "budgets": {
+                "2014": 59000000.0,
+                "2015": 44000000.0,
+                "2016": 44000000.0,
+                "2017": 44000000.0
+            }
+        }
+    }]
+}, {
+    "id": "erziehung",
+    "name": "Erziehung",
+    "revenue": {
+        "budgets": {
+            "2014": 11800000.0,
+            "2015": 30000000.0,
+            "2016": 35300000.0,
+            "2017": 40600000.0
+        }
+    },
+    "children": [{
+        "id": "erziehung_kindergarten/volksschule:_erhöhung_des_durchschnitts_der_klassengrösse",
+        "name": "Kindergarten/Volksschule: Erhöhung des Durchschnitts der Klassengrösse",
+        "revenue": {
+            "budgets": {
+                "2014": 4500000.0,
+                "2015": 11000000.0,
+                "2016": 11000000.0,
+                "2017": 11000000.0
+            }
+        }
+    }, {
+        "id": "erziehung_kindergarten/volksschule:_abbau_von_unterrichtslektionen",
+        "name": "Kindergarten/Volksschule: Abbau von Unterrichtslektionen",
+        "revenue": {
+            "budgets": {
+                "2014": 6000000.0,
+                "2015": 14500000.0,
+                "2016": 14500000.0,
+                "2017": 14500000.0
+            }
+        }
+    }, {
+        "id": "erziehung_schliessung_der_gartenbauschule_hünibach",
+        "name": "Schliessung der Gartenbauschule Hünibach",
+        "revenue": {
+            "budgets": {
+                "2014": 800000.0,
+                "2015": 1200000.0,
+                "2016": 1900000.0,
+                "2017": 1900000.0
+            }
+        }
+    }, {
+        "id": "erziehung_schliessung_der_gartenbauschule_oeschberg",
+        "name": "Schliessung der Gartenbauschule Oeschberg",
+        "revenue": {
+            "budgets": {
+                "2014": 0.0,
+                "2015": 500000.0,
+                "2016": 1400000.0,
+                "2017": 2400000.0
+            }
+        }
+    }, {
+        "id": "erziehung_entlastungen_bei_den_lehrwerkstätten_bern",
+        "name": "Entlastungen bei den Lehrwerkstätten Bern",
+        "revenue": {
+            "budgets": {
+                "2014": 0.0,
+                "2015": 300000.0,
+                "2016": 3000000.0,
+                "2017": 6800000.0
+            }
+        }
+    }, {
+        "id": "erziehung_pädagogische_hochschule:_aufgabe_der_ausbildung_für_die_vorschul_und\nprimarstufe_an_der_nms_bern",
+        "name": "Pädagogische Hochschule: Aufgabe der Ausbildung für die Vorschul- und\nPrimarstufe an der NMS Bern",
+        "revenue": {
+            "budgets": {
+                "2014": 500000.0,
+                "2015": 1000000.0,
+                "2016": 2000000.0,
+                "2017": 2500000.0
+            }
+        }
+    }, {
+        "id": "erziehung_einschränkung_des_angebots_der_erziehungsberatung",
+        "name": "Einschränkung des Angebots der Erziehungsberatung",
+        "revenue": {
+            "budgets": {
+                "2014": 0.0,
+                "2015": 1500000.0,
+                "2016": 1500000.0,
+                "2017": 1500000.0
+            }
+        }
+    }, {
+        "id": "erziehung_berner_fachhochschule:_standortkonzentration_„ein_standort_strategie“",
+        "name": "Berner Fachhochschule: Standortkonzentration „Ein-Standort-Strategie“",
+        "revenue": {
+            "budgets": {
+                "2014": 0.0,
+                "2015": 0.0,
+                "2016": 0.0,
+                "2017": 0.0
+            }
+        }
+    }, {
+        "id": "erziehung_berner_fachhochschule:_aufgabe_des_standortes_burgdorf",
+        "name": "Berner Fachhochschule: Aufgabe des Standortes Burgdorf",
+        "revenue": {
+            "budgets": {
+                "2014": 0.0,
+                "2015": 0.0,
+                "2016": 0.0,
+                "2017": 0.0
+            }
+        }
+    }]
+}, {
+    "id": "bau_verkehr_energie",
+    "name": "Bau, Verkehr, Energie",
+    "revenue": {
+        "budgets": {
+            "2014": 0.0,
+            "2015": 0.0,
+            "2016": 2000000.0,
+            "2017": 2000000.0
+        }
+    },
+    "children": [{
+        "id": "bau_verkehr_energie_umstellung_verschiedener_bahnlinien_auf_bus",
+        "name": "Umstellung verschiedener Bahnlinien auf Bus",
+        "revenue": {
+            "budgets": {
+                "2014": 0.0,
+                "2015": 0.0,
+                "2016": 2000000.0,
+                "2017": 2000000.0
+            }
+        }
+    }]
+}]
