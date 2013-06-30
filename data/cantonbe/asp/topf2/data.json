@@ -1,5 +1,5 @@
 [{
-    "id": "gesamte_verwaltung",
+    "id": "gesamte-verwaltung",
     "name": "Gesamte Verwaltung",
     "revenue": {
         "budgets": {
@@ -10,7 +10,7 @@
         }
     },
     "children": [{
-        "id": "gesamte_verwaltung_zusätzliche_kürzung_der_lohnmassnahmen",
+        "id": "gesamte-verwaltung_zus-tzliche-k-rzung-der-lohnmassnahmen",
         "name": "Zusätzliche Kürzung der Lohnmassnahmen",
         "revenue": {
             "budgets": {
@@ -21,7 +21,7 @@
             }
         }
     }, {
-        "id": "gesamte_verwaltung_teilabschöpfung_der_entlastungen_der_gemeinden_durch_asp_2014",
+        "id": "gesamte-verwaltung_teilabsch-pfung-der-entlastungen-der-gemeinden-durch-asp-2014",
         "name": "Teilabschöpfung der Entlastungen der Gemeinden durch ASP 2014",
         "revenue": {
             "budgets": {
@@ -33,7 +33,7 @@
         }
     }]
 }, {
-    "id": "gesundheit_und_fürsorge",
+    "id": "gesundheit-und-f-rsorge",
     "name": "Gesundheit und Fürsorge",
     "revenue": {
         "budgets": {
@@ -44,7 +44,7 @@
         }
     },
     "children": [{
-        "id": "gesundheit_und_fürsorge_verzicht_auf_den_aufbau_ambulanter_leistungen",
+        "id": "gesundheit-und-f-rsorge_verzicht-auf-den-aufbau-ambulanter-leistungen",
         "name": "Verzicht auf den Aufbau ambulanter Leistungen",
         "revenue": {
             "budgets": {
@@ -55,7 +55,7 @@
             }
         }
     }, {
-        "id": "gesundheit_und_fürsorge_streichung_des_beitrags_an_die_zweisprachigkeit_der_psychiatrischen_diens_te_biel_seeland_–_berner_jura",
+        "id": "gesundheit-und-f-rsorge_streichung-des-beitrags-an-die-zweisprachigkeit-der-psychiatrischen-diens-te-biel-seeland-berner-jura",
         "name": "Streichung des Beitrags an die Zweisprachigkeit der Psychiatrischen Diens- te Biel - Seeland – Berner Jura",
         "revenue": {
             "budgets": {
@@ -66,7 +66,7 @@
             }
         }
     }, {
-        "id": "gesundheit_und_fürsorge_anschubfinanzierung_ambulante_und_tagesklinische_psychiatrie",
+        "id": "gesundheit-und-f-rsorge_anschubfinanzierung-ambulante-und-tagesklinische-psychiatrie",
         "name": "Anschubfinanzierung ambulante und tagesklinische Psychiatrie",
         "revenue": {
             "budgets": {
@@ -77,7 +77,7 @@
             }
         }
     }, {
-        "id": "gesundheit_und_fürsorge_streichung_der_mitfinanzierung_von_modellprojekten_in_der_psychiatrie",
+        "id": "gesundheit-und-f-rsorge_streichung-der-mitfinanzierung-von-modellprojekten-in-der-psychiatrie",
         "name": "Streichung der Mitfinanzierung von Modellprojekten in der Psychiatrie",
         "revenue": {
             "budgets": {
@@ -88,7 +88,7 @@
             }
         }
     }, {
-        "id": "gesundheit_und_fürsorge_kürzung_der_bevölkerungsbezogenen_pro_kopf_pauschale_in_der_psychiatrie",
+        "id": "gesundheit-und-f-rsorge_k-rzung-der-bev-lkerungsbezogenen-pro-kopf-pauschale-in-der-psychiatrie",
         "name": "Kürzung der bevölkerungsbezogenen Pro-Kopf-Pauschale in der Psychiatrie",
         "revenue": {
             "budgets": {
@@ -99,7 +99,7 @@
             }
         }
     }, {
-        "id": "gesundheit_und_fürsorge_kürzung_der_pauschalabgeltung_für_tagesklinische_leistungen",
+        "id": "gesundheit-und-f-rsorge_k-rzung-der-pauschalabgeltung-f-r-tagesklinische-leistungen",
         "name": "Kürzung der Pauschalabgeltung für tagesklinische Leistungen",
         "revenue": {
             "budgets": {
@@ -110,7 +110,7 @@
             }
         }
     }, {
-        "id": "gesundheit_und_fürsorge_streichung_der_mitfinanzierung_des_aufenthaltes_von_personen_die_keine\nspitalpflege_in_einer_psychiatrischen_klinik_mehr_brauchen",
+        "id": "gesundheit-und-f-rsorge_streichung-der-mitfinanzierung-des-aufenthaltes-von-personen-die-keine-spitalpflege-in-einer-psychiatrischen-klinik-mehr-brauchen",
         "name": "Streichung der Mitfinanzierung des Aufenthaltes von Personen, die keine\nSpitalpflege in einer psychiatrischen Klinik mehr brauchen",
         "revenue": {
             "budgets": {
@@ -121,7 +121,7 @@
             }
         }
     }, {
-        "id": "gesundheit_und_fürsorge_erhöhung_der_patientenbeteiligung_auf_maximalansatz_für_alle_personen_die\nälter_als_65_jahre_sind",
+        "id": "gesundheit-und-f-rsorge_erh-hung-der-patientenbeteiligung-auf-maximalansatz-f-r-alle-personen-die-lter-als-65-jahre-sind",
         "name": "Erhöhung der Patientenbeteiligung auf Maximalansatz für alle Personen, die\nälter als 65 Jahre sind",
         "revenue": {
             "budgets": {
@@ -132,7 +132,7 @@
             }
         }
     }, {
-        "id": "gesundheit_und_fürsorge_lineare_kürzung_der_nettobetriebskosten_bei_behinderteninstitutionen_für\nkinder_und_jugendliche",
+        "id": "gesundheit-und-f-rsorge_lineare-k-rzung-der-nettobetriebskosten-bei-behinderteninstitutionen-f-r-kinder-und-jugendliche",
         "name": "Lineare Kürzung der Nettobetriebskosten bei Behinderteninstitutionen für\nKinder und Jugendliche",
         "revenue": {
             "budgets": {
@@ -143,7 +143,7 @@
             }
         }
     }, {
-        "id": "gesundheit_und_fürsorge_verzicht_auf_unterstützungsmassnahmen_im_regelschulbereich",
+        "id": "gesundheit-und-f-rsorge_verzicht-auf-unterst-tzungsmassnahmen-im-regelschulbereich",
         "name": "Verzicht auf Unterstützungsmassnahmen im Regelschulbereich",
         "revenue": {
             "budgets": {
@@ -154,7 +154,7 @@
             }
         }
     }, {
-        "id": "gesundheit_und_fürsorge_strukturanpassungen_bei_den_behinderteninstitutionen_für_kinder_und_ju_\ngendliche",
+        "id": "gesundheit-und-f-rsorge_strukturanpassungen-bei-den-behinderteninstitutionen-f-r-kinder-und-ju-gendliche",
         "name": "Strukturanpassungen bei den Behinderteninstitutionen für Kinder und Ju-\ngendliche",
         "revenue": {
             "budgets": {
@@ -166,7 +166,7 @@
         }
     }]
 }, {
-    "id": "justiz_gemeinde_und_kirchen",
+    "id": "justiz-gemeinde-und-kirchen",
     "name": "Justiz, Gemeinde und Kirchen",
     "revenue": {
         "budgets": {
@@ -177,7 +177,7 @@
         }
     },
     "children": [{
-        "id": "justiz_gemeinde_und_kirchen_ergänzungsleistungen:_reduktion_des_beitrags_für_persönliche_auslagen",
+        "id": "justiz-gemeinde-und-kirchen_erg-nzungsleistungen-reduktion-des-beitrags-f-r-pers-nliche-auslagen",
         "name": "Ergänzungsleistungen: Reduktion des Beitrags für persönliche Auslagen",
         "revenue": {
             "budgets": {
@@ -188,7 +188,7 @@
             }
         }
     }, {
-        "id": "justiz_gemeinde_und_kirchen_ergänzungsleistungen:_reduktion_des_höchstbetrags_der_übrigen_heimtarife_um_chf_10_pro_tag",
+        "id": "justiz-gemeinde-und-kirchen_erg-nzungsleistungen-reduktion-des-h-chstbetrags-der-brigen-heimtarife-um-chf-10-pro-tag",
         "name": "Ergänzungsleistungen: Reduktion des Höchstbetrags der übrigen Heimtarife um CHF 10 pro Tag",
         "revenue": {
             "budgets": {
@@ -199,7 +199,7 @@
             }
         }
     }, {
-        "id": "justiz_gemeinde_und_kirchen_kranken_und_unfallversicherung:_zusätzliche_kürzungen_bei_der_prämien_\nverbilligung",
+        "id": "justiz-gemeinde-und-kirchen_kranken-und-unfallversicherung-zus-tzliche-k-rzungen-bei-der-pr-mien-verbilligung",
         "name": "Kranken und Unfallversicherung: Zusätzliche Kürzungen bei der Prämien-\nverbilligung",
         "revenue": {
             "budgets": {
@@ -222,7 +222,7 @@
         }
     },
     "children": [{
-        "id": "erziehung_kindergarten/volksschule:_erhöhung_des_durchschnitts_der_klassengrösse",
+        "id": "erziehung_kindergarten-volksschule-erh-hung-des-durchschnitts-der-klassengr-sse",
         "name": "Kindergarten/Volksschule: Erhöhung des Durchschnitts der Klassengrösse",
         "revenue": {
             "budgets": {
@@ -233,7 +233,7 @@
             }
         }
     }, {
-        "id": "erziehung_kindergarten/volksschule:_abbau_von_unterrichtslektionen",
+        "id": "erziehung_kindergarten-volksschule-abbau-von-unterrichtslektionen",
         "name": "Kindergarten/Volksschule: Abbau von Unterrichtslektionen",
         "revenue": {
             "budgets": {
@@ -244,7 +244,7 @@
             }
         }
     }, {
-        "id": "erziehung_schliessung_der_gartenbauschule_hünibach",
+        "id": "erziehung_schliessung-der-gartenbauschule-h-nibach",
         "name": "Schliessung der Gartenbauschule Hünibach",
         "revenue": {
             "budgets": {
@@ -255,7 +255,7 @@
             }
         }
     }, {
-        "id": "erziehung_schliessung_der_gartenbauschule_oeschberg",
+        "id": "erziehung_schliessung-der-gartenbauschule-oeschberg",
         "name": "Schliessung der Gartenbauschule Oeschberg",
         "revenue": {
             "budgets": {
@@ -266,7 +266,7 @@
             }
         }
     }, {
-        "id": "erziehung_entlastungen_bei_den_lehrwerkstätten_bern",
+        "id": "erziehung_entlastungen-bei-den-lehrwerkst-tten-bern",
         "name": "Entlastungen bei den Lehrwerkstätten Bern",
         "revenue": {
             "budgets": {
@@ -277,7 +277,7 @@
             }
         }
     }, {
-        "id": "erziehung_pädagogische_hochschule:_aufgabe_der_ausbildung_für_die_vorschul_und\nprimarstufe_an_der_nms_bern",
+        "id": "erziehung_p-dagogische-hochschule-aufgabe-der-ausbildung-f-r-die-vorschul-und-primarstufe-an-der-nms-bern",
         "name": "Pädagogische Hochschule: Aufgabe der Ausbildung für die Vorschul- und\nPrimarstufe an der NMS Bern",
         "revenue": {
             "budgets": {
@@ -288,7 +288,7 @@
             }
         }
     }, {
-        "id": "erziehung_einschränkung_des_angebots_der_erziehungsberatung",
+        "id": "erziehung_einschr-nkung-des-angebots-der-erziehungsberatung",
         "name": "Einschränkung des Angebots der Erziehungsberatung",
         "revenue": {
             "budgets": {
@@ -299,7 +299,7 @@
             }
         }
     }, {
-        "id": "erziehung_berner_fachhochschule:_standortkonzentration_„ein_standort_strategie“",
+        "id": "erziehung_berner-fachhochschule-standortkonzentration-ein-standort-strategie-",
         "name": "Berner Fachhochschule: Standortkonzentration „Ein-Standort-Strategie“",
         "revenue": {
             "budgets": {
@@ -310,7 +310,7 @@
             }
         }
     }, {
-        "id": "erziehung_berner_fachhochschule:_aufgabe_des_standortes_burgdorf",
+        "id": "erziehung_berner-fachhochschule-aufgabe-des-standortes-burgdorf",
         "name": "Berner Fachhochschule: Aufgabe des Standortes Burgdorf",
         "revenue": {
             "budgets": {
@@ -322,7 +322,7 @@
         }
     }]
 }, {
-    "id": "bau_verkehr_energie",
+    "id": "bau-verkehr-energie",
     "name": "Bau, Verkehr, Energie",
     "revenue": {
         "budgets": {
@@ -333,7 +333,7 @@
         }
     },
     "children": [{
-        "id": "bau_verkehr_energie_umstellung_verschiedener_bahnlinien_auf_bus",
+        "id": "bau-verkehr-energie_umstellung-verschiedener-bahnlinien-auf-bus",
         "name": "Umstellung verschiedener Bahnlinien auf Bus",
         "revenue": {
             "budgets": {

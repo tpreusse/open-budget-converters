@@ -9,15 +9,20 @@ module OpenBudget
       @node_index = {}
     end
 
-    def get_node id_path, names
+    def get_node id_path
       id = id_path.join '_'
-      node = @node_index[id] ||= lambda do
+      @node_index[id]
+    end
+
+    def get_or_create_node id_path, names
+      id = id_path.join '_'
+      node = @node_index[id] = get_node(id_path) || lambda do
         node = Node.new
         node.id = id
 
         # add to collection
         if id_path.length > 1
-          parent = get_node id_path.take(id_path.length - 1), names.take(names.length - 1)
+          parent = get_or_create_node id_path.take(id_path.length - 1), names.take(names.length - 1)
           node.parent = parent
           parent.children
         else
@@ -55,7 +60,7 @@ module OpenBudget
 
         account_type = row[:kontenbereich_nummer].to_i
         if [3, 4, 5, 6].include? account_type
-          node = get_node \
+          node = get_or_create_node \
             [row[:aufgabenbereich_nummer], row[:aufgabe_nummer], row[:aufgabenstelle_nummer]].reject(&:blank?),
             [row[:aufgabenbereich_name], row[:aufgabe_name], row[:aufgabenstelle_name]].reject(&:blank?)
 
@@ -71,7 +76,7 @@ module OpenBudget
 
     def cantonbe_names_to_ids names
       names.dup.each(&:strip).reject(&:blank?).collect {|id_segment|
-        id_segment.downcase.gsub(/[,-]+/, ' ').gsub(/ +/, '_')
+        id_segment.downcase.gsub(/[^0-9a-z]/, ' ').gsub(/[,-]+/, ' ').gsub(/ +/, '-')
       }
     end
 
@@ -98,7 +103,7 @@ module OpenBudget
         ]
         id_path = cantonbe_names_to_ids names
 
-        node = get_node id_path, names
+        node = get_or_create_node id_path, names
 
         number_headers.each do |header|
           node
@@ -120,7 +125,7 @@ module OpenBudget
         ]
         id_path = cantonbe_names_to_ids names
 
-        node = get_node id_path, names
+        node = get_or_create_node id_path, names
 
         node.add_revenue('budgets', 2014, row[:'2014_in_mio_chf'].to_s.sub(',', '.').to_f * (10 ** 6))
         node.add_revenue('budgets', 2015, row[:'2015'].to_s.sub(',', '.').to_f * (10 ** 6))
@@ -161,7 +166,7 @@ module OpenBudget
           row[:bezeichnung]
         ]
 
-        node = get_node id_path, names
+        node = get_or_create_node id_path, names
 
         # ToDo: seperate "investitionsrechnung" [5, 6] and "laufende rechnung" [3, 4]
 
