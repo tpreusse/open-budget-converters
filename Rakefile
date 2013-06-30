@@ -113,11 +113,11 @@ namespace :cantonbe do
       file.write details.to_json
     end
 
-    File.open('data/be-asp/topf1.json', 'wb') do |file|
+    File.open('data/be-asp/topf-1.json', 'wb') do |file|
       file.write topf1.to_json
     end
 
-    File.open('data/be-asp/topf2.json', 'wb') do |file|
+    File.open('data/be-asp/topf-2.json', 'wb') do |file|
       file.write topf2.to_json
     end
 
