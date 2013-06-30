@@ -2,7 +2,7 @@
 
 module OpenBudget
   class Budget
-    attr_accessor :nodes, :meta
+    attr_accessor :nodes, :meta, :node_index
 
     def initialize
       @nodes = []

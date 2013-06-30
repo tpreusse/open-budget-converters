@@ -2,7 +2,7 @@
 
 module OpenBudget
   class Node
-    attr_accessor :id, :name, :children, :parent
+    attr_accessor :id, :name, :detail, :children, :parent
     attr_reader :gross_cost, :revenue
 
     def initialize
@@ -52,14 +52,20 @@ module OpenBudget
       end
     end
 
-    def as_json(options = nil)
-      json = {
+    def as_hash_without_children
+      hash = {
         id: id,
-        name: name
+        name: name,
+        detail: !!detail
       }
       prepare
-      json[:gross_cost] = gross_cost unless gross_cost.empty?
-      json[:revenue] = revenue unless revenue.empty?
+      hash[:gross_cost] = gross_cost unless gross_cost.empty?
+      hash[:revenue] = revenue unless revenue.empty?
+      hash
+    end
+
+    def as_json(options = nil)
+      json = as_hash_without_children
       json[:children] = children unless children.empty?
       json
     end

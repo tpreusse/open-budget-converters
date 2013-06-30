@@ -59,7 +59,7 @@ namespace :cantonbe do
     budget.load_cantonbe_csv 'source/cantonbe/Kanton BE_Produkgruppen_DB IV nach DIR_2011.csv'
     budget.load_cantonbe_csv 'source/cantonbe/Kanton BE_Produkgruppen_DB IV nach DIR_2012.csv'
 
-    File.open("data/cantonbe/data.json", 'wb') do |file|
+    File.open("data/be/data.json", 'wb') do |file|
       file.write budget.to_json
     end
     puts "done"
@@ -71,15 +71,53 @@ namespace :cantonbe do
 
     topf1 = OpenBudget::Budget.new
     topf1.load_cantonbe_asp_csv 'source/cantonbe/asp/2013-06-28-asp-2014-massnahmen-topf-1-de.csv'
-    FileUtils.mkdir_p 'data/cantonbe/asp/topf1'
-    File.open('data/cantonbe/asp/topf1/data.json', 'wb') do |file|
-      file.write topf1.to_json
-    end
 
     topf2 = OpenBudget::Budget.new
     topf2.load_cantonbe_asp_csv 'source/cantonbe/asp/2013-06-28-asp-2014-massnahmen-topf-2-de.csv'
-    FileUtils.mkdir_p 'data/cantonbe/asp/topf2'
-    File.open('data/cantonbe/asp/topf2/data.json', 'wb') do |file|
+
+    # refator into detail class
+    details = {}
+    nr_to_id_path = {}
+    CSV.foreach('source/cantonbe/asp/massnahmen_matching.csv', :headers => true, :header_converters => :symbol) do |row|
+      next unless row[:nr].present?
+
+      nr_to_id_path[row[:nr]] = topf1.cantonbe_names_to_ids [
+        row[:overview_dir],
+        row[:overview_action]
+      ]
+    end
+
+    massnahmen = JSON.parse File.read('source/cantonbe/asp/massnahmen.json')
+    massnahmen.each do |massnahme|
+      # puts "\"#{massnahme['Direktion']}\",\"#{massnahme['Massnahme']}\",#{massnahme['Nr']}"
+      id_path = nr_to_id_path[massnahme['Nr']]
+      unless id_path
+        puts "detail nr missing in matching file #{massnahme['Nr']}"
+        next
+      end
+
+      node = topf1.get_node(id_path) || topf2.get_node(id_path)
+      unless node
+        puts "detail not found: #{id_path}"
+      else
+        puts "detail found: #{id_path}"
+        node.detail = true
+        massnahme['node'] = node.as_hash_without_children
+        details[node.id] = massnahme
+      end
+    end
+
+    FileUtils.mkdir_p 'data/be-asp'
+
+    File.open('data/be-asp/details.json', 'wb') do |file|
+      file.write details.to_json
+    end
+
+    File.open('data/be-asp/topf1.json', 'wb') do |file|
+      file.write topf1.to_json
+    end
+
+    File.open('data/be-asp/topf2.json', 'wb') do |file|
       file.write topf2.to_json
     end
 
