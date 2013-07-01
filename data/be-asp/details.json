@@ -1,7 +1,7 @@
 {
     "volkswirtschaft_reorganisation-und-leistungsabbau-beim-jagdinspektorat": {
         "Aufgabenfeld": "Forstwirtschaft, Jagd, Fischerei",
-        "Kurzbeschrieb": "Strukturelle Anpassung des Jagdinspektorates. Umstellung auf ein Regionenmodell bei der Wildhut mit konsequentem Aufga-benverzicht und entsprechendem Personalabbau (5 Wildhüter und Beschäftigungsgradreduktionen bei Fach- und Sachbearbei-tungsstellen im Innendienst). Reduktion der Sachkosten inkl. Kündigung der Leistungsvereinbarung Wildstation Landshut und Bernischer Jägerverband (BEJV). Trotz eines Abbaus des Service Public erachtet der Regierungs-rat die Massnahme als vertretbar, da sie kaum nachteilige Aus-wirkungen auf die Wildtierbestände hat.",
+        "Kurzbeschrieb": "Strukturelle Anpassung des Jagdinspektorates. Umstellung auf ein Regionenmodell bei der Wildhut mit konsequentem Aufgabenverzicht und entsprechendem Personalabbau (5 Wildhüter und Beschäftigungsgradreduktionen bei Fach- und Sachbearbeitungsstellen im Innendienst). Reduktion der Sachkosten inkl. Kündigung der Leistungsvereinbarung Wildstation Landshut und Bernischer Jägerverband (BEJV). Trotz eines Abbaus des Service Public erachtet der Regierungsrat die Massnahme als vertretbar, da sie kaum nachteilige Auswirkungen auf die Wildtierbestände hat.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "0.840",
@@ -42,7 +42,7 @@
     },
     "volkswirtschaft_struktur-und-leistungsabbau-beim-fischereiinspektorat-teil-1-ohne-renaturierungsfonds-": {
         "Aufgabenfeld": "Forstwirtschaft, Jagd, Fischerei",
-        "Kurzbeschrieb": "Schliessung von Fischzuchtanlagen mit Aufgabenverzicht und Stellenabbau (Verzicht auf die Wiederbesetzung des Kreisleiters Emmental, Aufhebung einer Stelle mit Querschnittsaufgaben). Reduktion der Sachkosten. Trotz eines Abbaus des Service Public erachtet der Regierungs-rat die Massnahme als vertretbar, da sie die Biodiversität kaum beeinflusst. Das Fischereiinspektorat wird sich in Zukunft auf die wesentlichen Ziele konzentrieren.",
+        "Kurzbeschrieb": "Schliessung von Fischzuchtanlagen mit Aufgabenverzicht und Stellenabbau (Verzicht auf die Wiederbesetzung des Kreisleiters Emmental, Aufhebung einer Stelle mit Querschnittsaufgaben). Reduktion der Sachkosten. Trotz eines Abbaus des Service Public erachtet der Regierungsrat die Massnahme als vertretbar, da sie die Biodiversität kaum beeinflusst. Das Fischereiinspektorat wird sich in Zukunft auf die wesentlichen Ziele konzentrieren.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "0.480",
@@ -83,7 +83,7 @@
     },
     "volkswirtschaft_struktur-und-leistungsabbau-beim-fischereiinspektorat-teil-2-mit-renaturierungsfonds-": {
         "Aufgabenfeld": "Forstwirtschaft, Jagd, Fischerei",
-        "Kurzbeschrieb": "Zusätzlicher Stellen- und Leistungsabbau im Bereich der Fi-schereistützpunkte Reutigen und Faulensee sowie im Ma-nagement des Renaturierungsfonds. Trotz eines Abbaus des Service Public erachtet der Regie-rungsrat die Massnahme als vertretbar, da Kernaufgaben der Fischereistützpunkte weiterhin sichergestellt werden, wenn auch auf tieferem Niveau.",
+        "Kurzbeschrieb": "Zusätzlicher Stellen- und Leistungsabbau im Bereich der Fischereistützpunkte Reutigen und Faulensee sowie im Management des Renaturierungsfonds. Trotz eines Abbaus des Service Public erachtet der Regierungsrat die Massnahme als vertretbar, da Kernaufgaben der Fischereistützpunkte weiterhin sichergestellt werden, wenn auch auf tieferem Niveau.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "0.200",
@@ -124,7 +124,7 @@
     },
     "gesundheit-und-f-rsorge_spitalversorgung-streichung-der-frei-verf-gbaren-mittel-im-zusatzfinanzierungsbereich": {
         "Aufgabenfeld": "Spitalversorgung",
-        "Kurzbeschrieb": "Zurzeit stehen im VA/AFP noch zwischen CHF 17 und 20 Milli-onen Mittel für die Finanzierung von Leistungen zur Verfügung, die nicht durch den KVG-Tarif abgedeckt sind (sogenannte «Zusatzfinanzierung»). Mit diesen Mitteln könnten bei Bedarf z.B. Massnahmen zur Sicherung der Versorgung, für die inte-grierte Versorgung oder Vorhalteleistungen finanziert werden. Die Streichung im VA/AFP bedeutet, dass der Kanton künftig bei entsprechendem Bedarf nicht sofort Mittel zur Verfügung hat. Im Spitalbereich lässt sich nur ein sehr geringer Teil der kanto-nalen Aufwendungen direkt beeinflussen. Es können deshalb nur die entsprechenden Beträge gekürzt oder ganz gestrichen werden. Dies gilt für alle nachfolgenden Massnahmen zum Aufgabenfeld Spitalversorgung.",
+        "Kurzbeschrieb": "Zurzeit stehen im VA/AFP noch zwischen CHF 17 und 20 Millionen Mittel für die Finanzierung von Leistungen zur Verfügung, die nicht durch den KVG-Tarif abgedeckt sind (sogenannte «Zusatzfinanzierung»). Mit diesen Mitteln könnten bei Bedarf z.B. Massnahmen zur Sicherung der Versorgung, für die integrierte Versorgung oder Vorhalteleistungen finanziert werden. Die Streichung im VA/AFP bedeutet, dass der Kanton künftig bei entsprechendem Bedarf nicht sofort Mittel zur Verfügung hat. Im Spitalbereich lässt sich nur ein sehr geringer Teil der kantonalen Aufwendungen direkt beeinflussen. Es können deshalb nur die entsprechenden Beträge gekürzt oder ganz gestrichen werden. Dies gilt für alle nachfolgenden Massnahmen zum Aufgabenfeld Spitalversorgung.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "18.000",
@@ -165,11 +165,26 @@
     },
     "gesundheit-und-f-rsorge_spitalversorgung-verzicht-auf-restrukturierungsbeitr-ge": {
         "Aufgabenfeld": "Spitalversorgung",
-        "Kurzbeschrieb": "Bisher hat die GEF Restrukturierungen im Spitalbereich finanzi-ell unterstützt, namentlich die Umwandlung bestehender Spital-standorte in Gesundheits- und Versorgungszentren. Die Strei-chung der CHF 1,8 Millionen im VA/AFP bedeutet, dass der Kanton künftig darauf verzichtet.",
+        "Kurzbeschrieb": "Bisher hat die GEF Restrukturierungen im Spitalbereich finanziell unterstützt, namentlich die Umwandlung bestehender Spitalstandorte in Gesundheits- und Versorgungszentren. Die Streichung der CHF 1,8 Millionen im VA/AFP bedeutet, dass der Kanton künftig darauf verzichtet.",
         "Auswirkungen": {
-            "Finanzielle": null,
-            "Gemeinden": null,
-            "Vollzeitstellen": null
+            "Finanzielle": {
+                "2015": "1.800",
+                "2014": "1.800",
+                "2017": "1.800",
+                "2016": "1.800"
+            },
+            "Gemeinden": {
+                "2015": "0.000",
+                "2014": "0.000",
+                "2017": "0.000",
+                "2016": "0.000"
+            },
+            "Vollzeitstellen": {
+                "2015": "n.q.",
+                "2014": "n.q.",
+                "2017": "n.q.",
+                "2016": "n.q."
+            }
         },
         "Direktion": "Gesundheits- und Fürsorgedirektion",
         "Nr": "4.2",
@@ -191,7 +206,7 @@
     },
     "gesundheit-und-f-rsorge_senkung-der-normkosten-f-r-rettungsdienste": {
         "Aufgabenfeld": "Spitalversorgung",
-        "Kurzbeschrieb": "Das Budget für das Rettungswesen wird um 5 Prozent gekürzt. Die Kürzung betrifft die Rettungsdienste, die Sanitätsnotrufzent-rale (SNZ 144) wird ausgeklammert, da es sich beim Betrieb der SNZ 144 um die Delegation einer kantonalen Aufgabe han-delt, die nicht verzichtbar ist.",
+        "Kurzbeschrieb": "Das Budget für das Rettungswesen wird um 5 Prozent gekürzt. Die Kürzung betrifft die Rettungsdienste, die Sanitätsnotrufzentrale (SNZ 144) wird ausgeklammert, da es sich beim Betrieb der SNZ 144 um die Delegation einer kantonalen Aufgabe handelt, die nicht verzichtbar ist.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "1.300",
@@ -214,7 +229,7 @@
         },
         "Direktion": "Gesundheits- und Fürsorgedirektion",
         "Nr": "4.3",
-        "Massnahme": "Reduktion des Budgets für das Rettungswesen um 5 Prozent durch Senkung der Normkosten für die Abgeltung der Ret-tungsdienste",
+        "Massnahme": "Reduktion des Budgets für das Rettungswesen um 5 Prozent durch Senkung der Normkosten für die Abgeltung der Rettungsdienste",
         "Rechtsgrundlage": "Spitalversorgungsverordnung",
         "node": {
             "id": "gesundheit-und-f-rsorge_senkung-der-normkosten-f-r-rettungsdienste",
@@ -232,7 +247,7 @@
     },
     "gesundheit-und-f-rsorge_wegfall-der-kompensation-minderleistung-mehraufwand-bei-der-erneuerung-der-kinderklinik-des-inselspitals": {
         "Aufgabenfeld": "Spitalversorgung",
-        "Kurzbeschrieb": "Der Kanton ist zuständig für die Erneuerung der Kinderklinik des Inselspitals. Da die Erneuerungen unter laufendem Betrieb realisiert werden müssen, entstehen für das Inselspital Minder-leistungen (reduzierte Bereiche) und dadurch fehlende Ein-nahmen und Mehraufwand (zusätzliches Personal wegen Pro-visorien, längeren Wegen etc.), welcher durch den Kanton mit \fjährlich CHF 3,6 Millionen bis 2015 entschädigt wird. Mit der Massnahme müssen die Kosten, welche nicht eingespart wer-den können, vom Inselspital zu Lasten des übrigen Betriebes finanziert werden.",
+        "Kurzbeschrieb": "Der Kanton ist zuständig für die Erneuerung der Kinderklinik des Inselspitals. Da die Erneuerungen unter laufendem Betrieb realisiert werden müssen, entstehen für das Inselspital Minderleistungen (reduzierte Bereiche) und dadurch fehlende Einnahmen und Mehraufwand (zusätzliches Personal wegen Provisorien, längeren Wegen etc.), welcher durch den Kanton mit jährlich CHF 3,6 Millionen bis 2015 entschädigt wird. Mit der Massnahme müssen die Kosten, welche nicht eingespart werden können, vom Inselspital zu Lasten des übrigen Betriebes finanziert werden.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "3.600",
@@ -255,7 +270,7 @@
         },
         "Direktion": "Gesundheits- und Fürsorgedirektion",
         "Nr": "4.4",
-        "Massnahme": "Wegfall der Kompensation Minderleistung / Mehraufwand bei der Erneuerung der Kinderklinik des Inselspitals durch den Kan-ton",
+        "Massnahme": "Wegfall der Kompensation Minderleistung / Mehraufwand bei der Erneuerung der Kinderklinik des Inselspitals durch den Kanton",
         "Rechtsgrundlage": "keine",
         "node": {
             "id": "gesundheit-und-f-rsorge_wegfall-der-kompensation-minderleistung-mehraufwand-bei-der-erneuerung-der-kinderklinik-des-inselspitals",
@@ -273,7 +288,7 @@
     },
     "gesundheit-und-f-rsorge_beitr-ge-im-rahmen-des-gesundheitsgesetzes-beitr-ge-an-non-profit-organisationen": {
         "Aufgabenfeld": "Spitalversorgung",
-        "Kurzbeschrieb": "Für Beiträge gestützt auf das Gesundheitsgesetz sind im VA/AFP bis heute CHF 2.3 Millionen eingestellt. Diese Mittel wurden jeweils für Beiträge an Non-Profit-Organisationen ver-wendet, welche gestützt auf das Gesundheitsgesetz Leistungen erbracht haben. Insbesondere werden unter diesem Titel die Kosten für die ärztliche Weiterbildung in Hausarztpraxen (Praxi-sassistenz; vgl. GRB 1889 vom 31.1.2012) finanziert. Der Be-trag wurde bisher nicht ausgeschöpft, weshalb hier ein Sparpo-tenzial angenommen werden kann. Der genannte Betrag steht daher nicht mehr zur Verfügung, um Organisationen gestützt auf das Gesundheitsgesetz (Artikel 4) finanziell zu unterstützen.",
+        "Kurzbeschrieb": "Für Beiträge gestützt auf das Gesundheitsgesetz sind im VA/AFP bis heute CHF 2.3 Millionen eingestellt. Diese Mittel wurden jeweils für Beiträge an Non-Profit-Organisationen verwendet, welche gestützt auf das Gesundheitsgesetz Leistungen erbracht haben. Insbesondere werden unter diesem Titel die Kosten für die ärztliche Weiterbildung in Hausarztpraxen (Praxisassistenz; vgl. GRB 1889 vom 31.1.2012) finanziert. Der Betrag wurde bisher nicht ausgeschöpft, weshalb hier ein Sparpotenzial angenommen werden kann. Der genannte Betrag steht daher nicht mehr zur Verfügung, um Organisationen gestützt auf das Gesundheitsgesetz (Artikel 4) finanziell zu unterstützen.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "0.900",
@@ -314,7 +329,7 @@
     },
     "gesundheit-und-f-rsorge_streichung-der-gelder-f-r-f-hrungsentwicklung-in-den-upd": {
         "Aufgabenfeld": "Psychiatrieversorgung",
-        "Kurzbeschrieb": "Die Universitären Psychiatrischen Dienste (UPD) werden durch ein Geschäftsleitungsgremium geführt. In den vergangenen Jahren haben sich zahlreiche Veränderungen in der Zusam-mensetzung der Geschäftsleitung ergeben. Um eine Stabilisie-rung der Geschäftsleitung der UPD zu unterstützen, wurden Mittel zur Führungsentwicklung gewährt. Im Dezember 2012 wurde das UPD-Board als beratendes Gremium der Geschäfts-leitung der UPD eingesetzt. Dadurch kann die Führungsent-wicklung teilweise kompensiert werden.",
+        "Kurzbeschrieb": "Die Universitären Psychiatrischen Dienste (UPD) werden durch ein Geschäftsleitungsgremium geführt. In den vergangenen Jahren haben sich zahlreiche Veränderungen in der Zusammensetzung der Geschäftsleitung ergeben. Um eine Stabilisierung der Geschäftsleitung der UPD zu unterstützen, wurden Mittel zur Führungsentwicklung gewährt. Im Dezember 2012 wurde das UPD-Board als beratendes Gremium der Geschäftsleitung der UPD eingesetzt. Dadurch kann die Führungsentwicklung teilweise kompensiert werden.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "0.400",
@@ -337,7 +352,7 @@
         },
         "Direktion": "Gesundheits- und Fürsorgedirektion",
         "Nr": "5.1",
-        "Massnahme": "Streichung der Führungsentwicklung in den Universitären Psy-chiatrischen Diensten (UPD)",
+        "Massnahme": "Streichung der Führungsentwicklung in den Universitären Psychiatrischen Diensten (UPD)",
         "Rechtsgrundlage": "keine",
         "node": {
             "id": "gesundheit-und-f-rsorge_streichung-der-gelder-f-r-f-hrungsentwicklung-in-den-upd",
@@ -355,7 +370,7 @@
     },
     "gesundheit-und-f-rsorge_stellenabbau-in-den-kantonalen-psychiatriebetrieben": {
         "Aufgabenfeld": "Psychiatrieversorgung",
-        "Kurzbeschrieb": "Das Gesamtbudget für stationäre Leistungen errechnet sich durch Mengen und Preise. Beide Grössen können aufgrund der rechtlichen Vorgaben nicht reduziert werden. Im Gegensatz zu den nicht-staatlichen Betrieben können jedoch bei den staatli-chen Psychiatrien die Stellenpläne direkt beeinflusst werden. Eine Reduktion des bestehenden Stellenplans hat für die staat-lichen Psychiatriebetriebe einen Personalabbau und dadurch eine Kostensenkung zur Folge. Dies wird sich nach einer Frist von zwei Jahren in tieferen Tarifen abbilden, da der Tarif jeweils auf den Kosten des Jahres X-2 basiert. Für die Psychiatriebe-triebe bedeutet dies, dass die Einnahmen zu diesem Zeit-punkt stark sinken werden. Damit die staatlichen Psychiatriebetriebe im KVG-Bereich (sta-tionäre Versorgung) CHF 5 Millionen zugunsten des Kantons sparen können, müssen sie insgesamt CHF 9.1 Millionen spa-ren, da die Krankenversicherer ab dem Zeitpunkt, an dem die Sparmassnahmen sich auf die Tarife auswirken (voraussichtlich \f2016) mit 45 Prozent am Spareffekt partizipieren. Um dieses Ziel zu erreichen, müssen 50 bis 60 Stellen abgebaut werden.  Vor dem Hintergrund der versorgungsplanerischen Ziele im Bereich der Psychiatrie bestehen nur beschränkte Möglichkei-ten, Einsparungen zu realisieren. Diese Massnahme ist eine davon, auch wenn damit eine Qualitätseinbusse verbunden ist.",
+        "Kurzbeschrieb": "Das Gesamtbudget für stationäre Leistungen errechnet sich durch Mengen und Preise. Beide Grössen können aufgrund der rechtlichen Vorgaben nicht reduziert werden. Im Gegensatz zu den nicht-staatlichen Betrieben können jedoch bei den staatlichen Psychiatrien die Stellenpläne direkt beeinflusst werden. Eine Reduktion des bestehenden Stellenplans hat für die staatlichen Psychiatriebetriebe einen Personalabbau und dadurch eine Kostensenkung zur Folge. Dies wird sich nach einer Frist von zwei Jahren in tieferen Tarifen abbilden, da der Tarif jeweils auf den Kosten des Jahres X-2 basiert. Für die Psychiatriebetriebe bedeutet dies, dass die Einnahmen zu diesem Zeitpunkt stark sinken werden. Damit die staatlichen Psychiatriebetriebe im KVG-Bereich (stationäre Versorgung) CHF 5 Millionen zugunsten des Kantons sparen können, müssen sie insgesamt CHF 9.1 Millionen sparen, da die Krankenversicherer ab dem Zeitpunkt, an dem die Sparmassnahmen sich auf die Tarife auswirken (voraussichtlich 2016) mit 45 Prozent am Spareffekt partizipieren. Um dieses Ziel zu erreichen, müssen 50 bis 60 Stellen abgebaut werden.  Vor dem Hintergrund der versorgungsplanerischen Ziele im Bereich der Psychiatrie bestehen nur beschränkte Möglichkeiten, Einsparungen zu realisieren. Diese Massnahme ist eine davon, auch wenn damit eine Qualitätseinbusse verbunden ist.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "5.000",
@@ -396,7 +411,7 @@
     },
     "gesundheit-und-f-rsorge_einsparungen-bei-den-ambulanten-beratungsstellen-suchthilfe": {
         "Aufgabenfeld": "Übriges Gesundheitswesen",
-        "Kurzbeschrieb": "Die Leistungen der ambulanten Beratungsstellen werden ins-gesamt via Lastenausgleich um CHF 2 Mio. (Kantonsteil CHF 1 Mio.) gekürzt. Primär betroffen ist der Beratungsbereich. Allfälli-ge Synergien und Sparpotenziale sollen jedoch auch in den Bereichen Gesundheitsförderung / Prävention und Schaden-minderung ausgeschöpft werden.",
+        "Kurzbeschrieb": "Die Leistungen der ambulanten Beratungsstellen werden insgesamt via Lastenausgleich um CHF 2 Mio. (Kantonsteil CHF 1 Mio.) gekürzt. Primär betroffen ist der Beratungsbereich. Allfällige Synergien und Sparpotenziale sollen jedoch auch in den Bereichen Gesundheitsförderung / Prävention und Schadenminderung ausgeschöpft werden.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "1.000",
@@ -460,7 +475,7 @@
         },
         "Direktion": "Gesundheits- und Fürsorgedirektion",
         "Nr": "6.2",
-        "Massnahme": "Streichen der Subventionierung der Hauswirtschaftliche Leis-tungen der Spitex",
+        "Massnahme": "Streichen der Subventionierung der Hauswirtschaftliche Leistungen der Spitex",
         "Rechtsgrundlage": "keine",
         "node": {
             "id": "gesundheit-und-f-rsorge_streichung-der-subventionen-an-die-hauswirtschaftlichen-leistungen-der-spitex",
@@ -478,7 +493,7 @@
     },
     "gesundheit-und-f-rsorge_k-rzung-der-abgeltung-der-versorgungspflicht-f-r-pflegerische-leistungen-der-spitex-um-25-": {
         "Aufgabenfeld": "Übriges Gesundheitswesen",
-        "Kurzbeschrieb": "Die öffentlichen Spitex-Organisationen verpflichten sich zur Annahme aller Klienten/innen der Pflege und der hauswirt-schaftlichen und sozialbetreuerischen Leistungen im festgeleg-ten Perimeter. Sie erhalten dafür eine Pauschale pro Einwoh-ner/in für die pflegerischen Leistungen sowie einen Zuschlag pro erbrachte Leistungsstunde, um die Vorhalteleistungen mit-zufinanzieren. Die Ansätze sowohl der Pauschale wie auch des Zuschlags werden um 25 Prozent gekürzt.",
+        "Kurzbeschrieb": "Die öffentlichen Spitex-Organisationen verpflichten sich zur Annahme aller Klienten/innen der Pflege und der hauswirtschaftlichen und sozialbetreuerischen Leistungen im festgelegten Perimeter. Sie erhalten dafür eine Pauschale pro Einwohner/in für die pflegerischen Leistungen sowie einen Zuschlag pro erbrachte Leistungsstunde, um die Vorhalteleistungen mitzufinanzieren. Die Ansätze sowohl der Pauschale wie auch des Zuschlags werden um 25 Prozent gekürzt.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "5.200",
@@ -519,7 +534,7 @@
     },
     "gesundheit-und-f-rsorge_k-rzung-der-abgeltung-der-versorgungspflicht-f-r-hauswirtschaftliche-leistungen-der-spitex-um-50-": {
         "Aufgabenfeld": "Übriges Gesundheitswesen",
-        "Kurzbeschrieb": "Die öffentlichen Spitex-Organisationen verpflichten sich zur Annahme aller Klienten/innen der Pflege und der hauswirt-schaftlichen und sozialbetreuerischen Leistungen im festgeleg-ten Perimeter. Sie erhalten dafür eine Pauschale pro Einwoh-ner/in für hauswirtschaftlichen Leistungen sowie einen Zuschlag pro erbrachte Leistungsstunde, um die Vorhalteleistungen mit-zufinanzieren. Die Ansätze sowohl der Pauschale wie auch des Zuschlags werden um 50 Prozent gekürzt.",
+        "Kurzbeschrieb": "Die öffentlichen Spitex-Organisationen verpflichten sich zur Annahme aller Klienten/innen der Pflege und der hauswirtschaftlichen und sozialbetreuerischen Leistungen im festgelegten Perimeter. Sie erhalten dafür eine Pauschale pro Einwohner/in für hauswirtschaftlichen Leistungen sowie einen Zuschlag pro erbrachte Leistungsstunde, um die Vorhalteleistungen mitzufinanzieren. Die Ansätze sowohl der Pauschale wie auch des Zuschlags werden um 50 Prozent gekürzt.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "2.500",
@@ -542,7 +557,7 @@
         },
         "Direktion": "Gesundheits- und Fürsorgedirektion",
         "Nr": "6.4",
-        "Massnahme": "Kürzung der Abgeltung der Versorgungspflicht für hauswirt-schaftliche Leistungen Spitex um 50 Prozent",
+        "Massnahme": "Kürzung der Abgeltung der Versorgungspflicht für hauswirtschaftliche Leistungen Spitex um 50 Prozent",
         "Rechtsgrundlage": "keine",
         "node": {
             "id": "gesundheit-und-f-rsorge_k-rzung-der-abgeltung-der-versorgungspflicht-f-r-hauswirtschaftliche-leistungen-der-spitex-um-50-",
@@ -560,7 +575,7 @@
     },
     "gesundheit-und-f-rsorge_streichung-der-subventionen-an-die-erg-nzenden-dienstleistungen-der-spitex": {
         "Aufgabenfeld": "Übriges Gesundheitswesen",
-        "Kurzbeschrieb": "Nachdem 2013 bereits auf die Subventionierung des Mahlzei-ten-dienstes verzichtet worden ist, sollen ab 2014 die übrigen ergänzen-den Dienstleistungen in der Spitex (Begleitung von Schwerkranken durch Freiwillige, Besuchsdienst durch Freiwil-lige, Fahrdienst, Gesundheitsförderung/Prävention, Nachtwa-che/Präsenzzeit) nicht mehr vom Kanton subventioniert werden",
+        "Kurzbeschrieb": "Nachdem 2013 bereits auf die Subventionierung des Mahlzeitendienstes verzichtet worden ist, sollen ab 2014 die übrigen ergänzenden Dienstleistungen in der Spitex (Begleitung von Schwerkranken durch Freiwillige, Besuchsdienst durch Freiwillige, Fahrdienst, Gesundheitsförderung/Prävention, Nachtwache/Präsenzzeit) nicht mehr vom Kanton subventioniert werden",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "0.700",
@@ -601,7 +616,7 @@
     },
     "gesundheit-und-f-rsorge_festlegung-eines-maximalbetrags-f-r-platzierungskosten-im-sozial-und-asylwesen": {
         "Aufgabenfeld": "Sozial- und Asylwesen",
-        "Kurzbeschrieb": "Seit dem 1.1.2013 werden Massnahmenkosten für Platzierun-gen von Kindern und Jugendlichen in bernischen, ausserkanto-nalen oder ausländischen Institutionen direkt über die Kindes- und Erwachsenenschutzbehörde (KESB) resp. über den Kan-ton finanziert. Kosten für so genannte freiwillige Platzierungen, d.h. ohne KESB-Beschluss, werden weiterhin über die wirt-schaftliche Hilfe (Lastenausgleich Sozialhilfe) finanziert. Hier soll ein Maximalbetrag pro Platzierungskategorie (Platzierung in Familien, in Heime, etc.) definiert werden.",
+        "Kurzbeschrieb": "Seit dem 1.1.2013 werden Massnahmenkosten für Platzierungen von Kindern und Jugendlichen in bernischen, ausserkantonalen oder ausländischen Institutionen direkt über die Kindes- und Erwachsenenschutzbehörde (KESB) resp. über den Kanton finanziert. Kosten für so genannte freiwillige Platzierungen, d.h. ohne KESB-Beschluss, werden weiterhin über die wirtschaftliche Hilfe (Lastenausgleich Sozialhilfe) finanziert. Hier soll ein Maximalbetrag pro Platzierungskategorie (Platzierung in Familien, in Heime, etc.) definiert werden.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "3.000",
@@ -642,7 +657,7 @@
     },
     "gesundheit-und-f-rsorge_k-rzungen-der-integrationszulagen-auf-skos-minimum": {
         "Aufgabenfeld": "Sozial- und Asylwesen",
-        "Kurzbeschrieb": "Integrationszulagen sind Leistungen mit Anreizcharakter, die nicht erwerbstätigen Personen ab 16 Jahren gewährt werden, wenn sie sich besonders um ihre soziale und/oder berufliche \fIntegration bemühen. Die Höhe der Zulagen variiert nach Be-schäftigungsgrad und Art der Integrationsleistung sowie nach Alter und Familien- und Ausbildungssituation der sozialhilfebe-ziehenden Person. Die SKOS-Richtlinien geben eine Bandbrei-te (zwischen CHF 100 und 300 pro Person und Monat) an. Die Höhe der Bandbreite der Zulagen des Kantons Bern bewegt sich im oberen Bereich der Vorgaben nach SKOS. Sie soll um 10 Prozent, aber nicht unter das Minimum gemäss SKOS-Vorgaben gesenkt werden.",
+        "Kurzbeschrieb": "Integrationszulagen sind Leistungen mit Anreizcharakter, die nicht erwerbstätigen Personen ab 16 Jahren gewährt werden, wenn sie sich besonders um ihre soziale und/oder berufliche Integration bemühen. Die Höhe der Zulagen variiert nach Beschäftigungsgrad und Art der Integrationsleistung sowie nach Alter und Familien- und Ausbildungssituation der sozialhilfebeziehenden Person. Die SKOS-Richtlinien geben eine Bandbreite (zwischen CHF 100 und 300 pro Person und Monat) an. Die Höhe der Bandbreite der Zulagen des Kantons Bern bewegt sich im oberen Bereich der Vorgaben nach SKOS. Sie soll um 10 Prozent, aber nicht unter das Minimum gemäss SKOS-Vorgaben gesenkt werden.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "5.000",
@@ -665,7 +680,7 @@
         },
         "Direktion": "Gesundheits- und Fürsorgedirektion",
         "Nr": "7a.2",
-        "Massnahme": "Kürzungen der Integrationszulagen in der wirtschaftlichen Sozi-alhilfe",
+        "Massnahme": "Kürzungen der Integrationszulagen in der wirtschaftlichen Sozialhilfe",
         "Rechtsgrundlage": "Sozialhilfeverordnung",
         "node": {
             "id": "gesundheit-und-f-rsorge_k-rzungen-der-integrationszulagen-auf-skos-minimum",
@@ -683,7 +698,7 @@
     },
     "gesundheit-und-f-rsorge_festsetzung-eines-maximalbetrags-f-r-krankenversicherungspr-mien-in-der-sozialhilfe": {
         "Aufgabenfeld": "Sozial- und Asylwesen",
-        "Kurzbeschrieb": "Die Krankenversicherungsprämien von Sozialhilfebeziehenden wer-den abzüglich der individuellen Prämienverbilligung bis zur Höhe eines Maximalbetrags über die wirtschaftliche Hilfe finan-ziert. Als Maximalbetrag wird zurzeit die Prämie der 20 günstigsten Krankenversicherer des Kantons Bern finanziert. Dieser Maxi-malbetrag wird neu auf das tiefere Niveau der10 günstigsten Krankenversicherer festgelegt.",
+        "Kurzbeschrieb": "Die Krankenversicherungsprämien von Sozialhilfebeziehenden werden abzüglich der individuellen Prämienverbilligung bis zur Höhe eines Maximalbetrags über die wirtschaftliche Hilfe finanziert. Als Maximalbetrag wird zurzeit die Prämie der 20 günstigsten Krankenversicherer des Kantons Bern finanziert. Dieser Maximalbetrag wird neu auf das tiefere Niveau der10 günstigsten Krankenversicherer festgelegt.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "3.500",
@@ -724,7 +739,7 @@
     },
     "gesundheit-und-f-rsorge_abschaffung-des-zuschusses-nach-dekret": {
         "Aufgabenfeld": "Sozial- und Asylwesen",
-        "Kurzbeschrieb": "Zuschüsse nach Dekret sind eine der Sozialhilfe vorgelagerte Leistung, die vor allem an Heimbewohner/innen ausgerichtet wird. Seit der neuen Pflegefinanzierung ab 2011 werden grund-sätzlich keine Zuschüsse nach Dekret mehr an Bezüger/innen von IV- oder AHV-Renten ausgerichtet. Davon ausgenommen ist die Finanzierung eines spezifischen Bedarfs aus individuel-len Gründen oder die Bevorschussung von Ergänzungsleistun-gen, was eher selten vorkommt.",
+        "Kurzbeschrieb": "Zuschüsse nach Dekret sind eine der Sozialhilfe vorgelagerte Leistung, die vor allem an Heimbewohner/innen ausgerichtet wird. Seit der neuen Pflegefinanzierung ab 2011 werden grundsätzlich keine Zuschüsse nach Dekret mehr an Bezüger/innen von IV- oder AHV-Renten ausgerichtet. Davon ausgenommen ist die Finanzierung eines spezifischen Bedarfs aus individuellen Gründen oder die Bevorschussung von Ergänzungsleistungen, was eher selten vorkommt.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "0.000",
@@ -748,7 +763,7 @@
         "Direktion": "Gesundheits- und Fürsorgedirektion",
         "Nr": "7a.4",
         "Massnahme": "Abschaffung des Zuschusses nach Dekret",
-        "Rechtsgrundlage": "Dekret vom 16. Februar 1971 über Zuschüsse für minderbemit-telte Personen (Zuschussdekret, ZuD)",
+        "Rechtsgrundlage": "Dekret vom 16. Februar 1971 über Zuschüsse für minderbemittelte Personen (Zuschussdekret, ZuD)",
         "node": {
             "id": "gesundheit-und-f-rsorge_abschaffung-des-zuschusses-nach-dekret",
             "name": "Abschaffung des Zuschusses nach Dekret",
@@ -765,7 +780,7 @@
     },
     "gesundheit-und-f-rsorge_kopplung-der-alimentenbevorschussung-an-das-einkommen": {
         "Aufgabenfeld": "Sozial- und Asylwesen",
-        "Kurzbeschrieb": "Die Alimentenbevorschussung soll in Anlehnung an die Praxis der meisten anderen Kantone einkommensabhängig ausgestal-tet werden.",
+        "Kurzbeschrieb": "Die Alimentenbevorschussung soll in Anlehnung an die Praxis der meisten anderen Kantone einkommensabhängig ausgestaltet werden.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "0.000",
@@ -789,7 +804,7 @@
         "Direktion": "Gesundheits- und Fürsorgedirektion",
         "Nr": "7a.5",
         "Massnahme": "Kopplung der Alimentenbevorschussung an das Einkommen",
-        "Rechtsgrundlage": "Gesetz über Inkassohilfe und Bevorschussung von Unterhalts-beiträgen",
+        "Rechtsgrundlage": "Gesetz über Inkassohilfe und Bevorschussung von Unterhaltsbeiträgen",
         "node": {
             "id": "gesundheit-und-f-rsorge_kopplung-der-alimentenbevorschussung-an-das-einkommen",
             "name": "Kopplung der Alimentenbevorschussung an das Einkommen",
@@ -806,7 +821,7 @@
     },
     "gesundheit-und-f-rsorge_mitfinanzierung-der-besoldungskosten-des-personals-in-den-alimenteninkassostellen-anstelle-der-ausrichtung-von-inkassoprovisionen": {
         "Aufgabenfeld": "Sozial- und Asylwesen",
-        "Kurzbeschrieb": "Wenn Gemeinden familienrechtliche Unterhalts- und Unterstüt-zungs-beiträge (Alimenteninkassi) einziehen, können sie bis anhin einen Drittel dieses Betrages (Inkassoprovision) behalten und müssen nur zwei Drittel in den Lastenausgleich geben. Neu soll diese Inkassoprovision wegfallen. Anstelle der Inkassopro-vision können die Gemeinden Besoldungskosten für das Per-sonal, das die Alimentenbevorschussung und das –inkasso vollzieht, über den Lastenausgleich abrechnen, was die Netto-kosten senkt (Berücksichtigung von 1/3 mehr am Einzug der Alimente im Lastenausgleich SHG [Anteil Kanton somit 1/6 höher als bisher] übersteigt die Mehrkosten für das entspre-chende Fachpersonal, welche neu in den Lastenausgleich ein-gebracht werden können).",
+        "Kurzbeschrieb": "Wenn Gemeinden familienrechtliche Unterhalts- und Unterstützungsbeiträge (Alimenteninkassi) einziehen, können sie bis anhin einen Drittel dieses Betrages (Inkassoprovision) behalten und müssen nur zwei Drittel in den Lastenausgleich geben. Neu soll diese Inkassoprovision wegfallen. Anstelle der Inkassoprovision können die Gemeinden Besoldungskosten für das Personal, das die Alimentenbevorschussung und das –inkasso vollzieht, über den Lastenausgleich abrechnen, was die Nettokosten senkt (Berücksichtigung von 1/3 mehr am Einzug der Alimente im Lastenausgleich SHG [Anteil Kanton somit 1/6 höher als bisher] übersteigt die Mehrkosten für das entsprechende Fachpersonal, welche neu in den Lastenausgleich eingebracht werden können).",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "1.400",
@@ -847,7 +862,7 @@
     },
     "gesundheit-und-f-rsorge_aufhebung-der-testarbeitspl-tze": {
         "Aufgabenfeld": "Sozial- und Asylwesen",
-        "Kurzbeschrieb": "Das relativ neue Angebot «Testarbeitsplätze» mit rund 40 Plät-zen an 6 Standorten im Kanton wird ersatzlos gestrichen: Den sehr hohen Kosten der Einsatzplätze stehen marginale direkte Einsparungen gegenüber, auch wenn nicht quantifizierbar ist, ob und in welchem Umfang eine abschreckende Wirkung be-steht (d.h. ein möglicher TAP-Einsatz lässt Personen darauf verzichten, Sozialhilfe zu beantragen).",
+        "Kurzbeschrieb": "Das relativ neue Angebot «Testarbeitsplätze» mit rund 40 Plätzen an 6 Standorten im Kanton wird ersatzlos gestrichen: Den sehr hohen Kosten der Einsatzplätze stehen marginale direkte Einsparungen gegenüber, auch wenn nicht quantifizierbar ist, ob und in welchem Umfang eine abschreckende Wirkung besteht (d.h. ein möglicher TAP-Einsatz lässt Personen darauf verzichten, Sozialhilfe zu beantragen).",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "1.600",
@@ -888,7 +903,7 @@
     },
     "gesundheit-und-f-rsorge_reduktion-der-angebote-f-r-vorl-ufig-aufgenommen-und-fl-chtlinge": {
         "Aufgabenfeld": "Sozial- und Asylwesen",
-        "Kurzbeschrieb": "Aufgrund der Prognosen des Bundes ist davon auszugehen, dass die Zahl der zu integrierenden Flüchtlinge und vorläufig Aufgenommenen ab 2013 deutlich ansteigt. Deshalb war ur-sprünglich eine Mittelaufstockung eingeplant, um auch entspre-chend mehr Integrationsangebote zur Verfügung stellen zu können. Auf diesen Ausbau soll nun verzichtet werden, was Einsparungen von ca. CHF 1 Million ergibt (netto, vor Lasten-ausgleich). Zusätzlich zu diesem Ausbauverzicht müssen be-stehende Programme abgebaut werden.",
+        "Kurzbeschrieb": "Aufgrund der Prognosen des Bundes ist davon auszugehen, dass die Zahl der zu integrierenden Flüchtlinge und vorläufig Aufgenommenen ab 2013 deutlich ansteigt. Deshalb war ursprünglich eine Mittelaufstockung eingeplant, um auch entsprechend mehr Integrationsangebote zur Verfügung stellen zu können. Auf diesen Ausbau soll nun verzichtet werden, was Einsparungen von ca. CHF 1 Million ergibt (netto, vor Lastenausgleich). Zusätzlich zu diesem Ausbauverzicht müssen bestehende Programme abgebaut werden.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "1.300",
@@ -911,7 +926,7 @@
         },
         "Direktion": "Gesundheits- und Fürsorgedirektion",
         "Nr": "7a.8",
-        "Massnahme": "Reduktion der Integrationsmassnahmen und -angebote für vor-läufig Aufgenommene/Flüchtlinge",
+        "Massnahme": "Reduktion der Integrationsmassnahmen und -angebote für vorläufig Aufgenommene/Flüchtlinge",
         "Rechtsgrundlage": "keine",
         "node": {
             "id": "gesundheit-und-f-rsorge_reduktion-der-angebote-f-r-vorl-ufig-aufgenommen-und-fl-chtlinge",
@@ -929,7 +944,7 @@
     },
     "gesundheit-und-f-rsorge_aufschub-der-integrationsmassnahmen": {
         "Aufgabenfeld": "Sozial- und Asylwesen",
-        "Kurzbeschrieb": "Diverse geplante Integrationsmassnahmen, die durch Investiti-onsverzögerungen oder das Ausgabenmoratorium 2012 nicht umgesetzt wurden und im Rahmen der zusätzlichen Entlas-tungsmassnahmen für den Voranschlag 2013 aufgeschoben werden mussten, werden nicht umgesetzt. Betroffen sind vor \fallem Mittel, die für Projekte der spezifischen Integrationsförde-rung vorgesehen waren.",
+        "Kurzbeschrieb": "Diverse geplante Integrationsmassnahmen, die durch Investitionsverzögerungen oder das Ausgabenmoratorium 2012 nicht umgesetzt wurden und im Rahmen der zusätzlichen Entlastungsmassnahmen für den Voranschlag 2013 aufgeschoben werden mussten, werden nicht umgesetzt. Betroffen sind vor allem Mittel, die für Projekte der spezifischen Integrationsförderung vorgesehen waren.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "2.300",
@@ -970,7 +985,7 @@
     },
     "gesundheit-und-f-rsorge_ausbau-der-personellen-ressourcen-f-r-erh-hte-kontrolle-und-revisionst-tigkeit-im-sozial-und-asylwesen": {
         "Aufgabenfeld": "Sozial- und Asylwesen",
-        "Kurzbeschrieb": "Die personellen Ressourcen der Abteilung Finanzen und Revi-sion des kantonalen Sozialamtes sollen erhöht werden, um trotz quantitativ und qualitativ steigenden Anforderungen das ge-genwärtige Kontrollniveau sicherzustellen und zu erhöhen. Ins-besondere soll die Revision des Lastenausgleichs Sozialhilfe verstärkt werden, was zu Einsparungen für den Kanton führt.",
+        "Kurzbeschrieb": "Die personellen Ressourcen der Abteilung Finanzen und Revision des kantonalen Sozialamtes sollen erhöht werden, um trotz quantitativ und qualitativ steigenden Anforderungen das gegenwärtige Kontrollniveau sicherzustellen und zu erhöhen. Insbesondere soll die Revision des Lastenausgleichs Sozialhilfe verstärkt werden, was zu Einsparungen für den Kanton führt.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "0.500",
@@ -993,7 +1008,7 @@
         },
         "Direktion": "Gesundheits- und Fürsorgedirektion",
         "Nr": "7a.10",
-        "Massnahme": "Ausbau personelle Ressourcen für erhöhte Kontrolle und Revi-sionstätigkeit",
+        "Massnahme": "Ausbau personelle Ressourcen für erhöhte Kontrolle und Revisionstätigkeit",
         "Rechtsgrundlage": "keine",
         "node": {
             "id": "gesundheit-und-f-rsorge_ausbau-der-personellen-ressourcen-f-r-erh-hte-kontrolle-und-revisionst-tigkeit-im-sozial-und-asylwesen",
@@ -1011,7 +1026,7 @@
     },
     "gesundheit-und-f-rsorge_k-rzung-der-betriebsbeitr-ge-an-institutionen-f-r-erwachsene-behinderte": {
         "Aufgabenfeld": "Alters- und Behindertenbereich",
-        "Kurzbeschrieb": "Für die Institutionen für erwachsene Behinderte wurde bis zur Umsetzung des Behindertenkonzepts auf der Basis des heuti-gen Einstufungssystems für den Betreuungsbedarf für die be-troffenen Menschen und unter Berücksichtigung des Leistungs-umfangs sog. Richtstellenplan definiert. Verschiedene Instituti-onen verfügen über Stellenpläne, welche über diesen Richtstel-lenplan liegen. Deshalb sollen folgende Kürzungen umgesetzt werden: Kürzung beim Richtstellenplan der Heime und linear bei allen anderen Institutionen (Tages- und Werkstätten) sowie Organi-sationen 2014: Kürzung auf 120 Prozent des Richtstellenplans; alle anderen 8,7 Prozent linear 2015: Kürzung auf 110 Prozent des Richtstellenplans; alle anderen weitere 7,2 Prozent linear Da die Reduktion der Leistungsmenge (Kapazitäten) nicht mög-lich ist (die Leistungsbezüger, behinderte Menschen, sind real vorhanden) sind Einsparungen nur durch die Veränderung einer wesentlichen Inputgrösse (bei gleichzeitiger Reduktion der Qua-\f                    80  lität) realisierbar.",
+        "Kurzbeschrieb": "Für die Institutionen für erwachsene Behinderte wurde bis zur Umsetzung des Behindertenkonzepts auf der Basis des heutigen Einstufungssystems für den Betreuungsbedarf für die betroffenen Menschen und unter Berücksichtigung des Leistungsumfangs sog. Richtstellenplan definiert. Verschiedene Institutionen verfügen über Stellenpläne, welche über diesen Richtstellenplan liegen. Deshalb sollen folgende Kürzungen umgesetzt werden: Kürzung beim Richtstellenplan der Heime und linear bei allen anderen Institutionen (Tages- und Werkstätten) sowie Organisationen 2014: Kürzung auf 120 Prozent des Richtstellenplans; alle anderen 8,7 Prozent linear 2015: Kürzung auf 110 Prozent des Richtstellenplans; alle anderen weitere 7,2 Prozent linear Da die Reduktion der Leistungsmenge (Kapazitäten) nicht möglich ist (die Leistungsbezüger, behinderte Menschen, sind real vorhanden) sind Einsparungen nur durch die Veränderung einer wesentlichen Inputgrösse (bei gleichzeitiger Reduktion der Qualität) realisierbar.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "28.700",
@@ -1034,7 +1049,7 @@
         },
         "Direktion": "Gesundheits- und Fürsorgedirektion",
         "Nr": "8.4",
-        "Massnahme": "Kürzung Betriebsbeiträge an Institutionen für Erwachsene Be-hinderte gestützt auf Richtstellenplan",
+        "Massnahme": "Kürzung Betriebsbeiträge an Institutionen für Erwachsene Behinderte gestützt auf Richtstellenplan",
         "Rechtsgrundlage": "keine",
         "node": {
             "id": "gesundheit-und-f-rsorge_k-rzung-der-betriebsbeitr-ge-an-institutionen-f-r-erwachsene-behinderte",
@@ -1052,7 +1067,7 @@
     },
     "gesundheit-und-f-rsorge_reduktion-der-kostenbeteiligung-bei-der-station-ren-langzeitpflege-um-5-": {
         "Aufgabenfeld": "Alters- und Behindertenbereich",
-        "Kurzbeschrieb": "Die Normkosten pro Pflegestufe betragen CHF 21.10. Davon tragen die Krankenversicherer CHF 9.00 pro Pflegestufe. Ab Pflegestufe 3 beteiligen sich die Bewohnenden mit dem Maxi-malbetrag von CHF 21.60. Die restlichen Kosten gehen zulas-ten der GEF. Diese Normkosten werden um 1,8 Prozent gekürzt. Da die Bei-träge der Versicherer bei dieser Massnahme gleich bleiben (sie sind vom Bundesrat festgelegt) und die Beiträge der Bewoh-nenden in den Pflegestufen 1-2 leicht ansteigen (erst ab Pfle-gestufe 3 ist das Maximum des Bewohnerbeitrags erreicht), ergibt sich im Total eine Kürzung von 5 Prozent auf die Kan-tonsbeiträge.",
+        "Kurzbeschrieb": "Die Normkosten pro Pflegestufe betragen CHF 21.10. Davon tragen die Krankenversicherer CHF 9.00 pro Pflegestufe. Ab Pflegestufe 3 beteiligen sich die Bewohnenden mit dem Maximalbetrag von CHF 21.60. Die restlichen Kosten gehen zulasten der GEF. Diese Normkosten werden um 1,8 Prozent gekürzt. Da die Beiträge der Versicherer bei dieser Massnahme gleich bleiben (sie sind vom Bundesrat festgelegt) und die Beiträge der Bewohnenden in den Pflegestufen 1-2 leicht ansteigen (erst ab Pflegestufe 3 ist das Maximum des Bewohnerbeitrags erreicht), ergibt sich im Total eine Kürzung von 5 Prozent auf die Kantonsbeiträge.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "8.800",
@@ -1076,7 +1091,7 @@
         "Direktion": "Gesundheits- und Fürsorgedirektion",
         "Nr": "8.5",
         "Massnahme": "Senkung der Kostenbeteiligung des Kantons im Bereich der stationären Langzeitpflege und -betreuung um 5 Prozent",
-        "Rechtsgrundlage": "Sozialhilfeverordnung    \f                    81",
+        "Rechtsgrundlage": "Sozialhilfeverordnung",
         "node": {
             "id": "gesundheit-und-f-rsorge_reduktion-der-kostenbeteiligung-bei-der-station-ren-langzeitpflege-um-5-",
             "name": "Reduktion der Kostenbeteiligung bei der stationären Langzeitpflege um\n5 %",
@@ -1117,7 +1132,7 @@
         "Direktion": "Justiz-, Gemeinde- und Kirchendirektion",
         "Nr": "9.1",
         "Massnahme": "Reduktion der Höchstbeträge der Heimtarife im Bereich der darin enthaltenen Infrastrukturkosten (Art. 3 EV ELG)",
-        "Rechtsgrundlage": "Einführungsverordnung zum Bundesgesetz über Ergänzungs-leistungen zur Alters-, Hinterlassenen- und Invalidenversiche-rung (EV ELG)",
+        "Rechtsgrundlage": "Einführungsverordnung zum Bundesgesetz über Ergänzungsleistungen zur Alters-, Hinterlassenen- und Invalidenversicherung (EV ELG)",
         "node": {
             "id": "justiz-gemeinde-und-kirchen_erg-nzungsleistungen-reduktion-der-h-chstbetr-ge-der-heimtarife-im-bereich-der-darin-enthaltenen-infrastrukturkosten",
             "name": "Ergänzungsleistungen: Reduktion der Höchstbeträge der Heimtarife im\nBereich der darin enthaltenen Infrastrukturkosten",
@@ -1134,7 +1149,7 @@
     },
     "justiz-gemeinde-und-kirchen_erg-nzungsleistungen-reduktion-der-kostenvoranschlagslimite-bei-zahnbehandlungen": {
         "Aufgabenfeld": "Ergänzungsleistungen",
-        "Kurzbeschrieb": "Reduktion der Kostenvoranschlagslimite bei Zahnbehandlun-gen von CHF 3’000.00 auf CHF 1’500.00 Mit dieser Massnahme wird eine höhere Hürde bei der Finan-zierung von Zahnbehandlungen eingeführt, welche zu günstige-ren Behandlungsvarianten führen soll. Die zahnärztliche Be-handlung bleibt weiterhin gewährleistet. Damit wird aus Sicht des Regierungsrates eine vertretbare Sparmassnahme be-schlossen. Die Zahnbehandlungen zählen zu den Krankheits- und Behinderungskosten, die der Kanton alleine trägt.",
+        "Kurzbeschrieb": "Reduktion der Kostenvoranschlagslimite bei Zahnbehandlungen von CHF 3’000.00 auf CHF 1’500.00 Mit dieser Massnahme wird eine höhere Hürde bei der Finanzierung von Zahnbehandlungen eingeführt, welche zu günstigeren Behandlungsvarianten führen soll. Die zahnärztliche Behandlung bleibt weiterhin gewährleistet. Damit wird aus Sicht des Regierungsrates eine vertretbare Sparmassnahme beschlossen. Die Zahnbehandlungen zählen zu den Krankheits- und Behinderungskosten, die der Kanton alleine trägt.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "1.000",
@@ -1157,8 +1172,8 @@
         },
         "Direktion": "Justiz-, Gemeinde- und Kirchendirektion",
         "Nr": "9.2",
-        "Massnahme": "Reduktion der Kostenvoranschlagslimite bei Zahnbehandlun-gen",
-        "Rechtsgrundlage": "Einführungsverordnung zum Bundesgesetz über Ergänzungs-",
+        "Massnahme": "Reduktion der Kostenvoranschlagslimite bei Zahnbehandlungen",
+        "Rechtsgrundlage": "Einführungsverordnung zum Bundesgesetz über Ergänzungsleistungen zur Alters-, Hinterlassenen- und Invalidenversicherung (EV ELG)",
         "node": {
             "id": "justiz-gemeinde-und-kirchen_erg-nzungsleistungen-reduktion-der-kostenvoranschlagslimite-bei-zahnbehandlungen",
             "name": "Ergänzungsleistungen: Reduktion der Kostenvoranschlagslimite bei\nZahnbehandlungen",
@@ -1175,7 +1190,7 @@
     },
     "justiz-gemeinde-und-kirchen_kranken-und-unfallversicherung-zus-tzliche-k-rzungen-bei-der-pr-mien-verbilligung": {
         "Aufgabenfeld": "Kranken- und Unfallversicherung",
-        "Kurzbeschrieb": "Vgl. allg. Bemerkungen zu diesem Aufgabenfeld, Anhang 1 sowie Sparvorschlag 10.1, Anhang 2. Eine weitere Kürzung um CHF 59 Millionen, resp. CHF 44 Milli-onen (zur Erreichung des technischen Sparpotenzials) würde dazu führen, dass praktisch der gesamte Kantonsanteil elimi-niert würde. Dies kann sich der Kanton Bern aus Sicht des Re-gierungsrates nicht erlauben. Zudem hätte eine solche Kürzung sicher auch Auswirkungen in nicht bekanntem Masse auf die Sozialhilfequote.",
+        "Kurzbeschrieb": "Vgl. allg. Bemerkungen zu diesem Aufgabenfeld, Anhang 1 sowie Sparvorschlag 10.1, Anhang 2. Eine weitere Kürzung um CHF 59 Millionen, resp. CHF 44 Millionen (zur Erreichung des technischen Sparpotenzials) würde dazu führen, dass praktisch der gesamte Kantonsanteil eliminiert würde. Dies kann sich der Kanton Bern aus Sicht des Regierungsrates nicht erlauben. Zudem hätte eine solche Kürzung sicher auch Auswirkungen in nicht bekanntem Masse auf die Sozialhilfequote.",
         "Auswirkungen": {
             "Finanzielle": null,
             "Gemeinden": null,
@@ -1184,7 +1199,7 @@
         "Direktion": "Justiz-, Gemeinde- und Kirchendirektion",
         "Nr": "10.1",
         "Massnahme": "Zusätzliche Kürzungen im Bereich Prämienverbilligung",
-        "Rechtsgrundlage": "Gesetz betreffend die Einführung der Bundesgesetze über die \f                    127  Kranken-, die Unfall- und die Militärversicherung (EG KUMV) Kantonale Krankenversicherungsverordnung (KKVV)     \f                    128",
+        "Rechtsgrundlage": "Gesetz betreffend die Einführung der Bundesgesetze über die Kranken-, die Unfall- und die Militärversicherung (EG KUMV) Kantonale Krankenversicherungsverordnung (KKVV)",
         "node": {
             "id": "justiz-gemeinde-und-kirchen_kranken-und-unfallversicherung-zus-tzliche-k-rzungen-bei-der-pr-mien-verbilligung",
             "name": "Kranken und Unfallversicherung: Zusätzliche Kürzungen bei der Prämien-\nverbilligung",
@@ -1201,7 +1216,7 @@
     },
     "polizei_stellenabbau-bei-der-kantonspolizei": {
         "Aufgabenfeld": "Polizei",
-        "Kurzbeschrieb": "Der bewilligte Bestand der Kantonspolizei Bern wird in drei Jahrestranchen um insgesamt 100 Stellen reduziert. Diese Reduktion ist durch alle Abteilungen der Kantonspolizei zu tra-gen.  Der effektive Abbau erfolgt über natürliche Fluktuationen, d.h. über die Nichtbesetzung offener Stellen. Es werden voraus-sichtlich keine Mitarbeitenden entlassen. Die mit der Umsetzung des Stellenabbaus einhergehenden Konzentrationen der Mittel führen letztlich zu einer hohen Mobi-lität des verbleibenden Personalkörpers; wo möglich wird auf Spezialisierungen zu Gunsten von allgemein wirkenden Kräften verzichtet. Der Regierungsrat erachtet die vorgeschlagene Massnahme als tragbar und sieht keine andere Möglichkeit, anderswo bei der Kantonspolizei Einsparungen in der vorgege-benen Höhe zu erzielen. Die vorgeschlagene neue Struktur entspricht einer modernen Polizeiorganisation und belastet das Personal nicht zusätzlich.",
+        "Kurzbeschrieb": "Der bewilligte Bestand der Kantonspolizei Bern wird in drei Jahrestranchen um insgesamt 100 Stellen reduziert. Diese Reduktion ist durch alle Abteilungen der Kantonspolizei zu tragen.  Der effektive Abbau erfolgt über natürliche Fluktuationen, d.h. über die Nichtbesetzung offener Stellen. Es werden voraussichtlich keine Mitarbeitenden entlassen. Die mit der Umsetzung des Stellenabbaus einhergehenden Konzentrationen der Mittel führen letztlich zu einer hohen Mobilität des verbleibenden Personalkörpers; wo möglich wird auf Spezialisierungen zu Gunsten von allgemein wirkenden Kräften verzichtet. Der Regierungsrat erachtet die vorgeschlagene Massnahme als tragbar und sieht keine andere Möglichkeit, anderswo bei der Kantonspolizei Einsparungen in der vorgegebenen Höhe zu erzielen. Die vorgeschlagene neue Struktur entspricht einer modernen Polizeiorganisation und belastet das Personal nicht zusätzlich.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "4.300",
@@ -1224,8 +1239,8 @@
         },
         "Direktion": "Polizei- und Militärdirektion",
         "Nr": "11.1",
-        "Massnahme": "Stellenabbau; die Anzahl bewilligter Stellen wird um 100 redu-ziert.",
-        "Rechtsgrundlage": "keine    \f                    84",
+        "Massnahme": "Stellenabbau; die Anzahl bewilligter Stellen wird um 100 reduziert.",
+        "Rechtsgrundlage": "keine",
         "node": {
             "id": "polizei_stellenabbau-bei-der-kantonspolizei",
             "name": "Stellenabbau bei der Kantonspolizei",
@@ -1283,7 +1298,7 @@
     },
     "finanzen_stellenverzicht-in-der-finanzverwaltung": {
         "Aufgabenfeld": "Finanz- und Steuerverwaltung",
-        "Kurzbeschrieb": "Eine Stelle in der Finanzverwaltung wird nicht mehr besetzt und aus dem Stellenplan gestrichen. Der Stellenbestand in der Finanzverwaltung wird auf das Not-wendigste zur Aufrechterhaltung des ordentlichen Betriebs re-duziert.",
+        "Kurzbeschrieb": "Eine Stelle in der Finanzverwaltung wird nicht mehr besetzt und aus dem Stellenplan gestrichen. Der Stellenbestand in der Finanzverwaltung wird auf das Notwendigste zur Aufrechterhaltung des ordentlichen Betriebs reduziert.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "0.110",
@@ -1307,7 +1322,7 @@
         "Direktion": "Finanzdirektion",
         "Nr": "14.2",
         "Massnahme": "Finanzverwaltung: Stellenabbau",
-        "Rechtsgrundlage": "keine    \f                    85",
+        "Rechtsgrundlage": "keine",
         "node": {
             "id": "finanzen_stellenverzicht-in-der-finanzverwaltung",
             "name": "Stellenverzicht in der Finanzverwaltung",
@@ -1324,7 +1339,7 @@
     },
     "finanzen_finanzverwaltung-verzicht-auf-dienstleistungen-dritter": {
         "Aufgabenfeld": "Finanz- und Steuerverwaltung",
-        "Kurzbeschrieb": "Unterstützungs-Dienstleistungen Dritter werden in der Finanz-verwaltung nur noch in Ausnahmefällen in Anspruch genom-men. Dies kann zu Projektverzögerungen und weniger vertief-ten Abklärungen bei Spezialfragen aus Parlament, Regierung und Verwaltung führen. Projektplanungen und Qualitätsansprüche bei Abklärungen müssen an die schwierigen finanziellen Rahmenbedingungen angepasst werden.",
+        "Kurzbeschrieb": "Unterstützungs-Dienstleistungen Dritter werden in der Finanzverwaltung nur noch in Ausnahmefällen in Anspruch genommen. Dies kann zu Projektverzögerungen und weniger vertieften Abklärungen bei Spezialfragen aus Parlament, Regierung und Verwaltung führen. Projektplanungen und Qualitätsansprüche bei Abklärungen müssen an die schwierigen finanziellen Rahmenbedingungen angepasst werden.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "0.150",
@@ -1365,7 +1380,7 @@
     },
     "finanzen_finanzverwaltung-verzicht-auf-informatikdienstleistungen-dritter": {
         "Aufgabenfeld": "Finanz- und Steuerverwaltung",
-        "Kurzbeschrieb": "Der Verzicht auf Informatik-Dienstleistungen Dritter führt punk-tuell zu Einschränkungen bei Unterhalt, Wartung und Betrieb des Finanzinformationssystems FIS. Das Risiko für Störungen im Betrieb des FIS steigt, muss je-doch angesichts der schwierigen finanziellen Situation in Kauf genommen werden.",
+        "Kurzbeschrieb": "Der Verzicht auf Informatik-Dienstleistungen Dritter führt punktuell zu Einschränkungen bei Unterhalt, Wartung und Betrieb des Finanzinformationssystems FIS. Das Risiko für Störungen im Betrieb des FIS steigt, muss jedoch angesichts der schwierigen finanziellen Situation in Kauf genommen werden.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "2016",
@@ -1389,7 +1404,7 @@
         "Direktion": "Finanzdirektion",
         "Nr": "14.4",
         "Massnahme": "Finanzverwaltung: Verzicht auf Informatik-Dienstleistungen Dritter für das FIS",
-        "Rechtsgrundlage": "keine  \f                    86",
+        "Rechtsgrundlage": "keine",
         "node": {
             "id": "finanzen_finanzverwaltung-verzicht-auf-informatikdienstleistungen-dritter",
             "name": "Finanzverwaltung: Verzicht auf Informatikdienstleistungen Dritter",
@@ -1406,7 +1421,7 @@
     },
     "finanzen_steuerverwaltung-verzicht-auf-dienstleistungen-dritter-im-kommunikationsbereich": {
         "Aufgabenfeld": "Finanz- und Steuerverwaltung",
-        "Kurzbeschrieb": "Auf die Produktion der TaxMe-CD wird verzichtet. Es wird nur noch eine Downloadversion im Internet angeboten. Die Steuer-pflichtigen, welche die Steuererklärung bisher mit der TaxMe-CD ausgefüllt haben, erhalten keine Steuererklärungsformulare mehr. TaxMe-Online wird weiterhin in gleichem Mass angebo-ten. Die Reduktion des Dienstleistungsangebots ist vertretbar, da Alternativen bestehen.",
+        "Kurzbeschrieb": "Auf die Produktion der TaxMe-CD wird verzichtet. Es wird nur noch eine Downloadversion im Internet angeboten. Die Steuerpflichtigen, welche die Steuererklärung bisher mit der TaxMe-CD ausgefüllt haben, erhalten keine Steuererklärungsformulare mehr. TaxMe-Online wird weiterhin in gleichem Mass angeboten. Die Reduktion des Dienstleistungsangebots ist vertretbar, da Alternativen bestehen.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "0.080",
@@ -1429,7 +1444,7 @@
         },
         "Direktion": "Finanzdirektion",
         "Nr": "14.5",
-        "Massnahme": "Steuerverwaltung: Verzicht auf TaxMe-CD und Steuererklä-rungsformulare",
+        "Massnahme": "Steuerverwaltung: Verzicht auf TaxMe-CD und Steuererklärungsformulare",
         "Rechtsgrundlage": "keine",
         "node": {
             "id": "finanzen_steuerverwaltung-verzicht-auf-dienstleistungen-dritter-im-kommunikationsbereich",
@@ -1447,7 +1462,7 @@
     },
     "finanzen_steuerverwaltung-verzicht-auf-taxme-cd-und-steuererkl-rungsformulare": {
         "Aufgabenfeld": "Finanz- und Steuerverwaltung",
-        "Kurzbeschrieb": "Die neuen Newsletter für spezielle Kundengruppen wie juristi-sche Personen, Treuhänder oder quellensteuerpflichtige Ar-beitgeber werden nicht erstellt. Verzicht auf den Aufbau dieses Kommunikationskanals für spezielle Kundengruppen. Organisatorische Massnahme im Kompetenzbereich der Steu-erverwaltung.",
+        "Kurzbeschrieb": "Die neuen Newsletter für spezielle Kundengruppen wie juristische Personen, Treuhänder oder quellensteuerpflichtige Arbeitgeber werden nicht erstellt. Verzicht auf den Aufbau dieses Kommunikationskanals für spezielle Kundengruppen. Organisatorische Massnahme im Kompetenzbereich der Steuerverwaltung.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "0.040",
@@ -1471,7 +1486,7 @@
         "Direktion": "Finanzdirektion",
         "Nr": "14.6",
         "Massnahme": "Steuerverwaltung: Verzicht auf Dienstleistungen Dritter im Kommunikationsbereich",
-        "Rechtsgrundlage": "keine \f                    87",
+        "Rechtsgrundlage": "keine",
         "node": {
             "id": "finanzen_steuerverwaltung-verzicht-auf-taxme-cd-und-steuererkl-rungsformulare",
             "name": "Steuerverwaltung: Verzicht auf Taxme-CD und\nSteuererklärungsformulare",
@@ -1488,7 +1503,7 @@
     },
     "finanzen_steuerverwaltung-verzicht-auf-kunden-und-b-gerbefragungen": {
         "Aufgabenfeld": "Finanz- und Steuerverwaltung",
-        "Kurzbeschrieb": "Auf die seit 2008 geplante Kunden- und Expertenbefragung zur Zufriedenheit mit den Dienstleistungen der Steuerverwaltung wird verzichtet. Angesicht der schwierigen finanziellen Situation stehen Zufrie-denheitsbefragungen nicht im Vordergrund.",
+        "Kurzbeschrieb": "Auf die seit 2008 geplante Kunden- und Expertenbefragung zur Zufriedenheit mit den Dienstleistungen der Steuerverwaltung wird verzichtet. Angesicht der schwierigen finanziellen Situation stehen Zufriedenheitsbefragungen nicht im Vordergrund.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "0.030",
@@ -1511,7 +1526,7 @@
         },
         "Direktion": "Finanzdirektion",
         "Nr": "14.7",
-        "Massnahme": "Steuerverwaltung: Verzicht auf Kunden- und Bürgerbefragun-gen im Rahmen der NEF-Zielsetzungen",
+        "Massnahme": "Steuerverwaltung: Verzicht auf Kunden- und Bürgerbefragungen im Rahmen der NEF-Zielsetzungen",
         "Rechtsgrundlage": "keine",
         "node": {
             "id": "finanzen_steuerverwaltung-verzicht-auf-kunden-und-b-gerbefragungen",
@@ -1553,7 +1568,7 @@
         "Direktion": "Finanzdirektion",
         "Nr": "14.8",
         "Massnahme": "Steuerverwaltung: Einsparung bei der Wartung der IT-Systeme",
-        "Rechtsgrundlage": "keine \f                    88",
+        "Rechtsgrundlage": "keine",
         "node": {
             "id": "finanzen_steuerverwaltung-einsparung-bei-der-it-wartung",
             "name": "Steuerverwaltung: Einsparung bei der IT-Wartung",
@@ -1570,7 +1585,7 @@
     },
     "finanzen_steuerverwaltung-abbau-von-sch-tzert-tigkeiten": {
         "Aufgabenfeld": "Finanz- und Steuerverwaltung",
-        "Kurzbeschrieb": "Es werden weniger Aufträge an nebenamtliche (externe) Schät-zer für die amtliche Bewertung erteilt. Die Verfahren der amtlichen Schätzung werden eine zeitliche Verzögerung erfahren. Organisatorische Massnahme im Kom-petenzbereich der Steuerverwaltung.",
+        "Kurzbeschrieb": "Es werden weniger Aufträge an nebenamtliche (externe) Schätzer für die amtliche Bewertung erteilt. Die Verfahren der amtlichen Schätzung werden eine zeitliche Verzögerung erfahren. Organisatorische Massnahme im Kompetenzbereich der Steuerverwaltung.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "0.090",
@@ -1611,7 +1626,7 @@
     },
     "finanzen_steuerverwaltung-abbau-von-stellen": {
         "Aufgabenfeld": "Finanz- und Steuerverwaltung",
-        "Kurzbeschrieb": "Substantieller Abbau von Stellen in der Steuerverwaltung durch Nichtbesetzung von aktuell vakanten Stellen sowie durch Aus-nutzung der kommenden Fluktuation. Streichung dieser 21 Stellen aus dem Stellenplan. Kündigungen von bestehenden Arbeitsverhältnissen können mit grösster Wahrscheinlichkeit vermieden werden. Die höhere Arbeitsbelastung des Personals kann ggf. durch vermehrt au-tomatisch veranlagte Steuerfälle aufgefangen werden. Aller-dings kann nicht ausgeschlossen werden, dass es bei den Ver-\f                    89  anlagungsverfahren zu längeren Bearbeitungszeiten kommen wird.",
+        "Kurzbeschrieb": "Substantieller Abbau von Stellen in der Steuerverwaltung durch Nichtbesetzung von aktuell vakanten Stellen sowie durch Ausnutzung der kommenden Fluktuation. Streichung dieser 21 Stellen aus dem Stellenplan. Kündigungen von bestehenden Arbeitsverhältnissen können mit grösster Wahrscheinlichkeit vermieden werden. Die höhere Arbeitsbelastung des Personals kann ggf. durch vermehrt automatisch veranlagte Steuerfälle aufgefangen werden. Allerdings kann nicht ausgeschlossen werden, dass es bei den Veranlagungsverfahren zu längeren Bearbeitungszeiten kommen wird.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "2.600",
@@ -1652,7 +1667,7 @@
     },
     "finanzen_personalamt-abschaffung-der-fachstelle-change-und-projektmanagement": {
         "Aufgabenfeld": "Finanz- und Steuerverwaltung",
-        "Kurzbeschrieb": "Mit der Abschaffung der Fachstelle Change- und Projektma-nagement im Personalamt werden verschiedene fachspezifi-sche Dienstleistungen aufgehoben, u.a. Weiterbildungsangebo-te, Beratungen, Hilfsinstrumente und ein Wissensportal im In-ternet. Zudem wird eine zurzeit vakante Stelle aufgehoben und aus dem Stellenplan gestrichen. Angesichts der schwierigen finanziellen Situation muss dieser Stellen- und Dienstleistungsabbau für die kantonale Verwaltung in Kauf genommen werden.",
+        "Kurzbeschrieb": "Mit der Abschaffung der Fachstelle Change- und Projektmanagement im Personalamt werden verschiedene fachspezifische Dienstleistungen aufgehoben, u.a. Weiterbildungsangebote, Beratungen, Hilfsinstrumente und ein Wissensportal im Internet. Zudem wird eine zurzeit vakante Stelle aufgehoben und aus dem Stellenplan gestrichen. Angesichts der schwierigen finanziellen Situation muss dieser Stellen- und Dienstleistungsabbau für die kantonale Verwaltung in Kauf genommen werden.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "0.300",
@@ -1675,8 +1690,8 @@
         },
         "Direktion": "Finanzdirektion",
         "Nr": "14.11",
-        "Massnahme": "Personalamt: Abschaffung der Fachstelle Change- und Pro-jektmanagement",
-        "Rechtsgrundlage": "keine     \f                    90",
+        "Massnahme": "Personalamt: Abschaffung der Fachstelle Change- und Projektmanagement",
+        "Rechtsgrundlage": "keine",
         "node": {
             "id": "finanzen_personalamt-abschaffung-der-fachstelle-change-und-projektmanagement",
             "name": "Personalamt: Abschaffung der Fachstelle Change- und\nProjektmanagement",
@@ -1693,7 +1708,7 @@
     },
     "finanzen_personalamt-abbau-des-zentralen-kursangebots": {
         "Aufgabenfeld": "Finanz- und Steuerverwaltung",
-        "Kurzbeschrieb": "Das zentrale Angebot der allgemeinbildenden bzw. fachspezifi-schen Kurse für die kantonale Verwaltung wird wesentlich redu-ziert. Angesichts der schwierigen finanziellen Situation muss der Abbau im Kursangebot in Kauf genommen werden.",
+        "Kurzbeschrieb": "Das zentrale Angebot der allgemeinbildenden bzw. fachspezifischen Kurse für die kantonale Verwaltung wird wesentlich reduziert. Angesichts der schwierigen finanziellen Situation muss der Abbau im Kursangebot in Kauf genommen werden.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "0.140",
@@ -1734,7 +1749,7 @@
     },
     "finanzen_reduktion-der-mittel-f-r-den-ausbau-des-kantonalen-weitbereichsnetzwerks-bewan": {
         "Aufgabenfeld": "Finanz- und Steuerverwaltung",
-        "Kurzbeschrieb": "Die Mittel für die durch das KAIO geplante kantonsweite Koor-dination der im Einsatz stehenden GEVER-Anwendungen für die Bearbeitung von Regierungsgeschäften (Geschäftsverwal-tung Konsul) werden gestrichen. Die Betreuung der entsprechenden Anwendungen verbleibt damit weiterhin bei den Direktionen und der Staatskanzlei, auf eine Koordination wird verzichtet.",
+        "Kurzbeschrieb": "Die Mittel für die durch das KAIO geplante kantonsweite Koordination der im Einsatz stehenden GEVER-Anwendungen für die Bearbeitung von Regierungsgeschäften (Geschäftsverwaltung Konsul) werden gestrichen. Die Betreuung der entsprechenden Anwendungen verbleibt damit weiterhin bei den Direktionen und der Staatskanzlei, auf eine Koordination wird verzichtet.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "0.380",
@@ -1757,8 +1772,8 @@
         },
         "Direktion": "Finanzdirektion",
         "Nr": "14.13",
-        "Massnahme": "Amt für Informatik und Organisation (KAIO): Verzicht auf Koor-dination der GEVER-Anwendungen (Konsul)",
-        "Rechtsgrundlage": "keine  \f                    91",
+        "Massnahme": "Amt für Informatik und Organisation (KAIO): Verzicht auf Koordination der GEVER-Anwendungen (Konsul)",
+        "Rechtsgrundlage": "keine",
         "node": {
             "id": "finanzen_reduktion-der-mittel-f-r-den-ausbau-des-kantonalen-weitbereichsnetzwerks-bewan",
             "name": "Reduktion der Mittel für den Ausbau des kantonalen\nWeitbereichsnetzwerks BEWAN",
@@ -1775,7 +1790,7 @@
     },
     "finanzen_verzicht-auf-koordination-der-gever-anwendung-im-informatikbereich": {
         "Aufgabenfeld": "Finanz- und Steuerverwaltung",
-        "Kurzbeschrieb": "Die Mittel für Änderungen, Weiterentwicklungen und Projekte des kantonalen Weitbereichsnetzes BEWAN werden erheblich reduziert. Durch die dazu notwendige noch stärkere Priorisierung und Etappierung sind Verzögerungen bei notwendigen Vorhaben der Direktionen und der Staatkanzlei zu erwarten, müssen je-doch angesichts der schwierigen finanziellen Situation in Kauf genommen werden.",
+        "Kurzbeschrieb": "Die Mittel für Änderungen, Weiterentwicklungen und Projekte des kantonalen Weitbereichsnetzes BEWAN werden erheblich reduziert. Durch die dazu notwendige noch stärkere Priorisierung und Etappierung sind Verzögerungen bei notwendigen Vorhaben der Direktionen und der Staatkanzlei zu erwarten, müssen jedoch angesichts der schwierigen finanziellen Situation in Kauf genommen werden.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "1.440",
@@ -1816,7 +1831,7 @@
     },
     "finanzen_reduktion-der-mittel-f-r-die-weiterentwicklung-des-kantonalen-workplace": {
         "Aufgabenfeld": "Finanz- und Steuerverwaltung",
-        "Kurzbeschrieb": "Die Mittel für die geplanten Änderungen und Weiterentwicklun-gen des KWP-Standardmandanten (Kantonaler Workplace bzw. Standardarbeitsplatz) werden aufgrund der geforderten Einspa-rungen reduziert. Die Mittel für die Weiterentwicklung des Stan-dardmandanten sind zentral im KAIO eingestellt. Durch die dazu notwendige stärkere Priorisierung und Etappie-rung sind Verzichte oder Verzögerungen zu erwarten, müssen jedoch angesichts der schwierigen finanziellen Situation in Kauf genommen werden.",
+        "Kurzbeschrieb": "Die Mittel für die geplanten Änderungen und Weiterentwicklungen des KWP-Standardmandanten (Kantonaler Workplace bzw. Standardarbeitsplatz) werden aufgrund der geforderten Einsparungen reduziert. Die Mittel für die Weiterentwicklung des Standardmandanten sind zentral im KAIO eingestellt. Durch die dazu notwendige stärkere Priorisierung und Etappierung sind Verzichte oder Verzögerungen zu erwarten, müssen jedoch angesichts der schwierigen finanziellen Situation in Kauf genommen werden.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "0.250",
@@ -1839,8 +1854,8 @@
         },
         "Direktion": "Finanzdirektion",
         "Nr": "14.15",
-        "Massnahme": "Amt für Informatik und Organisation (KAIO): Reduktion der Mit-tel für die Weiterentwicklung des KWP",
-        "Rechtsgrundlage": "keine \f                    92",
+        "Massnahme": "Amt für Informatik und Organisation (KAIO): Reduktion der Mittel für die Weiterentwicklung des KWP",
+        "Rechtsgrundlage": "keine",
         "node": {
             "id": "finanzen_reduktion-der-mittel-f-r-die-weiterentwicklung-des-kantonalen-workplace",
             "name": "Reduktion der Mittel für die Weiterentwicklung des kantonalen Workplace",
@@ -1857,7 +1872,7 @@
     },
     "finanzen_verzicht-auf-das-it-servicemanagement": {
         "Aufgabenfeld": "Finanz- und Steuerverwaltung",
-        "Kurzbeschrieb": "Die Mittel im Bereich ITSM (IT-Servicemanagement) werden gestrichen. Die Beratung, Koordination und Unterstützung der ICT-Organisationen bei der Entwicklung ihres Managementsys-tems und die Bereitstellung von Methoden und Instrumenten zur Unterstützung von ICT-Prozessen wird nicht mehr als Dienstleistung in der bisherigen Form angeboten. Organisatorische Massnahme im Kompetenzbereich des KAIO.",
+        "Kurzbeschrieb": "Die Mittel im Bereich ITSM (IT-Servicemanagement) werden gestrichen. Die Beratung, Koordination und Unterstützung der ICT-Organisationen bei der Entwicklung ihres Managementsystems und die Bereitstellung von Methoden und Instrumenten zur Unterstützung von ICT-Prozessen wird nicht mehr als Dienstleistung in der bisherigen Form angeboten. Organisatorische Massnahme im Kompetenzbereich des KAIO.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "0.100",
@@ -1881,7 +1896,7 @@
         "Direktion": "Finanzdirektion",
         "Nr": "14.16",
         "Massnahme": "Amt für Informatik und Organisation (KAIO): Verzicht auf das Produkt ITSM@BE (IT-Servicemanagement)",
-        "Rechtsgrundlage": "keine     \f                    93",
+        "Rechtsgrundlage": "keine",
         "node": {
             "id": "finanzen_verzicht-auf-das-it-servicemanagement",
             "name": "Verzicht auf das IT-Servicemanagement",
@@ -1898,7 +1913,7 @@
     },
     "finanzen_reduktion-der-mittel-im-informatikbereich-der-finanzdirektion": {
         "Aufgabenfeld": "Finanz- und Steuerverwaltung",
-        "Kurzbeschrieb": "Die Mittel im Bereich ICT FIN (Informatikdienstleistungen für die Finanzdirektion) werden gekürzt. Angesichts der schwierigen finanziellen Situation muss der Dienstleistungs- und Qualitätsabbau in Kauf genommen wer-den.",
+        "Kurzbeschrieb": "Die Mittel im Bereich ICT FIN (Informatikdienstleistungen für die Finanzdirektion) werden gekürzt. Angesichts der schwierigen finanziellen Situation muss der Dienstleistungs- und Qualitätsabbau in Kauf genommen werden.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "0.500",
@@ -1921,8 +1936,8 @@
         },
         "Direktion": "Finanzdirektion",
         "Nr": "14.17",
-        "Massnahme": "Amt für Informatik und Organisation (KAIO): Reduktion der Mit-tel im Bereich ICT FIN",
-        "Rechtsgrundlage": "keine     \f                    94",
+        "Massnahme": "Amt für Informatik und Organisation (KAIO): Reduktion der Mittel im Bereich ICT FIN",
+        "Rechtsgrundlage": "keine",
         "node": {
             "id": "finanzen_reduktion-der-mittel-im-informatikbereich-der-finanzdirektion",
             "name": "Reduktion der Mittel im Informatikbereich der Finanzdirektion",
@@ -1939,7 +1954,7 @@
     },
     "erziehung_abbau-im-amt-f-r-kindergarten-volksschule-und-beratung": {
         "Aufgabenfeld": "Kindergarten/Volksschule",
-        "Kurzbeschrieb": "Projektstellen werden gestrichen, respektive nicht mehr verlän-gert. Überdies werden beim Sachaufwand erneut diverse Kür-zungen vor-genommen. Während der letzten Jahre wurden die Reformen reduziert. Derzeit laufen die Einführung der Vorverlegung des Fremd-sprachunterrichts sowie die Mitarbeit am interkantonalen Pro-jekt «Lehrplan 21». Beide Reformen stehen in direktem Zu-sammenhang mit dem durch das bernische Stimmvolk geneh-migten Beitritts zum HarmoS-Konkordat. Andere Strukturrefor-men sind nicht geplant.",
+        "Kurzbeschrieb": "Projektstellen werden gestrichen, respektive nicht mehr verlängert. Überdies werden beim Sachaufwand erneut diverse Kürzungen vorgenommen. Während der letzten Jahre wurden die Reformen reduziert. Derzeit laufen die Einführung der Vorverlegung des Fremdsprachunterrichts sowie die Mitarbeit am interkantonalen Projekt «Lehrplan 21». Beide Reformen stehen in direktem Zusammenhang mit dem durch das bernische Stimmvolk genehmigten Beitritts zum HarmoS-Konkordat. Andere Strukturreformen sind nicht geplant.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "0.250",
@@ -1980,7 +1995,7 @@
     },
     "erziehung_abbau-bei-der-begabtenf-rderung": {
         "Aufgabenfeld": "Kindergarten/Volksschule",
-        "Kurzbeschrieb": "Im Rahmen der Zuteilung der Ressourcen für besondere Mass-nahmen per 1. August 2015 werden die bisher vorgesehenen Ressourcen für die Begabtenförderung von CHF 5 Millionen halbiert. Diese 5 Millionen werden von den Gemeinden bisher noch nicht vollständig ausgeschöpft, weil das Angebot erst im Aufbau ist.",
+        "Kurzbeschrieb": "Im Rahmen der Zuteilung der Ressourcen für besondere Massnahmen per 1. August 2015 werden die bisher vorgesehenen Ressourcen für die Begabtenförderung von CHF 5 Millionen halbiert. Diese 5 Millionen werden von den Gemeinden bisher noch nicht vollständig ausgeschöpft, weil das Angebot erst im Aufbau ist.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "1.000",
@@ -2021,7 +2036,7 @@
     },
     "erziehung_berufsbildung-entlastungen-im-bereich-br-ckenangebote": {
         "Aufgabenfeld": "Berufsbildung",
-        "Kurzbeschrieb": "Konsequente Abbildung des demographischen Rückgangs bei Berufsvorbereitenden Schuljahren (BVS) und Vorlehre, evtl. Schliessung regionaler Standorte (u.a. Zollikofen, Huttwil, Ko-nolfingen). Wenngleich die Anzahl der Jugendlichen, die aufgrund von Mehrfachproblematiken keine Lehrstelle finden, nicht entspre-chend dem demographischen Wandel abnehmen, ist die Mass-nahmen noch vertretbar.",
+        "Kurzbeschrieb": "Konsequente Abbildung des demographischen Rückgangs bei Berufsvorbereitenden Schuljahren (BVS) und Vorlehre, evtl. Schliessung regionaler Standorte (u.a. Zollikofen, Huttwil, Konolfingen). Wenngleich die Anzahl der Jugendlichen, die aufgrund von Mehrfachproblematiken keine Lehrstelle finden, nicht entsprechend dem demographischen Wandel abnehmen, ist die Massnahmen noch vertretbar.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "0.400",
@@ -2062,7 +2077,7 @@
     },
     "erziehung_berufsbildung-optimierung-der-vollzeitangebote": {
         "Aufgabenfeld": "Berufsbildung",
-        "Kurzbeschrieb": "1. Schule für Gestaltung Bern und Biel (SfG BB): Heutige vierjährige Vollzeitausbildung zum Grafi-ker/Grafikerin EFZ umgestalten in 2jährigen Basiskurs in Lehrwerkstätte, danach zwei Jahre in Lehrbetrieb (mit Be-gleitung SfG BB). D.h. Lehrbetriebsverbünde eingehen mit Grafikunternehmen. \f                    96  2. Lehrwerkstätten in Biel und St-Imier: Heutige MINT-Ausbildungsplätze erhalten, aber Lehrbe-triebsverbünde mit privaten Unter-nehmen eingehen, damit Auslagerung von ein bis zwei Ausbildungsjahren in die Be-triebe. 3. Schule für Gestaltung Bern und Biel (SfG BB): Einjähriger Vorkurs Gestaltung nicht mehr als Brückenan-gebot für verschiedene gestalterische Berufe anbieten; Vorkurs nur noch als Passerelle/Propädeutikum zu Fach-hochschule Kunst & Gestaltung (1 Jahr Vollzeit) mit Gebüh-ren (CHF 1‘600/Sem.). Damit Reduktion auf die Hälfte des heutigen Angebots.  Aufgrund des im interkantonalen Vergleich überdurchschnittli-chen Angebots bei den Vollzeitangeboten sind diese Mass-nahmen notwendig, wenn der Kanton ein unterdurchschnittli-ches Angebots- und Kostenniveau erreichen will.",
+        "Kurzbeschrieb": "1. Schule für Gestaltung Bern und Biel (SfG BB): Heutige vierjährige Vollzeitausbildung zum Grafiker/Grafikerin EFZ umgestalten in 2jährigen Basiskurs in Lehrwerkstätte, danach zwei Jahre in Lehrbetrieb (mit Begleitung SfG BB). D.h. Lehrbetriebsverbünde eingehen mit Grafikunternehmen. 2. Lehrwerkstätten in Biel und St-Imier: Heutige MINT-Ausbildungsplätze erhalten, aber Lehrbetriebsverbünde mit privaten Unternehmen eingehen, damit Auslagerung von ein bis zwei Ausbildungsjahren in die Betriebe. 3. Schule für Gestaltung Bern und Biel (SfG BB): Einjähriger Vorkurs Gestaltung nicht mehr als Brückenangebot für verschiedene gestalterische Berufe anbieten; Vorkurs nur noch als Passerelle/Propädeutikum zu Fachhochschule Kunst & Gestaltung (1 Jahr Vollzeit) mit Gebühren (CHF 1‘600/Sem.). Damit Reduktion auf die Hälfte des heutigen Angebots.  Aufgrund des im interkantonalen Vergleich überdurchschnittlichen Angebots bei den Vollzeitangeboten sind diese Massnahmen notwendig, wenn der Kanton ein unterdurchschnittliches Angebots- und Kostenniveau erreichen will.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "1.400",
@@ -2103,7 +2118,7 @@
     },
     "erziehung_ausrichtung-der-handelsmittelschulen-auf-lehrg-nge-mit-berufsmaturit-t": {
         "Aufgabenfeld": "Berufsbildung",
-        "Kurzbeschrieb": "Ausrichtung der HMS auf Lehrgänge mit Berufsmaturität und Modell 3+1 für alle Standorte ausser ESC La Neuveville und ceff Tramelan. Mit dieser Massnahme soll an den Standorten Thun (Gymnasi-um), Bern (bwd) und Biel (Gymnasium) künftig ausschliesslich das Modell Eidgenössisches Fähigkeitszeugnis (EFZ) mit BM angeboten werden. Somit ist das Aufnahmeverfahren an diesen Schulen konsequent auf Jugendliche mit Potenzial zur Berufs-maturität auszurichten. An der ESC in La Neuveville und am ceff in Tramelan sollen weiterhin Lernende für beide Modelle aufgenommen werden. Analog zur dualen Ausbildungssituation wird bereits beim Ausbildungsstart in EZF-Klassen und BM-Klassen selektioniert. Damit soll dem geringeren Schülerrück-gang und der angespannteren Lehrstellensituation im franko-phonen Teil des Kantons Rechnung getragen werden. Der Kanton Bern ist der einzige Deutschschweizer Kanton, der bislang beide Modelle (mit und ohne Berufsmatur) anbietet. Bei \f                    97  einer konsequenten Umsetzung eines unterdurchschnittlichen Angebots- und Kostenniveaus ist diese Massnahmen deshalb umzusetzen.",
+        "Kurzbeschrieb": "Ausrichtung der HMS auf Lehrgänge mit Berufsmaturität und Modell 3+1 für alle Standorte ausser ESC La Neuveville und ceff Tramelan. Mit dieser Massnahme soll an den Standorten Thun (Gymnasium), Bern (bwd) und Biel (Gymnasium) künftig ausschliesslich das Modell Eidgenössisches Fähigkeitszeugnis (EFZ) mit BM angeboten werden. Somit ist das Aufnahmeverfahren an diesen Schulen konsequent auf Jugendliche mit Potenzial zur Berufsmaturität auszurichten. An der ESC in La Neuveville und am ceff in Tramelan sollen weiterhin Lernende für beide Modelle aufgenommen werden. Analog zur dualen Ausbildungssituation wird bereits beim Ausbildungsstart in EZF-Klassen und BM-Klassen selektioniert. Damit soll dem geringeren Schülerrückgang und der angespannteren Lehrstellensituation im frankophonen Teil des Kantons Rechnung getragen werden. Der Kanton Bern ist der einzige Deutschschweizer Kanton, der bislang beide Modelle (mit und ohne Berufsmatur) anbietet. Bei einer konsequenten Umsetzung eines unterdurchschnittlichen Angebots- und Kostenniveaus ist diese Massnahmen deshalb umzusetzen.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "0.750",
@@ -2144,7 +2159,7 @@
     },
     "erziehung_einsparungen-bei-inforama": {
         "Aufgabenfeld": "Berufsbildung",
-        "Kurzbeschrieb": "Konzentration auf Kerngeschäft Bildung am Inforama mit Ein-sparungen im Bereich Hotellerie /Restauration und Optimierung Standorte (Prüfauftrag erteilen) Mit der kürzlich erfolgten Reorganisation konnten einige Opti-mierungen umgesetzt werden. Unklar blieb die Auslastung und die Möglichkeit zur Optimierung der Standorte: Die Bäuerliche Bildung und Beratung findet an verschiedenen Standorten statt, die mehrheitlich mit Gastronomie und z.T. mit Hotellerie ausge-stattet sind. Entgegen der durch das Inforama erstellten Studie ist die ERZ der Ansicht, dass Hotellerie und Gastronomie kos-tendeckend geführt werden können und sollen. Aktuell werden diese finanziert durch die ERZ mit jährlich CHF 0,5 Millionen und die VOL mit jährlich ca. CHF 0,2 Millionen. Es wird deshalb eine Studie zur Auslastung / Optimierung der Standorte inkl. Hotellerie / Gastronomie vorgeschlagen, und zwar sowohl für Beratung- wie für Unterricht. Evtl.. Auftrag an Dritte, die Gastro-nomie der verschiedenen Inforama Standorte zu führen (z.B. SV-Service), Erhöhen der Menu-Preise, da Subvention der Verpflegung nicht Sache des Kantons ist.",
+        "Kurzbeschrieb": "Konzentration auf Kerngeschäft Bildung am Inforama mit Einsparungen im Bereich Hotellerie /Restauration und Optimierung Standorte (Prüfauftrag erteilen) Mit der kürzlich erfolgten Reorganisation konnten einige Optimierungen umgesetzt werden. Unklar blieb die Auslastung und die Möglichkeit zur Optimierung der Standorte: Die Bäuerliche Bildung und Beratung findet an verschiedenen Standorten statt, die mehrheitlich mit Gastronomie und z.T. mit Hotellerie ausgestattet sind. Entgegen der durch das Inforama erstellten Studie ist die ERZ der Ansicht, dass Hotellerie und Gastronomie kostendeckend geführt werden können und sollen. Aktuell werden diese finanziert durch die ERZ mit jährlich CHF 0,5 Millionen und die VOL mit jährlich ca. CHF 0,2 Millionen. Es wird deshalb eine Studie zur Auslastung / Optimierung der Standorte inkl. Hotellerie / Gastronomie vorgeschlagen, und zwar sowohl für Beratung- wie für Unterricht. Evtl.. Auftrag an Dritte, die Gastronomie der verschiedenen Inforama Standorte zu führen (z.B. SV-Service), Erhöhen der Menu-Preise, da Subvention der Verpflegung nicht Sache des Kantons ist.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "0.500",
@@ -2168,7 +2183,7 @@
         "Direktion": "Erziehungsdirektion",
         "Nr": "17.7",
         "Massnahme": "Einsparungen bei Inforama",
-        "Rechtsgrundlage": "keine \f                    98",
+        "Rechtsgrundlage": "keine",
         "node": {
             "id": "erziehung_einsparungen-bei-inforama",
             "name": "Einsparungen bei Inforama",
@@ -2185,7 +2200,7 @@
     },
     "erziehung_entlastungen-im-bereich-informatik-an-kantonalen-berufsschulen": {
         "Aufgabenfeld": "Berufsbildung",
-        "Kurzbeschrieb": "Förderung gemeinsamer Informatiklösungen und -plattformen für Schul- und Verwaltungsnetze. Die den Berufsfachschulen für Verwaltung und Unterricht zur Verfügung stehenden ICT-Mittel werden bis dato individuell nach den Gegebenheiten und historisch gewachsenen Bedürf-nissen der Schulen festgelegt. Hierbei kann nicht ausgeschlos-sen werden, dass ein zentraler Betrieb der IT durch die zentra-len Dienste kostengünstiger wäre. In Zukunft soll der Mittel-vergabe Kennziffern/Benchmarks zu Grunde gelegt werden, welche sich nach einem zentralen Betriebs- und Beschaf-fungsmodell durch das Amt für zentrale Dienste richten. Die Schulen erhalten so nur noch diejenigen Mittel, welche auch bei einem zentralen Betrieb und Beschaffung anfallen würden. Die Schulen bleiben bei der Umsetzung frei, ob ein zentraler Betrieb bzw. eine zentrale Beschaffung erfolgt. Die zur Verfügung ste-henden Mittel werden jedoch auf ein mögliches zentrales An-gebot begrenzt.",
+        "Kurzbeschrieb": "Förderung gemeinsamer Informatiklösungen und -plattformen für Schul- und Verwaltungsnetze. Die den Berufsfachschulen für Verwaltung und Unterricht zur Verfügung stehenden ICT-Mittel werden bis dato individuell nach den Gegebenheiten und historisch gewachsenen Bedürfnissen der Schulen festgelegt. Hierbei kann nicht ausgeschlossen werden, dass ein zentraler Betrieb der IT durch die zentralen Dienste kostengünstiger wäre. In Zukunft soll der Mittelvergabe Kennziffern/Benchmarks zu Grunde gelegt werden, welche sich nach einem zentralen Betriebs- und Beschaffungsmodell durch das Amt für zentrale Dienste richten. Die Schulen erhalten so nur noch diejenigen Mittel, welche auch bei einem zentralen Betrieb und Beschaffung anfallen würden. Die Schulen bleiben bei der Umsetzung frei, ob ein zentraler Betrieb bzw. eine zentrale Beschaffung erfolgt. Die zur Verfügung stehenden Mittel werden jedoch auf ein mögliches zentrales Angebot begrenzt.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "0.900",
@@ -2208,7 +2223,7 @@
         },
         "Direktion": "Erziehungsdirektion",
         "Nr": "17.8",
-        "Massnahme": "Entlastungen im Bereich Informatik an kantonalen Berufsfach-schulen",
+        "Massnahme": "Entlastungen im Bereich Informatik an kantonalen Berufsfachschulen",
         "Rechtsgrundlage": "keine",
         "node": {
             "id": "erziehung_entlastungen-im-bereich-informatik-an-kantonalen-berufsschulen",
@@ -2226,7 +2241,7 @@
     },
     "erziehung_kostenoptimierungen-am-bildungszentrum-pflege-und-standortbereinigung-in-thun": {
         "Aufgabenfeld": "Berufsbildung",
-        "Kurzbeschrieb": "Die Massnahme setzt sich aus folgenden Teilaspekten zusam-                                                      2 HF = Höhere Fachschule  3 NDS HF = Nachdiplomstudium Höhere Fachschule \f                    99  men: 1. Analyse und Optimierung der Kosten HF Pflege: Analyse Schulbetrieb und Bildungsgang HF Pflege zur Kos-tenoptimierung; Ausrichtung am Benchmark anderer HF Pflegeschulen in ZH, AG, LU, SG, SH, SO. Weitere Kos-tenoptimierungen sind in allen Bildungsgangsvarianten Pflege HF umfassend zu prüfen. Beispiele: Lehrplananpas-sungen inkl. Verzicht oder Reduktion von Supplements wie kostenintensive Lehr- und Lernformen, Erhöhung Wochen-lektion Lehrpersonen, Overheadreduktion im HF Bereich, Einführung «Lehrortsprinzip». 2. Aufhebung Filialstandort Thun: Strukturbereinigung zur optimalen Auslastung des neuen Campus Ausserholligen in Bern. Bessere Auslastung der Schulräume und Infrastruktur am neuen Campus, Nutzung Synergiepotenzial auch personell (Lehrende und weiteres Personal). Auftrag an Trägerschaft zur Machbarkeit und anschl. Umsetzung der Schliessung Thun und Integration in Campus Bern. 3. Überprüfung Finanzierung NDS HF und Kostenoptimierung durch Benchmark mit anderen Kantonen: Die NDS HF Bildungsgänge Anästhesie, Intensiv- und Not-fallpflege, welche auf Grund des Versorgungsauftrages GEF ausfinanziert werden, sollen vertieft überprüft werden um entsprechende Optimierungen im geschätzten Umfang zu erreichen. Dabei sollen die Kosten nach den Bench-marks von vergleichbaren NDS HF Bildungsgängen ausge-richtet werden. Insgesamt handelt es sich hier um notwendige Angebots- und Strukturbereinigung, wenn ein unterdurchschnittliches Ange-bots- und Kostenniveau erreicht werden soll.",
+        "Kurzbeschrieb": "Die Massnahme setzt sich aus folgenden Teilaspekten zusammen: 1. Analyse und Optimierung der Kosten HF Pflege: Analyse Schulbetrieb und Bildungsgang HF Pflege zur Kostenoptimierung; Ausrichtung am Benchmark anderer HF Pflegeschulen in ZH, AG, LU, SG, SH, SO. Weitere Kostenoptimierungen sind in allen Bildungsgangsvarianten Pflege HF umfassend zu prüfen. Beispiele: Lehrplananpassungen inkl. Verzicht oder Reduktion von Supplements wie kostenintensive Lehr- und Lernformen, Erhöhung Wochenlektion Lehrpersonen, Overheadreduktion im HF Bereich, Einführung «Lehrortsprinzip». 2. Aufhebung Filialstandort Thun: Strukturbereinigung zur optimalen Auslastung des neuen Campus Ausserholligen in Bern. Bessere Auslastung der Schulräume und Infrastruktur am neuen Campus, Nutzung Synergiepotenzial auch personell (Lehrende und weiteres Personal). Auftrag an Trägerschaft zur Machbarkeit und anschl. Umsetzung der Schliessung Thun und Integration in Campus Bern. 3. Überprüfung Finanzierung NDS HF und Kostenoptimierung durch Benchmark mit anderen Kantonen: Die NDS HF Bildungsgänge Anästhesie, Intensiv- und Notfallpflege, welche auf Grund des Versorgungsauftrages GEF ausfinanziert werden, sollen vertieft überprüft werden um entsprechende Optimierungen im geschätzten Umfang zu erreichen. Dabei sollen die Kosten nach den Benchmarks von vergleichbaren NDS HF Bildungsgängen ausgerichtet werden. Insgesamt handelt es sich hier um notwendige Angebots- und Strukturbereinigung, wenn ein unterdurchschnittliches Angebots- und Kostenniveau erreicht werden soll.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "4.000",
@@ -2249,8 +2264,8 @@
         },
         "Direktion": "Erziehungsdirektion",
         "Nr": "17.9",
-        "Massnahme": "Bildungszentrum Pflege: Kostenoptimierung HF2 und NDS HF3 Pflege sowie Standortbereinigung Thun",
-        "Rechtsgrundlage": "Spitalversorgungsverordnung (SpVV)     \f                    100",
+        "Massnahme": "Bildungszentrum Pflege: Kostenoptimierung Höhere Fachschule (HF) und Nachdiplomstudium Höhere Fachschule (NDS HF) Pflege sowie Standortbereinigung Thun",
+        "Rechtsgrundlage": "Spitalversorgungsverordnung (SpVV)",
         "node": {
             "id": "erziehung_kostenoptimierungen-am-bildungszentrum-pflege-und-standortbereinigung-in-thun",
             "name": "Kostenoptimierungen am Bildungszentrum Pflege und\nStandortbereinigung in Thun",
@@ -2267,7 +2282,7 @@
     },
     "erziehung_mehrertr-ge-aus-h-heren-beitr-gen-ausserkantonaler-studierenden-am-zentrum-f-r-medizinische-bildung-in-bern": {
         "Aufgabenfeld": "Berufsbildung",
-        "Kurzbeschrieb": "Das medi, eine Höhere Fachschule für Gesundheitsberufe im medizinisch-technisch-therapeutischen Bereich, hat knapp 45 Prozent ausserkantonale Studierende. Mit der neuen Höheren Fachschulvereinbarung könnten bis 90 Prozent der vollen Kos-ten über Schulgelder von anderen Kantonen finanziert werden. Dies ist gegenüber der heutigen Verrechnung über die Fach-schulvereinbarung nahezu eine Verdoppelung. Damit diese höheren Schulgelder verrechnet werden können, ist die Ratifi-zierung der HFSV erforderlich. Entsprechende Arbeiten sind im Zusammenhang mit der Revision des Berufsbildungsgesetzes und der Systemänderung bei der Förderung der höheren Be-rufsbildung (Pauschalfinanzierung) in Vorbereitung.",
+        "Kurzbeschrieb": "Das medi, eine Höhere Fachschule für Gesundheitsberufe im medizinischtechnisch-therapeutischen Bereich, hat knapp 45 Prozent ausserkantonale Studierende. Mit der neuen Höheren Fachschulvereinbarung könnten bis 90 Prozent der vollen Kosten über Schulgelder von anderen Kantonen finanziert werden. Dies ist gegenüber der heutigen Verrechnung über die Fachschulvereinbarung nahezu eine Verdoppelung. Damit diese höheren Schulgelder verrechnet werden können, ist die Ratifizierung der HFSV erforderlich. Entsprechende Arbeiten sind im Zusammenhang mit der Revision des Berufsbildungsgesetzes und der Systemänderung bei der Förderung der höheren Berufsbildung (Pauschalfinanzierung) in Vorbereitung.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "0.000",
@@ -2290,7 +2305,7 @@
         },
         "Direktion": "Erziehungsdirektion",
         "Nr": "17.10",
-        "Massnahme": "Mehrerträge für ausserkantonale Studierende am medi auf-grund Ratifizierung der Höheren Fachschulvereinbarung (HFSV)",
+        "Massnahme": "Mehrerträge für ausserkantonale Studierende am medi aufgrund Ratifizierung der Höheren Fachschulvereinbarung (HFSV)",
         "Rechtsgrundlage": "Höhere Fachschulvereinbarung (HFSV)",
         "node": {
             "id": "erziehung_mehrertr-ge-aus-h-heren-beitr-gen-ausserkantonaler-studierenden-am-zentrum-f-r-medizinische-bildung-in-bern",
@@ -2308,7 +2323,7 @@
     },
     "erziehung_optimierung-der-bildungsg-nge-der-h-heren-fachschule-technik-in-biel": {
         "Aufgabenfeld": "Berufsbildung",
-        "Kurzbeschrieb": "Die Vollzeitbildungsgänge Technik HF des Standortes Biel der HFTM werden zur Kostenoptimierung analysiert und am CH-Benchmark der Kostenerhebung EDK 2011 für die HFSV aus-gerichtet Vollzeitbildungsgänge in diesem Bereich werden einzig noch in der Ostschweiz (St. Gallen) angeboten. In diesem Sinne sind die Bildungsgänge in der Region NWCH, Zentralschweiz und insbesondere am Jurasüdfuss einzigartig. Die Ausrichtung am Benchmark Kosten HF Technik der Kostenerhebung EDK für die HFSV sind daher weiter zu verifizieren (Vergleich mit billige-ren TZ-Bildungsgängen). Analyse des Kostenoptimierungspo-\f                    101  tenzials: Lehrplan, Erhöhung der Studien-gebühren, Anstel-lungsbedingung und Pensenerhöhung, Zusatzfinanzierung durch Trägerschaft Industrie und Gewerbe, ev. Verzicht auf die teuren Vollzeitbildungsgänge.",
+        "Kurzbeschrieb": "Die Vollzeitbildungsgänge Technik HF des Standortes Biel der HFTM werden zur Kostenoptimierung analysiert und am CH-Benchmark der Kostenerhebung EDK 2011 für die HFSV ausgerichtet Vollzeitbildungsgänge in diesem Bereich werden einzig noch in der Ostschweiz (St. Gallen) angeboten. In diesem Sinne sind die Bildungsgänge in der Region NWCH, Zentralschweiz und insbesondere am Jurasüdfuss einzigartig. Die Ausrichtung am Benchmark Kosten HF Technik der Kostenerhebung EDK für die HFSV sind daher weiter zu verifizieren (Vergleich mit billigeren TZ-Bildungsgängen). Analyse des Kostenoptimierungspotenzials: Lehrplan, Erhöhung der Studiengebühren, Anstellungsbedingung und Pensenerhöhung, Zusatzfinanzierung durch Trägerschaft Industrie und Gewerbe, ev. Verzicht auf die teuren Vollzeitbildungsgänge.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "0.400",
@@ -2331,7 +2346,7 @@
         },
         "Direktion": "Erziehungsdirektion",
         "Nr": "17.11",
-        "Massnahme": "Analyse und Optimierung HF Technik Bildungsgänge der Höhe-ren Fachschule Technik Mittelland (HFTM) am Standort Biel; Ausrichtung an CH-Benchmark",
+        "Massnahme": "Analyse und Optimierung HF Technik Bildungsgänge der Höheren Fachschule Technik Mittelland (HFTM) am Standort Biel; Ausrichtung an CH-Benchmark",
         "Rechtsgrundlage": "keine",
         "node": {
             "id": "erziehung_optimierung-der-bildungsg-nge-der-h-heren-fachschule-technik-in-biel",
@@ -2349,7 +2364,7 @@
     },
     "erziehung_optimierungen-bei-der-h-heren-fachschule-technik-holz-in-biel": {
         "Aufgabenfeld": "Berufsbildung",
-        "Kurzbeschrieb": "Analyse und Optimierung HF Technik Holz; Ausrichtung der Kosten an CH Benchmark aus der Kostenerhebung HFSV. Ev. Verzicht auf Vollzeit HF Angebot. Die HF Holz ist mit ihren Vollzeit- Bildungsangeboten Schweiz weit ein Unikat. Daher ist der aktuelle Anteil ausserkantonaler Studierender bei 75%. Ähnliche Teilzeitangebote mit teilweise anderen Schwerpunkten gibt es für Holzbauer an der Bauschu-le Aarau und der HF Südostschweiz sowie für Schreiner an der HF Bürgenstock, HF Südostschweiz und HF Zug. Die Bildungsgänge sind vom Staatssekretariat für Bildung, For-schung und Innovation (SBFI) anerkannt und werden 2013 zur Reanerkennung SBFI nach neuem Rahmenlehrplan (RLP) Technik HF eingereicht. Potenzial: die drei Bildungsgänge wer-den in einen Lehrgang mit Fachrichtungen zusammengefasst. Mögliche Optimierungsmöglichkeiten: gehaltswirksame Lektio-nen, Lehrplan nach neuem RLP mit Zusammenführung der separaten bisherigen Fachrichtung (die Projektarbeiten laufen dazu), Anstellungs-bedingungen Lehrpersonen, Synergien mit BFH, Dep. Architektur und Holz und Bau, ev. Umwandlung von Vollzeitbildungsgang in Teilzeit-bildungsgang, Bedeutung der Bildungsgänge für Branche und Region (auch französischspra-chige Klassen jedes zweite Jahr), Auswirkungen auf die Rekru-tierung bei Erhöhung der Studierendengebühren (Auslotung des Grenzwertes, ohne die Nachfrage und damit das Bildungs-angebot zu gefährden).",
+        "Kurzbeschrieb": "Analyse und Optimierung HF Technik Holz; Ausrichtung der Kosten an CH Benchmark aus der Kostenerhebung HFSV. Ev. Verzicht auf Vollzeit HF Angebot. Die HF Holz ist mit ihren Vollzeit- Bildungsangeboten Schweiz weit ein Unikat. Daher ist der aktuelle Anteil ausserkantonaler Studierender bei 75%. Ähnliche Teilzeitangebote mit teilweise anderen Schwerpunkten gibt es für Holzbauer an der Bauschule Aarau und der HF Südostschweiz sowie für Schreiner an der HF Bürgenstock, HF Südostschweiz und HF Zug. Die Bildungsgänge sind vom Staatssekretariat für Bildung, Forschung und Innovation (SBFI) anerkannt und werden 2013 zur Reanerkennung SBFI nach neuem Rahmenlehrplan (RLP) Technik HF eingereicht. Potenzial: die drei Bildungsgänge werden in einen Lehrgang mit Fachrichtungen zusammengefasst. Mögliche Optimierungsmöglichkeiten: gehaltswirksame Lektionen, Lehrplan nach neuem RLP mit Zusammenführung der separaten bisherigen Fachrichtung (die Projektarbeiten laufen dazu), Anstellungsbedingungen Lehrpersonen, Synergien mit BFH, Dep. Architektur und Holz und Bau, ev. Umwandlung von Vollzeitbildungsgang in Teilzeitbildungsgang, Bedeutung der Bildungsgänge für Branche und Region (auch französischsprachige Klassen jedes zweite Jahr), Auswirkungen auf die Rekrutierung bei Erhöhung der Studierendengebühren (Auslotung des Grenzwertes, ohne die Nachfrage und damit das Bildungsangebot zu gefährden).",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "0.200",
@@ -2373,7 +2388,7 @@
         "Direktion": "Erziehungsdirektion",
         "Nr": "17.12",
         "Massnahme": "Optimierungen HF Technik Holz, Biel",
-        "Rechtsgrundlage": "keine \f                    102",
+        "Rechtsgrundlage": "keine",
         "node": {
             "id": "erziehung_optimierungen-bei-der-h-heren-fachschule-technik-holz-in-biel",
             "name": "Optimierungen bei der Höheren Fachschule Technik Holz in Biel",
@@ -2390,7 +2405,7 @@
     },
     "erziehung_optimierung-der-steuerung-von-berufsschulen": {
         "Aufgabenfeld": "Berufsbildung",
-        "Kurzbeschrieb": "Durch optimierte Steuerung des Angebots der Berufsfachschu-len lassen sich Einsparungen generieren: 1. Erhöhung der Lernenden pro Klasse EBA4 und EFZ5 Zurzeit werden EBA-Klassen mit maximal 12 Lernenden geführt, wie es das SBFI empfiehlt. Künftig soll die Band-breite für EBA-Klassen auf von 12 bis 15 Lernende festge-legt werden. Die maximale Klassengrösse bei EFZ-Klassen ist heute bei 24 Lernenden festgesetzt. Das soll auf Grund der Klassen-zimmergrössen auch so bleiben. Hingegen sinkt der Durch-schnitt der maximalen Klassengrösse mit der heutigen Steuerung bei mehr als 6 Parallel-klassen auf 21 Lernende. Künftig soll die Steuerung zu Klassengrössen der EFZ-Klassen mit durchschnittlich 22 Lernende pro Klasse füh-ren. 2. Optimierung Freifachkurse und Stützkurse Die Freifachkurse sollen eingeschränkt werden, wobei Sprachkurse erhalten werden sollen. Mindestklassengrös-sen von 15 Lernenden sollen festgelegt werden. Die Stütz-kurse für schwächere Lernende sollen mittels Kennziffern und einem Lektionenpool gesteuert werden. Bei der Festle-gung dieses Lektionenpools sollen die besonderen Heraus-forderungen in Berufsfeldern mit schwächeren Lernenden berücksichtigt werden (differenzierte Lektionenpools je nach Berufsfeld). 3. Keine Lektion mehr als der Bund vorgibt Der Bund gibt mit den Bildungsverordnungen eine bestimm-te Anzahl Lektionen vor. Diese wird in einzelnen Berufen / Schulen durch Zusatzlektionen überschritten (Beispiel: 20 Lektionen pro Semester IT-Unterricht für Fachangestellte Gesundheit). Künftig soll auf zusätzliche Lektionen verzich-                                                      4 EBA: Zweijährige berufliche Grundbildung mit eidg. Berufsattest 5 EFZ: Dreijährige berufliche Grundbildung mit eidg. Fähigkeitszeugnis \f                    103  ten werden.",
+        "Kurzbeschrieb": "Durch optimierte Steuerung des Angebots der Berufsfachschulen lassen sich Einsparungen generieren: 1. Erhöhung der Lernenden pro Klasse EBA (EBA: Zweijährige berufliche Grundbildung mit eidg. Berufsattest) und EFZ (EFZ: Dreijährige berufliche Grundbildung mit eidg. Fähigkeitszeugnis) Zurzeit werden EBA-Klassen mit maximal 12 Lernenden geführt, wie es das SBFI empfiehlt. Künftig soll die Bandbreite für EBA-Klassen auf von 12 bis 15 Lernende festgelegt werden. Die maximale Klassengrösse bei EFZ-Klassen ist heute bei 24 Lernenden festgesetzt. Das soll auf Grund der Klassenzimmergrössen auch so bleiben. Hingegen sinkt der Durchschnitt der maximalen Klassengrösse mit der heutigen Steuerung bei mehr als 6 Parallelklassen auf 21 Lernende. Künftig soll die Steuerung zu Klassengrössen der EFZ-Klassen mit durchschnittlich 22 Lernende pro Klasse führen. 2. Optimierung Freifachkurse und Stützkurse Die Freifachkurse sollen eingeschränkt werden, wobei Sprachkurse erhalten werden sollen. Mindestklassengrössen von 15 Lernenden sollen festgelegt werden. Die Stützkurse für schwächere Lernende sollen mittels Kennziffern und einem Lektionenpool gesteuert werden. Bei der Festlegung dieses Lektionenpools sollen die besonderen Herausforderungen in Berufsfeldern mit schwächeren Lernenden berücksichtigt werden (differenzierte Lektionenpools je nach Berufsfeld). 3. Keine Lektion mehr als der Bund vorgibt Der Bund gibt mit den Bildungsverordnungen eine bestimmte Anzahl Lektionen vor. Diese wird in einzelnen Berufen / Schulen durch Zusatzlektionen überschritten (Beispiel: 20 Lektionen pro Semester IT-Unterricht für Fachangestellte Gesundheit). Künftig soll auf zusätzliche Lektionen verzichten werden.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "2.200",
@@ -2431,7 +2446,7 @@
     },
     "erziehung_entlastungen-bei-den-lehrkr-ften-in-der-beruflichen-grundbildung": {
         "Aufgabenfeld": "Berufsbildung",
-        "Kurzbeschrieb": "Dauerhafter Verzicht auf die Erhöhung des Schulpools um eine zusätzliche halbe Lektion pro Klasse und Woche in der berufli-chen Grundbildung. Zurzeit steht der Schulleitung einer Berufsfachschule pro dualer Klas-se ½ Wochenlektion und pro Vollzeitklasse (Lehrwerkstät-te, Handelsmittelschule, Berufsvorbereitendes Schuljahr) eine ganze Wochenlektion zur Verfügung. An den Mittelschulen und der Volksschule steht ebenfalls eine ganze Klassenlehrerlektion zur Verfügung. Diese Lektionen werden durch die Schulleitung den Lehrpersonen für die Unterstützung der Lernenden zuge-teilt. Mit der Absicht, die Betreuungssituation der Lernenden in der beruflichen Grundbindung zu verbessern und die Anstellungs-bedingungen der Berufsschullehrpersonen an diejenigen der Mittelschulen anzugleichen, wurden aus den zusätzlichen Bun-desbeiträgen im Finanz-plan 2014 ff die Mittel für eine weitere halbe Klassenlehrerlektion pro dualer Berufsfachschulklasse eingestellt. Auf diese Massnahme soll im Zuge von ASP defini-tiv verzichtet werden.",
+        "Kurzbeschrieb": "Dauerhafter Verzicht auf die Erhöhung des Schulpools um eine zusätzliche halbe Lektion pro Klasse und Woche in der beruflichen Grundbildung. Zurzeit steht der Schulleitung einer Berufsfachschule pro dualer Klasse ½ Wochenlektion und pro Vollzeitklasse (Lehrwerkstätte, Handelsmittelschule, Berufsvorbereitendes Schuljahr) eine ganze Wochenlektion zur Verfügung. An den Mittelschulen und der Volksschule steht ebenfalls eine ganze Klassenlehrerlektion zur Verfügung. Diese Lektionen werden durch die Schulleitung den Lehrpersonen für die Unterstützung der Lernenden zugeteilt. Mit der Absicht, die Betreuungssituation der Lernenden in der beruflichen Grundbindung zu verbessern und die Anstellungsbedingungen der Berufsschullehrpersonen an diejenigen der Mittelschulen anzugleichen, wurden aus den zusätzlichen Bundesbeiträgen im Finanzplan 2014 ff die Mittel für eine weitere halbe Klassenlehrerlektion pro dualer Berufsfachschulklasse eingestellt. Auf diese Massnahme soll im Zuge von ASP definitiv verzichtet werden.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "5.500",
@@ -2455,7 +2470,7 @@
         "Direktion": "Erziehungsdirektion",
         "Nr": "17.14",
         "Massnahme": "Entlastungen im Bereich Lehrkräfte Berufliche Grundbildung",
-        "Rechtsgrundlage": "keine \f                    104",
+        "Rechtsgrundlage": "keine",
         "node": {
             "id": "erziehung_entlastungen-bei-den-lehrkr-ften-in-der-beruflichen-grundbildung",
             "name": "Entlastungen bei den Lehrkräften in der beruflichen Grundbildung",
@@ -2472,7 +2487,7 @@
     },
     "erziehung_erh-hung-der-wochenpflichtlektionen-f-r-lehrkr-fte-in-der-h-heren-berufsbildung-um-eine-lektion": {
         "Aufgabenfeld": "Berufsbildung",
-        "Kurzbeschrieb": "Im Rahmen der Teilrevision der Verordnung über die Anstellung der Lehrkräfte (LAV) im Jahr 2007 wurde die Pflichtlektion der Lehrkräfte in der Höheren Berufsbildung und Weiterbildung bei 38 Schulwochen pro Jahr von 22,5 auf 21,5 Wochenlektionen gesenkt. Dies geschah parallel zur Reduktion der Pflichtlektion für die Lehrpersonen in der beruflichen Grundbildung (von 27 auf 26) ohne jedoch zwingende personal-politische Gründe zu haben. Diese Reduktion liesse sich rückgängig machen, da die Arbeitsbedingungen auch mit 22,5 Pflichtlektionen immer noch verhältnismässig gut sind (Pflichtlektionen Gymnasien im Ver-gleich: 23.5). Zudem werden die Anstellungsbedingungen auf Grund der vorgesehenen Pauschalfinanzierung der Höheren Berufsbildung (BerG-Revision in Vernehmlassung) ohnehin eine Liberalisierung erfahren müssen.",
+        "Kurzbeschrieb": "Im Rahmen der Teilrevision der Verordnung über die Anstellung der Lehrkräfte (LAV) im Jahr 2007 wurde die Pflichtlektion der Lehrkräfte in der Höheren Berufsbildung und Weiterbildung bei 38 Schulwochen pro Jahr von 22,5 auf 21,5 Wochenlektionen gesenkt. Dies geschah parallel zur Reduktion der Pflichtlektion für die Lehrpersonen in der beruflichen Grundbildung (von 27 auf 26) ohne jedoch zwingende personalpolitische Gründe zu haben. Diese Reduktion liesse sich rückgängig machen, da die Arbeitsbedingungen auch mit 22,5 Pflichtlektionen immer noch verhältnismässig gut sind (Pflichtlektionen Gymnasien im Vergleich: 23.5). Zudem werden die Anstellungsbedingungen auf Grund der vorgesehenen Pauschalfinanzierung der Höheren Berufsbildung (BerG-Revision in Vernehmlassung) ohnehin eine Liberalisierung erfahren müssen.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "",
@@ -2495,7 +2510,7 @@
         },
         "Direktion": "Erziehungsdirektion",
         "Nr": "17.15",
-        "Massnahme": "Erhöhung Wochenpflichtlektion Lehrkräfte Höhere Berufsbil-dung um eine Lektion",
+        "Massnahme": "Erhöhung Wochenpflichtlektion Lehrkräfte Höhere Berufsbildung um eine Lektion",
         "Rechtsgrundlage": "Verordnung über die Anstellung der Lehrkräfte (LAV)",
         "node": {
             "id": "erziehung_erh-hung-der-wochenpflichtlektionen-f-r-lehrkr-fte-in-der-h-heren-berufsbildung-um-eine-lektion",
@@ -2513,7 +2528,7 @@
     },
     "erziehung_einf-hrung-durchgehendes-vierj-hriges-gymnasium": {
         "Aufgabenfeld": "Mittelschulen",
-        "Kurzbeschrieb": "Wird der gymnasiale Unterricht im deutschsprachigen Kantons-teil nur noch an den Gymnasien geführt, ermöglicht dies, einen kohärenten Bildungsgang vom 9. bis zum 12. Schuljahr aufzu-bauen. Die Lektionentafel von der Quarta bis zur Prima kann so überarbeitet und die Unterrichtsverpflichtung leicht reduziert werden, womit pro Klasse im Durchschnitt 9 gehaltswirksame Lektionen abgebaut werden. So könnten unter anderem bei-spielsweise bei den Sprachlektionen eine leichte Reduktion vorgenommen, die Wahl zwischen Musik und Bildnerisches Gestalten auf das 9. Schuljahr vorverschoben, Projektunterricht reduziert und die Lektionentafel ausgeglichener gestaltet wer-den. Im Vergleich zu heute würde dies mit weniger Mitteln eine \f                    105  ähnliche Abschlussqualität ermöglichen. Von den knapp 380 Gemeinden im Kanton Bern wären rund 25 Gemeinden mit einem Sekundarschulstandort mit GU9-Klassen betroffen. Diese müssten GU9-Klassen schliessen bzw. aufhe-ben. Von den rund 25 betroffenen Gemeinden sind aber nur gut die Hälfte nicht selber Standortgemeinde eines Gymnasiums oder in deren nahen Agglomeration.",
+        "Kurzbeschrieb": "Wird der gymnasiale Unterricht im deutschsprachigen Kantonsteil nur noch an den Gymnasien geführt, ermöglicht dies, einen kohärenten Bildungsgang vom 9. bis zum 12. Schuljahr aufzubauen. Die Lektionentafel von der Quarta bis zur Prima kann so überarbeitet und die Unterrichtsverpflichtung leicht reduziert werden, womit pro Klasse im Durchschnitt 9 gehaltswirksame Lektionen abgebaut werden. So könnten unter anderem beispielsweise bei den Sprachlektionen eine leichte Reduktion vorgenommen, die Wahl zwischen Musik und Bildnerisches Gestalten auf das 9. Schuljahr vorverschoben, Projektunterricht reduziert und die Lektionentafel ausgeglichener gestaltet werden. Im Vergleich zu heute würde dies mit weniger Mitteln eine ähnliche Abschlussqualität ermöglichen. Von den knapp 380 Gemeinden im Kanton Bern wären rund 25 Gemeinden mit einem Sekundarschulstandort mit GU9-Klassen betroffen. Diese müssten GU9-Klassen schliessen bzw. aufheben. Von den rund 25 betroffenen Gemeinden sind aber nur gut die Hälfte nicht selber Standortgemeinde eines Gymnasiums oder in deren nahen Agglomeration.",
         "Auswirkungen": {
             "Finanzielle": null,
             "Gemeinden": null,
@@ -2539,7 +2554,7 @@
     },
     "erziehung_schwerpunktf-cher-an-den-gymnasien-reduzieren": {
         "Aufgabenfeld": "Mittelschulen",
-        "Kurzbeschrieb": "Die kleinen Schwerpunktfächer Griechisch und Russisch, wel-che heute noch an einigen – nicht an allen Gymnasien, sondern an einem Gymnasium pro Region – geführt werden, werden aus dem Angebot gestrichen. Der Kanton Bern würde somit darauf verzichten, sämtliche Schwerpunktfächer zu führen und mit dem kleinsten Schwerpunktfach (Griechisch) ist ein traditi-onsreiches Fach betroffen.",
+        "Kurzbeschrieb": "Die kleinen Schwerpunktfächer Griechisch und Russisch, welche heute noch an einigen – nicht an allen Gymnasien, sondern an einem Gymnasium pro Region – geführt werden, werden aus dem Angebot gestrichen. Der Kanton Bern würde somit darauf verzichten, sämtliche Schwerpunktfächer zu führen und mit dem kleinsten Schwerpunktfach (Griechisch) ist ein traditionsreiches Fach betroffen.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "0.300",
@@ -2563,7 +2578,7 @@
         "Direktion": "Erziehungsdirektion",
         "Nr": "18.2",
         "Massnahme": "Schwerpunktfächer reduzieren",
-        "Rechtsgrundlage": "Mittelschulverordnung (MiSV)     \f                    106",
+        "Rechtsgrundlage": "Mittelschulverordnung (MiSV)",
         "node": {
             "id": "erziehung_schwerpunktf-cher-an-den-gymnasien-reduzieren",
             "name": "Schwerpunktfächer an den Gymnasien reduzieren",
@@ -2580,7 +2595,7 @@
     },
     "erziehung_unterricht-f-r-die-zweisprachige-maturit-t-deutsch-englisch-im-klassenverband": {
         "Aufgabenfeld": "Mittelschulen",
-        "Kurzbeschrieb": "Wenn die Anzahl Schüler/innen, welche sich für das zweispra-chige Angebot Deutsch-Englisch angemeldet haben, nicht er-laubt hat, diese in eigenen Klassen zu unterrichten, so wurden bisher gemischte Klassen mit Schüler/innen im normalen und solchen im zweisprachigen Bildungsgang gebildet und die Klassen in den Fächern, welche in Englisch unterrichtet wur-den, geteilt. Die Schulen erhielten dafür Zusatzressourcen. Auf diese Zusatzressourcen für die zweisprachige Maturität Deutsch-Englisch wird verzichtet. Damit können nur noch ganze Klassen mit zweisprachigem Unterricht geführt werden. Über-zählige Schüler/innen müssten in einsprachige Klassen verwie-sen werden. Grundsätzlich wird die zweisprachige Matur auch mit der Im-mersionssprache Englisch als wünschenswert und förderungs-würdig betrachtet. Angesichts der finanziellen Situation sind die Mittel zu knapp, um sich dieses Angebot noch vollumfänglich leisten zu können.",
+        "Kurzbeschrieb": "Wenn die Anzahl Schüler/innen, welche sich für das zweisprachige Angebot Deutsch-Englisch angemeldet haben, nicht erlaubt hat, diese in eigenen Klassen zu unterrichten, so wurden bisher gemischte Klassen mit Schüler/innen im normalen und solchen im zweisprachigen Bildungsgang gebildet und die Klassen in den Fächern, welche in Englisch unterrichtet wurden, geteilt. Die Schulen erhielten dafür Zusatzressourcen. Auf diese Zusatzressourcen für die zweisprachige Maturität Deutsch-Englisch wird verzichtet. Damit können nur noch ganze Klassen mit zweisprachigem Unterricht geführt werden. Überzählige Schüler/innen müssten in einsprachige Klassen verwiesen werden. Grundsätzlich wird die zweisprachige Matur auch mit der Immersionssprache Englisch als wünschenswert und förderungswürdig betrachtet. Angesichts der finanziellen Situation sind die Mittel zu knapp, um sich dieses Angebot noch vollumfänglich leisten zu können.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "0.200",
@@ -2603,7 +2618,7 @@
         },
         "Direktion": "Erziehungsdirektion",
         "Nr": "18.3",
-        "Massnahme": "Unterrichtung zweisprachige Maturität Deutsch-Englisch im Klassen-verband",
+        "Massnahme": "Unterrichtung zweisprachige Maturität Deutsch-Englisch im Klassenverband",
         "Rechtsgrundlage": "keine",
         "node": {
             "id": "erziehung_unterricht-f-r-die-zweisprachige-maturit-t-deutsch-englisch-im-klassenverband",
@@ -2621,7 +2636,7 @@
     },
     "erziehung_senkung-des-kostendachs-f-r-subventionen-an-private-gymnasien": {
         "Aufgabenfeld": "Mittelschulen",
-        "Kurzbeschrieb": "Das Kostendach für den Staatsbeitrag an die privaten Gymna-sien wird an die heute gemäss Rechnung 2012 verwendeten Mittel, an die Sparmassnahmen bei den kantonalen Schulen und an die demografische Entwicklung der Schülerinnen und Schüler angepasst. Da das Kostendach 2012 um CHF 0,7 Millionen nicht ausge-schöpft wurde, trifft dies die betroffenen Schulen nicht hart. Das Budget könnte aber nur nach unten korrigiert und damit der \f                    107  gesamte Budget-Produktgruppensaldo reduziert werden, wenn vorgängig das Kosten-dach reduziert wird. Die Senkung des Kostendachs um weitere CHF 0,3 Millionen rechtfertigt sich, da auch beim kantonalen Bildungsgang eine Fallkostensenkung im Vergleich zu heute erreicht werden muss und die demographi-sche Entwicklung auch an den privaten Schulen zu rückläufigen Schülerinnen- und Schülerzahlen führen sollte. Die Massnahme verhindert somit auch Anreize für die Schulen, angesichts des demografischen Rückgangs die Klassen mit wenig geeigneten Schüler/innen zu füllen.",
+        "Kurzbeschrieb": "Das Kostendach für den Staatsbeitrag an die privaten Gymnasien wird an die heute gemäss Rechnung 2012 verwendeten Mittel, an die Sparmassnahmen bei den kantonalen Schulen und an die demografische Entwicklung der Schülerinnen und Schüler angepasst. Da das Kostendach 2012 um CHF 0,7 Millionen nicht ausgeschöpft wurde, trifft dies die betroffenen Schulen nicht hart. Das Budget könnte aber nur nach unten korrigiert und damit der gesamte Budget-Produktgruppensaldo reduziert werden, wenn vorgängig das Kostendach reduziert wird. Die Senkung des Kostendachs um weitere CHF 0,3 Millionen rechtfertigt sich, da auch beim kantonalen Bildungsgang eine Fallkostensenkung im Vergleich zu heute erreicht werden muss und die demographische Entwicklung auch an den privaten Schulen zu rückläufigen Schülerinnen- und Schülerzahlen führen sollte. Die Massnahme verhindert somit auch Anreize für die Schulen, angesichts des demografischen Rückgangs die Klassen mit wenig geeigneten Schüler/innen zu füllen.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "1.000",
@@ -2662,7 +2677,7 @@
     },
     "erziehung_reorganisation-der-gymnasien-in-biel-und-thun": {
         "Aufgabenfeld": "Mittelschulen",
-        "Kurzbeschrieb": "Zusammenlegung der Gymnasien in Biel zu einem deutsch- und zu einem französischsprachigen Gymnasium und in Thun zu einem Gymnasium. In Biel besteht die Möglichkeit, den gymnasialen Bildungsgang auf ein deutschsprachiges und ein französischsprachiges Gym-nasium in der Schulanlage Strandboden zu konzentrieren, wel-che zusammen eine zweisprachige Abteilung führen. In der Schulanlage Alpenstrasse könnten Handelsmittelschule und Fachmittelschule einquartiert werden. Das Verkehrsschulge-bäude könnte veräussert werden. Die Anzahl Schulen könnte von heute drei auf zwei reduziert werden. Die vollständige Um-setzung wäre erst nach dem Abschluss der Sanierung der Schulanlage auf dem Strandboden im Jahr 2016 möglich. In Thun könnten die beiden Gymnasien zusammengelegt wer-den. Nach einem Neubau auf der Gymermatte könnte auch eine räumliche Zusammenführung erfolgen, was erst eine Qua-litätsverbesserung bringt und die Massnahme langfristig recht-fertigt. Ein Neubau ist auch aus finanzieller Sicht interessant (siehe unten). Die Zusammenlegung der Gymnasien bringen Einsparungen insbesondere bei den gehaltswirksamen Lektionen, aber auch bei den übrigen Personalaufwendungen (Staatspersonal und Schulleitung) und beim Sachaufwand. Gleichzeitig bringen grössere Schulen bezüglich Qualitätssicherung und Stellensi-\f                    108  cherheit für die Lehrkräfte Vorteile. Objektiv gesehen ist die Massnahme umsetzbar und bringt auch dahingehend Vorteile, dass das regionale Bildungsange-bot auch nach Umsetzung der Massnahme erhalten bleibt und langfristig gesehen ein Profilgewinn durch die Strukturvereinfa-chung erzielt werden kann.",
+        "Kurzbeschrieb": "Zusammenlegung der Gymnasien in Biel zu einem deutsch- und zu einem französischsprachigen Gymnasium und in Thun zu einem Gymnasium. In Biel besteht die Möglichkeit, den gymnasialen Bildungsgang auf ein deutschsprachiges und ein französischsprachiges Gymnasium in der Schulanlage Strandboden zu konzentrieren, welche zusammen eine zweisprachige Abteilung führen. In der Schulanlage Alpenstrasse könnten Handelsmittelschule und Fachmittelschule einquartiert werden. Das Verkehrsschulgebäude könnte veräussert werden. Die Anzahl Schulen könnte von heute drei auf zwei reduziert werden. Die vollständige Umsetzung wäre erst nach dem Abschluss der Sanierung der Schulanlage auf dem Strandboden im Jahr 2016 möglich. In Thun könnten die beiden Gymnasien zusammengelegt werden. Nach einem Neubau auf der Gymermatte könnte auch eine räumliche Zusammenführung erfolgen, was erst eine Qualitätsverbesserung bringt und die Massnahme langfristig rechtfertigt. Ein Neubau ist auch aus finanzieller Sicht interessant (siehe unten). Die Zusammenlegung der Gymnasien bringen Einsparungen insbesondere bei den gehaltswirksamen Lektionen, aber auch bei den übrigen Personalaufwendungen (Staatspersonal und Schulleitung) und beim Sachaufwand. Gleichzeitig bringen grössere Schulen bezüglich Qualitätssicherung und Stellensicherheit für die Lehrkräfte Vorteile. Objektiv gesehen ist die Massnahme umsetzbar und bringt auch dahingehend Vorteile, dass das regionale Bildungsangebot auch nach Umsetzung der Massnahme erhalten bleibt und langfristig gesehen ein Profilgewinn durch die Strukturvereinfachung erzielt werden kann.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "0.200",
@@ -2703,7 +2718,7 @@
     },
     "erziehung_k-rzung-der-lektionendauer-im-instrumentalunterricht-an-den-gymnasien": {
         "Aufgabenfeld": "Mittelschulen",
-        "Kurzbeschrieb": "Im individuellen Musikunterricht (Instrumental- oder Gesangs-unterricht) wird die wöchentliche Lektionendauer von 45 auf 30 Minuten (während 3 Jahren) gekürzt werden. Kann das Schwerpunktfach in Folge der Umsetzung von Massnahme 1 während vier Jahren angeboten werden, kann eine Kürzung auf 22,5 Minuten (während 4 Jahren) erfolgen. Mit dieser Massnahme würde die Praxis, wie sie vor der Um-wandlung der Seminare in Gymnasien gelebt wurde, wieder hergestellt werden und in diesem Sinn ist die Massnahme ver-tretbar.",
+        "Kurzbeschrieb": "Im individuellen Musikunterricht (Instrumental- oder Gesangsunterricht) wird die wöchentliche Lektionendauer von 45 auf 30 Minuten (während 3 Jahren) gekürzt werden. Kann das Schwerpunktfach in Folge der Umsetzung von Massnahme 1 während vier Jahren angeboten werden, kann eine Kürzung auf 22,5 Minuten (während 4 Jahren) erfolgen. Mit dieser Massnahme würde die Praxis, wie sie vor der Umwandlung der Seminare in Gymnasien gelebt wurde, wieder hergestellt werden und in diesem Sinn ist die Massnahme vertretbar.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "0.900",
@@ -2727,7 +2742,7 @@
         "Direktion": "Erziehungsdirektion",
         "Nr": "18.6",
         "Massnahme": "Kürzung Lektionendauer Instrumentalunterricht",
-        "Rechtsgrundlage": "keine     \f                    109",
+        "Rechtsgrundlage": "keine",
         "node": {
             "id": "erziehung_k-rzung-der-lektionendauer-im-instrumentalunterricht-an-den-gymnasien",
             "name": "Kürzung der Lektionendauer im Instrumentalunterricht an den Gymnasien",
@@ -2744,7 +2759,7 @@
     },
     "erziehung_berner-fachhochschule-senkung-der-ausbildungskosten-an-ch-durchschnitt": {
         "Aufgabenfeld": "Berner Fachhochschule",
-        "Kurzbeschrieb": "In der Lehre gilt es, die durchschnittlichen Kosten pro Studie-rende/n, die heute rund 10% über dem schweizerischen Durch-schnitt liegen, zu senken. Die operative Umsetzung dieser Massnahme liegt in der Verantwortung der Leitung der BFH und muss unter Berücksichtigung der örtlichen Gegebenheiten er-folgen. Für alle Bereiche ausser Technik und Informatik (TI) sowie Architektur, Holz und Bau (AHB) wird der schweizerische Durchschnittwert (100%) angestrebt. TI und AHB müssen ihre Kosten ebenfalls senken, der schweizerische Durchschnittswert kann jedoch erst nach Bezug des Campus Technik erreicht werden.",
+        "Kurzbeschrieb": "In der Lehre gilt es, die durchschnittlichen Kosten pro Studierende/n, die heute rund 10% über dem schweizerischen Durchschnitt liegen, zu senken. Die operative Umsetzung dieser Massnahme liegt in der Verantwortung der Leitung der BFH und muss unter Berücksichtigung der örtlichen Gegebenheiten erfolgen. Für alle Bereiche ausser Technik und Informatik (TI) sowie Architektur, Holz und Bau (AHB) wird der schweizerische Durchschnittwert (100%) angestrebt. TI und AHB müssen ihre Kosten ebenfalls senken, der schweizerische Durchschnittswert kann jedoch erst nach Bezug des Campus Technik erreicht werden.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "1.000",
@@ -2785,7 +2800,7 @@
     },
     "erziehung_berner-fachhochschule-streichung-von-forschungsvorhaben-erh-hung-drittmittelanteil": {
         "Aufgabenfeld": "Berner Fachhochschule",
-        "Kurzbeschrieb": "Die Kosten im Bereich Forschung sind zu senken. Dieses Ziel kann durch eine Erhöhung des Deckungsbeitrags durch zusätz-liche Dritt-mittel erreicht werden. Können keine zusätzlichen Mittel für Forschungsprojekte eingeworben werden, sind For-schungsvorhaben mit einer zu geringen Drittmittelfinanzierung zu streichen. Dies führt letztlich dazu, dass die BFH weniger Forschungsprojekte in der angewandten Forschung durchfüh-ren kann. Wenn die BFH ihr Kostenniveau reduzieren soll, ist diese Mas-snahme zu ergreifen.",
+        "Kurzbeschrieb": "Die Kosten im Bereich Forschung sind zu senken. Dieses Ziel kann durch eine Erhöhung des Deckungsbeitrags durch zusätzliche Drittmittel erreicht werden. Können keine zusätzlichen Mittel für Forschungsprojekte eingeworben werden, sind Forschungsvorhaben mit einer zu geringen Drittmittelfinanzierung zu streichen. Dies führt letztlich dazu, dass die BFH weniger Forschungsprojekte in der angewandten Forschung durchführen kann. Wenn die BFH ihr Kostenniveau reduzieren soll, ist diese Massnahme zu ergreifen.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "1.500",
@@ -2808,7 +2823,7 @@
         },
         "Direktion": "Erziehungsdirektion",
         "Nr": "20.2",
-        "Massnahme": "Streichung von Forschungsvorhaben / Erhöhung des Drittmit-telanteils",
+        "Massnahme": "Streichung von Forschungsvorhaben / Erhöhung des Drittmittelanteils",
         "Rechtsgrundlage": "keine",
         "node": {
             "id": "erziehung_berner-fachhochschule-streichung-von-forschungsvorhaben-erh-hung-drittmittelanteil",
@@ -2826,7 +2841,7 @@
     },
     "erziehung_berner-fachhochschule-erh-hung-der-beitr-ge-der-kantone-der-haute-ecole-sp-cialis-e-de-suisse-occidentale-auf-niveau-der-fachhochschulvereinbarung": {
         "Aufgabenfeld": "Berner Fachhochschule",
-        "Kurzbeschrieb": "Die Abgeltungen für die Studierenden aus den HES-SO Kanto-nen (GE, NE, JU, FR, VD und VS) an der BFH liegen tiefer als die Ansätze gemäss der Interkantonalen Fachhochschulverein-barung (FHV). Die FHV geht grundsätzlich weiteren Vereinba-rungen vor, wenn die Abgeltungen nicht mindestens so hoch sind wie diejenige der FHV. Die BFH wird die höheren Beiträge einfordern, was die ERZ den Kantonen der Westschweiz bereits angekündigt hat.",
+        "Kurzbeschrieb": "Die Abgeltungen für die Studierenden aus den HES-SO Kantonen (GE, NE, JU, FR, VD und VS) an der BFH liegen tiefer als die Ansätze gemäss der Interkantonalen Fachhochschulvereinbarung (FHV). Die FHV geht grundsätzlich weiteren Vereinbarungen vor, wenn die Abgeltungen nicht mindestens so hoch sind wie diejenige der FHV. Die BFH wird die höheren Beiträge einfordern, was die ERZ den Kantonen der Westschweiz bereits angekündigt hat.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "0.700",
@@ -2867,7 +2882,7 @@
     },
     "erziehung_p-dagogische-hochschule-schliessung-des-vorbereitungskurses": {
         "Aufgabenfeld": "Pädagogische Hochschule",
-        "Kurzbeschrieb": "Mit der Schliessung des Vorbereitungskurses (zurzeit werden 6 Klassen à 24 Studierende geführt) geht ein Angebot für Berufs-leute verloren, welche so den vereinfachten Zugang zur PH erlangen konnten. Sie können allerdings die Aufnahmeprüfung auch ohne Besuch des Vorbereitungskurses absolvieren. Da in Zukunft im Kanton Bern auch die Fachmaturität Pädagogik \f                    111  angeboten wird, welche ab 2015 zum direkten Zugang zum Studiengang Vorschulstufe und Primarstufe der PH Bern führen wird, und da bereits seit Jahren für Personen mit der Berufsma-turität die sog. «Passerelle Dubs» besteht, sollte die Umsetzung dieser Massnahme möglich und tragbar sein.",
+        "Kurzbeschrieb": "Mit der Schliessung des Vorbereitungskurses (zurzeit werden 6 Klassen à 24 Studierende geführt) geht ein Angebot für Berufsleute verloren, welche so den vereinfachten Zugang zur PH erlangen konnten. Sie können allerdings die Aufnahmeprüfung auch ohne Besuch des Vorbereitungskurses absolvieren. Da in Zukunft im Kanton Bern auch die Fachmaturität Pädagogik angeboten wird, welche ab 2015 zum direkten Zugang zum Studiengang Vorschulstufe und Primarstufe der PH Bern führen wird, und da bereits seit Jahren für Personen mit der Berufsmaturität die sog. «Passerelle Dubs» besteht, sollte die Umsetzung dieser Massnahme möglich und tragbar sein.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "0.200",
@@ -2908,7 +2923,7 @@
     },
     "erziehung_p-dagogische-hochschule-k-rzungen-bei-der-weiterbildung-beratung-und-medien": {
         "Aufgabenfeld": "Pädagogische Hochschule",
-        "Kurzbeschrieb": "Dienstleistungen der PH Bern für Lehrpersonen und Schulen im Bereich Weiterbildung, Beratung und Bildungsmedien sollen reduziert werden. In gewissen Bereichen der Weiterbildung, z. B. Zertifikatskurse und kursorische Weiterbildung, können An-gebotskürzungen erfolgen. Allerdings hat dies Auswirkungen auf den in der Verordnung (LAV) genannten Weiterbildungsauf-trag der Lehrpersonen.",
+        "Kurzbeschrieb": "Dienstleistungen der PH Bern für Lehrpersonen und Schulen im Bereich Weiterbildung, Beratung und Bildungsmedien sollen reduziert werden. In gewissen Bereichen der Weiterbildung, z. B. Zertifikatskurse und kursorische Weiterbildung, können Angebotskürzungen erfolgen. Allerdings hat dies Auswirkungen auf den in der Verordnung (LAV) genannten Weiterbildungsauftrag der Lehrpersonen.",
         "Auswirkungen": {
             "Finanzielle": null,
             "Gemeinden": null,
@@ -2917,7 +2932,7 @@
         "Direktion": "Erziehungsdirektion",
         "Nr": "21.2",
         "Massnahme": "Kürzungen in Weiterbildung, Beratung und Bildungsmedien der PH Bern",
-        "Rechtsgrundlage": "Verordnung über die Anstellung der Lehrkräfte (LAV)     \f                    112",
+        "Rechtsgrundlage": "Verordnung über die Anstellung der Lehrkräfte (LAV)",
         "node": {
             "id": "erziehung_p-dagogische-hochschule-k-rzungen-bei-der-weiterbildung-beratung-und-medien",
             "name": "Pädagogische Hochschule: Kürzungen bei der Weiterbildung, Beratung und Medien",
@@ -2934,7 +2949,7 @@
     },
     "erziehung_p-dagogische-hochschule-k-rzung-des-beitrags-an-die-haute-ecole-p-dagogique-berne-jura-neuch-tel": {
         "Aufgabenfeld": "Pädagogische Hochschule",
-        "Kurzbeschrieb": "Gemäss gesamtschweizerischer Kostenrechnung ist die Aus-bildung an der HEP BEJUNE im Vergleich zu den anderen An-bietern, namentlich auch der PH Bern erheblich über dem schweizerischen Durchschnitt. Zwar wird die Ausbildung an der HEP BEJUNE aufgrund der dezentralen Strukturen wohl kaum die Durchschnittskosten erreichen können, gleichwohl muss auch hier, zusammen mit den Partnerkantonen Jura und Neu-enburg, eine substantielle Kostensenkung herbeigeführt wer-den.",
+        "Kurzbeschrieb": "Gemäss gesamtschweizerischer Kostenrechnung ist die Ausbildung an der HEP BEJUNE im Vergleich zu den anderen Anbietern, namentlich auch der PH Bern erheblich über dem schweizerischen Durchschnitt. Zwar wird die Ausbildung an der HEP BEJUNE aufgrund der dezentralen Strukturen wohl kaum die Durchschnittskosten erreichen können, gleichwohl muss auch hier, zusammen mit den Partnerkantonen Jura und Neuenburg, eine substantielle Kostensenkung herbeigeführt werden.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "0.500",
@@ -2975,7 +2990,7 @@
     },
     "erziehung_angebots-und-strukturanpassung-bei-der-berufsberatung": {
         "Aufgabenfeld": "Übriges Bildungswesen",
-        "Kurzbeschrieb": "Die Angebots- und Strukturanpassung bei der Berufs-, Studien- und Laufbahnberatung (BSLB) ist als Gesamtpaket zu verste-hen, bestehend aus folgenden Massnahmen: 1. Ertragssteigerungen in Erwachsenenberatung und weiteren kostenpflichtigen Angeboten 2. Effizienzgewinne durch Straffung von Organisation und Prozessen 3. Bereinigung der dezentralen Strukturen. Wenn im Kanton Bern ein unterdurchschnittliches Angebots- und Kostenniveau erreicht werden soll, muss diese Massnahme umgesetzt werden.",
+        "Kurzbeschrieb": "Die Angebots- und Strukturanpassung bei der Berufs-, Studien- und Laufbahnberatung (BSLB) ist als Gesamtpaket zu verstehen, bestehend aus folgenden Massnahmen: 1. Ertragssteigerungen in Erwachsenenberatung und weiteren kostenpflichtigen Angeboten 2. Effizienzgewinne durch Straffung von Organisation und Prozessen 3. Bereinigung der dezentralen Strukturen. Wenn im Kanton Bern ein unterdurchschnittliches Angebots- und Kostenniveau erreicht werden soll, muss diese Massnahme umgesetzt werden.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "0.500",
@@ -2999,7 +3014,7 @@
         "Direktion": "Erziehungsdirektion",
         "Nr": "22.1",
         "Massnahme": "Angebots- und Strukturanpassung in der Berufsberatung",
-        "Rechtsgrundlage": "Direktionsverordnung über die Berufsbildung, die Weiterbildung und die Berufsberatung (BerDV) \f                    113",
+        "Rechtsgrundlage": "Direktionsverordnung über die Berufsbildung, die Weiterbildung und die Berufsberatung (BerDV)",
         "node": {
             "id": "erziehung_angebots-und-strukturanpassung-bei-der-berufsberatung",
             "name": "Angebots- und Strukturanpassung bei der Berufsberatung",
@@ -3016,7 +3031,7 @@
     },
     "erziehung_streichung-von-weiterbildungsangeboten-und-durchsetzung-der-kostendeckung": {
         "Aufgabenfeld": "Übriges Bildungswesen",
-        "Kurzbeschrieb": "Unter der Voraussetzung, dass allgemeine Weiterbildungskurse kostendeckend angeboten werden, dürfen diese gemäss den Leistungs-vereinbarungen von den Schulen im Sinne einer vertikalen Integration und zur Steigerung der Attraktivität des Schulstandorts angeboten werden. Trotzdem kommt es vor, dass solche Kurse sich als nicht kostendeckend herausstellen. Die Gründe hierfür liegen insbesondere in der Schwierigen Einschätzung der Marktlage bei der Planung und organisatori-schen Schwierigkeiten beim Prozedere der Anmeldungen und definitiven Durchführung. Die vorliegende Massnahme zielt darauf hinaus, ein Instrumentarium anzuwenden, welches das Durchführen von defizitären nicht geförderten Weiterbildungs-angeboten verhindert bzw. auf ein absolutes Minimum redu-ziert.",
+        "Kurzbeschrieb": "Unter der Voraussetzung, dass allgemeine Weiterbildungskurse kostendeckend angeboten werden, dürfen diese gemäss den Leistungsvereinbarungen von den Schulen im Sinne einer vertikalen Integration und zur Steigerung der Attraktivität des Schulstandorts angeboten werden. Trotzdem kommt es vor, dass solche Kurse sich als nicht kostendeckend herausstellen. Die Gründe hierfür liegen insbesondere in der Schwierigen Einschätzung der Marktlage bei der Planung und organisatorischen Schwierigkeiten beim Prozedere der Anmeldungen und definitiven Durchführung. Die vorliegende Massnahme zielt darauf hinaus, ein Instrumentarium anzuwenden, welches das Durchführen von defizitären nicht geförderten Weiterbildungsangeboten verhindert bzw. auf ein absolutes Minimum reduziert.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "1.000",
@@ -3040,7 +3055,7 @@
         "Direktion": "Erziehungsdirektion",
         "Nr": "22.2",
         "Massnahme": "Streichung von Weiterbildungsangeboten und Durchsetzung Kostendeckung",
-        "Rechtsgrundlage": "keine \f                    114",
+        "Rechtsgrundlage": "keine",
         "node": {
             "id": "erziehung_streichung-von-weiterbildungsangeboten-und-durchsetzung-der-kostendeckung",
             "name": "Streichung von Weiterbildungsangeboten und Durchsetzung der\nKostendeckung",
@@ -3057,7 +3072,7 @@
     },
     "bau-verkehr-und-energie_reduktion-bei-den-dienstleistungen-dritter-im-bereich-vermessung-und-geoinformation": {
         "Aufgabenfeld": "Umwelt & Raumordnung",
-        "Kurzbeschrieb": "Die Reduktion von Dienstleistungen Dritter in der Produktgrup-pe «Vermessung und Geoinformation» führt zu einer verzöger-ten Realisierung der Flächendeckung der amtlichen Vermes-sung.",
+        "Kurzbeschrieb": "Die Reduktion von Dienstleistungen Dritter in der Produktgruppe «Vermessung und Geoinformation» führt zu einer verzögerten Realisierung der Flächendeckung der amtlichen Vermessung.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "0.250",
@@ -3122,7 +3137,7 @@
         "Direktion": "Bau-, Verkehrs- und Energiedirektion",
         "Nr": "25a.3",
         "Massnahme": "Erhöhung der GRUDIS-Gebühren im Bereich der Banken",
-        "Rechtsgrundlage": "Anpassung der Verordnung vom 22. Februar 1995 über die Gebühren der Kantonsverwaltung, Anhang VIII (BSG 154.21)     \f                    115",
+        "Rechtsgrundlage": "Anpassung der Verordnung vom 22. Februar 1995 über die Gebühren der Kantonsverwaltung, Anhang VIII (BSG 154.21)",
         "node": {
             "id": "bau-verkehr-und-energie_erh-hung-der-grudis-geb-hren-f-r-banken",
             "name": "Erhöhung der GRUDIS-Gebühren für Banken",
@@ -3139,7 +3154,7 @@
     },
     "bau-verkehr-und-energie_wiedereinf-hrung-der-abgaben-f-r-w-rmepumpen": {
         "Aufgabenfeld": "Umwelt & Raumordnung",
-        "Kurzbeschrieb": "Die Motion Grossen, welche 2011 zur Änderung des WAD ge-führt hat, wurde damit begründet, dass Grundwasserwärme-pumpen gegenüber konventionellen Heizsystemen ein wirt-schaftliches und umweltfreundliches Heizsystem seien und Bürger nicht mit Zinsrechnungen für grosse Investitionen in umweltfreundliche Heizsysteme bestraft werden dürfen. Der Regierungsrat hat damals die Ablehnung der Motion beantragt.  Von der Abgabenbefreiung profitiert heute nur derjenige Teil der Bevölkerung, der im Bereich eines ausreichend mächtigen und qualitativ geeigneten Grundwasserleiters wohnt. Die Ab-schaffung der Wasserzinsen hat auch zu Vollzugsproblemen geführt (die Betroffenen glauben falscherweise, dass ohne Ab-gabepflicht auch keine Konzession mehr nötig sei.).",
+        "Kurzbeschrieb": "Die Motion Grossen, welche 2011 zur Änderung des WAD geführt hat, wurde damit begründet, dass Grundwasserwärmepumpen gegenüber konventionellen Heizsystemen ein wirtschaftliches und umweltfreundliches Heizsystem seien und Bürger nicht mit Zinsrechnungen für grosse Investitionen in umweltfreundliche Heizsysteme bestraft werden dürfen. Der Regierungsrat hat damals die Ablehnung der Motion beantragt.  Von der Abgabenbefreiung profitiert heute nur derjenige Teil der Bevölkerung, der im Bereich eines ausreichend mächtigen und qualitativ geeigneten Grundwasserleiters wohnt. Die Abschaffung der Wasserzinsen hat auch zu Vollzugsproblemen geführt (die Betroffenen glauben falscherweise, dass ohne Abgabepflicht auch keine Konzession mehr nötig sei.).",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "0.500",
@@ -3180,7 +3195,7 @@
     },
     "bau-verkehr-und-energie_reduktion-der-finanziellen-unterst-tzung-der-regionalen-energieberatungsstellen": {
         "Aufgabenfeld": "Umwelt & Raumordnung",
-        "Kurzbeschrieb": "Nach dem kantonalen Energiegesetz (KEnG) beträgt die mini-male Unterstützung für die Energieberatungsstellen durch den Kanton 80 Rappen pro Einwohner der Region. Heute bezahlt der Kanton 100 Rappen pro Einwohner. Der Betrag an die Energieberatungsstellen soll auf das gesetz-liche Minimum reduziert werden.",
+        "Kurzbeschrieb": "Nach dem kantonalen Energiegesetz (KEnG) beträgt die minimale Unterstützung für die Energieberatungsstellen durch den Kanton 80 Rappen pro Einwohner der Region. Heute bezahlt der Kanton 100 Rappen pro Einwohner. Der Betrag an die Energieberatungsstellen soll auf das gesetzliche Minimum reduziert werden.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "0.200",
@@ -3203,8 +3218,8 @@
         },
         "Direktion": "Bau-, Verkehrs- und Energiedirektion",
         "Nr": "25a.5",
-        "Massnahme": "Reduktion finanzielle Unterstützung der regionalen Energiebe-ratungsstellen auf das gesetzliche Minimum",
-        "Rechtsgrundlage": "keine \f                    116",
+        "Massnahme": "Reduktion finanzielle Unterstützung der regionalen Energieberatungsstellen auf das gesetzliche Minimum",
+        "Rechtsgrundlage": "keine",
         "node": {
             "id": "bau-verkehr-und-energie_reduktion-der-finanziellen-unterst-tzung-der-regionalen-energieberatungsstellen",
             "name": "Reduktion der finanziellen Unterstützung der regionalen\nEnergieberatungsstellen",
@@ -3221,7 +3236,7 @@
     },
     "bau-verkehr-und-energie_reorganisation-und-abbau-beim-unterhalt-kantonsstrassen": {
         "Aufgabenfeld": "Strassen",
-        "Kurzbeschrieb": "Stossrichtung der Massnahmen: • Konsequente Reduktion auf die Kernaufgaben • Abbau von total 20 – 25 Stellen (Nichtersatz von Pensio-nierungen) im Strassenunterhalt und punktuell Reduktion / Optimierung der Anzahl Unterhaltsgruppen • Reduktion des Fahrzeug- und Geräteparks, Intensivierung der Strasseninspektorat-übergreifenden Zusammenarbeit • Optimierung Winterdienst • Streckenbezogene Erhöhung der Reinigungsintervalle der Strassen und der Entwässerungsanlagen, Reduktion der Grünpflege • Reduktion der Aufwendungen für die baulichen Reparatu-ren (Reparatur von Rissen, Abplatzungen, Fahrbahnüber-gänge) • Reduktion der Kosten für Beleuchtungsentschädigungen (Reduktion Anzahl Leuchtpunkte, «Stromfresser» sukzes-sive Umrüstung auf LED-Technologie, Nachtabsenkungen) Die angegebenen Kosteneinsparungen wie auch die Auswir-kungen auf das Personal sind erste Schätzungen. Erst nach Vorliegen der bereinigten Feinkonzepte wird es möglich sein, genauere Angaben zu machen.",
+        "Kurzbeschrieb": "Stossrichtung der Massnahmen: • Konsequente Reduktion auf die Kernaufgaben • Abbau von total 20 – 25 Stellen (Nichtersatz von Pensionierungen) im Strassenunterhalt und punktuell Reduktion / Optimierung der Anzahl Unterhaltsgruppen • Reduktion des Fahrzeug- und Geräteparks, Intensivierung der Strasseninspektorat-übergreifenden Zusammenarbeit • Optimierung Winterdienst • Streckenbezogene Erhöhung der Reinigungsintervalle der Strassen und der Entwässerungsanlagen, Reduktion der Grünpflege • Reduktion der Aufwendungen für die baulichen Reparaturen (Reparatur von Rissen, Abplatzungen, Fahrbahnübergänge) • Reduktion der Kosten für Beleuchtungsentschädigungen (Reduktion Anzahl Leuchtpunkte, «Stromfresser» sukzessive Umrüstung auf LED-Technologie, Nachtabsenkungen) Die angegebenen Kosteneinsparungen wie auch die Auswirkungen auf das Personal sind erste Schätzungen. Erst nach Vorliegen der bereinigten Feinkonzepte wird es möglich sein, genauere Angaben zu machen.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "3.500",
@@ -3245,7 +3260,7 @@
         "Direktion": "Bau-, Verkehrs- und Energiedirektion",
         "Nr": "28.1",
         "Massnahme": "Reorganisation und Abbau im Unterhalt der Kantonsstrassen",
-        "Rechtsgrundlage": "keine     \f                    117",
+        "Rechtsgrundlage": "keine",
         "node": {
             "id": "bau-verkehr-und-energie_reorganisation-und-abbau-beim-unterhalt-kantonsstrassen",
             "name": "Reorganisation und Abbau beim Unterhalt Kantonsstrassen",
@@ -3262,7 +3277,7 @@
     },
     "bau-verkehr-und-energie_reorganisation-des-amts-f-r-grundst-cke-und-geb-ude": {
         "Aufgabenfeld": "Liegenschaften",
-        "Kurzbeschrieb": "Im AGG sollen mit einer Reorganisation die Strukturen ver-schlankt werden. Ziel ist es mit klaren Zuständigkeiten die Pro-zesse zu optimieren, um so die Aufgaben mit weniger Stellen und auch effizienter erbringen zu können.",
+        "Kurzbeschrieb": "Im AGG sollen mit einer Reorganisation die Strukturen verschlankt werden. Ziel ist es mit klaren Zuständigkeiten die Prozesse zu optimieren, um so die Aufgaben mit weniger Stellen und auch effizienter erbringen zu können.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "1.000",
@@ -3285,8 +3300,8 @@
         },
         "Direktion": "Bau-, Verkehrs- und Energiedirektion",
         "Nr": "30.1",
-        "Massnahme": "Reorganisation AGG (effizientere Strukturen und Personalab-bau)",
-        "Rechtsgrundlage": "keine    \f                    118   9.3 Anhang 3: Massnahmen Aufgabenfelder Topf 2",
+        "Massnahme": "Reorganisation AGG (effizientere Strukturen und Personalabbau)",
+        "Rechtsgrundlage": "keine",
         "node": {
             "id": "bau-verkehr-und-energie_reorganisation-des-amts-f-r-grundst-cke-und-geb-ude",
             "name": "Reorganisation des Amts für Grundstücke und Gebäude",
@@ -3303,7 +3318,7 @@
     },
     "gesundheit-und-f-rsorge_streichung-des-beitrags-an-die-zweisprachigkeit-der-psychiatrischen-diens-te-biel-seeland-berner-jura": {
         "Aufgabenfeld": "Psychiatrieversorgung",
-        "Kurzbeschrieb": "Die PDBBJ erbringen als einzige Institution des Kantons Bern zweisprachige Dienstleistungen der ambulanten und tagesklini-schen Psychiatrieversorgung. Die daraus entstehenden zusätz-lichen Kosten (Übersetzung von Texten, Beizug von Dolmet-schern, schwierigere Personalrekrutierung, Weiterbildungs-massnahmen) werden bisher vom Kanton getragen. Diese kan-tonale Finanzierung soll gestrichen werden. Somit müssen die PDBBJ die Kosten für die Zweisprachigkeit über den Tarif de-cken.",
+        "Kurzbeschrieb": "Die PDBBJ erbringen als einzige Institution des Kantons Bern zweisprachige Dienstleistungen der ambulanten und tagesklinischen Psychiatrieversorgung. Die daraus entstehenden zusätzlichen Kosten (Übersetzung von Texten, Beizug von Dolmetschern, schwierigere Personalrekrutierung, Weiterbildungsmassnahmen) werden bisher vom Kanton getragen. Diese kantonale Finanzierung soll gestrichen werden. Somit müssen die PDBBJ die Kosten für die Zweisprachigkeit über den Tarif decken.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "0.150",
@@ -3344,7 +3359,7 @@
     },
     "gesundheit-und-f-rsorge_verzicht-auf-den-aufbau-ambulanter-leistungen": {
         "Aufgabenfeld": "Psychiatrieversorgung",
-        "Kurzbeschrieb": "Bei dieser Massnahme würde auf einen Drittel des geplanten Aufbaus der ambulanten Angebote in den Regionen verzichtet. Aufgrund der starken Unterversorgung im Bereich der Alters-psychiatrie sowie der Kinder- und Jugendpsychiatrie würde die Massnahme ausschliesslich in der Erwachsenenpsychiatrie umgesetzt. Die Massnahme steht im Widerspruch zur Versorgungsplanung, welche längerfristig eine niederschwelligere und bevölkerungs-nähere Psychiatrie anstrebt. Dies gilt ebenso für die Massnah-men 5.4b – 5.4e.",
+        "Kurzbeschrieb": "Bei dieser Massnahme würde auf einen Drittel des geplanten Aufbaus der ambulanten Angebote in den Regionen verzichtet. Aufgrund der starken Unterversorgung im Bereich der Alterspsychiatrie sowie der Kinder- und Jugendpsychiatrie würde die Massnahme ausschliesslich in der Erwachsenenpsychiatrie umgesetzt. Die Massnahme steht im Widerspruch zur Versorgungsplanung, welche längerfristig eine niederschwelligere und bevölkerungsnähere Psychiatrie anstrebt. Dies gilt ebenso für die Massnahmen 5.4b – 5.4e.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "2.957",
@@ -3385,7 +3400,7 @@
     },
     "gesundheit-und-f-rsorge_streichung-der-mitfinanzierung-des-aufenthaltes-von-personen-die-keine-spitalpflege-in-einer-psychiatrischen-klinik-mehr-brauchen": {
         "Aufgabenfeld": "Psychiatrieversorgung",
-        "Kurzbeschrieb": "Die Angebots- und Strukturanpassung besteht in einer komplet-ten Streichung der Mitfinanzierung von Aufenthalts- und Infra-strukturkosten für nicht mehr spitalbedürftige Personen. Der Kantonsanteil an die Pflegekosten würde dabei nach wie vor entsprechend der jeweiligen Pflegestufe entrichtet. Die Umsetzung der Massnahme verlangt strukturelle Anpas-sung, welche nur langfristig realisierbar sind.",
+        "Kurzbeschrieb": "Die Angebots- und Strukturanpassung besteht in einer kompletten Streichung der Mitfinanzierung von Aufenthalts- und Infrastrukturkosten für nicht mehr spitalbedürftige Personen. Der Kantonsanteil an die Pflegekosten würde dabei nach wie vor entsprechend der jeweiligen Pflegestufe entrichtet. Die Umsetzung der Massnahme verlangt strukturelle Anpassung, welche nur langfristig realisierbar sind.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "6.572",
@@ -3409,7 +3424,7 @@
         "Direktion": "Gesundheits- und Fürsorgedirektion",
         "Nr": "5.4",
         "Massnahme": "Streichung der Mitfinanzierung des Aufenthaltes nicht mehr spitalbedürftiger Personen",
-        "Rechtsgrundlage": "keine \f                    122",
+        "Rechtsgrundlage": "keine",
         "node": {
             "id": "gesundheit-und-f-rsorge_streichung-der-mitfinanzierung-des-aufenthaltes-von-personen-die-keine-spitalpflege-in-einer-psychiatrischen-klinik-mehr-brauchen",
             "name": "Streichung der Mitfinanzierung des Aufenthaltes von Personen, die keine\nSpitalpflege in einer psychiatrischen Klinik mehr brauchen",
@@ -3426,7 +3441,7 @@
     },
     "gesundheit-und-f-rsorge_erh-hung-der-patientenbeteiligung-auf-maximalansatz-f-r-alle-personen-die-lter-als-65-jahre-sind": {
         "Aufgabenfeld": "Übriges Gesundheitswesen",
-        "Kurzbeschrieb": "Gemäss Artikel 25a Absatz 5 KVG bzw. Artikel 25d SHV betei-ligen sich die Leistungsempfänger/innen an den Pflegekosten. Ihnen dürfen von den nicht von Sozialversicherungen gedeck-ten Pflegekosten höchstens 20% des höchsten vom Bundesrat festgesetzten Pflegebeitrages überwälzt werden: CHF 15.95 pro Tag.  Die gegenwärtigen gesetzlichen Grundlagen sehen eine Kos-tenbeteiligung nur für Spitex-Klienten/innen vor, die sowohl das 65. Altersjahr vollendet haben als auch über ein massgebendes Jahreseinkommen von CHF 50‘000 verfügen. Mit der Erhöhung der Kostenbeteiligung Pflege auf den Maxi-malansatz werden neu auch die über 65-jährige Patien-ten/innen mit mass-gebendem Jahreseinkommen unter CHF 50‘000 zusätzlich finanziell belastet.",
+        "Kurzbeschrieb": "Gemäss Artikel 25a Absatz 5 KVG bzw. Artikel 25d SHV beteiligen sich die Leistungsempfänger/innen an den Pflegekosten. Ihnen dürfen von den nicht von Sozialversicherungen gedeckten Pflegekosten höchstens 20% des höchsten vom Bundesrat festgesetzten Pflegebeitrages überwälzt werden: CHF 15.95 pro Tag.  Die gegenwärtigen gesetzlichen Grundlagen sehen eine Kostenbeteiligung nur für Spitex-Klienten/innen vor, die sowohl das 65. Altersjahr vollendet haben als auch über ein massgebendes Jahreseinkommen von CHF 50‘000 verfügen. Mit der Erhöhung der Kostenbeteiligung Pflege auf den Maximalansatz werden neu auch die über 65-jährige Patienten/innen mit massgebendem Jahreseinkommen unter CHF 50‘000 zusätzlich finanziell belastet.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "15.000",
@@ -3449,8 +3464,8 @@
         },
         "Direktion": "Gesundheits- und Fürsorgedirektion",
         "Nr": "6.5",
-        "Massnahme": "Erhöhung Patientenbeteiligung auf Maximalansatz für alle Kli-enten/innen der Spitex, welche das 65. Altersjahr vollendet haben",
-        "Rechtsgrundlage": "Verordnung     \f                    123",
+        "Massnahme": "Erhöhung Patientenbeteiligung auf Maximalansatz für alle Klienten/innen der Spitex, welche das 65. Altersjahr vollendet haben",
+        "Rechtsgrundlage": "Verordnung",
         "node": {
             "id": "gesundheit-und-f-rsorge_erh-hung-der-patientenbeteiligung-auf-maximalansatz-f-r-alle-personen-die-lter-als-65-jahre-sind",
             "name": "Erhöhung der Patientenbeteiligung auf Maximalansatz für alle Personen, die\nälter als 65 Jahre sind",
@@ -3467,7 +3482,7 @@
     },
     "gesundheit-und-f-rsorge_lineare-k-rzung-der-nettobetriebskosten-bei-behinderteninstitutionen-f-r-kinder-und-jugendliche": {
         "Aufgabenfeld": "Alters- und Behindertenbereich",
-        "Kurzbeschrieb": "Die Sparmassnahme erfolgt linear durch die Senkung der Net-tobetriebskosten um 5 Prozent. Dabei muss allerdings beachtet werden, dass die Institutionen mit Beiträgen des Bundesamtes für Justiz (11 von 70 Institutionen) nicht gleichermassen einbe-zogen werden können, weil sie an entsprechende Vorgaben des Bundes gebunden sind. Die Massnahme ist zurzeit nicht opportun, da entsprechende planerische Grundlagen noch nicht vorliegen. Erst auf dieser Basis können gezielte Massnahmen ergriffen werden.",
+        "Kurzbeschrieb": "Die Sparmassnahme erfolgt linear durch die Senkung der Nettobetriebskosten um 5 Prozent. Dabei muss allerdings beachtet werden, dass die Institutionen mit Beiträgen des Bundesamtes für Justiz (11 von 70 Institutionen) nicht gleichermassen einbezogen werden können, weil sie an entsprechende Vorgaben des Bundes gebunden sind. Die Massnahme ist zurzeit nicht opportun, da entsprechende planerische Grundlagen noch nicht vorliegen. Erst auf dieser Basis können gezielte Massnahmen ergriffen werden.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "5.500",
@@ -3490,7 +3505,7 @@
         },
         "Direktion": "Gesundheits- und Fürsorgedirektion",
         "Nr": "8.1",
-        "Massnahme": "Lineare Kürzung der Nettobetriebskosten bei Behinderteninsti-tutionen für Kinder und Jugendliche",
+        "Massnahme": "Lineare Kürzung der Nettobetriebskosten bei Behinderteninstitutionen für Kinder und Jugendliche",
         "Rechtsgrundlage": "keine",
         "node": {
             "id": "gesundheit-und-f-rsorge_lineare-k-rzung-der-nettobetriebskosten-bei-behinderteninstitutionen-f-r-kinder-und-jugendliche",
@@ -3508,7 +3523,7 @@
     },
     "gesundheit-und-f-rsorge_verzicht-auf-unterst-tzungsmassnahmen-im-regelschulbereich": {
         "Aufgabenfeld": "Alters- und Behindertenbereich",
-        "Kurzbeschrieb": "Schüler/innen mit Autismus-Spektrum-Störungen, mit schweren Wahrnehmungsstörungen und/oder schweren Störungen des Sozial-verhaltens im Kindergarten und in der Volksschule (Pool 2) erhalten Unterstützung, welche bisher die GEF mit CHF 10 Millionen finanziert. Da es sich dabei letztlich um Unterstützungsmassnahmen für Regel-schüler/innen in der Regelschule handelt, kann diese Investition auch als Massnahme zur Prävention von Ausschu-lungen nach Art. 18 VSG betrachtet werden. Die Massnahme dürfte kontraproduktiv sein und aufgrund zu-sätzlicher Ausschulungen letztlich zu einer zusätzlichen finanzi-ellen Belastung führen.",
+        "Kurzbeschrieb": "Schüler/innen mit Autismus-Spektrum-Störungen, mit schweren Wahrnehmungsstörungen und/oder schweren Störungen des Sozialverhaltens im Kindergarten und in der Volksschule (Pool 2) erhalten Unterstützung, welche bisher die GEF mit CHF 10 Millionen finanziert. Da es sich dabei letztlich um Unterstützungsmassnahmen für Regelschüler/innen in der Regelschule handelt, kann diese Investition auch als Massnahme zur Prävention von Ausschulungen nach Art. 18 VSG betrachtet werden. Die Massnahme dürfte kontraproduktiv sein und aufgrund zusätzlicher Ausschulungen letztlich zu einer zusätzlichen finanziellen Belastung führen.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "5.000",
@@ -3532,7 +3547,7 @@
         "Direktion": "Gesundheits- und Fürsorgedirektion",
         "Nr": "8.2",
         "Massnahme": "Verzicht auf Unterstützungsmassnahmen im Regelschulbereich (Pool2)",
-        "Rechtsgrundlage": "keine \f                    124",
+        "Rechtsgrundlage": "keine",
         "node": {
             "id": "gesundheit-und-f-rsorge_verzicht-auf-unterst-tzungsmassnahmen-im-regelschulbereich",
             "name": "Verzicht auf Unterstützungsmassnahmen im Regelschulbereich",
@@ -3549,7 +3564,7 @@
     },
     "gesundheit-und-f-rsorge_strukturanpassungen-bei-den-behinderteninstitutionen-f-r-kinder-und-ju-gendliche": {
         "Aufgabenfeld": "Alters- und Behindertenbereich",
-        "Kurzbeschrieb": "Gestützt auf eine Bedarfsanalyse und basierend auf der Ver-sorgungsstrategie (Grundangebote wohnortsnah und regional, Spezial-angebote zentral) wird eine kantonale Versorgungspla-nung erstellt. Aufgrund der damit einhergehenden Effizienzstei-gerung können nachhaltig Kosten eingespart werden. Einführung eines standardisierten Verfahrens zur Ermittlung des individuellen Bedarfs namentlich betreffend die Frage der Schullaufbahn. Durchführung des Abklärungsverfahrens allein durch die Erziehungsberatungsstellen. Die Massnahme ist zurzeit nicht opportun, da entsprechende planerische Grundlagen noch nicht vorliegen. Erst auf dieser Basis können gezielte Massnahmen ergriffen werden.",
+        "Kurzbeschrieb": "Gestützt auf eine Bedarfsanalyse und basierend auf der Versorgungsstrategie (Grundangebote wohnortsnah und regional, Spezialangebote zentral) wird eine kantonale Versorgungsplanung erstellt. Aufgrund der damit einhergehenden Effizienzsteigerung können nachhaltig Kosten eingespart werden. Einführung eines standardisierten Verfahrens zur Ermittlung des individuellen Bedarfs namentlich betreffend die Frage der Schullaufbahn. Durchführung des Abklärungsverfahrens allein durch die Erziehungsberatungsstellen. Die Massnahme ist zurzeit nicht opportun, da entsprechende planerische Grundlagen noch nicht vorliegen. Erst auf dieser Basis können gezielte Massnahmen ergriffen werden.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "0.500",
@@ -3573,7 +3588,7 @@
         "Direktion": "Gesundheits- und Fürsorgedirektion",
         "Nr": "8.3",
         "Massnahme": "Strukturanpassungen im Bereich Behinderteninstitutionen für Kinder und Jugendliche",
-        "Rechtsgrundlage": "keine    \f                    125",
+        "Rechtsgrundlage": "keine",
         "node": {
             "id": "gesundheit-und-f-rsorge_strukturanpassungen-bei-den-behinderteninstitutionen-f-r-kinder-und-ju-gendliche",
             "name": "Strukturanpassungen bei den Behinderteninstitutionen für Kinder und Ju-\ngendliche",
@@ -3590,7 +3605,7 @@
     },
     "justiz-gemeinde-und-kirchen_erg-nzungsleistungen-reduktion-des-beitrags-f-r-pers-nliche-auslagen": {
         "Aufgabenfeld": "Ergänzungsleistungen",
-        "Kurzbeschrieb": "Der Kanton legt die Pauschale für die persönlichen Auslagen von Personen fest, die dauernd oder längere Zeit in einem Heim oder Spital leben (Art. 10 Abs. 2 Bst. b ELG) fest. Eine Minimalvorgabe des Bundes gibt es nicht. Diese Pauschale beträgt z.Zt. CHF 367 pro Monat und wurde seit 2010 nicht angepasst (zum Vergleich: ZH: 533, VD 240, SG 533, LU 448, FR 320, GR 432). Mit diesem Geld haben die rund 12'000 EL-beziehenden Heimbewohnerinnen nebst ihrer Kleidung auch die Kosten des täglichen Lebens (Toilettenartikel, Coiffeur, Bus/Bahnbillette, Aufmerksamkeiten, etc.) zu bezahlen. Aktuelle Regelung: Die heute geltende Pauschale von CHF 367 pro Monat (CHF 11.84 pro Tag) wurde seit 2010 nicht nach oben angepasst. Eine Reduktion des geltenden Betrages würde eine Änderung von Art. 6 EV ELG bedingen. Betroffen von ei-ner Kürzung wären rund 12'000 Personen. Angesichts des im Vergleich mit den anderen Kantonen der Peer Group 2 bereits bescheidenen Beitrages, erachtet der Regierungsrat eine Kürzung als nicht vertretbar. Den Men-schen, welche länger oder dauernd in einem Heim leben müs-sen, soll eine würdige Selbstbestimmung erhalten bleiben.",
+        "Kurzbeschrieb": "Der Kanton legt die Pauschale für die persönlichen Auslagen von Personen fest, die dauernd oder längere Zeit in einem Heim oder Spital leben (Art. 10 Abs. 2 Bst. b ELG) fest. Eine Minimalvorgabe des Bundes gibt es nicht. Diese Pauschale beträgt z.Zt. CHF 367 pro Monat und wurde seit 2010 nicht angepasst (zum Vergleich: ZH: 533, VD 240, SG 533, LU 448, FR 320, GR 432). Mit diesem Geld haben die rund 12'000 EL-beziehenden Heimbewohnerinnen nebst ihrer Kleidung auch die Kosten des täglichen Lebens (Toilettenartikel, Coiffeur, Bus/Bahnbillette, Aufmerksamkeiten, etc.) zu bezahlen. Aktuelle Regelung: Die heute geltende Pauschale von CHF 367 pro Monat (CHF 11.84 pro Tag) wurde seit 2010 nicht nach oben angepasst. Eine Reduktion des geltenden Betrages würde eine Änderung von Art. 6 EV ELG bedingen. Betroffen von einer Kürzung wären rund 12'000 Personen. Angesichts des im Vergleich mit den anderen Kantonen der Peer Group 2 bereits bescheidenen Beitrages, erachtet der Regierungsrat eine Kürzung als nicht vertretbar. Den Menschen, welche länger oder dauernd in einem Heim leben müssen, soll eine würdige Selbstbestimmung erhalten bleiben.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "9.150",
@@ -3614,7 +3629,7 @@
         "Direktion": "Justiz-, Gemeinde- und Kirchendirektion",
         "Nr": "9.3.1",
         "Massnahme": "Reduktion Betrag für persönliche Auslagen auf das Niveau des tiefsten Vergleichswerts der Kantone der Peer Group 2 (VD, SG, LU, FR, GR)",
-        "Rechtsgrundlage": "Einführungsverordnung zum Bundesgesetz über Ergänzungs-leistungen zur Alters-, Hinterlassenen- und Invalidenversiche-rung (EV ELG)",
+        "Rechtsgrundlage": "Einführungsverordnung zum Bundesgesetz über Ergänzungsleistungen zur Alters-, Hinterlassenen- und Invalidenversicherung (EV ELG)",
         "node": {
             "id": "justiz-gemeinde-und-kirchen_erg-nzungsleistungen-reduktion-des-beitrags-f-r-pers-nliche-auslagen",
             "name": "Ergänzungsleistungen: Reduktion des Beitrags für persönliche Auslagen",
@@ -3631,7 +3646,7 @@
     },
     "justiz-gemeinde-und-kirchen_erg-nzungsleistungen-reduktion-des-h-chstbetrags-der-brigen-heimtarife-um-chf-10-pro-tag": {
         "Aufgabenfeld": "Ergänzungsleistungen",
-        "Kurzbeschrieb": "Der Kanton kann bei den Tagestaxen der Heime (Art. 10 Abs. 2 Bst. a ELG) die von der EL zu übernehmenden Kosten begren-zen. Der Bund gibt vor, dass die Kantone dafür zu sorgen ha-ben, dass durch den Aufenthalt in einem anerkannten Pflege-\f                    126  heim in der Regel keine Sozialhilfe-Abhängigkeit begründet wird. Die Heimtarifverhandlungen mit den Heimen führt alljähr-lich die GEF. Handlungsspielraum: Der Kanton kann die von der EL zu über-nehmenden Kosten begrenzen. Einen ähnlichen Handlungs-spielraum wie die Reduktion der Höchstbeträge der Heimtarife in Alters- und Pflegeheimen (vgl. Sparvorschlag Nr. 9.1) zur Begrenzung der durch die EL zu übernehmenden Kosten gäbe es im Bereich der Behindertenheime: Auch hier könnte die Senkung der Höchstbeträge zu Einsparungen bei der EL füh-ren. Hier würde allerdings nicht spezifisch der Infrastrukturbei-trag gekürzt. Weil für diese Institutionen noch nicht die Subjekt-finanzierung gilt, sind die Höchsttarife nicht nach Pflege, Infra-struktur und Hotellerie unterteilt wie bei den Alters- und Pflege-heimen. Eine Senkung des Höchstbetrages der übrigen Heimtarife um CHF 10 pro Tag würde zu Einsparungen von rund CHF 12 Mil-lionen führen. Auch diese Einsparung käme hälftig dem Kanton und den Gemeinden zu. Eine Reduktion hält der Regierungsrat jedoch für nicht vertretbar. Zudem wäre mit einer teilweisen, jedoch nicht bezifferbaren Kostenverlagerung zur GEF zu rech-nen.",
+        "Kurzbeschrieb": "Der Kanton kann bei den Tagestaxen der Heime (Art. 10 Abs. 2 Bst. a ELG) die von der EL zu übernehmenden Kosten begrenzen. Der Bund gibt vor, dass die Kantone dafür zu sorgen haben, dass durch den Aufenthalt in einem anerkannten Pflegeheim in der Regel keine Sozialhilfe-Abhängigkeit begründet wird. Die Heimtarifverhandlungen mit den Heimen führt alljährlich die GEF. Handlungsspielraum: Der Kanton kann die von der EL zu übernehmenden Kosten begrenzen. Einen ähnlichen Handlungsspielraum wie die Reduktion der Höchstbeträge der Heimtarife in Alters- und Pflegeheimen (vgl. Sparvorschlag Nr. 9.1) zur Begrenzung der durch die EL zu übernehmenden Kosten gäbe es im Bereich der Behindertenheime: Auch hier könnte die Senkung der Höchstbeträge zu Einsparungen bei der EL führen. Hier würde allerdings nicht spezifisch der Infrastrukturbeitrag gekürzt. Weil für diese Institutionen noch nicht die Subjektfinanzierung gilt, sind die Höchsttarife nicht nach Pflege, Infrastruktur und Hotellerie unterteilt wie bei den Alters- und Pflegeheimen. Eine Senkung des Höchstbetrages der übrigen Heimtarife um CHF 10 pro Tag würde zu Einsparungen von rund CHF 12 Millionen führen. Auch diese Einsparung käme hälftig dem Kanton und den Gemeinden zu. Eine Reduktion hält der Regierungsrat jedoch für nicht vertretbar. Zudem wäre mit einer teilweisen, jedoch nicht bezifferbaren Kostenverlagerung zur GEF zu rechnen.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "6.200",
@@ -3655,7 +3670,7 @@
         "Direktion": "Justiz-, Gemeinde- und Kirchendirektion",
         "Nr": "9.3.2",
         "Massnahme": "Reduktion des Höchstbetrages der übrigen Heimtarife um CHF 10.- pro Tag.",
-        "Rechtsgrundlage": "Einführungsverordnung zum Bundesgesetz über Ergänzungs-leistungen zur Alters-, Hinterlassenen- und Invalidenversiche-rung (EV ELG)",
+        "Rechtsgrundlage": "Einführungsverordnung zum Bundesgesetz über Ergänzungsleistungen zur Alters-, Hinterlassenen- und Invalidenversicherung (EV ELG)",
         "node": {
             "id": "justiz-gemeinde-und-kirchen_erg-nzungsleistungen-reduktion-des-h-chstbetrags-der-brigen-heimtarife-um-chf-10-pro-tag",
             "name": "Ergänzungsleistungen: Reduktion des Höchstbetrags der übrigen Heimtarife um CHF 10 pro Tag",
@@ -3672,7 +3687,7 @@
     },
     "erziehung_kindergarten-volksschule-erh-hung-des-durchschnitts-der-klassengr-sse": {
         "Aufgabenfeld": "Kindergarten/Volksschule",
-        "Kurzbeschrieb": "Die Massnahme erfordert eine Erhöhung der durchschnittlichen Klassengrösse in den Volksschulen des Kantons Bern um 0,5 Schülerinnen und Schüler. Die Massnahme muss aus Sicht des Regierungsrats vor fol-gendem Hintergrund beurteilt werden: Die Erziehungsdirektion hat in den letzten Jahren von den Ge-meinden eine konsequente Klassenorganisation eingefordert. Dadurch konnte von 2008 bis 2012 eine Erhöhung der durch-schnittlichen Klassengrösse von 17,81 auf 18,48 Schülerinnen und Schüler pro Klasse erreicht werden (plus 0,67). Mit der Neuen Finanzierung Volksschule (NFV) wurde per 2012 zudem ein Instrument entwickelt, welches den Gemeinden ei-nen finanziellen Anreiz gibt, ihrerseits die Grösse der Schul-klassen zu optimieren. Aufgrund von NFV erwartet der Regie-rungsrat bis Ende des Schuljahres 2013/14 eine weitere Entlas-tung von CHF 15 Millionen, was eine zusätzliche Erhöhung der durchschnittlichen Klassengrösse um 0,7 Schülerinnen und Schüler bedeutet. Er hat die entsprechenden finanziellen Ein-sparungen im Budget und im Finanzplan eingebaut. Es zeigt sich aber, dass die Gemeinden oftmals Mehrkosten in Kauf nehmen um ihre Klassen zu erhalten und dadurch auf Klassen-schliessungen verzichten. Die hier beschriebene Massnahme würde somit zu einer weite-ren Erhöhung der Klassengrösse um 0,5 Schülerinnen und Schüler führen. Aus Sicht des Regierungsrats ist eine über NFV hinausgehende Sparmassnahme in unserem topographisch vielfältigen Kanton nicht zu verantworten. Die Massnahme wäre ein direkter Bildungsabbau in der Volksschule, schulorganisato-risch kaum umsetzbar und würde ländliche Schulen stark unter Druck setzen und zu weiteren Standortschliessungen führen.",
+        "Kurzbeschrieb": "Die Massnahme erfordert eine Erhöhung der durchschnittlichen Klassengrösse in den Volksschulen des Kantons Bern um 0,5 Schülerinnen und Schüler. Die Massnahme muss aus Sicht des Regierungsrats vor folgendem Hintergrund beurteilt werden: Die Erziehungsdirektion hat in den letzten Jahren von den Gemeinden eine konsequente Klassenorganisation eingefordert. Dadurch konnte von 2008 bis 2012 eine Erhöhung der durchschnittlichen Klassengrösse von 17,81 auf 18,48 Schülerinnen und Schüler pro Klasse erreicht werden (plus 0,67). Mit der Neuen Finanzierung Volksschule (NFV) wurde per 2012 zudem ein Instrument entwickelt, welches den Gemeinden einen finanziellen Anreiz gibt, ihrerseits die Grösse der Schulklassen zu optimieren. Aufgrund von NFV erwartet der Regierungsrat bis Ende des Schuljahres 2013/14 eine weitere Entlastung von CHF 15 Millionen, was eine zusätzliche Erhöhung der durchschnittlichen Klassengrösse um 0,7 Schülerinnen und Schüler bedeutet. Er hat die entsprechenden finanziellen Einsparungen im Budget und im Finanzplan eingebaut. Es zeigt sich aber, dass die Gemeinden oftmals Mehrkosten in Kauf nehmen um ihre Klassen zu erhalten und dadurch auf Klassenschliessungen verzichten. Die hier beschriebene Massnahme würde somit zu einer weiteren Erhöhung der Klassengrösse um 0,5 Schülerinnen und Schüler führen. Aus Sicht des Regierungsrats ist eine über NFV hinausgehende Sparmassnahme in unserem topographisch vielfältigen Kanton nicht zu verantworten. Die Massnahme wäre ein direkter Bildungsabbau in der Volksschule, schulorganisatorisch kaum umsetzbar und würde ländliche Schulen stark unter Druck setzen und zu weiteren Standortschliessungen führen.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "11.000",
@@ -3696,7 +3711,7 @@
         "Direktion": "Erziehungsdirektion",
         "Nr": "15.1",
         "Massnahme": "Erhöhung des Durchschnitts der Klassengrösse",
-        "Rechtsgrundlage": "keine     \f                    129",
+        "Rechtsgrundlage": "keine",
         "node": {
             "id": "erziehung_kindergarten-volksschule-erh-hung-des-durchschnitts-der-klassengr-sse",
             "name": "Kindergarten/Volksschule: Erhöhung des Durchschnitts der Klassengrösse",
@@ -3713,7 +3728,7 @@
     },
     "erziehung_kindergarten-volksschule-abbau-von-unterrichtslektionen": {
         "Aufgabenfeld": "Kindergarten/Volksschule",
-        "Kurzbeschrieb": "In der Lektionentafel des Lehrplans für die Volksschule werden pro Schuljahr (1. – 9. Schuljahr) je eine Lektion herausgestri-chen. Bei den Lektionen für die Schülerinnen und Schüler ist der Kan-ton Bern heute bereits klar unterdurchschnittlich. Im Rahmen des Entlastungspakets 2012 wurden Unterrichtslektionen im Umfang von CHF 10 Millionen reduziert und damit das gerade noch Verantwortbare in diesem Bereich realisiert. Bereits diese Massnahme löste enormen politischen Widerstand aus. Ein weiterer Lektionenabbau ist aus Sicht der Regierung nicht mehr verantwortbar und würde einen direkten Bildungsabbau bei den Schülerinnen und Schülern der Volksschule bedeuten.",
+        "Kurzbeschrieb": "In der Lektionentafel des Lehrplans für die Volksschule werden pro Schuljahr (1. – 9. Schuljahr) je eine Lektion herausgestrichen. Bei den Lektionen für die Schülerinnen und Schüler ist der Kanton Bern heute bereits klar unterdurchschnittlich. Im Rahmen des Entlastungspakets 2012 wurden Unterrichtslektionen im Umfang von CHF 10 Millionen reduziert und damit das gerade noch Verantwortbare in diesem Bereich realisiert. Bereits diese Massnahme löste enormen politischen Widerstand aus. Ein weiterer Lektionenabbau ist aus Sicht der Regierung nicht mehr verantwortbar und würde einen direkten Bildungsabbau bei den Schülerinnen und Schülern der Volksschule bedeuten.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "14.500",
@@ -3754,7 +3769,7 @@
     },
     "erziehung_schliessung-der-gartenbauschule-h-nibach": {
         "Aufgabenfeld": "Berufsbildung",
-        "Kurzbeschrieb": "Verzicht auf die Finanzierung von jährlich 18 Vollzeitausbil-dungsplätzen zu Gärtnerin/Gärtner Fachrichtung Zierpflanzen EFZ an der biologisch-dynamischen Gartenbauschule Hüni-bach, d.h. Reduktion von 54 Lehrverhältnissen. Die Gartenbauschule Hünibach bietet Schweiz weit die einzige bio-dynamische Ausbildung von ZierpflanzengärtnerInnen an. Sie ist ein sehr schöner Traditionsbetrieb und geniesst eine grosse Unterstützung in der Region.  Die Einrichtung hat trotz der verbesserten Lehrstellensituation eine wichtige Ausbildungsfunktion. Statt kurzfristig erfolgreiche Strukturen zu zerschlagen, muss hier mittel- bis langfristig über-legt werden, wie die Schule in Zukunft ausgerichtet werden muss (s. auch Gartenbau-schule Oeschberg) \f                    130",
+        "Kurzbeschrieb": "Verzicht auf die Finanzierung von jährlich 18 Vollzeitausbildungsplätzen zu Gärtnerin/Gärtner Fachrichtung Zierpflanzen EFZ an der biologisch-dynamischen Gartenbauschule Hünibach, d.h. Reduktion von 54 Lehrverhältnissen. Die Gartenbauschule Hünibach bietet Schweiz weit die einzige bio-dynamische Ausbildung von ZierpflanzengärtnerInnen an. Sie ist ein sehr schöner Traditionsbetrieb und geniesst eine grosse Unterstützung in der Region.  Die Einrichtung hat trotz der verbesserten Lehrstellensituation eine wichtige Ausbildungsfunktion. Statt kurzfristig erfolgreiche Strukturen zu zerschlagen, muss hier mittel- bis langfristig überlegt werden, wie die Schule in Zukunft ausgerichtet werden muss (s. auch Gartenbauschule Oeschberg)",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "1.200",
@@ -3795,7 +3810,7 @@
     },
     "erziehung_schliessung-der-gartenbauschule-oeschberg": {
         "Aufgabenfeld": "Berufsbildung",
-        "Kurzbeschrieb": "Schliessung der Gartenbauschule Oeschberg (Lehrwerkstätte); Abbau von Vollzeit-Ausbildungsplätzen Gärtner und Floristin-nen; Verschiebung der Höheren Berufsbildung Gärtner an ei-nen der drei Berufsfachschulstandorte Burgdorf, Thun oder Lyss; Veräusserung des Grundstücks inkl. Hotellerie. Im Einzelnen bedeutet dies: Grundbildung: Die kantonale Gartenbauschule (GSO) bietet rund 18 Ausbildungsplätze für Gärtner/innen EFZ (3-jährig), 8 für Gärtner/innen EBA (2-jährig) und 16 für Florist/innen EFZ (3-jährig) an, d.h. ca. 100 Lernende. Die Ausbildung wird mit Be-triebspraktikas in Gartenbaubetrieben ergänzt. Die Ausbil-dungsplätze in der beruflichen Grundbildung würden aufgeho-ben. Weiterbildung/Höhere Berufsbildung: An der Gartenbauschule findet auch eine umfassende Weiterbildung zur Berufs- und höheren Fachprüfung statt für die Fachrichtung Garten- und Landschaftsbau (z.B. Poliere, Bauführer etc.), für alle produzie-renden Fachrichtungen und den Endverkauf und Gestalten mit Pflanzen (ca. 126 Studierende / Jahr). Zudem wird eine Techni-kerschule HF geführt (37 Studierende / Jahr). Diese Angebote der höheren Berufsbildung könnten an eine der drei bestehen-den Berufsfachschulen mit Gärtnerausbildung verschoben wer-den (bfe Burgdorf, GIB Thun, BWZ Lyss). Es müsste auch ge-prüft werden, wie weit die Berufsverbände interessiert wären, die höhere Berufsbildung und die Weiterbildung als private Trä-ger zu übernehmen, allenfalls sogar am Standort Oeschberg. Grundsätzlich wird die höhere Berufsbildung und Weiterbildung in vielen Kantonen von privaten Trägern geführt. Die Schule führt ein Floristenatelier mit Verkaufsgeschäft, eine Lehrwerkstätte und einen Hotelleriebetrieb. Zudem bewirtschaf-tet die Schule den zum Haus gehörenden Park. Die Gartenbauschule Oeschberg ist ein Traditionsbetrieb und in der Region fest verankert. Die Einrichtung hat trotz der verbes-serten Lehrstellensituation eine wichtige Ausbildungsfunktion. \f                    131  Statt kurzfristig erfolgreiche Strukturen zu zerschlagen, muss hier mittel- bis langfristig überlegt werden, wie diese Schule in Zukunft ausgerichtet werden muss (s. auch Gartenbauschule Hünibach)",
+        "Kurzbeschrieb": "Schliessung der Gartenbauschule Oeschberg (Lehrwerkstätte); Abbau von Vollzeit-Ausbildungsplätzen Gärtner und Floristinnen; Verschiebung der Höheren Berufsbildung Gärtner an einen der drei Berufsfachschulstandorte Burgdorf, Thun oder Lyss; Veräusserung des Grundstücks inkl. Hotellerie. Im Einzelnen bedeutet dies: Grundbildung: Die kantonale Gartenbauschule (GSO) bietet rund 18 Ausbildungsplätze für Gärtner/innen EFZ (3-jährig), 8 für Gärtner/innen EBA (2-jährig) und 16 für Florist/innen EFZ (3-jährig) an, d.h. ca. 100 Lernende. Die Ausbildung wird mit Betriebspraktikas in Gartenbaubetrieben ergänzt. Die Ausbildungsplätze in der beruflichen Grundbildung würden aufgehoben. Weiterbildung/Höhere Berufsbildung: An der Gartenbauschule findet auch eine umfassende Weiterbildung zur Berufs- und höheren Fachprüfung statt für die Fachrichtung Garten- und Landschaftsbau (z.B. Poliere, Bauführer etc.), für alle produzierenden Fachrichtungen und den Endverkauf und Gestalten mit Pflanzen (ca. 126 Studierende / Jahr). Zudem wird eine Technikerschule HF geführt (37 Studierende / Jahr). Diese Angebote der höheren Berufsbildung könnten an eine der drei bestehenden Berufsfachschulen mit Gärtnerausbildung verschoben werden (bfe Burgdorf, GIB Thun, BWZ Lyss). Es müsste auch geprüft werden, wie weit die Berufsverbände interessiert wären, die höhere Berufsbildung und die Weiterbildung als private Träger zu übernehmen, allenfalls sogar am Standort Oeschberg. Grundsätzlich wird die höhere Berufsbildung und Weiterbildung in vielen Kantonen von privaten Trägern geführt. Die Schule führt ein Floristenatelier mit Verkaufsgeschäft, eine Lehrwerkstätte und einen Hotelleriebetrieb. Zudem bewirtschaftet die Schule den zum Haus gehörenden Park. Die Gartenbauschule Oeschberg ist ein Traditionsbetrieb und in der Region fest verankert. Die Einrichtung hat trotz der verbesserten Lehrstellensituation eine wichtige Ausbildungsfunktion. Statt kurzfristig erfolgreiche Strukturen zu zerschlagen, muss hier mittel- bis langfristig überlegt werden, wie diese Schule in Zukunft ausgerichtet werden muss (s. auch Gartenbauschule Hünibach)",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "0.500",
@@ -3836,7 +3851,7 @@
     },
     "erziehung_entlastungen-bei-den-lehrwerkst-tten-bern": {
         "Aufgabenfeld": "Berufsbildung",
-        "Kurzbeschrieb": "Aufhebung der handwerklichen Berufe EFZ und EBA an den Lehrwerkstätten Bern und konsequente Ausrichtung auf MINT6- Berufsbildung und höhere Berufsbildung in MINT und Clean-tech Die LWB bietet Ausbildungsplätze (jährlich) in folgenden hand-werklichen Berufen an: • Mechanikpraktiker/in EBA7 (12), Metallbauer/in EFZ8 (16), Metallbaupraktiker/in EBA (12), Schreiner/in EFZ (24), Schreinerpraktiker/in EBA (12), Spengler/in EFZ (12), Haustechnikpraktiker/in EBA (4).Sie werden in den Werk-hallen an der Felsenaustrasse 17 unterrichtet, die dazu von der Stadt Bern gemietet werden. • Daneben werden durch die LWB Elektroniker/in EFZ (22), Informatikpraktiker/in EBA (12), Polymechaniker/in Kon-strukteur/in EFZ (21) in kantonseigenen Gebäuden in der Lorraine ausgebildet. Auf die Ausbildung aller handwerklichen Berufe an der LWB in der Felsenau würde verzichtet werden. Damit würden ca. 230 Lernende nicht mehr in der LWB ausgebildet. Hingegen würden bei einer Ausrichtung auf MINT-Berufe weitere ca. 230 Lernen-de weiterhin die LWB besuchen. Trotz deutlich verbesserter Lehrstellensituation stellen die                                                       6 Mint steht für. Mathematik, Informatik, Naturwissenschaft, Technik  7 EBA: Zweijährige berufliche Grundbildung mit eidg. Berufsattest 8 EFZ: Dreijährige berufliche Grundbildung mit eidg. Fähigkeitszeugnis \f                    132  Lehrwerkstätten ein wichtiges Angebot dar. Deshalb soll die Ausbildungsstätte nicht kurzfristig zerschlagen werden. Viel-mehr soll das heutige Angebot kritisch überprüft und dann den aktuellen Rahmenbedingungen angepasst werden.",
+        "Kurzbeschrieb": "Aufhebung der handwerklichen Berufe EFZ (EFZ: Dreijährige berufliche Grundbildung mit eidg. Fähigkeitszeugnis) und EBA (EBA: Zweijährige berufliche Grundbildung mit eidg. Berufsattest) an den Lehrwerkstätten Bern und konsequente Ausrichtung auf MINT-Berufsbildung (Mint steht für. Mathematik, Informatik, Naturwissenschaft, Technik) und höhere Berufsbildung in MINT und Cleantech Die LWB bietet Ausbildungsplätze (jährlich) in folgenden handwerklichen Berufen an: • Mechanikpraktiker/in EBA (12), Metallbauer/in EFZ8 (16), Metallbaupraktiker/in EBA (12), Schreiner/in EFZ (24), Schreinerpraktiker/in EBA (12), Spengler/in EFZ (12), Haustechnikpraktiker/in EBA (4).Sie werden in den Werkhallen an der Felsenaustrasse 17 unterrichtet, die dazu von der Stadt Bern gemietet werden. • Daneben werden durch die LWB Elektroniker/in EFZ (22), Informatikpraktiker/in EBA (12), Polymechaniker/in Konstrukteur/in EFZ (21) in kantonseigenen Gebäuden in der Lorraine ausgebildet. Auf die Ausbildung aller handwerklichen Berufe an der LWB in der Felsenau würde verzichtet werden. Damit würden ca. 230 Lernende nicht mehr in der LWB ausgebildet. Hingegen würden bei einer Ausrichtung auf MINT-Berufe weitere ca. 230 Lernende weiterhin die LWB besuchen. Trotz deutlich verbesserter Lehrstellensituation stellen die Lehrwerkstätten ein wichtiges Angebot dar. Deshalb soll die Ausbildungsstätte nicht kurzfristig zerschlagen werden. Vielmehr soll das heutige Angebot kritisch überprüft und dann den aktuellen Rahmenbedingungen angepasst werden.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "0.300",
@@ -3877,7 +3892,7 @@
     },
     "erziehung_berner-fachhochschule-standortkonzentration-ein-standort-strategie-": {
         "Aufgabenfeld": "Berner Fachhochschule",
-        "Kurzbeschrieb": "Trotz des Entscheids des Grossen Rates die Technik (TI/AHB) an einem Standort (Biel) zusammen zu fassen, bleibt mit dem gleichzeitig gefassten Entscheid des Grossen Rates, am Fach-hochschulstandort Burgdorf festzuhalten, für die BFH eine sub-optimale und damit im Vergleich zur Konkurrenz teure Raumsi-tuation.  Die Grösse der BFH (knapp 5‘000 Studierende ohne Sport und Land-wirtschaft) würde eine stärkere Konzentration z.B. auf einen Standort durchaus erlauben und wäre letztlich auch an-gezeigt. Als Beispiel sei hier das neue vonRoll-Areal erwähnt, welches von der PH Bern und der Universität Bern gemeinsam genutzt wird.  Im Rahmen der Vorarbeiten zum Bericht des Regierungsrates an den Grossen Rat wurden von der Firma Planconsult ver-schieden Varianten geprüft. Hinsichtlich des Flächenbedarfs schneidet wegen der Synergien in Lehre und Forschung eine Ein-Standort-Strategie am besten ab. Mittelfristig (aber aus-serhalb des ASP Zeitfensters) liegt hier ein Einsparpotenzial bei den Betriebskosten in Höhe von rund CHF 6 Millionen bei den Betriebskosten und von bis zu CHF 40 Millionen bei den Investi-tionskosten. Gerade die von den Universitäten gepflegte inter-disziplinäre Zusammenarbeit würde sich letztlich auch bei den Fachhochschulen aufdrängen und sowohl für die Lehre als auch für die Forschung von Vorteil sein. Da nur die BFH und die Zürcher Fachhochschule (ZFH) einen einzelnen Kanton als Träger aufweisen, besteht hierfür aus bildungspolitischer Sicht eine gute Ausgangslage.  Die Dozierenden für die allgemeinbildenden Fächer könnten für alle Studiengänge und Departemente zu einem Dozierenden-Pool zusammengefasst werden und die Dozierenden des Fachbereichs Wirtschaft könnten auch Lehrleitungen für die \f                    133  anderen Fachbereiche erbringen. Letztlich bestreitet auch die Naturwissenschaftliche Fakultät für die Studierenden der Medi-zinischen Fakultät die Lehrleistungen in Physik, Chemie und Biologie. Denkbar wäre jedoch auch, das bei der HE-Arc angewandte Konzentrationsmodell für die BFH vorzusehen, indem die Räu-me für die Lehre Vorlesungen, Seminare, inkl. Lehrlabors) an einem Standort und dezentrale Standorte für die Forschung sowie die Bachelor- und Masterarbeiten vorsehen würde, indem Spezialräume für die Forschung (grosse Werkstatthallen, Au-tocrash-Anlage, Hochenergielabor etc.) an den bisherigen Standorten Biel und Burgdorf weiter genutzt werden könnten.  Will der Kanton Bern am Ziel der ASP festhalten, in welcher die BFH im Vergleich zum gesamtschweizerischen Durchschnitt unterdurchschnittliche Fallkosten bei ihren Angeboten erreichen muss, so kann dies nur mit einer verstärkten Standortkonzent-ration erreicht werden. Dies setzt indessen voraus, dass sowohl der Entscheid des Grossen Rates für den Erhalt der drei Stand-orte Bern, Biel und Burgdorf wie auch der Vorschlag des Regie-rungsrates für eine Teilkonzentration überprüft werden müssen.",
+        "Kurzbeschrieb": "Trotz des Entscheids des Grossen Rates die Technik (TI/AHB) an einem Standort (Biel) zusammen zu fassen, bleibt mit dem gleichzeitig gefassten Entscheid des Grossen Rates, am Fachhochschulstandort Burgdorf festzuhalten, für die BFH eine suboptimale und damit im Vergleich zur Konkurrenz teure Raumsituation.  Die Grösse der BFH (knapp 5‘000 Studierende ohne Sport und Landwirtschaft) würde eine stärkere Konzentration z.B. auf einen Standort durchaus erlauben und wäre letztlich auch angezeigt. Als Beispiel sei hier das neue vonRoll-Areal erwähnt, welches von der PH Bern und der Universität Bern gemeinsam genutzt wird.  Im Rahmen der Vorarbeiten zum Bericht des Regierungsrates an den Grossen Rat wurden von der Firma Planconsult verschieden Varianten geprüft. Hinsichtlich des Flächenbedarfs schneidet wegen der Synergien in Lehre und Forschung eine Ein-Standort-Strategie am besten ab. Mittelfristig (aber ausserhalb des ASP Zeitfensters) liegt hier ein Einsparpotenzial bei den Betriebskosten in Höhe von rund CHF 6 Millionen bei den Betriebskosten und von bis zu CHF 40 Millionen bei den Investitionskosten. Gerade die von den Universitäten gepflegte interdisziplinäre Zusammenarbeit würde sich letztlich auch bei den Fachhochschulen aufdrängen und sowohl für die Lehre als auch für die Forschung von Vorteil sein. Da nur die BFH und die Zürcher Fachhochschule (ZFH) einen einzelnen Kanton als Träger aufweisen, besteht hierfür aus bildungspolitischer Sicht eine gute Ausgangslage.  Die Dozierenden für die allgemeinbildenden Fächer könnten für alle Studiengänge und Departemente zu einem Dozierenden-Pool zusammengefasst werden und die Dozierenden des Fachbereichs Wirtschaft könnten auch Lehrleitungen für die anderen Fachbereiche erbringen. Letztlich bestreitet auch die Naturwissenschaftliche Fakultät für die Studierenden der Medizinischen Fakultät die Lehrleistungen in Physik, Chemie und Biologie. Denkbar wäre jedoch auch, das bei der HE-Arc angewandte Konzentrationsmodell für die BFH vorzusehen, indem die Räume für die Lehre Vorlesungen, Seminare, inkl. Lehrlabors) an einem Standort und dezentrale Standorte für die Forschung sowie die Bachelor- und Masterarbeiten vorsehen würde, indem Spezialräume für die Forschung (grosse Werkstatthallen, Autocrash-Anlage, Hochenergielabor etc.) an den bisherigen Standorten Biel und Burgdorf weiter genutzt werden könnten.  Will der Kanton Bern am Ziel der ASP festhalten, in welcher die BFH im Vergleich zum gesamtschweizerischen Durchschnitt unterdurchschnittliche Fallkosten bei ihren Angeboten erreichen muss, so kann dies nur mit einer verstärkten Standortkonzentration erreicht werden. Dies setzt indessen voraus, dass sowohl der Entscheid des Grossen Rates für den Erhalt der drei Standorte Bern, Biel und Burgdorf wie auch der Vorschlag des Regierungsrates für eine Teilkonzentration überprüft werden müssen.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "0.000",
@@ -3918,7 +3933,7 @@
     },
     "erziehung_berner-fachhochschule-aufgabe-des-standortes-burgdorf": {
         "Aufgabenfeld": "Berner Fachhochschule",
-        "Kurzbeschrieb": "Der Regierungsrat hat in seinem Bericht zur Standortkonzentra-tion der Berner Fachhochschule aufgezeigt, dass mit einer Konzentration des Lehr- und Forschungsangebotes der Berner Fachhochschule auf die beiden Standorte Bern und Biel im Vergleich zum heutigen Zu-stand Einsparungen sowohl bei den Investitions- wie auch bei den Betriebsaufwendungen erzielt werden können. Die Beibehaltung des Standortes Burgdorf führt dazu, dass die BFH weiterhin auf die 3 Standorte Bern, Biel und Burgdorf ver-teilt ist. Gibt man den Standort Burgdorf für die BFH vollständig auf und fasst die Studiengänge der teuren technischen Ausbil-dungen in Biel zusammen, so führt dies zu Einsparungen bei \f                    134  den Betriebskosten in Höhe von CHF 2,5 -3,5 Millionen /Jahr. Die Ausbildungskosten würden damit in etwa dem schweizeri-schen Benchmark entsprechen. Die Aufgabe von Burgdorf als Standort der BFH hätte im Inves-titions-bereich insofern einen positiven Effekt, als die frei wer-denden Gebäude der BFH auf dem Gsteig vom Gymnasium genutzt und so Mieteinsparungen von CHF 0,8 Millionen erzielt werden könnten. Hierzu wäre jedoch ein Rückkommen auf den Entscheid des Grossen Rates, am Standort Burgdorf festzuhalten, notwendig.",
+        "Kurzbeschrieb": "Der Regierungsrat hat in seinem Bericht zur Standortkonzentration der Berner Fachhochschule aufgezeigt, dass mit einer Konzentration des Lehr- und Forschungsangebotes der Berner Fachhochschule auf die beiden Standorte Bern und Biel im Vergleich zum heutigen Zustand Einsparungen sowohl bei den Investitions- wie auch bei den Betriebsaufwendungen erzielt werden können. Die Beibehaltung des Standortes Burgdorf führt dazu, dass die BFH weiterhin auf die 3 Standorte Bern, Biel und Burgdorf verteilt ist. Gibt man den Standort Burgdorf für die BFH vollständig auf und fasst die Studiengänge der teuren technischen Ausbildungen in Biel zusammen, so führt dies zu Einsparungen bei den Betriebskosten in Höhe von CHF 2,5 -3,5 Millionen /Jahr. Die Ausbildungskosten würden damit in etwa dem schweizerischen Benchmark entsprechen. Die Aufgabe von Burgdorf als Standort der BFH hätte im Investitionsbereich insofern einen positiven Effekt, als die frei werdenden Gebäude der BFH auf dem Gsteig vom Gymnasium genutzt und so Mieteinsparungen von CHF 0,8 Millionen erzielt werden könnten. Hierzu wäre jedoch ein Rückkommen auf den Entscheid des Grossen Rates, am Standort Burgdorf festzuhalten, notwendig.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "0.000",
@@ -3941,7 +3956,7 @@
         },
         "Direktion": "Erziehungsdirektion",
         "Nr": "20.4",
-        "Massnahme": "Standortkonzentration «Variante des Regierungsrates», Aufga-be des Standortes Burgdorf",
+        "Massnahme": "Standortkonzentration «Variante des Regierungsrates», Aufgabe des Standortes Burgdorf",
         "Rechtsgrundlage": "keine  Hinweis: Finanzielle Auswirkungen erst nach 2017",
         "node": {
             "id": "erziehung_berner-fachhochschule-aufgabe-des-standortes-burgdorf",
@@ -3959,7 +3974,7 @@
     },
     "erziehung_p-dagogische-hochschule-aufgabe-der-ausbildung-f-r-die-vorschul-und-primarstufe-an-der-nms-bern": {
         "Aufgabenfeld": "Pädagogische Hochschule",
-        "Kurzbeschrieb": "Streichung der finanziellen Unterstützung der privaten Lehre-rinnen- und Lehrerausbildung am Institut Vorschulstufe und Primarstufe (IVP) der NMS. Das private Institut Vorschulstufe und Primarstufe (IVP) der NMS bildet neben der PH Bern Lehrkräfte aus. Es ist für die private Schule NMS ein wichtiges Ausbildungsangebot. Dank des eher kleinen An-gebotes kann es stark auf individuelle Wünsche eingehen und auch ein aus Sicht des Regierungsrats interessantes Profil anbieten. Die Ausbildung der NMS legt einen Schwerpunkt auf den musischen Bereich, was für die Lehrkräfte der Vorschulstufe und der Primarstufe ein wichtiges Element ist. Zudem ist es im Zusammenhang mit dem drohen-den Lehrermangel im Kanton Bern wichtig, alle Möglichkeiten zu nutzen, um die Zahl der Studierenden möglichst hoch zu halten. Die PH Bern könnte nur einen Teil der Studierenden ohne Kostensteigerung aufnehmen. Zudem geniesst das IVP NMS bislang eine breite Unterstützung in sämtlichen politischen Parteien. Die Abschaffung dieses Angebots war schon in frühe-ren Jahren stets abgelehnt worden.",
+        "Kurzbeschrieb": "Streichung der finanziellen Unterstützung der privaten Lehrerinnen- und Lehrerausbildung am Institut Vorschulstufe und Primarstufe (IVP) der NMS. Das private Institut Vorschulstufe und Primarstufe (IVP) der NMS bildet neben der PH Bern Lehrkräfte aus. Es ist für die private Schule NMS ein wichtiges Ausbildungsangebot. Dank des eher kleinen Angebotes kann es stark auf individuelle Wünsche eingehen und auch ein aus Sicht des Regierungsrats interessantes Profil anbieten. Die Ausbildung der NMS legt einen Schwerpunkt auf den musischen Bereich, was für die Lehrkräfte der Vorschulstufe und der Primarstufe ein wichtiges Element ist. Zudem ist es im Zusammenhang mit dem drohenden Lehrermangel im Kanton Bern wichtig, alle Möglichkeiten zu nutzen, um die Zahl der Studierenden möglichst hoch zu halten. Die PH Bern könnte nur einen Teil der Studierenden ohne Kostensteigerung aufnehmen. Zudem geniesst das IVP NMS bislang eine breite Unterstützung in sämtlichen politischen Parteien. Die Abschaffung dieses Angebots war schon in früheren Jahren stets abgelehnt worden.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "1.000",
@@ -3983,7 +3998,7 @@
         "Direktion": "Erziehungsdirektion",
         "Nr": "21.4",
         "Massnahme": "Aufgabe der Ausbildung für die Vorschulstufe und Primarstufe an der NMS",
-        "Rechtsgrundlage": "keine \f                    135",
+        "Rechtsgrundlage": "keine",
         "node": {
             "id": "erziehung_p-dagogische-hochschule-aufgabe-der-ausbildung-f-r-die-vorschul-und-primarstufe-an-der-nms-bern",
             "name": "Pädagogische Hochschule: Aufgabe der Ausbildung für die Vorschul- und\nPrimarstufe an der NMS Bern",
@@ -4000,7 +4015,7 @@
     },
     "erziehung_einschr-nkung-des-angebots-der-erziehungsberatung": {
         "Aufgabenfeld": "Übriges Bildungswesen",
-        "Kurzbeschrieb": "Die Erziehungsberatung des Kantons Bern wird zum reinen schulpsychologischen Dienst abgebaut. Die Regionalstellen unterstützen lediglich noch bei Anfragen von den Schulen. El-tern von Kindern und Jugendlichen können nicht mehr von sich aus und unabhängig von der Schule ihr Kind zu Abklärungen, Beratungen und/oder Therapien anmelden. 34% der jährlich 9‘500 Neuanmeldungen erfolgen heute durch die Eltern direkt. Betroffene Eltern würden versuchen, ihr Kind über die Schule anzumelden, wenn sie das wollen. Somit kann der theoretische Rückgang von einem Drittel der Neuanmeldungen nicht als finanzielle Einsparung umgerechnet werden. Bei der vorliegenden Massnahme handelt es sich um eine wich-tige kinder- und jugendpsychologische Versorgung im Kanton Bern. Der beschriebene Leistungsabbau hätte zur Folge, dass sich Eltern und Jugendliche in schwierigen Erziehungssituatio-nen nicht mehr von sich aus beraten lassen könnten. Dies ist aus Sicht der Regierung nicht zu verantworten.",
+        "Kurzbeschrieb": "Die Erziehungsberatung des Kantons Bern wird zum reinen schulpsychologischen Dienst abgebaut. Die Regionalstellen unterstützen lediglich noch bei Anfragen von den Schulen. Eltern von Kindern und Jugendlichen können nicht mehr von sich aus und unabhängig von der Schule ihr Kind zu Abklärungen, Beratungen und/oder Therapien anmelden. 34% der jährlich 9‘500 Neuanmeldungen erfolgen heute durch die Eltern direkt. Betroffene Eltern würden versuchen, ihr Kind über die Schule anzumelden, wenn sie das wollen. Somit kann der theoretische Rückgang von einem Drittel der Neuanmeldungen nicht als finanzielle Einsparung umgerechnet werden. Bei der vorliegenden Massnahme handelt es sich um eine wichtige kinder- und jugendpsychologische Versorgung im Kanton Bern. Der beschriebene Leistungsabbau hätte zur Folge, dass sich Eltern und Jugendliche in schwierigen Erziehungssituationen nicht mehr von sich aus beraten lassen könnten. Dies ist aus Sicht der Regierung nicht zu verantworten.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "1.500",
@@ -4024,7 +4039,7 @@
         "Direktion": "Erziehungsdirektion",
         "Nr": "22.3",
         "Massnahme": "Einschränkung des Angebotes der Erziehungsberatung",
-        "Rechtsgrundlage": "Volksschulgesetz (VSG)     \f                    136",
+        "Rechtsgrundlage": "Volksschulgesetz (VSG)",
         "node": {
             "id": "erziehung_einschr-nkung-des-angebots-der-erziehungsberatung",
             "name": "Einschränkung des Angebots der Erziehungsberatung",
@@ -4041,7 +4056,7 @@
     },
     "bau-verkehr-energie_umstellung-verschiedener-bahnlinien-auf-bus": {
         "Aufgabenfeld": "Öffentlicher Verkehr",
-        "Kurzbeschrieb": "Das Benchmark von BAKBasel hat gezeigt, dass im Kanton Bern verschiedene Bahnlinien mit einer unterdurchschnittlichen Auslastung vorhanden sind. Im Kanton Bern sind folgende Eisenbahnlinien betroffen: − ASM: Langenthal – St. Urban Ziegelei: Umstellung der Linie auf Bus − BLS: Bern – Burgdorf –Ramsei – Langnau: Umstellung auf Bus zwischen Ramsei und Langnau − BLS: Thun – Hasle-Rüegsau (– Burgdorf): Umstellung der Regionalzüge zwischen Hasle-Rüegsau und Konolfingen auf Bus − CJ: Le Noirmont – Tavannes: Umstellung auf Bus zwischen Tavannes und Tramelan − SBB: Solothurn – Moutier: Umstellung der Linie zwischen Gänsbrunnen und Moutier Die Umsetzung der Massnahme und die Ausgestaltung des Busangebots müsste mit den Regionen konkretisiert und mit einer Anpassung des Angebotsbeschlusses öffentlicher Ver-kehr beschlossen werden. Die Umsetzung könnte frühestens auf 2016 erfolgen und würde die Zustimmung der betroffenen Nachbarkantone und des Bundes benötigen. Sie könnte also nicht vom Kanton Bern alleine beschlossen werden.",
+        "Kurzbeschrieb": "Das Benchmark von BAKBasel hat gezeigt, dass im Kanton Bern verschiedene Bahnlinien mit einer unterdurchschnittlichen Auslastung vorhanden sind. Im Kanton Bern sind folgende Eisenbahnlinien betroffen: − ASM: Langenthal – St. Urban Ziegelei: Umstellung der Linie auf Bus − BLS: Bern – Burgdorf –Ramsei – Langnau: Umstellung auf Bus zwischen Ramsei und Langnau − BLS: Thun – Hasle-Rüegsau (– Burgdorf): Umstellung der Regionalzüge zwischen Hasle-Rüegsau und Konolfingen auf Bus − CJ: Le Noirmont – Tavannes: Umstellung auf Bus zwischen Tavannes und Tramelan − SBB: Solothurn – Moutier: Umstellung der Linie zwischen Gänsbrunnen und Moutier Die Umsetzung der Massnahme und die Ausgestaltung des Busangebots müsste mit den Regionen konkretisiert und mit einer Anpassung des Angebotsbeschlusses öffentlicher Verkehr beschlossen werden. Die Umsetzung könnte frühestens auf 2016 erfolgen und würde die Zustimmung der betroffenen Nachbarkantone und des Bundes benötigen. Sie könnte also nicht vom Kanton Bern alleine beschlossen werden.",
         "Auswirkungen": {
             "Finanzielle": {
                 "2015": "0.000",
