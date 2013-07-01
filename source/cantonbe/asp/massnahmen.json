@@ -110,9 +110,24 @@
     "Aufgabenfeld": "Spitalversorgung",
     "Kurzbeschrieb": "Bisher hat die GEF Restrukturierungen im Spitalbereich finanzi-ell unterst\u00fctzt, namentlich die Umwandlung bestehender Spital-standorte in Gesundheits- und Versorgungszentren. Die Strei-chung der CHF 1,8 Millionen im VA/AFP bedeutet, dass der Kanton k\u00fcnftig darauf verzichtet.",
     "Auswirkungen": {
-        "Finanzielle": null,
-        "Gemeinden": null,
-        "Vollzeitstellen": null
+        "Finanzielle": {
+            "2015": "1.800",
+            "2014": "1.800",
+            "2017": "1.800",
+            "2016": "1.800"
+        },
+        "Gemeinden": {
+            "2015": "0.000",
+            "2014": "0.000",
+            "2017": "0.000",
+            "2016": "0.000"
+        },
+        "Vollzeitstellen": {
+            "2015": "n.q.",
+            "2014": "n.q.",
+            "2017": "n.q.",
+            "2016": "n.q."
+        }
     },
     "Direktion": "Gesundheits- und F\u00fcrsorgedirektion",
     "Nr": "4.2",
@@ -770,9 +785,24 @@
     "Aufgabenfeld": "Kranken- und Unfallversicherung",
     "Kurzbeschrieb": "Per 1.1.2013 wurden bereits Sparmassnahmen im Umfang von rund CHF 20 Millionen umgesetzt. Dies hatte K\u00fcrzungen der Pr\u00e4mienverbilligungsbeitr\u00e4ge sowie die Verkleinerung von Be-rechtigungsklassen zur Folge. Im Vergleich zu 2012 erhalten rund 20'000 Personen tiefere Pr\u00e4mienverbilligungsbeitr\u00e4ge. Mit den zus\u00e4tzlichen Sparmassnahmen per 1.1.2014 werden rund 30'000 Personen keine Pr\u00e4mienverbilligung mehr erhalten. Per 1.1.2015 muss der Bez\u00fcgerkreis um weitere rund 30'000 Per-sonen reduziert werden. Angesichts des grossen Spardrucks in allen Bereichen erachtet der Regierungsrat diese Massnahme als schmerzhafte, aber unausweichliche Sparmassnahme.",
     "Auswirkungen": {
-        "Finanzielle": null,
-        "Gemeinden": null,
-        "Vollzeitstellen": null
+        "Finanzielle": {
+            "2015": "35.000",
+            "2014": "20.000",
+            "2017": "35.000",
+            "2016": "35.000"
+        },
+        "Gemeinden": {
+            "2015": "0.000",
+            "2014": "0.000",
+            "2017": "0.000",
+            "2016": "0.000"
+        },
+        "Vollzeitstellen": {
+            "2015": "0.0",
+            "2014": "0.0",
+            "2017": "0.0",
+            "2016": "0.0"
+        }
     },
     "Direktion": "Justiz-, Gemeinde- und Kirchendirektion",
     "Nr": "10.1",
@@ -1646,9 +1676,24 @@
     "Aufgabenfeld": "Mittelschulen",
     "Kurzbeschrieb": "Wird der gymnasiale Unterricht im deutschsprachigen Kantons-teil nur noch an den Gymnasien gef\u00fchrt, erm\u00f6glicht dies, einen koh\u00e4renten Bildungsgang vom 9. bis zum 12. Schuljahr aufzu-bauen. Die Lektionentafel von der Quarta bis zur Prima kann so \u00fcberarbeitet und die Unterrichtsverpflichtung leicht reduziert werden, womit pro Klasse im Durchschnitt 9 gehaltswirksame Lektionen abgebaut werden. So k\u00f6nnten unter anderem bei-spielsweise bei den Sprachlektionen eine leichte Reduktion vorgenommen, die Wahl zwischen Musik und Bildnerisches Gestalten auf das 9. Schuljahr vorverschoben, Projektunterricht reduziert und die Lektionentafel ausgeglichener gestaltet wer-den. Im Vergleich zu heute w\u00fcrde dies mit weniger Mitteln eine \f                    105  \u00e4hnliche Abschlussqualit\u00e4t erm\u00f6glichen. Von den knapp 380 Gemeinden im Kanton Bern w\u00e4ren rund 25 Gemeinden mit einem Sekundarschulstandort mit GU9-Klassen betroffen. Diese m\u00fcssten GU9-Klassen schliessen bzw. aufhe-ben. Von den rund 25 betroffenen Gemeinden sind aber nur gut die H\u00e4lfte nicht selber Standortgemeinde eines Gymnasiums oder in deren nahen Agglomeration.",
     "Auswirkungen": {
-        "Finanzielle": null,
-        "Gemeinden": null,
-        "Vollzeitstellen": null
+        "Finanzielle": {
+            "2015": "0.000",
+            "2014": "0.000",
+            "2017": "5.500",
+            "2016": "2.300"
+        },
+        "Gemeinden": {
+            "2015": "0.000",
+            "2014": "0.000",
+            "2017": "0.000",
+            "2016": "0.000"
+        },
+        "Vollzeitstellen": {
+            "2015": "0.0",
+            "2014": "0.0",
+            "2017": "30.0",
+            "2016": "13.0"
+        }
     },
     "Direktion": "Erziehungsdirektion",
     "Nr": "18.1",
@@ -1901,9 +1946,24 @@
     "Aufgabenfeld": "P\u00e4dagogische Hochschule",
     "Kurzbeschrieb": "Dienstleistungen der PH Bern f\u00fcr Lehrpersonen und Schulen im Bereich Weiterbildung, Beratung und Bildungsmedien sollen reduziert werden. In gewissen Bereichen der Weiterbildung, z. B. Zertifikatskurse und kursorische Weiterbildung, k\u00f6nnen An-gebotsk\u00fcrzungen erfolgen. Allerdings hat dies Auswirkungen auf den in der Verordnung (LAV) genannten Weiterbildungsauf-trag der Lehrpersonen.",
     "Auswirkungen": {
-        "Finanzielle": null,
-        "Gemeinden": null,
-        "Vollzeitstellen": null
+        "Finanzielle": {
+            "2015": "1.000",
+            "2014": "0.500",
+            "2017": "2.000",
+            "2016": "1.500"
+        },
+        "Gemeinden": {
+            "2015": "0.000",
+            "2014": "0.000",
+            "2017": "0.000",
+            "2016": "0.000"
+        },
+        "Vollzeitstellen": {
+            "2015": "6.0",
+            "2014": "3.0",
+            "2017": "12.0",
+            "2016": "9.0"
+        }
     },
     "Direktion": "Erziehungsdirektion",
     "Nr": "21.2",
@@ -2507,9 +2567,24 @@
     "Aufgabenfeld": "Kranken- und Unfallversicherung",
     "Kurzbeschrieb": "Vgl. allg. Bemerkungen zu diesem Aufgabenfeld, Anhang 1 sowie Sparvorschlag 10.1, Anhang 2. Eine weitere K\u00fcrzung um CHF 59 Millionen, resp. CHF 44 Milli-onen (zur Erreichung des technischen Sparpotenzials) w\u00fcrde dazu f\u00fchren, dass praktisch der gesamte Kantonsanteil elimi-niert w\u00fcrde. Dies kann sich der Kanton Bern aus Sicht des Re-gierungsrates nicht erlauben. Zudem h\u00e4tte eine solche K\u00fcrzung sicher auch Auswirkungen in nicht bekanntem Masse auf die Sozialhilfequote.",
     "Auswirkungen": {
-        "Finanzielle": null,
-        "Gemeinden": null,
-        "Vollzeitstellen": null
+        "Finanzielle": {
+            "2015": "35.000",
+            "2014": "20.000",
+            "2017": "35.000",
+            "2016": "35.000"
+        },
+        "Gemeinden": {
+            "2015": "0.000",
+            "2014": "0.000",
+            "2017": "0.000",
+            "2016": "0.000"
+        },
+        "Vollzeitstellen": {
+            "2015": "0.0",
+            "2014": "0.0",
+            "2017": "0.0",
+            "2016": "0.0"
+        }
     },
     "Direktion": "Justiz-, Gemeinde- und Kirchendirektion",
     "Nr": "10.1",
