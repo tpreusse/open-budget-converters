@@ -4,8 +4,10 @@
     "h1": "Kanton Bern",
     "h2": "Angebots- und Strukturüberprüfung 2014",
     "description": "Die Massnahme des Kanton Bern ASP 2014 in Kreisen visualisiert. Spielerisch und einfach zu verstehen.",
-    "data_link": "http://www.be.ch/portal/de/index/mediencenter/medienmitteilungen.meldungNeu.mm.html/portal/de/meldungen/mm/2013/06/20130628_0848_asp_fuehrt_zu_ausgeglichenembudget2014",
-    "data_title": "Medienmitteilung",
+    "source": {
+        "text": "Medienmitteilung des Kanton Bern",
+        "url": "http://www.be.ch/portal/de/index/mediencenter/medienmitteilungen.meldungNeu.mm.html/portal/de/meldungen/mm/2013/06/20130628_0848_asp_fuehrt_zu_ausgeglichenembudget2014"
+    },
     "data": [
         {
             "name": "Topf 1",
