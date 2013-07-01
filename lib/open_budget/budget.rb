@@ -2,22 +2,27 @@
 
 module OpenBudget
   class Budget
-    attr_accessor :nodes, :meta
+    attr_accessor :nodes, :meta, :node_index
 
     def initialize
       @nodes = []
       @node_index = {}
     end
 
-    def get_node id_path, names
+    def get_node id_path
       id = id_path.join '_'
-      node = @node_index[id] ||= lambda do
+      @node_index[id]
+    end
+
+    def get_or_create_node id_path, names
+      id = id_path.join '_'
+      node = @node_index[id] = get_node(id_path) || lambda do
         node = Node.new
         node.id = id
 
         # add to collection
         if id_path.length > 1
-          parent = get_node id_path.take(id_path.length - 1), names.take(names.length - 1)
+          parent = get_or_create_node id_path.take(id_path.length - 1), names.take(names.length - 1)
           node.parent = parent
           parent.children
         else
@@ -55,7 +60,7 @@ module OpenBudget
 
         account_type = row[:kontenbereich_nummer].to_i
         if [3, 4, 5, 6].include? account_type
-          node = get_node \
+          node = get_or_create_node \
             [row[:aufgabenbereich_nummer], row[:aufgabe_nummer], row[:aufgabenstelle_nummer]].reject(&:blank?),
             [row[:aufgabenbereich_name], row[:aufgabe_name], row[:aufgabenstelle_name]].reject(&:blank?)
 
@@ -67,6 +72,12 @@ module OpenBudget
           end
         end
       end
+    end
+
+    def cantonbe_names_to_ids names
+      names.dup.each(&:strip).reject(&:blank?).collect {|id_segment|
+        id_segment.downcase.gsub(/[^0-9a-z]/, ' ').gsub(/[,-]+/, ' ').gsub(/ +/, '-')
+      }
     end
 
     def load_cantonbe_csv file_path
@@ -90,11 +101,9 @@ module OpenBudget
           row[:direktion],
           row[:produktgruppe_zt_gekrzte_bezeichnung]
         ]
-        id_path = names.dup.each(&:strip).reject(&:blank?).collect {|id_segment|
-          id_segment.downcase.gsub(/[,-]+/, ' ').gsub(/ +/, '_')
-        }
+        id_path = cantonbe_names_to_ids names
 
-        node = get_node id_path, names
+        node = get_or_create_node id_path, names
 
         number_headers.each do |header|
           node
@@ -108,13 +117,28 @@ module OpenBudget
       end
     end
 
-    def from_zurich_csv file_path, col_sep
-      # :encoding => 'windows-1251:utf-8', 
-      CSV.foreach(file_path, :col_sep => col_sep, :headers => true, :header_converters => :symbol, :converters => :all) do |row|
-        
+    def load_cantonbe_asp_csv file_path
+      CSV.foreach(file_path, :headers => true, :header_converters => :symbol, :converters => :all) do |row|
+        names = [
+          row[:direktion],
+          row[:massnahme]
+        ]
+        id_path = cantonbe_names_to_ids names
+
+        node = get_or_create_node id_path, names
+
+        node.add_revenue('budgets', 2014, row[:'2014_in_mio_chf'].to_s.sub(',', '.').to_f * (10 ** 6))
+        node.add_revenue('budgets', 2015, row[:'2015'].to_s.sub(',', '.').to_f * (10 ** 6))
+        node.add_revenue('budgets', 2016, row[:'2016'].to_s.sub(',', '.').to_f * (10 ** 6))
+        node.add_revenue('budgets', 2017, row[:'2017'].to_s.sub(',', '.').to_f * (10 ** 6))
+      end
+    end
+
+    def from_zurich_csv file_path
+      # :encoding => 'windows-1251:utf-8',
+      CSV.foreach(file_path, :col_sep => ';', :headers => true, :header_converters => :symbol, :converters => :all) do |row|
+
         # p row
-        
-        next if row[:bezeichnung].blank?
 
         row[:bezeichnung].strip!
         code = row[:code].to_s
@@ -142,7 +166,7 @@ module OpenBudget
           row[:bezeichnung]
         ]
 
-        node = get_node id_path, names
+        node = get_or_create_node id_path, names
 
         # ToDo: seperate "investitionsrechnung" [5, 6] and "laufende rechnung" [3, 4]
 
@@ -182,7 +206,7 @@ module OpenBudget
         end
 
         # budget_2013_fr bezeichnung_sofern_gemss_art_4_fvo_erforderlich:nil
-        
+
         # if [3, 5].include? account_type
         #   node.add_gross_cost('accounts', row[:jahr], row[:saldo])
         # elsif [4, 6].include? account_type
