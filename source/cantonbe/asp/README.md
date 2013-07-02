@@ -25,6 +25,10 @@
 
 [Kindly extracted by Oleg](https://github.com/loleg/open-budget-miner)
 
+## Massnahmen static.json
+
+Matthias Stürmer
+
 ### Sources used
 
 * [Bericht PDF](http://www.be.ch/portal/de/index/mediencenter/medienmitteilungen.assetref/content/dam/documents/portal/Medienmitteilungen/de/2013/06/2013-06-28-asp-2014-bericht-de.pdf)

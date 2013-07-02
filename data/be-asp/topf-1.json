@@ -13,7 +13,7 @@
     "children": [{
         "id": "gesamte-verwaltung_k-rzung-der-lohnmassnahmen",
         "name": "Kürzung der Lohnmassnahmen",
-        "detail": false,
+        "detail": true,
         "revenue": {
             "budgets": {
                 "2014": 32140000.0,
@@ -25,7 +25,7 @@
     }, {
         "id": "gesamte-verwaltung_steuern-aufhebung-der-gesamtpauschale-f-r-berufskosten",
         "name": "Steuern: Aufhebung der Gesamtpauschale für Berufskosten",
-        "detail": false,
+        "detail": true,
         "revenue": {
             "budgets": {
                 "2014": 41000000.0,
@@ -37,7 +37,7 @@
     }, {
         "id": "gesamte-verwaltung_steuern-plafonierung-des-fahrkostenabzugs-auf-chf-3-000",
         "name": "Steuern: Plafonierung des Fahrkostenabzugs auf CHF 3‘000",
-        "detail": false,
+        "detail": true,
         "revenue": {
             "budgets": {
                 "2014": 0.0,
@@ -49,7 +49,7 @@
     }, {
         "id": "gesamte-verwaltung_abschreibungen-nach-rechnungsmodell-hrm2-ipsas-aufl-sung-der-aufwertungsreserven-innerhalb-von-15-jahren-",
         "name": "Abschreibungen nach Rechnungsmodell HRM2/IPSAS (Auflösung der Aufwertungsreserven innerhalb von 15 Jahren)",
-        "detail": false,
+        "detail": true,
         "revenue": {
             "budgets": {
                 "2014": 0.0,
@@ -61,7 +61,7 @@
     }, {
         "id": "gesamte-verwaltung_allgemeine-neubewertung-der-grundst-cke",
         "name": "Allgemeine Neubewertung der Grundstücke",
-        "detail": false,
+        "detail": true,
         "revenue": {
             "budgets": {
                 "2014": 0.0,

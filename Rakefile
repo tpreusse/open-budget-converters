@@ -107,6 +107,20 @@ namespace :cantonbe do
       end
     end
 
+    massnahmen = JSON.parse File.read('source/cantonbe/asp/massnahmen_static.json')
+    massnahmen.each do |massnahme|
+      id_path = massnahme['Id'].split('_')
+      node = topf1.get_node(id_path) || topf2.get_node(id_path)
+      unless node
+        puts "detail not found: #{id_path}"
+      else
+        puts "detail found: #{id_path}"
+        node.detail = true
+        massnahme['node'] = node.as_hash_without_children
+        details[node.id] = massnahme
+      end
+    end
+
     FileUtils.mkdir_p 'data/be-asp'
 
     File.open('data/be-asp/details.json', 'wb') do |file|
