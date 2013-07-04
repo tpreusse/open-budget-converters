@@ -102,6 +102,14 @@ namespace :cantonbe do
       else
         puts "detail found: #{id_path}"
         node.detail = true
+        if massnahme['Auswirkungen'].present? && massnahme['Auswirkungen']['Vollzeitstellen'].present?
+          [2014, 2015, 2016, 2017].each do |year|
+            val = massnahme['Auswirkungen']['Vollzeitstellen'][year.to_s]
+            unless val == 'n.q.'
+              node.add_revenue('positions', year, val.to_f)
+            end
+          end
+        end
         massnahme['node'] = node.as_hash_without_children
         details[node.id] = massnahme
       end
@@ -116,6 +124,14 @@ namespace :cantonbe do
       else
         puts "detail found: #{id_path}"
         node.detail = true
+        if massnahme['Auswirkungen'].present? && massnahme['Auswirkungen']['Vollzeitstellen'].present?
+          [2014, 2015, 2016, 2017].each do |year|
+            val = massnahme['Auswirkungen']['Vollzeitstellen'][year.to_s]
+            unless val == 'n.q.'
+              node.add_revenue('positions', year, val.to_f)
+            end
+          end
+        end
         massnahme['node'] = node.as_hash_without_children
         details[node.id] = massnahme
       end
