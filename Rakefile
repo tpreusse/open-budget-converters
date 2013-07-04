@@ -102,6 +102,7 @@ namespace :cantonbe do
       else
         puts "detail found: #{id_path}"
         node.detail = true
+        node.short_name = massnahme['Nr']
         if massnahme['Auswirkungen'].present? && massnahme['Auswirkungen']['Vollzeitstellen'].present?
           [2014, 2015, 2016, 2017].each do |year|
             val = massnahme['Auswirkungen']['Vollzeitstellen'][year.to_s]
@@ -124,6 +125,7 @@ namespace :cantonbe do
       else
         puts "detail found: #{id_path}"
         node.detail = true
+        node.short_name = massnahme['Nr']
         if massnahme['Auswirkungen'].present? && massnahme['Auswirkungen']['Vollzeitstellen'].present?
           [2014, 2015, 2016, 2017].each do |year|
             val = massnahme['Auswirkungen']['Vollzeitstellen'][year.to_s]
@@ -139,6 +141,7 @@ namespace :cantonbe do
 
     FileUtils.mkdir_p 'data/be-asp'
 
+    # ToDo: abstract & add JSON.pretty_generate JSON.parse(topf1.to_json)
     File.open('data/be-asp/details.json', 'wb') do |file|
       file.write details.to_json
     end

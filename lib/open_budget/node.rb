@@ -2,7 +2,7 @@
 
 module OpenBudget
   class Node
-    attr_accessor :id, :name, :detail, :children, :parent
+    attr_accessor :id, :name, :short_name, :detail, :children, :parent
     attr_reader :gross_cost, :revenue
 
     def initialize
@@ -58,6 +58,8 @@ module OpenBudget
         name: name,
         detail: !!detail
       }
+      hash[:short_name] = short_name unless short_name.blank?
+
       prepare
       hash[:gross_cost] = gross_cost unless gross_cost.empty?
       hash[:revenue] = revenue unless revenue.empty?

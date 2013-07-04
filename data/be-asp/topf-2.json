@@ -57,6 +57,7 @@
         "id": "gesundheit-und-f-rsorge_verzicht-auf-den-aufbau-ambulanter-leistungen",
         "name": "Verzicht auf den Aufbau ambulanter Leistungen",
         "detail": true,
+        "short_name": "5.4a",
         "revenue": {
             "budgets": {
                 "2014": 2960000.0,
@@ -75,6 +76,7 @@
         "id": "gesundheit-und-f-rsorge_streichung-des-beitrags-an-die-zweisprachigkeit-der-psychiatrischen-diens-te-biel-seeland-berner-jura",
         "name": "Streichung des Beitrags an die Zweisprachigkeit der Psychiatrischen Diens- te Biel - Seeland – Berner Jura",
         "detail": true,
+        "short_name": "5.2",
         "revenue": {
             "budgets": {
                 "2014": 150000.0,
@@ -141,6 +143,7 @@
         "id": "gesundheit-und-f-rsorge_streichung-der-mitfinanzierung-des-aufenthaltes-von-personen-die-keine-spitalpflege-in-einer-psychiatrischen-klinik-mehr-brauchen",
         "name": "Streichung der Mitfinanzierung des Aufenthaltes von Personen, die keine\nSpitalpflege in einer psychiatrischen Klinik mehr brauchen",
         "detail": true,
+        "short_name": "5.4",
         "revenue": {
             "budgets": {
                 "2014": 6570000.0,
@@ -159,6 +162,7 @@
         "id": "gesundheit-und-f-rsorge_erh-hung-der-patientenbeteiligung-auf-maximalansatz-f-r-alle-personen-die-lter-als-65-jahre-sind",
         "name": "Erhöhung der Patientenbeteiligung auf Maximalansatz für alle Personen, die\nälter als 65 Jahre sind",
         "detail": true,
+        "short_name": "6.5",
         "revenue": {
             "budgets": {
                 "2014": 15000000.0,
@@ -177,6 +181,7 @@
         "id": "gesundheit-und-f-rsorge_lineare-k-rzung-der-nettobetriebskosten-bei-behinderteninstitutionen-f-r-kinder-und-jugendliche",
         "name": "Lineare Kürzung der Nettobetriebskosten bei Behinderteninstitutionen für\nKinder und Jugendliche",
         "detail": true,
+        "short_name": "8.1",
         "revenue": {
             "budgets": {
                 "2014": 5500000.0,
@@ -195,6 +200,7 @@
         "id": "gesundheit-und-f-rsorge_verzicht-auf-unterst-tzungsmassnahmen-im-regelschulbereich",
         "name": "Verzicht auf Unterstützungsmassnahmen im Regelschulbereich",
         "detail": true,
+        "short_name": "8.2",
         "revenue": {
             "budgets": {
                 "2014": 2000000.0,
@@ -207,6 +213,7 @@
         "id": "gesundheit-und-f-rsorge_strukturanpassungen-bei-den-behinderteninstitutionen-f-r-kinder-und-ju-gendliche",
         "name": "Strukturanpassungen bei den Behinderteninstitutionen für Kinder und Ju-\ngendliche",
         "detail": true,
+        "short_name": "8.3",
         "revenue": {
             "budgets": {
                 "2014": 0.0,
@@ -238,6 +245,7 @@
         "id": "justiz-gemeinde-und-kirchen_erg-nzungsleistungen-reduktion-des-beitrags-f-r-pers-nliche-auslagen",
         "name": "Ergänzungsleistungen: Reduktion des Beitrags für persönliche Auslagen",
         "detail": true,
+        "short_name": "9.3.1",
         "revenue": {
             "budgets": {
                 "2014": 9150000.0,
@@ -256,6 +264,7 @@
         "id": "justiz-gemeinde-und-kirchen_erg-nzungsleistungen-reduktion-des-h-chstbetrags-der-brigen-heimtarife-um-chf-10-pro-tag",
         "name": "Ergänzungsleistungen: Reduktion des Höchstbetrags der übrigen Heimtarife um CHF 10 pro Tag",
         "detail": true,
+        "short_name": "9.3.2",
         "revenue": {
             "budgets": {
                 "2014": 6200000.0,
@@ -274,6 +283,7 @@
         "id": "justiz-gemeinde-und-kirchen_kranken-und-unfallversicherung-zus-tzliche-k-rzungen-bei-der-pr-mien-verbilligung",
         "name": "Kranken und Unfallversicherung: Zusätzliche Kürzungen bei der Prämien-\nverbilligung",
         "detail": true,
+        "short_name": "10.1",
         "revenue": {
             "budgets": {
                 "2014": 59000000.0,
@@ -311,6 +321,7 @@
         "id": "erziehung_kindergarten-volksschule-erh-hung-des-durchschnitts-der-klassengr-sse",
         "name": "Kindergarten/Volksschule: Erhöhung des Durchschnitts der Klassengrösse",
         "detail": true,
+        "short_name": "15.1",
         "revenue": {
             "budgets": {
                 "2014": 4500000.0,
@@ -329,6 +340,7 @@
         "id": "erziehung_kindergarten-volksschule-abbau-von-unterrichtslektionen",
         "name": "Kindergarten/Volksschule: Abbau von Unterrichtslektionen",
         "detail": true,
+        "short_name": "15.2",
         "revenue": {
             "budgets": {
                 "2014": 6000000.0,
@@ -347,6 +359,7 @@
         "id": "erziehung_schliessung-der-gartenbauschule-h-nibach",
         "name": "Schliessung der Gartenbauschule Hünibach",
         "detail": true,
+        "short_name": "17.3",
         "revenue": {
             "budgets": {
                 "2014": 800000.0,
@@ -365,6 +378,7 @@
         "id": "erziehung_schliessung-der-gartenbauschule-oeschberg",
         "name": "Schliessung der Gartenbauschule Oeschberg",
         "detail": true,
+        "short_name": "17.4",
         "revenue": {
             "budgets": {
                 "2014": 0.0,
@@ -383,6 +397,7 @@
         "id": "erziehung_entlastungen-bei-den-lehrwerkst-tten-bern",
         "name": "Entlastungen bei den Lehrwerkstätten Bern",
         "detail": true,
+        "short_name": "17.5",
         "revenue": {
             "budgets": {
                 "2014": 0.0,
@@ -401,6 +416,7 @@
         "id": "erziehung_p-dagogische-hochschule-aufgabe-der-ausbildung-f-r-die-vorschul-und-primarstufe-an-der-nms-bern",
         "name": "Pädagogische Hochschule: Aufgabe der Ausbildung für die Vorschul- und\nPrimarstufe an der NMS Bern",
         "detail": true,
+        "short_name": "21.4",
         "revenue": {
             "budgets": {
                 "2014": 500000.0,
@@ -419,6 +435,7 @@
         "id": "erziehung_einschr-nkung-des-angebots-der-erziehungsberatung",
         "name": "Einschränkung des Angebots der Erziehungsberatung",
         "detail": true,
+        "short_name": "22.3",
         "revenue": {
             "budgets": {
                 "2014": 0.0,
@@ -437,6 +454,7 @@
         "id": "erziehung_berner-fachhochschule-standortkonzentration-ein-standort-strategie-",
         "name": "Berner Fachhochschule: Standortkonzentration „Ein-Standort-Strategie“",
         "detail": true,
+        "short_name": "20.4a",
         "revenue": {
             "budgets": {
                 "2014": 0.0,
@@ -449,6 +467,7 @@
         "id": "erziehung_berner-fachhochschule-aufgabe-des-standortes-burgdorf",
         "name": "Berner Fachhochschule: Aufgabe des Standortes Burgdorf",
         "detail": true,
+        "short_name": "20.4",
         "revenue": {
             "budgets": {
                 "2014": 0.0,
@@ -480,6 +499,7 @@
         "id": "bau-verkehr-energie_umstellung-verschiedener-bahnlinien-auf-bus",
         "name": "Umstellung verschiedener Bahnlinien auf Bus",
         "detail": true,
+        "short_name": "27.2",
         "revenue": {
             "budgets": {
                 "2014": 0.0,
