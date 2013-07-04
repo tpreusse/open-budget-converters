@@ -921,22 +921,22 @@
     "Kurzbeschrieb": "Der Verzicht auf Informatik-Dienstleistungen Dritter f\u00fchrt punktuell zu Einschr\u00e4nkungen bei Unterhalt, Wartung und Betrieb des Finanzinformationssystems FIS. Das Risiko f\u00fcr St\u00f6rungen im Betrieb des FIS steigt, muss jedoch angesichts der schwierigen finanziellen Situation in Kauf genommen werden.",
     "Auswirkungen": {
         "Finanzielle": {
-            "2015": "2016",
+            "2015": "0.350",
             "2014": "0.350",
-            "2017": "",
-            "2016": "2015"
+            "2017": "0.350",
+            "2016": "0.350"
         },
         "Gemeinden": {
             "2015": "0.0",
-            "2014": "0.000",
-            "2017": "0.350",
+            "2014": "0.0",
+            "2017": "0.0",
             "2016": "0.0"
         },
         "Vollzeitstellen": {
-            "2015": "0.350",
-            "2014": "0.0",
-            "2017": "2017",
-            "2016": "0.350"
+            "2015": "0",
+            "2014": "0",
+            "2017": "0",
+            "2016": "0"
         }
     },
     "Direktion": "Finanzdirektion",
