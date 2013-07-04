@@ -1,6 +1,6 @@
 [{
-    "id": "gesamte-verwaltung",
-    "name": "Gesamte Verwaltung",
+    "id": "weitere-entlastungsmassnahmen",
+    "name": "Weitere Entlastungsmassnahmen",
     "detail": false,
     "revenue": {
         "budgets": {
@@ -11,7 +11,7 @@
         }
     },
     "children": [{
-        "id": "gesamte-verwaltung_k-rzung-der-lohnmassnahmen",
+        "id": "weitere-entlastungsmassnahmen_k-rzung-der-lohnmassnahmen",
         "name": "Kürzung der Lohnmassnahmen",
         "detail": true,
         "revenue": {
@@ -23,7 +23,7 @@
             }
         }
     }, {
-        "id": "gesamte-verwaltung_steuern-aufhebung-der-gesamtpauschale-f-r-berufskosten",
+        "id": "weitere-entlastungsmassnahmen_steuern-aufhebung-der-gesamtpauschale-f-r-berufskosten",
         "name": "Steuern: Aufhebung der Gesamtpauschale für Berufskosten",
         "detail": true,
         "revenue": {
@@ -35,7 +35,7 @@
             }
         }
     }, {
-        "id": "gesamte-verwaltung_steuern-plafonierung-des-fahrkostenabzugs-auf-chf-3-000",
+        "id": "weitere-entlastungsmassnahmen_steuern-plafonierung-des-fahrkostenabzugs-auf-chf-3-000",
         "name": "Steuern: Plafonierung des Fahrkostenabzugs auf CHF 3‘000",
         "detail": true,
         "revenue": {
@@ -47,7 +47,7 @@
             }
         }
     }, {
-        "id": "gesamte-verwaltung_abschreibungen-nach-rechnungsmodell-hrm2-ipsas-aufl-sung-der-aufwertungsreserven-innerhalb-von-15-jahren-",
+        "id": "weitere-entlastungsmassnahmen_abschreibungen-nach-rechnungsmodell-hrm2-ipsas-aufl-sung-der-aufwertungsreserven-innerhalb-von-15-jahren-",
         "name": "Abschreibungen nach Rechnungsmodell HRM2/IPSAS (Auflösung der Aufwertungsreserven innerhalb von 15 Jahren)",
         "detail": true,
         "revenue": {
@@ -59,7 +59,7 @@
             }
         }
     }, {
-        "id": "gesamte-verwaltung_allgemeine-neubewertung-der-grundst-cke",
+        "id": "weitere-entlastungsmassnahmen_allgemeine-neubewertung-der-grundst-cke",
         "name": "Allgemeine Neubewertung der Grundstücke",
         "detail": true,
         "revenue": {
@@ -72,8 +72,8 @@
         }
     }]
 }, {
-    "id": "justiz",
-    "name": "Justiz",
+    "id": "gerichtsbeh-rden-und-staatsanwaltschaft",
+    "name": "Gerichtsbehörden und Staatsanwaltschaft",
     "detail": false,
     "revenue": {
         "budgets": {
@@ -84,8 +84,8 @@
         }
     },
     "children": [{
-        "id": "justiz_generelle-saldoverbesserung",
-        "name": "Generelle Saldoverbesserung",
+        "id": "gerichtsbeh-rden-und-staatsanwaltschaft_angebots-und-strukturanpassungen-im-bereich-der-gerichtsbeh-rden-und-der-staatsanwaltschaft",
+        "name": "Angebots- und Strukturanpassungen im Bereich der Gerichtsbehörden und der Staatsanwaltschaft",
         "detail": true,
         "revenue": {
             "budgets": {

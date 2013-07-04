@@ -1,0 +1,12 @@
+{
+	"direktion": {
+		"Justiz": "Gerichtsbehörden und Staatsanwaltschaft",
+		"Gesamte Verwaltung": "Weitere Entlastungsmassnahmen",
+		"Bau, Verkehr, Energie": "Bau, Verkehr und Energie"
+	},
+	"massnahme": {
+		"Gerichtsbehörden und Staatsanwaltschaft": {
+			"Generelle Saldoverbesserung": "Angebots- und Strukturanpassungen im Bereich der Gerichtsbehörden und der Staatsanwaltschaft"
+		}
+	}
+}

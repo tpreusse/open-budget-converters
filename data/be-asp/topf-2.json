@@ -1,6 +1,6 @@
 [{
-    "id": "gesamte-verwaltung",
-    "name": "Gesamte Verwaltung",
+    "id": "weitere-entlastungsmassnahmen",
+    "name": "Weitere Entlastungsmassnahmen",
     "detail": false,
     "revenue": {
         "budgets": {
@@ -11,7 +11,7 @@
         }
     },
     "children": [{
-        "id": "gesamte-verwaltung_zus-tzliche-k-rzung-der-lohnmassnahmen",
+        "id": "weitere-entlastungsmassnahmen_zus-tzliche-k-rzung-der-lohnmassnahmen",
         "name": "Zusätzliche Kürzung der Lohnmassnahmen",
         "detail": true,
         "revenue": {
@@ -23,7 +23,7 @@
             }
         }
     }, {
-        "id": "gesamte-verwaltung_teilabsch-pfung-der-entlastungen-der-gemeinden-durch-asp-2014",
+        "id": "weitere-entlastungsmassnahmen_teilabsch-pfung-der-entlastungen-der-gemeinden-durch-asp-2014",
         "name": "Teilabschöpfung der Entlastungen der Gemeinden durch ASP 2014",
         "detail": true,
         "revenue": {
@@ -478,8 +478,8 @@
         }
     }]
 }, {
-    "id": "bau-verkehr-energie",
-    "name": "Bau, Verkehr, Energie",
+    "id": "bau-verkehr-und-energie",
+    "name": "Bau, Verkehr und Energie",
     "detail": false,
     "revenue": {
         "budgets": {
@@ -496,7 +496,7 @@
         }
     },
     "children": [{
-        "id": "bau-verkehr-energie_umstellung-verschiedener-bahnlinien-auf-bus",
+        "id": "bau-verkehr-und-energie_umstellung-verschiedener-bahnlinien-auf-bus",
         "name": "Umstellung verschiedener Bahnlinien auf Bus",
         "detail": true,
         "short_name": "27.2",

@@ -75,6 +75,14 @@ module OpenBudget
     end
 
     def cantonbe_names_to_ids names
+      # normalization and manual renaming as recommended by be.ch employees
+      @cantonbe_names_overwrites ||= JSON.parse File.read('source/cantonbe/asp/massnahmen_overwrite.json')
+
+      names[0] = @cantonbe_names_overwrites['direktion'][names[0]].presence || names[0]
+      if names[1].present?
+        names[1] = @cantonbe_names_overwrites['massnahme'].fetch(names[0], {})[names[1]].presence || names[1]
+      end
+
       names.dup.each(&:strip).reject(&:blank?).collect {|id_segment|
         id_segment.downcase.gsub(/[^0-9a-z]/, ' ').gsub(/[,-]+/, ' ').gsub(/ +/, '-')
       }
