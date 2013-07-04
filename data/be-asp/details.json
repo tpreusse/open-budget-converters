@@ -4288,5 +4288,66 @@
                 }
             }
         }
+    },
+    "justiz-gemeinde-und-kirchen_kranken-und-unfallversicherung-k-rzungen-bei-der-pr-mienverbilligung": {
+        "Aufgabenfeld": "Kranken- und Unfallversicherung",
+        "Kurzbeschrieb": "Per 1.1.2013 wurden bereits Sparmassnahmen im Umfang von rund CHF 20 Millionen umgesetzt. Dies hatte Kürzungen der Prämienverbilligungsbeiträge sowie die Verkleinerung von Berechtigungsklassen zur Folge. Im Vergleich zu 2012 erhalten rund 20'000 Personen tiefere Prämienverbilligungsbeiträge. Mit den zusätzlichen Sparmassnahmen per 1.1.2014 werden rund 30'000 Personen keine Prämienverbilligung mehr erhalten. Per 1.1.2015 muss der Bezügerkreis um weitere rund 30'000 Personen reduziert werden.\n\nAngesichts des grossen Spardrucks in allen Bereichen erachtet der Regierungsrat diese Massnahme als schmerzhafte, aber unausweichliche Sparmassnahme.",
+        "Auswirkungen": {
+            "Finanzielle": {
+                "2014": "20.000",
+                "2015": "35.000",
+                "2017": "35.000",
+                "2016": "35.000"
+            },
+            "Gemeinden": {
+                "2015": "0.000",
+                "2014": "0.000",
+                "2017": "0.000",
+                "2016": "0.000"
+            },
+            "Vollzeitstellen": {
+                "2015": "0.0",
+                "2014": "0.0",
+                "2017": "0.0",
+                "2016": "0.0"
+            }
+        },
+        "Direktion": "Justiz-, Gemeinde- und Kirchendirektion",
+        "Nr": "10.1",
+        "Massnahme": "Kürzungen im Bereich Prämienverbilligung",
+        "Rechtsgrundlage": "Gesetz betreffend die Einführung der Bundesgesetze über die Kranken-, die Unfall- und die Militärversicherung (EG KUMV)\n\nKantonale Krankenversicherungsverordnung (KKVV)",
+        "Id": "justiz-gemeinde-und-kirchen_kranken-und-unfallversicherung-k-rzungen-bei-der-pr-mienverbilligung",
+        "node": {
+            "id": "justiz-gemeinde-und-kirchen_kranken-und-unfallversicherung-k-rzungen-bei-der-pr-mienverbilligung",
+            "name": "Kranken- und Unfallversicherung: Kürzungen bei der Prämienverbilligung",
+            "detail": true,
+            "revenue": {
+                "budgets": {
+                    "2014": 20000000.0,
+                    "2015": 35000000.0,
+                    "2016": 35000000.0,
+                    "2017": 35000000.0
+                }
+            }
+        }
+    },
+    "justiz_generelle-saldoverbesserung": {
+        "Kurzbeschrieb": "Einbezug der Justiz\n\nDie «Variante 92» ergibt für die Justiz ein technisches Sparpotenzial von CHF 13 Millionen. Aufgrund der institutionellen Unabhängigkeit der Justiz hat der Regierungsrat ihr gegenüber kein Weisungsrecht. Er hat deshalb mit Schreiben vom 20. März 2013 die Justizkommission eingeladen, mit der Justizleitung den Prozess über die Angebotsund Strukturüberprüfung zu führen. Die Justizleitung teilte in der Folge dem Regierungsrat mit, die dem Aufgabenfeld «Justiz» zugrunde liegende «technische Sparvorgabe» sei zu hoch ausgefallen, da zur Berechnung derselben nicht nur die sie betreffende «Rechtsprechung», sondern auch das mehrere Direktionen betreffende «allgemeine Rechtswesen» (u.a. Grundbuchämter, Handelsregisterämter, Ausweiszentren, etc.) berücksichtigt wurde.\n\nUngeachtet der Grundlagen der technischen Sparvorgaben stellt der Regierungsrat fest, dass sich der finanzielle Mittelbedarf der Gerichtsbehörden und der Staatsanwaltschaft seit dem für den Benchmarkvergleich zugrunde gelegten Rechnungsjahr 2010 bis heute massiv erhöht hat. So belief sich der Saldo der Laufenden Rechnung der Gerichtsbehörden und der Staatsanwaltschaft im Jahr 2010 noch auf rund CHF 100 Millionen. Gemäss dem aktuellen Planungsstand für den Voranschlag 2014 (Stand Planvariante 2) beträgt der Saldo der Laufenden Rechnung der Gerichtsbehörden und der Staatsanwaltschaft indessen bereits über CHF 144 Millionen. Dies entspricht einer Zunahme von über 40 Prozent innerhalb weniger Jahre.\n\nVor diesem Hintergrund steht es für den Regierungsrat ausser Frage, dass sich auch die Gerichtsbehörden und die Staatsanwaltschaft an den finanzpolitischen Bemühungen des Regierungsrates zur Beseitigung des strukturellen Defizits beteiligen sollten. Gestützt auf diese Haltung ersuchte er die Justizleitung, Angebots- und Strukturanpassungen im Bereich der Gerichtsbehörden und der Staatsanwaltschaft im Umfang von CHF 5 Millionen zu erarbeiten.\n\nQuelle: Seiten 18 und 19",
+        "Direktion": "Gerichtsbehörden und Staatsanwaltschaft",
+        "Massnahme": "Angebots- und Strukturanpassungen im Bereich der Gerichtsbehörden und der Staatsanwaltschaft",
+        "Id": "justiz_generelle-saldoverbesserung",
+        "node": {
+            "id": "justiz_generelle-saldoverbesserung",
+            "name": "Generelle Saldoverbesserung",
+            "detail": true,
+            "revenue": {
+                "budgets": {
+                    "2014": 5000000.0,
+                    "2015": 5000000.0,
+                    "2016": 5000000.0,
+                    "2017": 5000000.0
+                }
+            }
+        }
     }
 }

@@ -86,7 +86,7 @@
     "children": [{
         "id": "justiz_generelle-saldoverbesserung",
         "name": "Generelle Saldoverbesserung",
-        "detail": false,
+        "detail": true,
         "revenue": {
             "budgets": {
                 "2014": 5000000.0,
@@ -485,7 +485,7 @@
     }, {
         "id": "justiz-gemeinde-und-kirchen_kranken-und-unfallversicherung-k-rzungen-bei-der-pr-mienverbilligung",
         "name": "Kranken- und Unfallversicherung: Kürzungen bei der Prämienverbilligung",
-        "detail": false,
+        "detail": true,
         "revenue": {
             "budgets": {
                 "2014": 20000000.0,
