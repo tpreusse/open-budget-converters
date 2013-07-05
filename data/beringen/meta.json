@@ -1,0 +1,12 @@
+{
+    "hierarchy": ["Departement", "Dienstabteilung", "Code"],
+    "page_title": "Gemeinde Beringen - Laufende Rechnung 2013",
+    "h1": "Gemeinde Beringen",
+    "h2": "Verwaltungsrechnung Budget 2013\nLaufende Rechnung",
+    "description": "Die Ausgaben und Einnahmen des Budgets Gemeinde Beringen 2013 sind in Kreisen visualisiert. Spielerisch und einfach zu verstehen.",
+    "data_link": "http://www.beringen.ch/Portrait/Lage+_+Zahlen+_+Fakten/index.htm",
+    "data_title": "Offizielles Budget-PDF",
+    "html_class": "blue",
+    "gross_cost_label": "Aufwand",
+    "revenue_label": "Ertrag"
+}
