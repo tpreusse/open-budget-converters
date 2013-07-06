@@ -11,10 +11,12 @@
     "data": [
         {
             "name": "Topf 1",
+            "description": "Von der Regierung empfohlene Massnahmen",
             "url": "data/be-asp/topf-1.json"
         },
         {
             "name": "Topf 2",
+            "description": "Von der Regierung nicht empfohlene Massnahmen",
             "url": "data/be-asp/topf-2.json"
         }
     ]
