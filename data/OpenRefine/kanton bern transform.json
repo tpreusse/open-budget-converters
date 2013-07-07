@@ -1,0 +1,76 @@
+[
+  {
+    "op": "core/column-addition",
+    "description": "Create column ID at index 3 based on column Produktgruppe (z.T. gekürzte Bezeichnung) using expression grel:row.index",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "ID",
+    "columnInsertIndex": 3,
+    "baseColumnName": "Produktgruppe (z.T. gekürzte Bezeichnung)",
+    "expression": "grel:row.index",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column 2012 at index 3 based on column Produktgruppe (z.T. gekürzte Bezeichnung) using expression grel:2012",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "2012",
+    "columnInsertIndex": 3,
+    "baseColumnName": "Produktgruppe (z.T. gekürzte Bezeichnung)",
+    "expression": "grel:2012",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Produktgruppe (z.T. gekürzte Bezeichnung) to Produktgruppe",
+    "oldColumnName": "Produktgruppe (z.T. gekürzte Bezeichnung)",
+    "newColumnName": "Produktgruppe"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Rechnung 2012\nKosten\n(inkl. Kosten Staatsbeiträge) to Rechnung 2012 Kosten inkl Staatsbeitraege",
+    "oldColumnName": "Rechnung 2012\nKosten\n(inkl. Kosten Staatsbeiträge)",
+    "newColumnName": "Rechnung 2012 Kosten inkl Staatsbeitraege"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Rechnung 2012\nErlöse\n(inkl. Erlöse Staatsbeiträge und fiskalische Erlöse und Bussen) to Rechnung 2012 Erlöse inkl Staatsbeitraege und fiskalische Erloese und Bussen",
+    "oldColumnName": "Rechnung 2012\nErlöse\n(inkl. Erlöse Staatsbeiträge und fiskalische Erlöse und Bussen)",
+    "newColumnName": "Rechnung 2012 Erlöse inkl Staatsbeitraege und fiskalische Erloese und Bussen"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Voranschlag 2012\nKosten\n(inkl. Kosten Staatsbeiträge) to Voranschlag 2012 Kosten inkl Staatsbeitraege",
+    "oldColumnName": "Voranschlag 2012\nKosten\n(inkl. Kosten Staatsbeiträge)",
+    "newColumnName": "Voranschlag 2012 Kosten inkl Staatsbeitraege"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Voranschlag 2012\nErlöse\n(inkl. Erlöse Staatsbeiträge und fiskalische Erlöse und Bussen) to Voranschlag 2012 Erlöse inkl Staatsbeiträge und fiskalische Erlöse und Bussen",
+    "oldColumnName": "Voranschlag 2012\nErlöse\n(inkl. Erlöse Staatsbeiträge und fiskalische Erlöse und Bussen)",
+    "newColumnName": "Voranschlag 2012 Erlöse inkl Staatsbeiträge und fiskalische Erlöse und Bussen"
+  },
+  {
+    "op": "core/row-star",
+    "description": "Star rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "query": "..",
+          "name": "Funktionale Gliederung",
+          "caseSensitive": false,
+          "columnName": "Funktionale Gliederung",
+          "type": "text",
+          "mode": "regex"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "starred": true
+  }
+]
