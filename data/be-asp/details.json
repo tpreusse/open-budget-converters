@@ -1337,29 +1337,45 @@
             }
         }
     },
-    "justiz-gemeinde-und-kirchen_kranken-und-unfallversicherung-zus-tzliche-k-rzungen-bei-der-pr-mien-verbilligung": {
+    "justiz-gemeinde-und-kirchen_kranken-und-unfallversicherung-k-rzungen-bei-der-pr-mienverbilligung": {
         "Aufgabenfeld": "Kranken- und Unfallversicherung",
-        "Kurzbeschrieb": "Vgl. allg. Bemerkungen zu diesem Aufgabenfeld, Anhang 1 sowie Sparvorschlag 10.1, Anhang 2. Eine weitere Kürzung um CHF 59 Millionen, resp. CHF 44 Millionen (zur Erreichung des technischen Sparpotenzials) würde dazu führen, dass praktisch der gesamte Kantonsanteil eliminiert würde. Dies kann sich der Kanton Bern aus Sicht des Regierungsrates nicht erlauben. Zudem hätte eine solche Kürzung sicher auch Auswirkungen in nicht bekanntem Masse auf die Sozialhilfequote.",
+        "Kurzbeschrieb": "Per 1.1.2013 wurden bereits Sparmassnahmen im Umfang von rund CHF 20 Millionen umgesetzt. Dies hatte Kürzungen der Prämienverbilligungsbeiträge sowie die Verkleinerung von Berechtigungsklassen zur Folge. Im Vergleich zu 2012 erhalten rund 20'000 Personen tiefere Prämienverbilligungsbeiträge. Mit den zusätzlichen Sparmassnahmen per 1.1.2014 werden rund 30'000 Personen keine Prämienverbilligung mehr erhalten. Per 1.1.2015 muss der Bezügerkreis um weitere rund 30'000 Personen reduziert werden.\n\nAngesichts des grossen Spardrucks in allen Bereichen erachtet der Regierungsrat diese Massnahme als schmerzhafte, aber unausweichliche Sparmassnahme.",
         "Auswirkungen": {
-            "Finanzielle": null,
-            "Gemeinden": null,
-            "Vollzeitstellen": null
+            "Finanzielle": {
+                "2014": "20.000",
+                "2015": "35.000",
+                "2017": "35.000",
+                "2016": "35.000"
+            },
+            "Gemeinden": {
+                "2015": "0.000",
+                "2014": "0.000",
+                "2017": "0.000",
+                "2016": "0.000"
+            },
+            "Vollzeitstellen": {
+                "2015": "0.0",
+                "2014": "0.0",
+                "2017": "0.0",
+                "2016": "0.0"
+            }
         },
         "Direktion": "Justiz-, Gemeinde- und Kirchendirektion",
         "Nr": "10.1",
-        "Massnahme": "Zusätzliche Kürzungen im Bereich Prämienverbilligung",
-        "Rechtsgrundlage": "Gesetz betreffend die Einführung der Bundesgesetze über die Kranken-, die Unfall- und die Militärversicherung (EG KUMV) Kantonale Krankenversicherungsverordnung (KKVV)",
+        "Massnahme": "Kürzungen im Bereich Prämienverbilligung",
+        "Rechtsgrundlage": "Gesetz betreffend die Einführung der Bundesgesetze über die Kranken-, die Unfall- und die Militärversicherung (EG KUMV)\n\nKantonale Krankenversicherungsverordnung (KKVV)",
+        "Id": "justiz-gemeinde-und-kirchen_kranken-und-unfallversicherung-k-rzungen-bei-der-pr-mienverbilligung",
         "node": {
-            "id": "justiz-gemeinde-und-kirchen_kranken-und-unfallversicherung-zus-tzliche-k-rzungen-bei-der-pr-mien-verbilligung",
-            "name": "Kranken und Unfallversicherung: Zusätzliche Kürzungen bei der Prämien-\nverbilligung",
+            "id": "justiz-gemeinde-und-kirchen_kranken-und-unfallversicherung-k-rzungen-bei-der-pr-mienverbilligung",
+            "name": "Kranken- und Unfallversicherung: Kürzungen bei der Prämienverbilligung",
             "detail": true,
             "short_name": "10.1",
             "revenue": {
                 "budgets": {
-                    "2014": 59000000.0,
-                    "2015": 44000000.0,
-                    "2016": 44000000.0,
-                    "2017": 44000000.0
+                    "2014": 20000000.0,
+                    "2015": 35000000.0,
+                    "2016": 35000000.0,
+                    "2017": 35000000.0
                 },
                 "positions": {
                     "2014": 0.0,
@@ -1610,7 +1626,7 @@
             }
         }
     },
-    "finanzen_steuerverwaltung-verzicht-auf-dienstleistungen-dritter-im-kommunikationsbereich": {
+    "finanzen_steuerverwaltung-verzicht-auf-taxme-cd-und-steuererkl-rungsformulare": {
         "Aufgabenfeld": "Finanz- und Steuerverwaltung",
         "Kurzbeschrieb": "Auf die Produktion der TaxMe-CD wird verzichtet. Es wird nur noch eine Downloadversion im Internet angeboten. Die Steuerpflichtigen, welche die Steuererklärung bisher mit der TaxMe-CD ausgefüllt haben, erhalten keine Steuererklärungsformulare mehr. TaxMe-Online wird weiterhin in gleichem Mass angeboten. Die Reduktion des Dienstleistungsangebots ist vertretbar, da Alternativen bestehen.",
         "Auswirkungen": {
@@ -1638,16 +1654,16 @@
         "Massnahme": "Steuerverwaltung: Verzicht auf TaxMe-CD und Steuererklärungsformulare",
         "Rechtsgrundlage": "keine",
         "node": {
-            "id": "finanzen_steuerverwaltung-verzicht-auf-dienstleistungen-dritter-im-kommunikationsbereich",
-            "name": "Steuerverwaltung: Verzicht auf Dienstleistungen Dritter im\nKommunikationsbereich",
+            "id": "finanzen_steuerverwaltung-verzicht-auf-taxme-cd-und-steuererkl-rungsformulare",
+            "name": "Steuerverwaltung: Verzicht auf Taxme-CD und\nSteuererklärungsformulare",
             "detail": true,
             "short_name": "14.5",
             "revenue": {
                 "budgets": {
-                    "2014": 40000.0,
-                    "2015": 40000.0,
-                    "2016": 40000.0,
-                    "2017": 40000.0
+                    "2014": 80000.0,
+                    "2015": 80000.0,
+                    "2016": 80000.0,
+                    "2017": 80000.0
                 },
                 "positions": {
                     "2014": 0.0,
@@ -1658,7 +1674,7 @@
             }
         }
     },
-    "finanzen_steuerverwaltung-verzicht-auf-taxme-cd-und-steuererkl-rungsformulare": {
+    "finanzen_steuerverwaltung-verzicht-auf-dienstleistungen-dritter-im-kommunikationsbereich": {
         "Aufgabenfeld": "Finanz- und Steuerverwaltung",
         "Kurzbeschrieb": "Die neuen Newsletter für spezielle Kundengruppen wie juristische Personen, Treuhänder oder quellensteuerpflichtige Arbeitgeber werden nicht erstellt. Verzicht auf den Aufbau dieses Kommunikationskanals für spezielle Kundengruppen. Organisatorische Massnahme im Kompetenzbereich der Steuerverwaltung.",
         "Auswirkungen": {
@@ -1686,16 +1702,16 @@
         "Massnahme": "Steuerverwaltung: Verzicht auf Dienstleistungen Dritter im Kommunikationsbereich",
         "Rechtsgrundlage": "keine",
         "node": {
-            "id": "finanzen_steuerverwaltung-verzicht-auf-taxme-cd-und-steuererkl-rungsformulare",
-            "name": "Steuerverwaltung: Verzicht auf Taxme-CD und\nSteuererklärungsformulare",
+            "id": "finanzen_steuerverwaltung-verzicht-auf-dienstleistungen-dritter-im-kommunikationsbereich",
+            "name": "Steuerverwaltung: Verzicht auf Dienstleistungen Dritter im\nKommunikationsbereich",
             "detail": true,
             "short_name": "14.6",
             "revenue": {
                 "budgets": {
-                    "2014": 80000.0,
-                    "2015": 80000.0,
-                    "2016": 80000.0,
-                    "2017": 80000.0
+                    "2014": 40000.0,
+                    "2015": 40000.0,
+                    "2016": 40000.0,
+                    "2017": 40000.0
                 },
                 "positions": {
                     "2014": 0.0,
@@ -1994,7 +2010,7 @@
             }
         }
     },
-    "finanzen_reduktion-der-mittel-f-r-den-ausbau-des-kantonalen-weitbereichsnetzwerks-bewan": {
+    "finanzen_verzicht-auf-koordination-der-gever-anwendung-im-informatikbereich": {
         "Aufgabenfeld": "Finanz- und Steuerverwaltung",
         "Kurzbeschrieb": "Die Mittel für die durch das KAIO geplante kantonsweite Koordination der im Einsatz stehenden GEVER-Anwendungen für die Bearbeitung von Regierungsgeschäften (Geschäftsverwaltung Konsul) werden gestrichen. Die Betreuung der entsprechenden Anwendungen verbleibt damit weiterhin bei den Direktionen und der Staatskanzlei, auf eine Koordination wird verzichtet.",
         "Auswirkungen": {
@@ -2022,16 +2038,16 @@
         "Massnahme": "Amt für Informatik und Organisation (KAIO): Verzicht auf Koordination der GEVER-Anwendungen (Konsul)",
         "Rechtsgrundlage": "keine",
         "node": {
-            "id": "finanzen_reduktion-der-mittel-f-r-den-ausbau-des-kantonalen-weitbereichsnetzwerks-bewan",
-            "name": "Reduktion der Mittel für den Ausbau des kantonalen\nWeitbereichsnetzwerks BEWAN",
+            "id": "finanzen_verzicht-auf-koordination-der-gever-anwendung-im-informatikbereich",
+            "name": "Verzicht auf Koordination der GEVER-Anwendung im Informatikbereich",
             "detail": true,
             "short_name": "14.13",
             "revenue": {
                 "budgets": {
-                    "2014": 1440000.0,
-                    "2015": 1440000.0,
-                    "2016": 1440000.0,
-                    "2017": 1440000.0
+                    "2014": 340000.0,
+                    "2015": 380000.0,
+                    "2016": 430000.0,
+                    "2017": 480000.0
                 },
                 "positions": {
                     "2014": 0.0,
@@ -2042,7 +2058,7 @@
             }
         }
     },
-    "finanzen_verzicht-auf-koordination-der-gever-anwendung-im-informatikbereich": {
+    "finanzen_reduktion-der-mittel-f-r-den-ausbau-des-kantonalen-weitbereichsnetzwerks-bewan": {
         "Aufgabenfeld": "Finanz- und Steuerverwaltung",
         "Kurzbeschrieb": "Die Mittel für Änderungen, Weiterentwicklungen und Projekte des kantonalen Weitbereichsnetzes BEWAN werden erheblich reduziert. Durch die dazu notwendige noch stärkere Priorisierung und Etappierung sind Verzögerungen bei notwendigen Vorhaben der Direktionen und der Staatkanzlei zu erwarten, müssen jedoch angesichts der schwierigen finanziellen Situation in Kauf genommen werden.",
         "Auswirkungen": {
@@ -2070,16 +2086,16 @@
         "Massnahme": "Amt für Informatik und Organisation (KAIO): Reduktion der Mit-tel für den BEWAN-Ausbau",
         "Rechtsgrundlage": "keine",
         "node": {
-            "id": "finanzen_verzicht-auf-koordination-der-gever-anwendung-im-informatikbereich",
-            "name": "Verzicht auf Koordination der GEVER-Anwendung im Informatikbereich",
+            "id": "finanzen_reduktion-der-mittel-f-r-den-ausbau-des-kantonalen-weitbereichsnetzwerks-bewan",
+            "name": "Reduktion der Mittel für den Ausbau des kantonalen\nWeitbereichsnetzwerks BEWAN",
             "detail": true,
             "short_name": "14.14",
             "revenue": {
                 "budgets": {
-                    "2014": 340000.0,
-                    "2015": 380000.0,
-                    "2016": 430000.0,
-                    "2017": 480000.0
+                    "2014": 1440000.0,
+                    "2015": 1440000.0,
+                    "2016": 1440000.0,
+                    "2017": 1440000.0
                 },
                 "positions": {
                     "2014": 0.0,
@@ -3884,54 +3900,6 @@
             }
         }
     },
-    "gesundheit-und-f-rsorge_streichung-der-mitfinanzierung-des-aufenthaltes-von-personen-die-keine-spitalpflege-in-einer-psychiatrischen-klinik-mehr-brauchen": {
-        "Aufgabenfeld": "Psychiatrieversorgung",
-        "Kurzbeschrieb": "Die Angebots- und Strukturanpassung besteht in einer kompletten Streichung der Mitfinanzierung von Aufenthalts- und Infrastrukturkosten für nicht mehr spitalbedürftige Personen. Der Kantonsanteil an die Pflegekosten würde dabei nach wie vor entsprechend der jeweiligen Pflegestufe entrichtet. Die Umsetzung der Massnahme verlangt strukturelle Anpassung, welche nur langfristig realisierbar sind.",
-        "Auswirkungen": {
-            "Finanzielle": {
-                "2015": "6.572",
-                "2014": "6.572",
-                "2017": "6.572",
-                "2016": "6.572"
-            },
-            "Gemeinden": {
-                "2015": "0.000",
-                "2014": "0.000",
-                "2017": "0.000",
-                "2016": "0.000"
-            },
-            "Vollzeitstellen": {
-                "2015": "45.0",
-                "2014": "45.0",
-                "2017": "45.0",
-                "2016": "45.0"
-            }
-        },
-        "Direktion": "Gesundheits- und Fürsorgedirektion",
-        "Nr": "5.4",
-        "Massnahme": "Streichung der Mitfinanzierung des Aufenthaltes nicht mehr spitalbedürftiger Personen",
-        "Rechtsgrundlage": "keine",
-        "node": {
-            "id": "gesundheit-und-f-rsorge_streichung-der-mitfinanzierung-des-aufenthaltes-von-personen-die-keine-spitalpflege-in-einer-psychiatrischen-klinik-mehr-brauchen",
-            "name": "Streichung der Mitfinanzierung des Aufenthaltes von Personen, die keine\nSpitalpflege in einer psychiatrischen Klinik mehr brauchen",
-            "detail": true,
-            "short_name": "5.4",
-            "revenue": {
-                "budgets": {
-                    "2014": 6570000.0,
-                    "2015": 6570000.0,
-                    "2016": 6570000.0,
-                    "2017": 6570000.0
-                },
-                "positions": {
-                    "2014": 72.0,
-                    "2015": 72.0,
-                    "2016": 72.0,
-                    "2017": 72.0
-                }
-            }
-        }
-    },
     "gesundheit-und-f-rsorge_erh-hung-der-patientenbeteiligung-auf-maximalansatz-f-r-alle-personen-die-lter-als-65-jahre-sind": {
         "Aufgabenfeld": "Übriges Gesundheitswesen",
         "Kurzbeschrieb": "Gemäss Artikel 25a Absatz 5 KVG bzw. Artikel 25d SHV beteiligen sich die Leistungsempfänger/innen an den Pflegekosten. Ihnen dürfen von den nicht von Sozialversicherungen gedeckten Pflegekosten höchstens 20% des höchsten vom Bundesrat festgesetzten Pflegebeitrages überwälzt werden: CHF 15.95 pro Tag.  Die gegenwärtigen gesetzlichen Grundlagen sehen eine Kostenbeteiligung nur für Spitex-Klienten/innen vor, die sowohl das 65. Altersjahr vollendet haben als auch über ein massgebendes Jahreseinkommen von CHF 50‘000 verfügen. Mit der Erhöhung der Kostenbeteiligung Pflege auf den Maximalansatz werden neu auch die über 65-jährige Patienten/innen mit massgebendem Jahreseinkommen unter CHF 50‘000 zusätzlich finanziell belastet.",
@@ -4204,6 +4172,33 @@
                     "2015": 0.0,
                     "2016": 0.0,
                     "2017": 0.0
+                }
+            }
+        }
+    },
+    "justiz-gemeinde-und-kirchen_kranken-und-unfallversicherung-zus-tzliche-k-rzungen-bei-der-pr-mien-verbilligung": {
+        "Aufgabenfeld": "Kranken- und Unfallversicherung",
+        "Kurzbeschrieb": "Vgl. allg. Bemerkungen zu diesem Aufgabenfeld, Anhang 1 sowie Sparvorschlag 10.1, Anhang 2. Eine weitere Kürzung um CHF 59 Millionen, resp. CHF 44 Millionen (zur Erreichung des technischen Sparpotenzials) würde dazu führen, dass praktisch der gesamte Kantonsanteil eliminiert würde. Dies kann sich der Kanton Bern aus Sicht des Regierungsrates nicht erlauben. Zudem hätte eine solche Kürzung sicher auch Auswirkungen in nicht bekanntem Masse auf die Sozialhilfequote.",
+        "Auswirkungen": {
+            "Finanzielle": null,
+            "Gemeinden": null,
+            "Vollzeitstellen": null
+        },
+        "Direktion": "Justiz-, Gemeinde- und Kirchendirektion",
+        "Nr": "10.1",
+        "Massnahme": "Zusätzliche Kürzungen im Bereich Prämienverbilligung",
+        "Rechtsgrundlage": "Gesetz betreffend die Einführung der Bundesgesetze über die Kranken-, die Unfall- und die Militärversicherung (EG KUMV) Kantonale Krankenversicherungsverordnung (KKVV)",
+        "node": {
+            "id": "justiz-gemeinde-und-kirchen_kranken-und-unfallversicherung-zus-tzliche-k-rzungen-bei-der-pr-mien-verbilligung",
+            "name": "Kranken und Unfallversicherung: Zusätzliche Kürzungen bei der Prämien-\nverbilligung",
+            "detail": true,
+            "short_name": "10.1",
+            "revenue": {
+                "budgets": {
+                    "2014": 59000000.0,
+                    "2015": 44000000.0,
+                    "2016": 44000000.0,
+                    "2017": 44000000.0
                 }
             }
         }
@@ -4866,55 +4861,6 @@
                     "2015": 20000000.0,
                     "2016": 30000000.0,
                     "2017": 30000000.0
-                }
-            }
-        }
-    },
-    "justiz-gemeinde-und-kirchen_kranken-und-unfallversicherung-k-rzungen-bei-der-pr-mienverbilligung": {
-        "Aufgabenfeld": "Kranken- und Unfallversicherung",
-        "Kurzbeschrieb": "Per 1.1.2013 wurden bereits Sparmassnahmen im Umfang von rund CHF 20 Millionen umgesetzt. Dies hatte Kürzungen der Prämienverbilligungsbeiträge sowie die Verkleinerung von Berechtigungsklassen zur Folge. Im Vergleich zu 2012 erhalten rund 20'000 Personen tiefere Prämienverbilligungsbeiträge. Mit den zusätzlichen Sparmassnahmen per 1.1.2014 werden rund 30'000 Personen keine Prämienverbilligung mehr erhalten. Per 1.1.2015 muss der Bezügerkreis um weitere rund 30'000 Personen reduziert werden.\n\nAngesichts des grossen Spardrucks in allen Bereichen erachtet der Regierungsrat diese Massnahme als schmerzhafte, aber unausweichliche Sparmassnahme.",
-        "Auswirkungen": {
-            "Finanzielle": {
-                "2014": "20.000",
-                "2015": "35.000",
-                "2017": "35.000",
-                "2016": "35.000"
-            },
-            "Gemeinden": {
-                "2015": "0.000",
-                "2014": "0.000",
-                "2017": "0.000",
-                "2016": "0.000"
-            },
-            "Vollzeitstellen": {
-                "2015": "0.0",
-                "2014": "0.0",
-                "2017": "0.0",
-                "2016": "0.0"
-            }
-        },
-        "Direktion": "Justiz-, Gemeinde- und Kirchendirektion",
-        "Nr": "10.1",
-        "Massnahme": "Kürzungen im Bereich Prämienverbilligung",
-        "Rechtsgrundlage": "Gesetz betreffend die Einführung der Bundesgesetze über die Kranken-, die Unfall- und die Militärversicherung (EG KUMV)\n\nKantonale Krankenversicherungsverordnung (KKVV)",
-        "Id": "justiz-gemeinde-und-kirchen_kranken-und-unfallversicherung-k-rzungen-bei-der-pr-mienverbilligung",
-        "node": {
-            "id": "justiz-gemeinde-und-kirchen_kranken-und-unfallversicherung-k-rzungen-bei-der-pr-mienverbilligung",
-            "name": "Kranken- und Unfallversicherung: Kürzungen bei der Prämienverbilligung",
-            "detail": true,
-            "short_name": "10.1",
-            "revenue": {
-                "budgets": {
-                    "2014": 20000000.0,
-                    "2015": 35000000.0,
-                    "2016": 35000000.0,
-                    "2017": 35000000.0
-                },
-                "positions": {
-                    "2014": 0.0,
-                    "2015": 0.0,
-                    "2016": 0.0,
-                    "2017": 0.0
                 }
             }
         }

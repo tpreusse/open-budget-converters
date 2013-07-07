@@ -81,7 +81,7 @@ namespace :cantonbe do
     CSV.foreach('source/cantonbe/asp/massnahmen_matching.csv', :headers => true, :header_converters => :symbol) do |row|
       next unless row[:nr].present?
 
-      nr_to_id_path[row[:nr]] = topf1.cantonbe_names_to_ids [
+      nr_to_id_path["topf#{row[:topf]}_#{row[:nr]}"] = topf1.cantonbe_names_to_ids [
         row[:overview_dir],
         row[:overview_action]
       ]
@@ -90,7 +90,16 @@ namespace :cantonbe do
     massnahmen = JSON.parse File.read('source/cantonbe/asp/massnahmen.json')
     massnahmen.each do |massnahme|
       # puts "\"#{massnahme['Direktion']}\",\"#{massnahme['Massnahme']}\",#{massnahme['Nr']}"
-      id_path = nr_to_id_path[massnahme['Nr']]
+
+      if massnahme['Nr'] == '10.1'
+        if massnahme['Massnahme'].include? "Zusätzliche"
+          id_path = nr_to_id_path["topf2_#{massnahme['Nr']}"]
+        else
+          id_path = nr_to_id_path["topf1_#{massnahme['Nr']}"]
+        end
+      else
+        id_path = nr_to_id_path["topf1_#{massnahme['Nr']}"] || nr_to_id_path["topf2_#{massnahme['Nr']}"]
+      end
       unless id_path
         puts "detail nr missing in matching file #{massnahme['Nr']}"
         next
@@ -100,7 +109,7 @@ namespace :cantonbe do
       unless node
         puts "detail not found: #{id_path}"
       else
-        puts "detail found: #{id_path}"
+        # puts "detail found: #{id_path}"
         node.detail = true
         node.short_name = massnahme['Nr']
         if massnahme['Auswirkungen'].present? && massnahme['Auswirkungen']['Vollzeitstellen'].present?
@@ -111,6 +120,20 @@ namespace :cantonbe do
             end
           end
         end
+
+        if massnahme['Auswirkungen'].present? && massnahme['Auswirkungen']['Finanzielle'].present?
+          [2014, 2015, 2016, 2017].each do |year|
+            val = massnahme['Auswirkungen']['Finanzielle'][year.to_s].to_f * (10 ** 6)
+            node_val = node.revenue.accounts['budgets'][year]
+            if node_val != val
+              puts "---"
+              puts "detected irregularity"
+              puts "#{massnahme['Nr']} #{node.id} #{year}"
+              puts "#{val} vs #{node_val} (detail vs overivew)"
+            end
+          end
+        end
+
         massnahme['node'] = node.as_hash_without_children
         details[node.id] = massnahme
       end

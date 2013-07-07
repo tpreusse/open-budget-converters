@@ -805,7 +805,7 @@
         "id": "finanzen_steuerverwaltung-verzicht-auf-dienstleistungen-dritter-im-kommunikationsbereich",
         "name": "Steuerverwaltung: Verzicht auf Dienstleistungen Dritter im\nKommunikationsbereich",
         "detail": true,
-        "short_name": "14.5",
+        "short_name": "14.6",
         "revenue": {
             "budgets": {
                 "2014": 40000.0,
@@ -824,7 +824,7 @@
         "id": "finanzen_steuerverwaltung-verzicht-auf-taxme-cd-und-steuererkl-rungsformulare",
         "name": "Steuerverwaltung: Verzicht auf Taxme-CD und\nSteuererklärungsformulare",
         "detail": true,
-        "short_name": "14.6",
+        "short_name": "14.5",
         "revenue": {
             "budgets": {
                 "2014": 80000.0,
@@ -957,7 +957,7 @@
         "id": "finanzen_reduktion-der-mittel-f-r-den-ausbau-des-kantonalen-weitbereichsnetzwerks-bewan",
         "name": "Reduktion der Mittel für den Ausbau des kantonalen\nWeitbereichsnetzwerks BEWAN",
         "detail": true,
-        "short_name": "14.13",
+        "short_name": "14.14",
         "revenue": {
             "budgets": {
                 "2014": 1440000.0,
@@ -976,7 +976,7 @@
         "id": "finanzen_verzicht-auf-koordination-der-gever-anwendung-im-informatikbereich",
         "name": "Verzicht auf Koordination der GEVER-Anwendung im Informatikbereich",
         "detail": true,
-        "short_name": "14.14",
+        "short_name": "14.13",
         "revenue": {
             "budgets": {
                 "2014": 340000.0,

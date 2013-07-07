@@ -47,10 +47,10 @@
             "2017": 50730000.0
         },
         "positions": {
-            "2014": 160.0,
-            "2015": 160.0,
-            "2016": 160.0,
-            "2017": 160.0
+            "2014": 88.0,
+            "2015": 88.0,
+            "2016": 88.0,
+            "2017": 88.0
         }
     },
     "children": [{
@@ -142,20 +142,13 @@
     }, {
         "id": "gesundheit-und-f-rsorge_streichung-der-mitfinanzierung-des-aufenthaltes-von-personen-die-keine-spitalpflege-in-einer-psychiatrischen-klinik-mehr-brauchen",
         "name": "Streichung der Mitfinanzierung des Aufenthaltes von Personen, die keine\nSpitalpflege in einer psychiatrischen Klinik mehr brauchen",
-        "detail": true,
-        "short_name": "5.4",
+        "detail": false,
         "revenue": {
             "budgets": {
                 "2014": 6570000.0,
                 "2015": 6570000.0,
                 "2016": 6570000.0,
                 "2017": 6570000.0
-            },
-            "positions": {
-                "2014": 72.0,
-                "2015": 72.0,
-                "2016": 72.0,
-                "2017": 72.0
             }
         }
     }, {
@@ -290,12 +283,6 @@
                 "2015": 44000000.0,
                 "2016": 44000000.0,
                 "2017": 44000000.0
-            },
-            "positions": {
-                "2014": 0.0,
-                "2015": 0.0,
-                "2016": 0.0,
-                "2017": 0.0
             }
         }
     }]
