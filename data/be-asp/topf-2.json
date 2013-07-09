@@ -47,10 +47,10 @@
             "2017": 50730000.0
         },
         "positions": {
-            "2014": 88.0,
-            "2015": 88.0,
-            "2016": 88.0,
-            "2017": 88.0
+            "2014": 160.0,
+            "2015": 160.0,
+            "2016": 160.0,
+            "2017": 160.0
         }
     },
     "children": [{
@@ -94,7 +94,8 @@
     }, {
         "id": "gesundheit-und-f-rsorge_anschubfinanzierung-ambulante-und-tagesklinische-psychiatrie",
         "name": "Anschubfinanzierung ambulante und tagesklinische Psychiatrie",
-        "detail": false,
+        "detail": true,
+        "short_name": "5.4b",
         "revenue": {
             "budgets": {
                 "2014": 5500000.0,
@@ -106,7 +107,8 @@
     }, {
         "id": "gesundheit-und-f-rsorge_streichung-der-mitfinanzierung-von-modellprojekten-in-der-psychiatrie",
         "name": "Streichung der Mitfinanzierung von Modellprojekten in der Psychiatrie",
-        "detail": false,
+        "detail": true,
+        "short_name": "5.4c",
         "revenue": {
             "budgets": {
                 "2014": 1440000.0,
@@ -118,37 +120,58 @@
     }, {
         "id": "gesundheit-und-f-rsorge_k-rzung-der-bev-lkerungsbezogenen-pro-kopf-pauschale-in-der-psychiatrie",
         "name": "Kürzung der bevölkerungsbezogenen Pro-Kopf-Pauschale in der Psychiatrie",
-        "detail": false,
+        "detail": true,
+        "short_name": "5.4d",
         "revenue": {
             "budgets": {
                 "2014": 990000.0,
                 "2015": 1970000.0,
                 "2016": 1970000.0,
                 "2017": 1970000.0
+            },
+            "positions": {
+                "2014": 15.0,
+                "2015": 15.0,
+                "2016": 15.0,
+                "2017": 15.0
             }
         }
     }, {
         "id": "gesundheit-und-f-rsorge_k-rzung-der-pauschalabgeltung-f-r-tagesklinische-leistungen",
         "name": "Kürzung der Pauschalabgeltung für tagesklinische Leistungen",
-        "detail": false,
+        "detail": true,
+        "short_name": "5.4e",
         "revenue": {
             "budgets": {
                 "2014": 820000.0,
                 "2015": 1640000.0,
                 "2016": 1640000.0,
                 "2017": 1640000.0
+            },
+            "positions": {
+                "2014": 12.0,
+                "2015": 12.0,
+                "2016": 12.0,
+                "2017": 12.0
             }
         }
     }, {
         "id": "gesundheit-und-f-rsorge_streichung-der-mitfinanzierung-des-aufenthaltes-von-personen-die-keine-spitalpflege-in-einer-psychiatrischen-klinik-mehr-brauchen",
         "name": "Streichung der Mitfinanzierung des Aufenthaltes von Personen, die keine\nSpitalpflege in einer psychiatrischen Klinik mehr brauchen",
-        "detail": false,
+        "detail": true,
+        "short_name": "5.4f",
         "revenue": {
             "budgets": {
                 "2014": 6570000.0,
                 "2015": 6570000.0,
                 "2016": 6570000.0,
                 "2017": 6570000.0
+            },
+            "positions": {
+                "2014": 45.0,
+                "2015": 45.0,
+                "2016": 45.0,
+                "2017": 45.0
             }
         }
     }, {
@@ -299,8 +322,8 @@
         },
         "positions": {
             "2014": 142.0,
-            "2015": 353.0,
-            "2016": 394.0,
+            "2015": 349.0,
+            "2016": 398.0,
             "2017": 430.0
         }
     },
@@ -413,8 +436,8 @@
             },
             "positions": {
                 "2014": 2.0,
-                "2015": 8.0,
-                "2016": 4.0,
+                "2015": 4.0,
+                "2016": 8.0,
                 "2017": 20.0
             }
         }

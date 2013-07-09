@@ -132,6 +132,10 @@ namespace :cantonbe do
               puts "#{val} vs #{node_val} (detail vs overivew)"
             end
           end
+        else
+          puts "---"
+          puts "missing Auswirkungen"
+          puts "#{massnahme['Nr']} #{node.id}"
         end
 
         massnahme['node'] = node.as_hash_without_children
