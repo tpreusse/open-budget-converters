@@ -55,9 +55,9 @@ namespace :cantonbe do
     puts "start processing"
     budget = OpenBudget::Budget.new
 
-    budget.load_meta 'data/cantonbe/meta.json'
+    budget.load_meta 'data/be/meta.json'
     budget.load_cantonbe_csv 'source/cantonbe/Kanton BE_Produkgruppen_DB IV nach DIR_2011.csv'
-    budget.load_cantonbe_csv 'source/cantonbe/Kanton BE_Produkgruppen_DB IV nach DIR_2012.csv'
+    budget.load_cantonbe_csv 'source/cantonbe/Kanton BE_Produkgruppen_DB IV nach DIR_2012_Werte in 1000.csv', exponent: 3, clear_comma: true
 
     File.open("data/be/data.json", 'wb') do |file|
       file.write budget.to_json

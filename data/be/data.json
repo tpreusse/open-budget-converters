@@ -1,343 +1,358 @@
 [{
     "id": "volkswirtschaftsdirektion",
     "name": "Volkswirtschaftsdirektion",
+    "detail": false,
     "gross_cost": {
         "accounts": {
             "2011": 223100000.0,
-            "2012": 212400000.0
+            "2012": 212322000.0
         },
         "budgets": {
             "2011": 235300000.0,
-            "2012": 231200000.0
+            "2012": 231257000.0
         }
     },
     "revenue": {
         "accounts": {
             "2011": 74600000.0,
-            "2012": 72300000.0
+            "2012": 72426000.0
         },
         "budgets": {
             "2011": 69000000.0,
-            "2012": 70200000.0
+            "2012": 70116000.0
         }
     },
     "children": [{
         "id": "volkswirtschaftsdirektion_arbeitslosenversicherung",
         "name": "Arbeitslosenversicherung",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 18400000.0,
-                "2012": 17500000.0
+                "2012": 17526000.0
             },
             "budgets": {
                 "2011": 21400000.0,
-                "2012": 20300000.0
+                "2012": 20275000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 2500000.0,
-                "2012": 2400000.0
+                "2012": 2380000.0
             },
             "budgets": {
                 "2011": 1800000.0,
-                "2012": 1800000.0
+                "2012": 1768000.0
             }
         }
     }, {
-        "id": "volkswirtschaftsdirektion_schutz_vor_naturgefahren",
+        "id": "volkswirtschaftsdirektion_schutz-vor-naturgefahren",
         "name": "Schutz vor Naturgefahren",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 5600000.0,
-                "2012": 5200000.0
+                "2012": 5154000.0
             },
             "budgets": {
                 "2011": 6600000.0,
-                "2012": 6000000.0
+                "2012": 6019000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 1800000.0,
-                "2012": 1500000.0
+                "2012": 1527000.0
             },
             "budgets": {
                 "2011": 1500000.0,
-                "2012": 1400000.0
+                "2012": 1394000.0
             }
         }
     }, {
         "id": "volkswirtschaftsdirektion_immissionsschutz",
         "name": "Immissionsschutz",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 5800000.0,
-                "2012": 5000000.0
+                "2012": 4962000.0
             },
             "budgets": {
                 "2011": 5700000.0,
-                "2012": 5400000.0
+                "2012": 5424000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 1900000.0,
-                "2012": 1700000.0
+                "2012": 1692000.0
             },
             "budgets": {
                 "2011": 1700000.0,
-                "2012": 1700000.0
+                "2012": 1703000.0
             }
         }
     }, {
-        "id": "volkswirtschaftsdirektion_führungsunterstützung",
+        "id": "volkswirtschaftsdirektion_f-hrungsunterst-tzung",
         "name": "Führungsunterstützung",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 11300000.0,
-                "2012": 11100000.0
+                "2012": 11084000.0
             },
             "budgets": {
                 "2011": 15300000.0,
-                "2012": 13700000.0
+                "2012": 13728000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 500000.0,
-                "2012": 700000.0
+                "2012": 691000.0
             },
             "budgets": {
                 "2011": 600000.0,
-                "2012": 600000.0
+                "2012": 566000.0
             }
         }
     }, {
         "id": "volkswirtschaftsdirektion_landwirtschaft",
         "name": "Landwirtschaft",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 74100000.0,
-                "2012": 68400000.0
+                "2012": 68404000.0
             },
             "budgets": {
                 "2011": 73200000.0,
-                "2012": 73800000.0
+                "2012": 73777000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 27600000.0,
-                "2012": 26700000.0
+                "2012": 26735000.0
             },
             "budgets": {
                 "2011": 25800000.0,
-                "2012": 27300000.0
+                "2012": 27330000.0
             }
         }
     }, {
         "id": "volkswirtschaftsdirektion_natur",
         "name": "Natur",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 28600000.0,
-                "2012": 26200000.0
+                "2012": 26189000.0
             },
             "budgets": {
                 "2011": 28300000.0,
-                "2012": 29000000.0
+                "2012": 28990000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 10100000.0,
-                "2012": 10100000.0
+                "2012": 10143000.0
             },
             "budgets": {
                 "2011": 10700000.0,
-                "2012": 10200000.0
+                "2012": 10172000.0
             }
         }
     }, {
         "id": "volkswirtschaftsdirektion_staatsforstbetrieb",
         "name": "Staatsforstbetrieb",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 12800000.0,
-                "2012": 12100000.0
+                "2012": 12087000.0
             },
             "budgets": {
                 "2011": 12100000.0,
-                "2012": 12000000.0
+                "2012": 12016000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 10900000.0,
-                "2012": 10200000.0
+                "2012": 10234000.0
             },
             "budgets": {
                 "2011": 10100000.0,
-                "2012": 10200000.0
+                "2012": 10163000.0
             }
         }
     }, {
-        "id": "volkswirtschaftsdirektion_walderhaltung_und_waldbewirtschaftung",
+        "id": "volkswirtschaftsdirektion_walderhaltung-und-waldbewirtschaftung",
         "name": "Walderhaltung und Waldbewirtschaftung",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 29700000.0,
-                "2012": 31000000.0
+                "2012": 31007000.0
             },
             "budgets": {
                 "2011": 30500000.0,
-                "2012": 28700000.0
+                "2012": 28669000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 8100000.0,
-                "2012": 7700000.0
+                "2012": 7727000.0
             },
             "budgets": {
                 "2011": 6900000.0,
-                "2012": 6500000.0
+                "2012": 6459000.0
             }
         }
     }, {
-        "id": "volkswirtschaftsdirektion_tourismus_und_regionalentwicklung",
+        "id": "volkswirtschaftsdirektion_tourismus-und-regionalentwicklung",
         "name": "Tourismus und Regionalentwicklung",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 17400000.0,
-                "2012": 16500000.0
+                "2012": 16541000.0
             },
             "budgets": {
                 "2011": 21300000.0,
-                "2012": 22500000.0
+                "2012": 22522000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 5800000.0,
-                "2012": 6000000.0
+                "2012": 6027000.0
             },
             "budgets": {
                 "2011": 6200000.0,
-                "2012": 6200000.0
+                "2012": 6244000.0
             }
         }
     }, {
-        "id": "volkswirtschaftsdirektion_wirtschaftsförderung",
+        "id": "volkswirtschaftsdirektion_wirtschaftsf-rderung",
         "name": "Wirtschaftsförderung",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 11200000.0,
-                "2012": 11800000.0
+                "2012": 11763000.0
             },
             "budgets": {
                 "2011": 12700000.0,
-                "2012": 11900000.0
+                "2012": 11918000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 100000.0,
-                "2012": 200000.0
+                "2012": 175000.0
             },
             "budgets": {
                 "2011": 100000.0,
-                "2012": 100000.0
+                "2012": 103000.0
             }
         }
     }, {
         "id": "volkswirtschaftsdirektion_arbeitsbedingungen",
         "name": "Arbeitsbedingungen",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 8200000.0,
-                "2012": 7600000.0
+                "2012": 7605000.0
             },
             "budgets": {
                 "2011": 8200000.0,
-                "2012": 7900000.0
+                "2012": 7919000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 5300000.0,
-                "2012": 5100000.0
+                "2012": 5095000.0
             },
             "budgets": {
                 "2011": 3600000.0,
-                "2012": 4200000.0
+                "2012": 4214000.0
             }
         }
     }]
 }, {
     "id": "staatskanzlei",
     "name": "Staatskanzlei",
+    "detail": false,
     "gross_cost": {
         "accounts": {
             "2011": 19200000.0,
-            "2012": 17800000.0
+            "2012": 17745000.0
         },
         "budgets": {
             "2011": 20100000.0,
-            "2012": 18800000.0
+            "2012": 18822000.0
         }
     },
     "revenue": {
         "accounts": {
             "2011": 600000.0,
-            "2012": 600000.0
+            "2012": 679000.0
         },
         "budgets": {
             "2011": 700000.0,
-            "2012": 800000.0
+            "2012": 884000.0
         }
     },
     "children": [{
-        "id": "staatskanzlei_führungsunterstützung",
+        "id": "staatskanzlei_f-hrungsunterst-tzung",
         "name": "Führungsunterstützung",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 7200000.0,
-                "2012": 6200000.0
+                "2012": 6208000.0
             },
             "budgets": {
                 "2011": 7900000.0,
-                "2012": 6900000.0
+                "2012": 6915000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 500000.0,
-                "2012": 500000.0
+                "2012": 507000.0
             },
             "budgets": {
                 "2011": 700000.0,
-                "2012": 700000.0
+                "2012": 726000.0
             }
         }
     }, {
-        "id": "staatskanzlei_sprachliche_minderheit_rechtliche_dienstleistungen_und_aussenbeziehungen",
+        "id": "staatskanzlei_sprachliche-minderheit-rechtliche-dienstleistungen-und-aussenbeziehungen",
         "name": "Sprachliche Minderheit, rechtliche Dienstleistungen und Aussenbeziehungen",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 4000000.0,
-                "2012": 3900000.0
+                "2012": 3892000.0
             },
             "budgets": {
                 "2011": 3800000.0,
-                "2012": 3800000.0
+                "2012": 3779000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 100000.0,
-                "2012": 100000.0
+                "2012": 101000.0
             },
             "budgets": {
                 "2011": 0.0,
@@ -347,60 +362,63 @@
     }, {
         "id": "staatskanzlei_kommunikation",
         "name": "Kommunikation",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 3100000.0,
-                "2012": 2700000.0
+                "2012": 2710000.0
             },
             "budgets": {
                 "2011": 3400000.0,
-                "2012": 3000000.0
+                "2012": 3014000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 0.0,
-                "2012": 0.0
+                "2012": 36000.0
             },
             "budgets": {
                 "2011": 0.0,
-                "2012": 0.0
+                "2012": 28000.0
             }
         }
     }, {
         "id": "staatskanzlei_archiv",
         "name": "Archiv",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 2800000.0,
-                "2012": 2800000.0
+                "2012": 2760000.0
             },
             "budgets": {
                 "2011": 2900000.0,
-                "2012": 2900000.0
+                "2012": 2899000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 0.0,
-                "2012": 0.0
+                "2012": 15000.0
             },
             "budgets": {
                 "2011": 0.0,
-                "2012": 0.0
+                "2012": 19000.0
             }
         }
     }, {
-        "id": "staatskanzlei_entscheidunterstützung_für_den_grossen_rat",
+        "id": "staatskanzlei_entscheidunterst-tzung-f-r-den-grossen-rat",
         "name": "Entscheidunterstützung für den Grossen Rat",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 1600000.0,
-                "2012": 1700000.0
+                "2012": 1677000.0
             },
             "budgets": {
                 "2011": 1500000.0,
-                "2012": 1700000.0
+                "2012": 1666000.0
             }
         },
         "revenue": {
@@ -416,284 +434,297 @@
     }, {
         "id": "staatskanzlei_gleichstellung",
         "name": "Gleichstellung",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 500000.0,
-                "2012": 500000.0
+                "2012": 498000.0
             },
             "budgets": {
                 "2011": 600000.0,
-                "2012": 500000.0
+                "2012": 549000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 0.0,
-                "2012": 0.0
+                "2012": 20000.0
             },
             "budgets": {
                 "2011": 0.0,
-                "2012": 0.0
+                "2012": 11000.0
             }
         }
     }]
 }, {
-    "id": "polizei_und_militärdirektion",
+    "id": "polizei-und-milit-rdirektion",
     "name": "Polizei- und Militärdirektion",
+    "detail": false,
     "gross_cost": {
         "accounts": {
             "2011": 691600000.0,
-            "2012": 696800000.0
+            "2012": 696852000.0
         },
         "budgets": {
             "2011": 692500000.0,
-            "2012": 689200000.0
+            "2012": 689104000.0
         }
     },
     "revenue": {
         "accounts": {
             "2011": 699400000.0,
-            "2012": 726100000.0
+            "2012": 726006000.0
         },
         "budgets": {
             "2011": 665500000.0,
-            "2012": 684600000.0
+            "2012": 684622000.0
         }
     },
     "children": [{
-        "id": "polizei_und_militärdirektion_führungsunterstützung_verwaltungsrechtspflege_und_fonds",
+        "id": "polizei-und-milit-rdirektion_f-hrungsunterst-tzung-verwaltungsrechtspflege-und-fonds",
         "name": "Führungsunterstützung, Verwaltungsrechtspflege und Fonds",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 8100000.0,
-                "2012": 7900000.0
+                "2012": 7878000.0
             },
             "budgets": {
                 "2011": 8100000.0,
-                "2012": 8000000.0
+                "2012": 7961000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 3300000.0,
-                "2012": 3000000.0
+                "2012": 2974000.0
             },
             "budgets": {
                 "2011": 2700000.0,
-                "2012": 2600000.0
+                "2012": 2609000.0
             }
         }
     }, {
-        "id": "polizei_und_militärdirektion_polizei",
+        "id": "polizei-und-milit-rdirektion_polizei",
         "name": "Polizei",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 380300000.0,
-                "2012": 374600000.0
+                "2012": 374581000.0
             },
             "budgets": {
                 "2011": 386600000.0,
-                "2012": 382500000.0
+                "2012": 382532000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 107000000.0,
-                "2012": 107500000.0
+                "2012": 107487000.0
             },
             "budgets": {
                 "2011": 109600000.0,
-                "2012": 114100000.0
+                "2012": 114104000.0
             }
         }
     }, {
-        "id": "polizei_und_militärdirektion_strassenverkehr_und_schifffahrt",
+        "id": "polizei-und-milit-rdirektion_strassenverkehr-und-schifffahrt",
         "name": "Strassenverkehr und Schifffahrt",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 43900000.0,
-                "2012": 41900000.0
+                "2012": 41940000.0
             },
             "budgets": {
                 "2011": 47100000.0,
-                "2012": 45500000.0
+                "2012": 45456000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 406600000.0,
-                "2012": 413900000.0
+                "2012": 413921000.0
             },
             "budgets": {
                 "2011": 395000000.0,
-                "2012": 404700000.0
+                "2012": 404718000.0
             }
         }
     }, {
-        "id": "polizei_und_militärdirektion_freiheitsentzug_und_betreuung_(erwachsene_und_jugendliche)",
+        "id": "polizei-und-milit-rdirektion_freiheitsentzug-und-betreuung-erwachsene-und-jugendliche-",
         "name": "Freiheitsentzug und Betreuung (Erwachsene und Jugendliche)",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 124400000.0,
-                "2012": 127300000.0
+                "2012": 127336000.0
             },
             "budgets": {
                 "2011": 127200000.0,
-                "2012": 133500000.0
+                "2012": 133480000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 69200000.0,
-                "2012": 71100000.0
+                "2012": 71087000.0
             },
             "budgets": {
                 "2011": 66700000.0,
-                "2012": 72700000.0
+                "2012": 72716000.0
             }
         }
     }, {
-        "id": "polizei_und_militärdirektion_migration_und_personen_stand",
+        "id": "polizei-und-milit-rdirektion_migration-und-personen-stand",
         "name": "Migration und Personen-stand",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 118000000.0,
-                "2012": 128700000.0
+                "2012": 128695000.0
             },
             "budgets": {
                 "2011": 105700000.0,
-                "2012": 101600000.0
+                "2012": 101563000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 101800000.0,
-                "2012": 117200000.0
+                "2012": 117152000.0
             },
             "budgets": {
                 "2011": 82100000.0,
-                "2012": 80700000.0
+                "2012": 80654000.0
             }
         }
     }, {
-        "id": "polizei_und_militärdirektion_bevölkerungsschutz_sport_und_militär",
+        "id": "polizei-und-milit-rdirektion_bev-lkerungsschutz-sport-und-milit-r",
         "name": "Bevölkerungsschutz, Sport und Militär",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 16900000.0,
-                "2012": 16400000.0
+                "2012": 16422000.0
             },
             "budgets": {
                 "2011": 17800000.0,
-                "2012": 18100000.0
+                "2012": 18112000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 11500000.0,
-                "2012": 13400000.0
+                "2012": 13385000.0
             },
             "budgets": {
                 "2011": 9400000.0,
-                "2012": 9800000.0
+                "2012": 9821000.0
             }
         }
     }]
 }, {
-    "id": "justiz_gemeinde_und_kirchendirektion",
+    "id": "justiz-gemeinde-und-kirchendirektion",
     "name": "Justiz-, Gemeinde- und Kirchendirektion",
+    "detail": false,
     "gross_cost": {
         "accounts": {
             "2011": 1396800000.0,
-            "2012": 1425400000.0
+            "2012": 1425556000.0
         },
         "budgets": {
             "2011": 1307800000.0,
-            "2012": 1348800000.0
+            "2012": 1348787000.0
         }
     },
     "revenue": {
         "accounts": {
             "2011": 876300000.0,
-            "2012": 878200000.0
+            "2012": 878118000.0
         },
         "budgets": {
             "2011": 834000000.0,
-            "2012": 864800000.0
+            "2012": 865037000.0
         }
     },
     "children": [{
-        "id": "justiz_gemeinde_und_kirchendirektion_unterstützung_und_aufsicht_gemeinden",
+        "id": "justiz-gemeinde-und-kirchendirektion_unterst-tzung-und-aufsicht-gemeinden",
         "name": "Unterstützung und Aufsicht Gemeinden",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 5300000.0,
-                "2012": 2600000.0
+                "2012": 2604000.0
             },
             "budgets": {
                 "2011": 6200000.0,
-                "2012": 5300000.0
+                "2012": 5299000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 100000.0,
-                "2012": 100000.0
+                "2012": 66000.0
             },
             "budgets": {
                 "2011": 100000.0,
-                "2012": 100000.0
+                "2012": 82000.0
             }
         }
     }, {
-        "id": "justiz_gemeinde_und_kirchendirektion_pfarramtliche_versorgung_der_kirchgemeinden_und_beziehung_zwischen_kirche_und_staat",
+        "id": "justiz-gemeinde-und-kirchendirektion_pfarramtliche-versorgung-der-kirchgemeinden-und-beziehung-zwischen-kirche-und-staat",
         "name": "Pfarramtliche Versorgung der Kirchgemeinden und Beziehung zwischen Kirche und Staat",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 73600000.0,
-                "2012": 74900000.0
+                "2012": 74857000.0
             },
             "budgets": {
                 "2011": 72500000.0,
-                "2012": 75200000.0
+                "2012": 75157000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 800000.0,
-                "2012": 800000.0
+                "2012": 790000.0
             },
             "budgets": {
                 "2011": 600000.0,
-                "2012": 700000.0
+                "2012": 698000.0
             }
         }
     }, {
-        "id": "justiz_gemeinde_und_kirchendirektion_führungsunterstützung",
+        "id": "justiz-gemeinde-und-kirchendirektion_f-hrungsunterst-tzung",
         "name": "Führungsunterstützung",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 1800000.0,
-                "2012": 1700000.0
+                "2012": 1743000.0
             },
             "budgets": {
                 "2011": 1800000.0,
-                "2012": 1900000.0
+                "2012": 1875000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 0.0,
-                "2012": 0.0
+                "2012": 1000.0
             },
             "budgets": {
                 "2011": 0.0,
-                "2012": 0.0
+                "2012": 4000.0
             }
         }
     }, {
-        "id": "justiz_gemeinde_und_kirchendirektion_dienstleistungen_für_Ämter",
+        "id": "justiz-gemeinde-und-kirchendirektion_dienstleistungen-f-r-mter",
         "name": "Dienstleistungen für Ämter",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 17600000.0
@@ -711,8 +742,9 @@
             }
         }
     }, {
-        "id": "justiz_gemeinde_und_kirchendirektion_sicherstellen_betrieb_dezentrale_justizverwaltung_und_notariatsaufsicht",
+        "id": "justiz-gemeinde-und-kirchendirektion_sicherstellen-betrieb-dezentrale-justizverwaltung-und-notariatsaufsicht",
         "name": "Sicherstellen Betrieb dezentrale Justizverwaltung und Notariatsaufsicht",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 1400000.0
@@ -730,146 +762,153 @@
             }
         }
     }, {
-        "id": "justiz_gemeinde_und_kirchendirektion_regierungsstatthalterämter",
+        "id": "justiz-gemeinde-und-kirchendirektion_regierungsstatthalter-mter",
         "name": "Regierungsstatthalterämter",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 21400000.0,
-                "2012": 21400000.0
+                "2012": 21366000.0
             },
             "budgets": {
                 "2011": 19800000.0,
-                "2012": 18500000.0
+                "2012": 18534000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 8000000.0,
-                "2012": 8700000.0
+                "2012": 8690000.0
             },
             "budgets": {
                 "2011": 5900000.0,
-                "2012": 4500000.0
+                "2012": 4542000.0
             }
         }
     }, {
-        "id": "justiz_gemeinde_und_kirchendirektion_führen_des_grundbuches",
+        "id": "justiz-gemeinde-und-kirchendirektion_f-hren-des-grundbuches",
         "name": "Führen des Grundbuches",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 14800000.0,
-                "2012": 14500000.0
+                "2012": 14465000.0
             },
             "budgets": {
                 "2011": 15000000.0,
-                "2012": 15100000.0
+                "2012": 15119000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 149600000.0,
-                "2012": 141500000.0
+                "2012": 141457000.0
             },
             "budgets": {
                 "2011": 125400000.0,
-                "2012": 131500000.0
+                "2012": 131533000.0
             }
         }
     }, {
-        "id": "justiz_gemeinde_und_kirchendirektion_führen_des_handelsregisters",
+        "id": "justiz-gemeinde-und-kirchendirektion_f-hren-des-handelsregisters",
         "name": "Führen des Handelsregisters",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 2900000.0,
-                "2012": 3000000.0
+                "2012": 2993000.0
             },
             "budgets": {
                 "2011": 3000000.0,
-                "2012": 3000000.0
+                "2012": 3050000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 4400000.0,
-                "2012": 4300000.0
+                "2012": 4250000.0
             },
             "budgets": {
                 "2011": 4000000.0,
-                "2012": 4000000.0
+                "2012": 4004000.0
             }
         }
     }, {
-        "id": "justiz_gemeinde_und_kirchendirektion_betreibungen_und_konkurse",
+        "id": "justiz-gemeinde-und-kirchendirektion_betreibungen-und-konkurse",
         "name": "Betreibungen und Konkurse",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 33400000.0,
-                "2012": 33200000.0
+                "2012": 33243000.0
             },
             "budgets": {
                 "2011": 34900000.0,
-                "2012": 39600000.0
+                "2012": 39607000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 43700000.0,
-                "2012": 43900000.0
+                "2012": 43947000.0
             },
             "budgets": {
                 "2011": 40200000.0,
-                "2012": 41400000.0
+                "2012": 41405000.0
             }
         }
     }, {
-        "id": "justiz_gemeinde_und_kirchendirektion_verwaltungsinterne_verwaltungsrechtspflege_und_rechtliche_dienstleistungen",
+        "id": "justiz-gemeinde-und-kirchendirektion_verwaltungsinterne-verwaltungsrechtspflege-und-rechtliche-dienstleistungen",
         "name": "Verwaltungsinterne Verwaltungsrechtspflege und rechtliche Dienstleistungen",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 1500000.0,
-                "2012": 1500000.0
+                "2012": 1545000.0
             },
             "budgets": {
                 "2011": 1500000.0,
-                "2012": 1700000.0
+                "2012": 1696000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 0.0,
-                "2012": 0.0
+                "2012": 47000.0
             },
             "budgets": {
                 "2011": 0.0,
-                "2012": 0.0
+                "2012": 47000.0
             }
         }
     }, {
-        "id": "justiz_gemeinde_und_kirchendirektion_differenzierte_jugendhilfemassnahmen",
+        "id": "justiz-gemeinde-und-kirchendirektion_differenzierte-jugendhilfemassnahmen",
         "name": "Differenzierte Jugendhilfemassnahmen",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 9500000.0,
-                "2012": 10200000.0
+                "2012": 10211000.0
             },
             "budgets": {
                 "2011": 9500000.0,
-                "2012": 9700000.0
+                "2012": 9747000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 3300000.0,
-                "2012": 6200000.0
+                "2012": 6250000.0
             },
             "budgets": {
                 "2011": 4000000.0,
-                "2012": 4100000.0
+                "2012": 4114000.0
             }
         }
     }, {
-        "id": "justiz_gemeinde_und_kirchendirektion_kindesschutz_und_vormundschaftswesen",
+        "id": "justiz-gemeinde-und-kirchendirektion_kindesschutz-und-vormundschaftswesen",
         "name": "Kindesschutz und Vormundschaftswesen",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 1700000.0
@@ -887,8 +926,9 @@
             }
         }
     }, {
-        "id": "justiz_gemeinde_und_kirchendirektion_jugendförderung",
+        "id": "justiz-gemeinde-und-kirchendirektion_jugendf-rderung",
         "name": "Jugendförderung",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 700000.0
@@ -906,273 +946,286 @@
             }
         }
     }, {
-        "id": "justiz_gemeinde_und_kirchendirektion_vollzug_der_sozialversicherung",
+        "id": "justiz-gemeinde-und-kirchendirektion_vollzug-der-sozialversicherung",
         "name": "Vollzug der Sozialversicherung",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 1200000000.0,
-                "2012": 1224300000.0
+                "2012": 1224284000.0
             },
             "budgets": {
                 "2011": 1105100000.0,
-                "2012": 1139400000.0
+                "2012": 1139395000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 665200000.0,
-                "2012": 671300000.0
+                "2012": 671325000.0
             },
             "budgets": {
                 "2011": 652800000.0,
-                "2012": 677400000.0
+                "2012": 677444000.0
             }
         }
     }, {
-        "id": "justiz_gemeinde_und_kirchendirektion_raumordnung",
+        "id": "justiz-gemeinde-und-kirchendirektion_raumordnung",
         "name": "Raumordnung",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 11200000.0,
-                "2012": 11500000.0
+                "2012": 11544000.0
             },
             "budgets": {
                 "2011": 15400000.0,
-                "2012": 14300000.0
+                "2012": 14269000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 1000000.0,
-                "2012": 1200000.0
+                "2012": 1156000.0
             },
             "budgets": {
                 "2011": 900000.0,
-                "2012": 1000000.0
+                "2012": 998000.0
             }
         }
     }, {
-        "id": "justiz_gemeinde_und_kirchendirektion_ressourcenverwaltung_für_die_Ämter",
+        "id": "justiz-gemeinde-und-kirchendirektion_ressourcenverwaltung-f-r-die-mter",
         "name": "Ressourcenverwaltung für die Ämter",
+        "detail": false,
         "gross_cost": {
             "accounts": {
-                "2012": 19000000.0
+                "2012": 19022000.0
             },
             "budgets": {
-                "2012": 19000000.0
+                "2012": 19001000.0
             }
         },
         "revenue": {
             "accounts": {
-                "2012": 0.0
+                "2012": 5000.0
             },
             "budgets": {
                 "2012": 0.0
             }
         }
     }, {
-        "id": "justiz_gemeinde_und_kirchendirektion_steuerung_der_dezentralen_kantonalen_verwaltung",
+        "id": "justiz-gemeinde-und-kirchendirektion_steuerung-der-dezentralen-kantonalen-verwaltung",
         "name": "Steuerung der dezentralen kantonalen Verwaltung",
+        "detail": false,
         "gross_cost": {
             "accounts": {
-                "2012": 1600000.0
+                "2012": 1630000.0
             },
             "budgets": {
-                "2012": 1900000.0
+                "2012": 1870000.0
             }
         },
         "revenue": {
             "accounts": {
-                "2012": 100000.0
+                "2012": 56000.0
             },
             "budgets": {
-                "2012": 0.0
+                "2012": 42000.0
             }
         }
     }, {
-        "id": "justiz_gemeinde_und_kirchendirektion_kindesschutz_und_jugendförderung",
+        "id": "justiz-gemeinde-und-kirchendirektion_kindesschutz-und-jugendf-rderung",
         "name": "Kindesschutz und Jugendförderung",
+        "detail": false,
         "gross_cost": {
             "accounts": {
-                "2012": 6000000.0
+                "2012": 6049000.0
             },
             "budgets": {
-                "2012": 4200000.0
+                "2012": 4168000.0
             }
         },
         "revenue": {
             "accounts": {
-                "2012": 100000.0
+                "2012": 78000.0
             },
             "budgets": {
-                "2012": 100000.0
+                "2012": 124000.0
             }
         }
     }]
 }, {
-    "id": "gesundheits_und_fürsorgedirektion",
+    "id": "gesundheits-und-f-rsorgedirektion",
     "name": "Gesundheits- und Fürsorgedirektion",
+    "detail": false,
     "gross_cost": {
         "accounts": {
             "2011": 2150200000.0,
-            "2012": 2566700000.0
+            "2012": 2566539000.0
         },
         "budgets": {
             "2011": 2142100000.0,
-            "2012": 2576300000.0
+            "2012": 2576472000.0
         }
     },
     "revenue": {
         "accounts": {
             "2011": 213300000.0,
-            "2012": 207000000.0
+            "2012": 206894000.0
         },
         "budgets": {
             "2011": 209600000.0,
-            "2012": 166300000.0
+            "2012": 166105000.0
         }
     },
     "children": [{
-        "id": "gesundheits_und_fürsorgedirektion_führungsunterstützung_weitere_dienstleistungen_und_verwaltungsinterne_verwaltungsrechtspflege",
+        "id": "gesundheits-und-f-rsorgedirektion_f-hrungsunterst-tzung-weitere-dienstleistungen-und-verwaltungsinterne-verwaltungsrechtspflege",
         "name": "Führungsunterstützung, weitere Dienstleistungen und verwaltungsinterne Verwaltungsrechtspflege",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 9000000.0,
-                "2012": 8800000.0
+                "2012": 8822000.0
             },
             "budgets": {
                 "2011": 10700000.0,
-                "2012": 9800000.0
+                "2012": 9798000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 0.0,
-                "2012": 0.0
+                "2012": 13000.0
             },
             "budgets": {
                 "2011": 0.0,
-                "2012": 0.0
+                "2012": 20000.0
             }
         }
     }, {
-        "id": "gesundheits_und_fürsorgedirektion_heilmittelsicherheit_/_qualitätssicherung",
+        "id": "gesundheits-und-f-rsorgedirektion_heilmittelsicherheit-qualit-tssicherung",
         "name": "Heilmittelsicherheit / Qualitätssicherung",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 1200000.0,
-                "2012": 1200000.0
+                "2012": 1151000.0
             },
             "budgets": {
                 "2011": 1200000.0,
-                "2012": 1300000.0
+                "2012": 1334000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 200000.0,
-                "2012": 200000.0
+                "2012": 152000.0
             },
             "budgets": {
                 "2011": 200000.0,
-                "2012": 200000.0
+                "2012": 164000.0
             }
         }
     }, {
-        "id": "gesundheits_und_fürsorgedirektion_rechtliche_dienstleistungen",
+        "id": "gesundheits-und-f-rsorgedirektion_rechtliche-dienstleistungen",
         "name": "Rechtliche Dienstleistungen",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 1400000.0,
-                "2012": 1600000.0
+                "2012": 1560000.0
             },
             "budgets": {
                 "2011": 1200000.0,
-                "2012": 1600000.0
+                "2012": 1604000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 0.0,
-                "2012": 0.0
+                "2012": 5000.0
             },
             "budgets": {
                 "2011": 0.0,
-                "2012": 0.0
+                "2012": 1000.0
             }
         }
     }, {
-        "id": "gesundheits_und_fürsorgedirektion_somatische_spitalversorgung",
+        "id": "gesundheits-und-f-rsorgedirektion_somatische-spitalversorgung",
         "name": "Somatische Spitalversorgung",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 860800000.0,
-                "2012": 1109100000.0
+                "2012": 1109114000.0
             },
             "budgets": {
                 "2011": 915100000.0,
-                "2012": 1180200000.0
+                "2012": 1180192000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 100000.0,
-                "2012": 0.0
+                "2012": 14000.0
             },
             "budgets": {
                 "2011": 0.0,
-                "2012": 0.0
+                "2012": 4000.0
             }
         }
     }, {
-        "id": "gesundheits_und_fürsorgedirektion_gesundheitsschutz_und_sanitätsdienst",
+        "id": "gesundheits-und-f-rsorgedirektion_gesundheitsschutz-und-sanit-tsdienst",
         "name": "Gesundheitsschutz und Sanitätsdienst",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 3800000.0,
-                "2012": 4800000.0
+                "2012": 4796000.0
             },
             "budgets": {
                 "2011": 6600000.0,
-                "2012": 6900000.0
+                "2012": 6925000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 900000.0,
-                "2012": 1100000.0
+                "2012": 1096000.0
             },
             "budgets": {
                 "2011": 200000.0,
-                "2012": 800000.0
+                "2012": 832000.0
             }
         }
     }, {
-        "id": "gesundheits_und_fürsorgedirektion_suchthilfeangebote",
+        "id": "gesundheits-und-f-rsorgedirektion_suchthilfeangebote",
         "name": "Suchthilfeangebote",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 28000000.0,
-                "2012": 23900000.0
+                "2012": 23854000.0
             },
             "budgets": {
                 "2011": 28700000.0,
-                "2012": 24300000.0
+                "2012": 24304000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 7300000.0,
-                "2012": 7200000.0
+                "2012": 7162000.0
             },
             "budgets": {
                 "2011": 7500000.0,
-                "2012": 6800000.0
+                "2012": 6751000.0
             }
         }
     }, {
-        "id": "gesundheits_und_fürsorgedirektion_psychiatrieversorgung",
+        "id": "gesundheits-und-f-rsorgedirektion_psychiatrieversorgung",
         "name": "Psychiatrieversorgung",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 273000000.0
@@ -1190,39 +1243,41 @@
             }
         }
     }, {
-        "id": "gesundheits_und_fürsorgedirektion_verbraucherschutz",
+        "id": "gesundheits-und-f-rsorgedirektion_verbraucherschutz",
         "name": "Verbraucherschutz",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 9400000.0,
-                "2012": 9000000.0
+                "2012": 8956000.0
             },
             "budgets": {
                 "2011": 9400000.0,
-                "2012": 9100000.0
+                "2012": 9148000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 1500000.0,
-                "2012": 1400000.0
+                "2012": 1380000.0
             },
             "budgets": {
                 "2011": 1400000.0,
-                "2012": 1200000.0
+                "2012": 1156000.0
             }
         }
     }, {
-        "id": "gesundheits_und_fürsorgedirektion_chemie_bio_und_strah_lensicherheit",
+        "id": "gesundheits-und-f-rsorgedirektion_chemie-bio-und-strah-lensicherheit",
         "name": "Chemie-, Bio- und Strah-lensicherheit",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 1100000.0,
-                "2012": 1100000.0
+                "2012": 1077000.0
             },
             "budgets": {
                 "2011": 1100000.0,
-                "2012": 1100000.0
+                "2012": 1111000.0
             }
         },
         "revenue": {
@@ -1236,314 +1291,328 @@
             }
         }
     }, {
-        "id": "gesundheits_und_fürsorgedirektion_angebote_zur_sozialen_existenzsicherung",
+        "id": "gesundheits-und-f-rsorgedirektion_angebote-zur-sozialen-existenzsicherung",
         "name": "Angebote zur sozialen Existenzsicherung",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 305300000.0,
-                "2012": 341900000.0
+                "2012": 341925000.0
             },
             "budgets": {
                 "2011": 290700000.0,
-                "2012": 355300000.0
+                "2012": 355336000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 23800000.0,
-                "2012": 22500000.0
+                "2012": 22529000.0
             },
             "budgets": {
                 "2011": 13200000.0,
-                "2012": 13600000.0
+                "2012": 13553000.0
             }
         }
     }, {
-        "id": "gesundheits_und_fürsorgedirektion_angebote_zur_sozialen_integration",
+        "id": "gesundheits-und-f-rsorgedirektion_angebote-zur-sozialen-integration",
         "name": "Angebote zur sozialen Integration",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 55700000.0,
-                "2012": 51800000.0
+                "2012": 51756000.0
             },
             "budgets": {
                 "2011": 55600000.0,
-                "2012": 58400000.0
+                "2012": 58404000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 700000.0,
-                "2012": 900000.0
+                "2012": 891000.0
             },
             "budgets": {
                 "2011": 700000.0,
-                "2012": 700000.0
+                "2012": 672000.0
             }
         }
     }, {
-        "id": "gesundheits_und_fürsorgedirektion_angebote_für_menschen_mit_einer_behinderung_und/oder_einem_integrationsbedarf",
+        "id": "gesundheits-und-f-rsorgedirektion_angebote-f-r-menschen-mit-einer-behinderung-und-oder-einem-integrationsbedarf",
         "name": "Angebote für Menschen mit einer Behinderung und/oder einem Integrationsbedarf",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 476000000.0,
-                "2012": 397100000.0
+                "2012": 397140000.0
             },
             "budgets": {
                 "2011": 459800000.0,
-                "2012": 357700000.0
+                "2012": 357663000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 31000000.0,
-                "2012": 31700000.0
+                "2012": 31661000.0
             },
             "budgets": {
                 "2011": 31700000.0,
-                "2012": 20900000.0
+                "2012": 20852000.0
             }
         }
     }, {
-        "id": "gesundheits_und_fürsorgedirektion_angebote_für_ältere_und/oder_chronischkranke_menschen",
+        "id": "gesundheits-und-f-rsorgedirektion_angebote-f-r-ltere-und-oder-chronischkranke-menschen",
         "name": "Angebote für ältere und/oder chronischkranke Menschen",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 125500000.0,
-                "2012": 308200000.0
+                "2012": 308173000.0
             },
             "budgets": {
                 "2011": 87000000.0,
-                "2012": 252000000.0
+                "2012": 252041000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 36700000.0,
-                "2012": 9600000.0
+                "2012": 9630000.0
             },
             "budgets": {
                 "2011": 46000000.0,
-                "2012": 2100000.0
+                "2012": 2056000.0
             }
         }
     }, {
-        "id": "gesundheits_und_fürsorgedirektion_psychiatrieversorgung_",
+        "id": "gesundheits-und-f-rsorgedirektion_psychiatrieversorgung-",
         "name": "Psychiatrieversorgung",
+        "detail": false,
         "gross_cost": {
             "accounts": {
-                "2012": 308200000.0
+                "2012": 308215000.0
             },
             "budgets": {
-                "2012": 318600000.0
+                "2012": 318612000.0
             }
         },
         "revenue": {
             "accounts": {
-                "2012": 132400000.0
+                "2012": 132361000.0
             },
             "budgets": {
-                "2012": 120000000.0
+                "2012": 120044000.0
             }
         }
     }]
 }, {
-    "id": "gerichtsbehörden_und_staatsanwaltschaft",
+    "id": "gerichtsbeh-rden-und-staatsanwaltschaft",
     "name": "Gerichtsbehörden und Staatsanwaltschaft",
+    "detail": false,
     "gross_cost": {
         "accounts": {
             "2011": 190600000.0,
-            "2012": 187200000.0
+            "2012": 187176000.0
         },
         "budgets": {
             "2011": 161000000.0,
-            "2012": 168300000.0
+            "2012": 168326000.0
         }
     },
     "revenue": {
         "accounts": {
             "2011": 77700000.0,
-            "2012": 85500000.0
+            "2012": 85499000.0
         },
         "budgets": {
             "2011": 75800000.0,
-            "2012": 73900000.0
+            "2012": 73931000.0
         }
     },
     "children": [{
-        "id": "gerichtsbehörden_und_staatsanwaltschaft_zivil_und_strafgerichtsbarkeit",
+        "id": "gerichtsbeh-rden-und-staatsanwaltschaft_zivil-und-strafgerichtsbarkeit",
         "name": "Zivil- und Strafgerichtsbarkeit",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 101600000.0,
-                "2012": 98000000.0
+                "2012": 97994000.0
             },
             "budgets": {
                 "2011": 82500000.0,
-                "2012": 82100000.0
+                "2012": 82062000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 39300000.0,
-                "2012": 42600000.0
+                "2012": 42565000.0
             },
             "budgets": {
                 "2011": 43500000.0,
-                "2012": 40200000.0
+                "2012": 40236000.0
             }
         }
     }, {
-        "id": "gerichtsbehörden_und_staatsanwaltschaft_verwaltungsgerichtsbarkeit",
+        "id": "gerichtsbeh-rden-und-staatsanwaltschaft_verwaltungsgerichtsbarkeit",
         "name": "Verwaltungsgerichtsbarkeit",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 14900000.0,
-                "2012": 14500000.0
+                "2012": 14495000.0
             },
             "budgets": {
                 "2011": 14100000.0,
-                "2012": 14500000.0
+                "2012": 14505000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 1200000.0,
-                "2012": 1200000.0
+                "2012": 1247000.0
             },
             "budgets": {
                 "2011": 1300000.0,
-                "2012": 1300000.0
+                "2012": 1301000.0
             }
         }
     }, {
-        "id": "gerichtsbehörden_und_staatsanwaltschaft_staatsanwaltschaft",
+        "id": "gerichtsbeh-rden-und-staatsanwaltschaft_staatsanwaltschaft",
         "name": "Staatsanwaltschaft",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 72600000.0,
-                "2012": 73000000.0
+                "2012": 73014000.0
             },
             "budgets": {
                 "2011": 62000000.0,
-                "2012": 69100000.0
+                "2012": 69139000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 37200000.0,
-                "2012": 41700000.0
+                "2012": 41682000.0
             },
             "budgets": {
                 "2011": 31000000.0,
-                "2012": 32400000.0
+                "2012": 32392000.0
             }
         }
     }, {
-        "id": "gerichtsbehörden_und_staatsanwaltschaft_justizleitung",
+        "id": "gerichtsbeh-rden-und-staatsanwaltschaft_justizleitung",
         "name": "Justizleitung",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 1500000.0,
-                "2012": 1700000.0
+                "2012": 1673000.0
             },
             "budgets": {
                 "2011": 2400000.0,
-                "2012": 2600000.0
+                "2012": 2620000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 0.0,
-                "2012": 0.0
+                "2012": 5000.0
             },
             "budgets": {
                 "2011": 0.0,
-                "2012": 0.0
+                "2012": 2000.0
             }
         }
     }]
 }, {
     "id": "finanzkontrolle",
     "name": "Finanzkontrolle",
+    "detail": false,
     "gross_cost": {
         "accounts": {
             "2011": 4900000.0,
-            "2012": 4600000.0
+            "2012": 4606000.0
         },
         "budgets": {
             "2011": 5300000.0,
-            "2012": 5200000.0
+            "2012": 5198000.0
         }
     },
     "revenue": {
         "accounts": {
             "2011": 0.0,
-            "2012": 100000.0
+            "2012": 69000.0
         },
         "budgets": {
             "2011": 0.0,
-            "2012": 100000.0
+            "2012": 60000.0
         }
     },
     "children": [{
         "id": "finanzkontrolle_finanzaufsicht",
         "name": "Finanzaufsicht",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 4900000.0,
-                "2012": 4600000.0
+                "2012": 4606000.0
             },
             "budgets": {
                 "2011": 5300000.0,
-                "2012": 5200000.0
+                "2012": 5198000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 0.0,
-                "2012": 100000.0
+                "2012": 69000.0
             },
             "budgets": {
                 "2011": 0.0,
-                "2012": 100000.0
+                "2012": 60000.0
             }
         }
     }]
 }, {
     "id": "finanzdirektion",
     "name": "Finanzdirektion",
+    "detail": false,
     "gross_cost": {
         "accounts": {
             "2011": 261500000.0,
-            "2012": 281300000.0
+            "2012": 281180000.0
         },
         "budgets": {
             "2011": 306800000.0,
-            "2012": 308700000.0
+            "2012": 308733000.0
         }
     },
     "revenue": {
         "accounts": {
             "2011": 5721900000.0,
-            "2012": 5719700000.0
+            "2012": 5719611000.0
         },
         "budgets": {
             "2011": 5688500000.0,
-            "2012": 6063900000.0
+            "2012": 6063962000.0
         }
     },
     "children": [{
-        "id": "finanzdirektion_personalentwicklung_gesundheit_und_soziales",
+        "id": "finanzdirektion_personalentwicklung-gesundheit-und-soziales",
         "name": "Personalentwicklung, Gesundheit und Soziales",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 5200000.0,
-                "2012": 4900000.0
+                "2012": 4921000.0
             },
             "budgets": {
                 "2011": 5800000.0,
-                "2012": 5600000.0
+                "2012": 5631000.0
             }
         },
         "revenue": {
@@ -1553,112 +1622,117 @@
             },
             "budgets": {
                 "2011": 400000.0,
-                "2012": 500000.0
+                "2012": 504000.0
             }
         }
     }, {
-        "id": "finanzdirektion_personal_und_gehaltsmanagement",
+        "id": "finanzdirektion_personal-und-gehaltsmanagement",
         "name": "Personal- und Gehaltsmanagement",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 12000000.0,
-                "2012": 11800000.0
+                "2012": 11823000.0
             },
             "budgets": {
                 "2011": 13100000.0,
-                "2012": 14100000.0
+                "2012": 14137000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 5300000.0,
-                "2012": 5700000.0
+                "2012": 5669000.0
             },
             "budgets": {
                 "2011": 2400000.0,
-                "2012": 2700000.0
+                "2012": 2664000.0
             }
         }
     }, {
-        "id": "finanzdirektion_informatik_und_telekommunikation",
+        "id": "finanzdirektion_informatik-und-telekommunikation",
         "name": "Informatik und Telekommunikation",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 85600000.0,
-                "2012": 81400000.0
+                "2012": 81361000.0
             },
             "budgets": {
                 "2011": 101900000.0,
-                "2012": 97000000.0
+                "2012": 97026000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 4500000.0,
-                "2012": 700000.0
+                "2012": 745000.0
             },
             "budgets": {
                 "2011": 1600000.0,
-                "2012": 900000.0
+                "2012": 934000.0
             }
         }
     }, {
         "id": "finanzdirektion_organisationsentwicklung",
         "name": "Organisationsentwicklung",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 13800000.0,
-                "2012": 13100000.0
+                "2012": 13103000.0
             },
             "budgets": {
                 "2011": 14400000.0,
-                "2012": 14100000.0
+                "2012": 14068000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 400000.0,
-                "2012": 400000.0
+                "2012": 367000.0
             },
             "budgets": {
                 "2011": 400000.0,
-                "2012": 400000.0
+                "2012": 423000.0
             }
         }
     }, {
-        "id": "finanzdirektion_führungsunterstützung",
+        "id": "finanzdirektion_f-hrungsunterst-tzung",
         "name": "Führungsunterstützung",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 3200000.0,
-                "2012": 3900000.0
+                "2012": 3922000.0
             },
             "budgets": {
                 "2011": 4000000.0,
-                "2012": 4200000.0
+                "2012": 4189000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 300000.0,
-                "2012": 300000.0
+                "2012": 295000.0
             },
             "budgets": {
                 "2011": 300000.0,
-                "2012": 300000.0
+                "2012": 280000.0
             }
         }
     }, {
-        "id": "finanzdirektion_verwaltungsinterne_verwaltungsrechtspflege",
+        "id": "finanzdirektion_verwaltungsinterne-verwaltungsrechtspflege",
         "name": "Verwaltungsinterne Verwaltungsrechtspflege",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 0.0,
-                "2012": 0.0
+                "2012": 14000.0
             },
             "budgets": {
                 "2011": 100000.0,
-                "2012": 100000.0
+                "2012": 107000.0
             }
         },
         "revenue": {
@@ -1672,16 +1746,17 @@
             }
         }
     }, {
-        "id": "finanzdirektion_voranschlag_und_aufgaben_/finanzplan_kanton",
+        "id": "finanzdirektion_voranschlag-und-aufgaben-finanzplan-kanton",
         "name": "Voranschlag und Aufgaben-/Finanzplan Kanton",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 500000.0,
-                "2012": 600000.0
+                "2012": 590000.0
             },
             "budgets": {
                 "2011": 700000.0,
-                "2012": 600000.0
+                "2012": 633000.0
             }
         },
         "revenue": {
@@ -1697,60 +1772,63 @@
     }, {
         "id": "finanzdirektion_tresorerie",
         "name": "Tresorerie",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 7700000.0,
-                "2012": 7500000.0
+                "2012": 7524000.0
             },
             "budgets": {
                 "2011": 7800000.0,
-                "2012": 7900000.0
+                "2012": 7865000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 247300000.0,
-                "2012": 120500000.0
+                "2012": 120476000.0
             },
             "budgets": {
                 "2011": 242300000.0,
-                "2012": 119000000.0
+                "2012": 118994000.0
             }
         }
     }, {
-        "id": "finanzdirektion_finanzausgleich_bund_–_kanton_/_kanton_–_gemeinden",
+        "id": "finanzdirektion_finanzausgleich-bund-kanton-kanton-gemeinden",
         "name": "Finanzausgleich Bund – Kanton / Kanton – Gemeinden",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 1000000.0,
-                "2012": 900000.0
+                "2012": 874000.0
             },
             "budgets": {
                 "2011": 1300000.0,
-                "2012": 1100000.0
+                "2012": 1136000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 866700000.0,
-                "2012": 971500000.0
+                "2012": 971524000.0
             },
             "budgets": {
                 "2011": 861700000.0,
-                "2012": 971000000.0
+                "2012": 971015000.0
             }
         }
     }, {
-        "id": "finanzdirektion_dienstleistungen_haushaltsführung",
+        "id": "finanzdirektion_dienstleistungen-haushaltsf-hrung",
         "name": "Dienstleistungen Haushaltsführung",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 6500000.0,
-                "2012": 8600000.0
+                "2012": 8568000.0
             },
             "budgets": {
                 "2011": 9500000.0,
-                "2012": 11100000.0
+                "2012": 11070000.0
             }
         },
         "revenue": {
@@ -1766,14 +1844,15 @@
     }, {
         "id": "finanzdirektion_konzernrechnungswesen",
         "name": "Konzernrechnungswesen",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 1700000.0,
-                "2012": 1600000.0
+                "2012": 1575000.0
             },
             "budgets": {
                 "2011": 2700000.0,
-                "2012": 2100000.0
+                "2012": 2116000.0
             }
         },
         "revenue": {
@@ -1787,239 +1866,250 @@
             }
         }
     }, {
-        "id": "finanzdirektion_veranlagung_periodische_steuern",
+        "id": "finanzdirektion_veranlagung-periodische-steuern",
         "name": "Veranlagung periodische Steuern",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 90300000.0,
-                "2012": 114800000.0
+                "2012": 114775000.0
             },
             "budgets": {
                 "2011": 110300000.0,
-                "2012": 114000000.0
+                "2012": 113988000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 4160400000.0,
-                "2012": 4178000000.0
+                "2012": 4177964000.0
             },
             "budgets": {
                 "2011": 4175000000.0,
-                "2012": 4546700000.0
+                "2012": 4546731000.0
             }
         }
     }, {
-        "id": "finanzdirektion_bezug_und_dienstleistungen",
+        "id": "finanzdirektion_bezug-und-dienstleistungen",
         "name": "Bezug und Dienstleistungen",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 23500000.0,
-                "2012": 22400000.0
+                "2012": 22354000.0
             },
             "budgets": {
                 "2011": 23100000.0,
-                "2012": 24400000.0
+                "2012": 24364000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 271400000.0,
-                "2012": 257900000.0
+                "2012": 257891000.0
             },
             "budgets": {
                 "2011": 263000000.0,
-                "2012": 281000000.0
+                "2012": 281015000.0
             }
         }
     }, {
-        "id": "finanzdirektion_veranlagung_spezialsteuern",
+        "id": "finanzdirektion_veranlagung-spezialsteuern",
         "name": "Veranlagung Spezialsteuern",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 10500000.0,
-                "2012": 9800000.0
+                "2012": 9776000.0
             },
             "budgets": {
                 "2011": 12100000.0,
-                "2012": 12400000.0
+                "2012": 12403000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 165300000.0,
-                "2012": 184000000.0
+                "2012": 183980000.0
             },
             "budgets": {
                 "2011": 141400000.0,
-                "2012": 141400000.0
+                "2012": 141402000.0
             }
         }
     }]
 }, {
     "id": "erziehungsdirektion",
     "name": "Erziehungsdirektion",
+    "detail": false,
     "gross_cost": {
         "accounts": {
             "2011": 2862000000.0,
-            "2012": 2852800000.0
+            "2012": 2852742000.0
         },
         "budgets": {
             "2011": 2655800000.0,
-            "2012": 2633000000.0
+            "2012": 2632911000.0
         }
     },
     "revenue": {
         "accounts": {
             "2011": 772400000.0,
-            "2012": 813700000.0
+            "2012": 813702000.0
         },
         "budgets": {
             "2011": 564100000.0,
-            "2012": 575900000.0
+            "2012": 575760000.0
         }
     },
     "children": [{
-        "id": "erziehungsdirektion_führungsunterstützung",
+        "id": "erziehungsdirektion_f-hrungsunterst-tzung",
         "name": "Führungsunterstützung",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 21200000.0,
-                "2012": 21000000.0
+                "2012": 21007000.0
             },
             "budgets": {
                 "2011": 22600000.0,
-                "2012": 23400000.0
+                "2012": 23367000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 300000.0,
-                "2012": 300000.0
+                "2012": 276000.0
             },
             "budgets": {
                 "2011": 200000.0,
-                "2012": 200000.0
+                "2012": 215000.0
             }
         }
     }, {
-        "id": "erziehungsdirektion_rechtliche_dienstleistungen",
+        "id": "erziehungsdirektion_rechtliche-dienstleistungen",
         "name": "Rechtliche Dienstleistungen",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 1200000.0,
-                "2012": 1100000.0
+                "2012": 1102000.0
             },
             "budgets": {
                 "2011": 1300000.0,
-                "2012": 1100000.0
+                "2012": 1079000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 0.0,
-                "2012": 0.0
+                "2012": 35000.0
             },
             "budgets": {
                 "2011": 100000.0,
-                "2012": 100000.0
+                "2012": 51000.0
             }
         }
     }, {
-        "id": "erziehungsdirektion_kindergarten_und_volksschule",
+        "id": "erziehungsdirektion_kindergarten-und-volksschule",
         "name": "Kindergarten und Volksschule",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 1130100000.0,
-                "2012": 1126000000.0
+                "2012": 1125996000.0
             },
             "budgets": {
                 "2011": 1109300000.0,
-                "2012": 1090500000.0
+                "2012": 1090541000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 350200000.0,
-                "2012": 350000000.0
+                "2012": 349974000.0
             },
             "budgets": {
                 "2011": 342900000.0,
-                "2012": 336900000.0
+                "2012": 336853000.0
             }
         }
     }, {
-        "id": "erziehungsdirektion_erziehungsberatung_und_schulergänzende_angebote",
+        "id": "erziehungsdirektion_erziehungsberatung-und-schulerg-nzende-angebote",
         "name": "Erziehungsberatung und Schulergänzende Angebote",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 46500000.0,
-                "2012": 53000000.0
+                "2012": 53039000.0
             },
             "budgets": {
                 "2011": 52400000.0,
-                "2012": 53800000.0
+                "2012": 53834000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 700000.0,
-                "2012": 400000.0
+                "2012": 376000.0
             },
             "budgets": {
                 "2011": 300000.0,
-                "2012": 300000.0
+                "2012": 299000.0
             }
         }
     }, {
-        "id": "erziehungsdirektion_berufsbildung_weiterbildung_und_berufsberatung",
+        "id": "erziehungsdirektion_berufsbildung-weiterbildung-und-berufsberatung",
         "name": "Berufsbildung, Weiterbildung und Berufsberatung",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 562500000.0,
-                "2012": 540500000.0
+                "2012": 540484000.0
             },
             "budgets": {
                 "2011": 565000000.0,
-                "2012": 559900000.0
+                "2012": 559886000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 130700000.0,
-                "2012": 148200000.0
+                "2012": 148163000.0
             },
             "budgets": {
                 "2011": 125000000.0,
-                "2012": 137600000.0
+                "2012": 137575000.0
             }
         }
     }, {
-        "id": "erziehungsdirektion_bildung_mittelschulen",
+        "id": "erziehungsdirektion_bildung-mittelschulen",
         "name": "Bildung Mittelschulen",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 168000000.0,
-                "2012": 166300000.0
+                "2012": 166307000.0
             },
             "budgets": {
                 "2011": 168200000.0,
-                "2012": 172000000.0
+                "2012": 171994000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 6700000.0,
-                "2012": 6400000.0
+                "2012": 6445000.0
             },
             "budgets": {
                 "2011": 7200000.0,
-                "2012": 7300000.0
+                "2012": 7258000.0
             }
         }
     }, {
-        "id": "erziehungsdirektion_universitäre_bildung",
+        "id": "erziehungsdirektion_universit-re-bildung",
         "name": "Universitäre Bildung",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 555200000.0
@@ -2039,6 +2129,7 @@
     }, {
         "id": "erziehungsdirektion_fachhochschulbildung",
         "name": "Fachhochschulbildung",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 171600000.0
@@ -2056,39 +2147,41 @@
             }
         }
     }, {
-        "id": "erziehungsdirektion_lehrerinnen_und_lehrerbildung",
+        "id": "erziehungsdirektion_lehrerinnen-und-lehrerbildung",
         "name": "Lehrerinnen- und Lehrerbildung",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 96600000.0,
-                "2012": 95300000.0
+                "2012": 95312000.0
             },
             "budgets": {
                 "2011": 91500000.0,
-                "2012": 91600000.0
+                "2012": 91595000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 20400000.0,
-                "2012": 25000000.0
+                "2012": 24986000.0
             },
             "budgets": {
                 "2011": 14400000.0,
-                "2012": 21400000.0
+                "2012": 21424000.0
             }
         }
     }, {
-        "id": "erziehungsdirektion_interne_dienstleistungen",
+        "id": "erziehungsdirektion_interne-dienstleistungen",
         "name": "Interne Dienstleistungen",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 12100000.0,
-                "2012": 11600000.0
+                "2012": 11553000.0
             },
             "budgets": {
                 "2011": 15200000.0,
-                "2012": 16000000.0
+                "2012": 15955000.0
             }
         },
         "revenue": {
@@ -2102,107 +2195,112 @@
             }
         }
     }, {
-        "id": "erziehungsdirektion_ausbildungsbeiträge",
+        "id": "erziehungsdirektion_ausbildungsbeitr-ge",
         "name": "Ausbildungsbeiträge",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 27400000.0,
-                "2012": 25200000.0
+                "2012": 25212000.0
             },
             "budgets": {
                 "2011": 27600000.0,
-                "2012": 27500000.0
+                "2012": 27505000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 4100000.0,
-                "2012": 4200000.0
+                "2012": 4232000.0
             },
             "budgets": {
                 "2011": 3500000.0,
-                "2012": 3500000.0
+                "2012": 3450000.0
             }
         }
     }, {
         "id": "erziehungsdirektion_kultur",
         "name": "Kultur",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 69600000.0,
-                "2012": 66700000.0
+                "2012": 66656000.0
             },
             "budgets": {
                 "2011": 64400000.0,
-                "2012": 62500000.0
+                "2012": 62492000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 1600000.0,
-                "2012": 2200000.0
+                "2012": 2199000.0
             },
             "budgets": {
                 "2011": 600000.0,
-                "2012": 700000.0
+                "2012": 734000.0
             }
         }
     }, {
-        "id": "erziehungsdirektion_universitäre_bildung_",
+        "id": "erziehungsdirektion_universit-re-bildung-",
         "name": "Universitäre Bildung",
+        "detail": false,
         "gross_cost": {
             "accounts": {
-                "2012": 582300000.0
+                "2012": 582278000.0
             },
             "budgets": {
-                "2012": 366400000.0
+                "2012": 366384000.0
             }
         },
         "revenue": {
             "accounts": {
-                "2012": 269600000.0
+                "2012": 269623000.0
             },
             "budgets": {
-                "2012": 56500000.0
+                "2012": 56520000.0
             }
         }
     }, {
-        "id": "erziehungsdirektion_fachhochschulbildung_",
+        "id": "erziehungsdirektion_fachhochschulbildung-",
         "name": "Fachhochschulbildung",
+        "detail": false,
         "gross_cost": {
             "accounts": {
-                "2012": 163800000.0
+                "2012": 163796000.0
             },
             "budgets": {
-                "2012": 168300000.0
+                "2012": 168279000.0
             }
         },
         "revenue": {
             "accounts": {
-                "2012": 7400000.0
+                "2012": 7393000.0
             },
             "budgets": {
-                "2012": 11400000.0
+                "2012": 11381000.0
             }
         }
     }]
 }, {
     "id": "datenschutzaufsichtsstelle",
     "name": "Datenschutzaufsichtsstelle",
+    "detail": false,
     "gross_cost": {
         "accounts": {
             "2011": 700000.0,
-            "2012": 900000.0
+            "2012": 890000.0
         },
         "budgets": {
             "2011": 800000.0,
-            "2012": 1000000.0
+            "2012": 967000.0
         }
     },
     "revenue": {
         "accounts": {
             "2011": 0.0,
-            "2012": 0.0
+            "2012": 1000.0
         },
         "budgets": {
             "2011": 200000.0,
@@ -2212,20 +2310,21 @@
     "children": [{
         "id": "datenschutzaufsichtsstelle_datenschutz",
         "name": "Datenschutz",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 700000.0,
-                "2012": 900000.0
+                "2012": 890000.0
             },
             "budgets": {
                 "2011": 800000.0,
-                "2012": 1000000.0
+                "2012": 967000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 0.0,
-                "2012": 0.0
+                "2012": 1000.0
             },
             "budgets": {
                 "2011": 200000.0,
@@ -2234,91 +2333,95 @@
         }
     }]
 }, {
-    "id": "bau_verkehrs_und_energiedirektion",
+    "id": "bau-verkehrs-und-energiedirektion",
     "name": "Bau-, Verkehrs- und Energiedirektion",
+    "detail": false,
     "gross_cost": {
         "accounts": {
             "2011": 1045500000.0,
-            "2012": 1040700000.0
+            "2012": 1040779000.0
         },
         "budgets": {
             "2011": 1004500000.0,
-            "2012": 1056600000.0
+            "2012": 1056625000.0
         }
     },
     "revenue": {
         "accounts": {
             "2011": 359100000.0,
-            "2012": 378700000.0
+            "2012": 378857000.0
         },
         "budgets": {
             "2011": 338200000.0,
-            "2012": 361800000.0
+            "2012": 361672000.0
         }
     },
     "children": [{
-        "id": "bau_verkehrs_und_energiedirektion_vermessung_und_geoinformation",
+        "id": "bau-verkehrs-und-energiedirektion_vermessung-und-geoinformation",
         "name": "Vermessung und Geoinformation",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 8800000.0,
-                "2012": 8600000.0
+                "2012": 8557000.0
             },
             "budgets": {
                 "2011": 10000000.0,
-                "2012": 9900000.0
+                "2012": 9895000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 2400000.0,
-                "2012": 2800000.0
+                "2012": 2847000.0
             },
             "budgets": {
                 "2011": 2100000.0,
-                "2012": 2200000.0
+                "2012": 2199000.0
             }
         }
     }, {
-        "id": "bau_verkehrs_und_energiedirektion_betrieb_der_liegenschaften",
+        "id": "bau-verkehrs-und-energiedirektion_betrieb-der-liegenschaften",
         "name": "Betrieb der Liegenschaften",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 262300000.0,
-                "2012": 247300000.0
+                "2012": 247294000.0
             },
             "budgets": {
                 "2011": 253500000.0,
-                "2012": 249200000.0
+                "2012": 249174000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 18000000.0,
-                "2012": 26800000.0
+                "2012": 26845000.0
             },
             "budgets": {
                 "2011": 19400000.0,
-                "2012": 23700000.0
+                "2012": 23688000.0
             }
         }
     }, {
-        "id": "bau_verkehrs_und_energiedirektion_entwicklung_des_liegenschaftsbestandes",
+        "id": "bau-verkehrs-und-energiedirektion_entwicklung-des-liegenschaftsbestandes",
         "name": "Entwicklung des Liegenschaftsbestandes",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 35000000.0,
-                "2012": 115900000.0
+                "2012": 115919000.0
             },
             "budgets": {
                 "2011": 38100000.0,
-                "2012": 113600000.0
+                "2012": 113558000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 5800000.0,
-                "2012": 9200000.0
+                "2012": 9234000.0
             },
             "budgets": {
                 "2011": 0.0,
@@ -2326,229 +2429,239 @@
             }
         }
     }, {
-        "id": "bau_verkehrs_und_energiedirektion_nachhaltige_entwicklung",
+        "id": "bau-verkehrs-und-energiedirektion_nachhaltige-entwicklung",
         "name": "Nachhaltige Entwicklung",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 15600000.0,
-                "2012": 15900000.0
+                "2012": 15860000.0
             },
             "budgets": {
                 "2011": 22200000.0,
-                "2012": 16000000.0
+                "2012": 16015000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 1000000.0,
-                "2012": 300000.0
+                "2012": 266000.0
             },
             "budgets": {
                 "2011": 6600000.0,
-                "2012": 400000.0
+                "2012": 382000.0
             }
         }
     }, {
-        "id": "bau_verkehrs_und_energiedirektion_wasser_und_abfall",
+        "id": "bau-verkehrs-und-energiedirektion_wasser-und-abfall",
         "name": "Wasser und Abfall",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 39800000.0,
-                "2012": 38900000.0
+                "2012": 38935000.0
             },
             "budgets": {
                 "2011": 49400000.0,
-                "2012": 48200000.0
+                "2012": 48174000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 78000000.0,
-                "2012": 80400000.0
+                "2012": 80415000.0
             },
             "budgets": {
                 "2011": 69300000.0,
-                "2012": 76800000.0
+                "2012": 76783000.0
             }
         }
     }, {
-        "id": "bau_verkehrs_und_energiedirektion_hochwasserschutz",
+        "id": "bau-verkehrs-und-energiedirektion_hochwasserschutz",
         "name": "Hochwasserschutz",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 38300000.0,
-                "2012": 45200000.0
+                "2012": 45158000.0
             },
             "budgets": {
                 "2011": 35300000.0,
-                "2012": 29800000.0
+                "2012": 29836000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 4700000.0,
-                "2012": 2800000.0
+                "2012": 2844000.0
             },
             "budgets": {
                 "2011": 1400000.0,
-                "2012": 1500000.0
+                "2012": 1506000.0
             }
         }
     }, {
-        "id": "bau_verkehrs_und_energiedirektion_führungsunterstützung",
+        "id": "bau-verkehrs-und-energiedirektion_f-hrungsunterst-tzung",
         "name": "Führungsunterstützung",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 18900000.0,
-                "2012": 17700000.0
+                "2012": 17675000.0
             },
             "budgets": {
                 "2011": 20000000.0,
-                "2012": 20600000.0
+                "2012": 20573000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 400000.0,
-                "2012": 400000.0
+                "2012": 391000.0
             },
             "budgets": {
                 "2011": 200000.0,
-                "2012": 1100000.0
+                "2012": 1075000.0
             }
         }
     }, {
-        "id": "bau_verkehrs_und_energiedirektion_verwaltungsrechtspflege_und_rechtliche_dienstleistungen",
+        "id": "bau-verkehrs-und-energiedirektion_verwaltungsrechtspflege-und-rechtliche-dienstleistungen",
         "name": "Verwaltungsrechtspflege und rechtliche Dienstleistungen",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 2300000.0,
-                "2012": 2200000.0
+                "2012": 2227000.0
             },
             "budgets": {
                 "2011": 2300000.0,
-                "2012": 2400000.0
+                "2012": 2358000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 200000.0,
-                "2012": 200000.0
+                "2012": 230000.0
             },
             "budgets": {
                 "2011": 200000.0,
-                "2012": 200000.0
+                "2012": 192000.0
             }
         }
     }, {
-        "id": "bau_verkehrs_und_energiedirektion_kantonsstrassen",
+        "id": "bau-verkehrs-und-energiedirektion_kantonsstrassen",
         "name": "Kantonsstrassen",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 177700000.0,
-                "2012": 172400000.0
+                "2012": 172403000.0
             },
             "budgets": {
                 "2011": 174400000.0,
-                "2012": 182100000.0
+                "2012": 182139000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 99600000.0,
-                "2012": 123500000.0
+                "2012": 123519000.0
             },
             "budgets": {
                 "2011": 97200000.0,
-                "2012": 123500000.0
+                "2012": 123460000.0
             }
         }
     }, {
-        "id": "bau_verkehrs_und_energiedirektion_nationalstrassen",
+        "id": "bau-verkehrs-und-energiedirektion_nationalstrassen",
         "name": "Nationalstrassen",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 68900000.0,
-                "2012": 44100000.0
+                "2012": 44132000.0
             },
             "budgets": {
                 "2011": 35600000.0,
-                "2012": 36700000.0
+                "2012": 36736000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 39300000.0,
-                "2012": 40100000.0
+                "2012": 40063000.0
             },
             "budgets": {
                 "2011": 34100000.0,
-                "2012": 38800000.0
+                "2012": 38774000.0
             }
         }
     }, {
-        "id": "bau_verkehrs_und_energiedirektion_spezialprodukte",
+        "id": "bau-verkehrs-und-energiedirektion_spezialprodukte",
         "name": "Spezialprodukte",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 42600000.0,
-                "2012": 7200000.0
+                "2012": 7249000.0
             },
             "budgets": {
                 "2011": 40900000.0,
-                "2012": 9400000.0
+                "2012": 9418000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 20100000.0,
-                "2012": 200000.0
+                "2012": 154000.0
             },
             "budgets": {
                 "2011": 18600000.0,
-                "2012": 0.0
+                "2012": 2000.0
             }
         }
     }, {
-        "id": "bau_verkehrs_und_energiedirektion_verkehrsangebot_öffentlicher_verkehr",
+        "id": "bau-verkehrs-und-energiedirektion_verkehrsangebot-ffentlicher-verkehr",
         "name": "Verkehrsangebot öffentlicher Verkehr",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 271800000.0,
-                "2012": 279100000.0
+                "2012": 279133000.0
             },
             "budgets": {
                 "2011": 269700000.0,
-                "2012": 283300000.0
+                "2012": 283346000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 89600000.0,
-                "2012": 92000000.0
+                "2012": 92043000.0
             },
             "budgets": {
                 "2011": 89100000.0,
-                "2012": 93600000.0
+                "2012": 93611000.0
             }
         }
     }, {
-        "id": "bau_verkehrs_und_energiedirektion_infrastruktur_und_rollmaterial_öffentlicher_verkehr",
+        "id": "bau-verkehrs-und-energiedirektion_infrastruktur-und-rollmaterial-ffentlicher-verkehr",
         "name": "Infrastruktur und Rollmaterial öffentlicher Verkehr",
+        "detail": false,
         "gross_cost": {
             "accounts": {
                 "2011": 63500000.0,
-                "2012": 46200000.0
+                "2012": 46237000.0
             },
             "budgets": {
                 "2011": 53100000.0,
-                "2012": 55400000.0
+                "2012": 55403000.0
             }
         },
         "revenue": {
             "accounts": {
                 "2011": 0.0,
-                "2012": 0.0
+                "2012": 6000.0
             },
             "budgets": {
                 "2011": 0.0,

@@ -88,7 +88,22 @@ module OpenBudget
       }
     end
 
-    def load_cantonbe_csv file_path
+    def normalize_num num, options = {}
+      if options[:clear_comma]
+        num = num.to_s.gsub(',', '')
+      end
+      num = num.to_f
+      if options[:exponent]
+        num = num * (10 ** options[:exponent])
+      end
+      num
+    end
+
+    def load_cantonbe_csv file_path, options = {}
+      options = {
+        exponent: 6
+      }.merge options
+
       csv = CSV.read(file_path, :headers => true, :header_converters => :symbol, :converters => :all)
 
       number_headers = []
@@ -119,7 +134,7 @@ module OpenBudget
             .call(
               header[:type],
               header[:year],
-              row[header[:key]].to_f * (10 ** 6) # csv provides millions
+              normalize_num(row[header[:key]], options)
             )
         end
       end
