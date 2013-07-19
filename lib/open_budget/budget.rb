@@ -52,7 +52,7 @@ module OpenBudget
     def load_nodes json
       nodes = JSON.parse json, {object_class: ActiveSupport::HashWithIndifferentAccess}
       nodes.each do |node|
-        @nodes << Node.new.from_hash(node)
+        @nodes << Node.from_hash(node)
       end
     end
 
