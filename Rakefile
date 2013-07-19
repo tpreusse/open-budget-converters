@@ -183,4 +183,14 @@ namespace :cantonbe do
 
     puts "done"
   end
+
+  desc "enrich asp topf 1 and topf 2 json"
+  task :enrich_asp_json do
+    topf1 = OpenBudget::Budget.new
+    topf1.load_nodes File.read('data/be-asp/topf-1.json')
+
+    File.open('data/be-asp/topf-1.json', 'wb') do |file|
+      file.write topf1.to_json
+    end
+  end
 end

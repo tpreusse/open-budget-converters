@@ -41,12 +41,19 @@ module OpenBudget
       node
     end
 
-    def as_json(options = nil)
-      @nodes.collect {|node| node.as_json }
+    def as_json options = nil
+      @nodes.collect {|node| node.as_json(options) }
     end
 
     def load_meta file_path
       @meta = JSON.parse File.read(file_path)
+    end
+
+    def load_nodes json
+      nodes = JSON.parse json, {object_class: ActiveSupport::HashWithIndifferentAccess}
+      nodes.each do |node|
+        @nodes << Node.new.from_hash(node)
+      end
     end
 
     def from_finstabe_bfh_csv file_path

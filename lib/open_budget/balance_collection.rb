@@ -17,11 +17,7 @@ module OpenBudget
     def +(b)
       collection = BalanceCollection.new
       [accounts, b.accounts].each do |accounts|
-        accounts.each do |type, years|
-          years.each do |year, balance|
-            collection.add(type, year, balance)
-          end
-        end
+        collection.load_hash accounts
       end
       collection
     end
@@ -37,5 +33,14 @@ module OpenBudget
     def as_json(options = nil)
       @accounts
     end
+
+    def load_hash(accounts)
+      accounts.each do |type, years|
+        years.each do |year, balance|
+          self.add(type, year, balance)
+        end
+      end unless accounts.blank?
+    end
+
   end
 end

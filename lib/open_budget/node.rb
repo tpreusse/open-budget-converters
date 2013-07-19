@@ -72,6 +72,23 @@ module OpenBudget
       json
     end
 
+    def from_hash(hash, parent = nil)
+      self.id = hash[:id]
+      self.name = hash[:name]
+      self.detail = hash[:detail]
+      self.short_name = hash[:short_name]
+      self.parent = parent
+
+      hash[:children].to_a.each do |child|
+        self.children << Node.new.from_hash(child, self)
+      end
+
+      @gross_cost.load_hash hash[:gross_cost]
+      @revenue.load_hash hash[:revenue]
+
+      self
+    end
+
     def add_gross_cost(type, year, balance)
       if balance < 0
         add_revenue(type, year, balance * -1)
