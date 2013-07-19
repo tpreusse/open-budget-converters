@@ -59,9 +59,7 @@ namespace :cantonbe do
     budget.load_cantonbe_csv 'source/cantonbe/Kanton BE_Produkgruppen_DB IV nach DIR_2011.csv'
     budget.load_cantonbe_csv 'source/cantonbe/Kanton BE_Produkgruppen_DB IV nach DIR_2012_Werte in 1000.csv', exponent: 3, clear_comma: true
 
-    File.open("data/be/data.json", 'wb') do |file|
-      file.write budget.to_json
-    end
+    budget.save_pretty_json 'data/be/data.json'
     puts "done"
   end
 
@@ -168,18 +166,12 @@ namespace :cantonbe do
 
     FileUtils.mkdir_p 'data/be-asp'
 
-    # ToDo: abstract & add JSON.pretty_generate JSON.parse(topf1.to_json)
     File.open('data/be-asp/details.json', 'wb') do |file|
-      file.write details.to_json
+      file.write JSON.pretty_generate JSON.parse(details.to_json)
     end
 
-    File.open('data/be-asp/topf-1.json', 'wb') do |file|
-      file.write topf1.to_json
-    end
-
-    File.open('data/be-asp/topf-2.json', 'wb') do |file|
-      file.write topf2.to_json
-    end
+    topf1.save_pretty_json 'data/be-asp/topf-1.json'
+    topf2.save_pretty_json 'data/be-asp/topf-2.json'
 
     puts "done"
   end
@@ -189,8 +181,6 @@ namespace :cantonbe do
     topf1 = OpenBudget::Budget.new
     topf1.load_nodes File.read('data/be-asp/topf-1.json')
 
-    File.open('data/be-asp/topf-1.json', 'wb') do |file|
-      file.write topf1.to_json
-    end
+    topf1.save_pretty_json 'data/be-asp/topf-1.json'
   end
 end

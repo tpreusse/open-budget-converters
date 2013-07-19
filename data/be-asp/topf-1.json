@@ -1,1700 +1,1807 @@
-[{
+[
+  {
     "id": "weitere-entlastungsmassnahmen",
     "name": "Weitere Entlastungsmassnahmen",
     "detail": false,
     "revenue": {
-        "budgets": {
-            "2014": 73140000.0,
-            "2015": 131130000.0,
-            "2016": 219320000.0,
-            "2017": 243910000.0
-        }
+      "budgets": {
+        "2014": 73140000.0,
+        "2015": 131130000.0,
+        "2016": 219320000.0,
+        "2017": 243910000.0
+      }
     },
-    "children": [{
+    "children": [
+      {
         "id": "weitere-entlastungsmassnahmen_k-rzung-der-lohnmassnahmen",
         "name": "Kürzung der Lohnmassnahmen",
         "detail": true,
         "revenue": {
-            "budgets": {
-                "2014": 32140000.0,
-                "2015": 50130000.0,
-                "2016": 84320000.0,
-                "2017": 108910000.0
-            }
+          "budgets": {
+            "2014": 32140000.0,
+            "2015": 50130000.0,
+            "2016": 84320000.0,
+            "2017": 108910000.0
+          }
         }
-    }, {
+      },
+      {
         "id": "weitere-entlastungsmassnahmen_steuern-aufhebung-der-gesamtpauschale-f-r-berufskosten",
         "name": "Steuern: Aufhebung der Gesamtpauschale für Berufskosten",
         "detail": true,
         "revenue": {
-            "budgets": {
-                "2014": 41000000.0,
-                "2015": 41000000.0,
-                "2016": 41000000.0,
-                "2017": 41000000.0
-            }
+          "budgets": {
+            "2014": 41000000.0,
+            "2015": 41000000.0,
+            "2016": 41000000.0,
+            "2017": 41000000.0
+          }
         }
-    }, {
+      },
+      {
         "id": "weitere-entlastungsmassnahmen_steuern-plafonierung-des-fahrkostenabzugs-auf-chf-3-000",
         "name": "Steuern: Plafonierung des Fahrkostenabzugs auf CHF 3‘000",
         "detail": true,
         "revenue": {
-            "budgets": {
-                "2014": 0.0,
-                "2015": 0.0,
-                "2016": 54000000.0,
-                "2017": 54000000.0
-            }
+          "budgets": {
+            "2014": 0.0,
+            "2015": 0.0,
+            "2016": 54000000.0,
+            "2017": 54000000.0
+          }
         }
-    }, {
+      },
+      {
         "id": "weitere-entlastungsmassnahmen_abschreibungen-nach-rechnungsmodell-hrm2-ipsas-aufl-sung-der-aufwertungsreserven-innerhalb-von-15-jahren-",
         "name": "Abschreibungen nach Rechnungsmodell HRM2/IPSAS (Auflösung der Aufwertungsreserven innerhalb von 15 Jahren)",
         "detail": true,
         "revenue": {
-            "budgets": {
-                "2014": 0.0,
-                "2015": 40000000.0,
-                "2016": 40000000.0,
-                "2017": 40000000.0
-            }
+          "budgets": {
+            "2014": 0.0,
+            "2015": 40000000.0,
+            "2016": 40000000.0,
+            "2017": 40000000.0
+          }
         }
-    }, {
+      },
+      {
         "id": "weitere-entlastungsmassnahmen_allgemeine-neubewertung-der-grundst-cke",
         "name": "Allgemeine Neubewertung der Grundstücke",
         "detail": true,
         "revenue": {
-            "budgets": {
-                "2014": 0.0,
-                "2015": 0.0,
-                "2016": 0.0,
-                "2017": 0.0
-            }
+          "budgets": {
+            "2014": 0.0,
+            "2015": 0.0,
+            "2016": 0.0,
+            "2017": 0.0
+          }
         }
-    }]
-}, {
+      }
+    ]
+  },
+  {
     "id": "gerichtsbeh-rden-und-staatsanwaltschaft",
     "name": "Gerichtsbehörden und Staatsanwaltschaft",
     "detail": false,
     "revenue": {
-        "budgets": {
-            "2014": 5000000.0,
-            "2015": 5000000.0,
-            "2016": 5000000.0,
-            "2017": 5000000.0
-        }
+      "budgets": {
+        "2014": 5000000.0,
+        "2015": 5000000.0,
+        "2016": 5000000.0,
+        "2017": 5000000.0
+      }
     },
-    "children": [{
+    "children": [
+      {
         "id": "gerichtsbeh-rden-und-staatsanwaltschaft_angebots-und-strukturanpassungen-im-bereich-der-gerichtsbeh-rden-und-der-staatsanwaltschaft",
         "name": "Angebots- und Strukturanpassungen im Bereich der Gerichtsbehörden und der Staatsanwaltschaft",
         "detail": true,
         "revenue": {
-            "budgets": {
-                "2014": 5000000.0,
-                "2015": 5000000.0,
-                "2016": 5000000.0,
-                "2017": 5000000.0
-            }
+          "budgets": {
+            "2014": 5000000.0,
+            "2015": 5000000.0,
+            "2016": 5000000.0,
+            "2017": 5000000.0
+          }
         }
-    }]
-}, {
+      }
+    ]
+  },
+  {
     "id": "volkswirtschaft",
     "name": "Volkswirtschaft",
     "detail": false,
     "revenue": {
-        "budgets": {
-            "2014": 940000.0,
-            "2015": 1520000.0,
-            "2016": 2000000.0,
-            "2017": 2000000.0
-        },
-        "positions": {
-            "2014": 10.0,
-            "2015": 10.0,
-            "2016": 10.0,
-            "2017": 10.0
-        }
+      "budgets": {
+        "2014": 940000.0,
+        "2015": 1520000.0,
+        "2016": 2000000.0,
+        "2017": 2000000.0
+      },
+      "positions": {
+        "2014": 10.0,
+        "2015": 10.0,
+        "2016": 10.0,
+        "2017": 10.0
+      }
     },
-    "children": [{
+    "children": [
+      {
         "id": "volkswirtschaft_reorganisation-und-leistungsabbau-beim-jagdinspektorat",
         "name": "Reorganisation und Leistungsabbau beim Jagdinspektorat",
         "detail": true,
         "short_name": "2.1",
         "revenue": {
-            "budgets": {
-                "2014": 420000.0,
-                "2015": 840000.0,
-                "2016": 1050000.0,
-                "2017": 1050000.0
-            },
-            "positions": {
-                "2014": 6.0,
-                "2015": 6.0,
-                "2016": 6.0,
-                "2017": 6.0
-            }
+          "budgets": {
+            "2014": 420000.0,
+            "2015": 840000.0,
+            "2016": 1050000.0,
+            "2017": 1050000.0
+          },
+          "positions": {
+            "2014": 6.0,
+            "2015": 6.0,
+            "2016": 6.0,
+            "2017": 6.0
+          }
         }
-    }, {
+      },
+      {
         "id": "volkswirtschaft_struktur-und-leistungsabbau-beim-fischereiinspektorat-teil-1-ohne-renaturierungsfonds-",
         "name": "Struktur und Leistungsabbau beim Fischereiinspektorat (Teil 1, ohne\nRenaturierungsfonds)",
         "detail": true,
         "short_name": "2.2",
         "revenue": {
-            "budgets": {
-                "2014": 320000.0,
-                "2015": 480000.0,
-                "2016": 600000.0,
-                "2017": 600000.0
-            },
-            "positions": {
-                "2014": 2.0,
-                "2015": 2.0,
-                "2016": 2.0,
-                "2017": 2.0
-            }
+          "budgets": {
+            "2014": 320000.0,
+            "2015": 480000.0,
+            "2016": 600000.0,
+            "2017": 600000.0
+          },
+          "positions": {
+            "2014": 2.0,
+            "2015": 2.0,
+            "2016": 2.0,
+            "2017": 2.0
+          }
         }
-    }, {
+      },
+      {
         "id": "volkswirtschaft_struktur-und-leistungsabbau-beim-fischereiinspektorat-teil-2-mit-renaturierungsfonds-",
         "name": "Struktur- und Leistungsabbau beim Fischereiinspektorat (Teil 2, mit\nRenaturierungsfonds)",
         "detail": true,
         "short_name": "2.3",
         "revenue": {
-            "budgets": {
-                "2014": 200000.0,
-                "2015": 200000.0,
-                "2016": 350000.0,
-                "2017": 350000.0
-            },
-            "positions": {
-                "2014": 2.0,
-                "2015": 2.0,
-                "2016": 2.0,
-                "2017": 2.0
-            }
+          "budgets": {
+            "2014": 200000.0,
+            "2015": 200000.0,
+            "2016": 350000.0,
+            "2017": 350000.0
+          },
+          "positions": {
+            "2014": 2.0,
+            "2015": 2.0,
+            "2016": 2.0,
+            "2017": 2.0
+          }
         }
-    }]
-}, {
+      }
+    ]
+  },
+  {
     "id": "gesundheit-und-f-rsorge",
     "name": "Gesundheit und Fürsorge",
     "detail": false,
     "revenue": {
-        "budgets": {
-            "2014": 94500000.0,
-            "2015": 108000000.0,
-            "2016": 108100000.0,
-            "2017": 108200000.0
-        },
-        "positions": {
-            "2014": 287.0,
-            "2015": 287.0,
-            "2016": 287.0,
-            "2017": 287.0
-        }
+      "budgets": {
+        "2014": 94500000.0,
+        "2015": 108000000.0,
+        "2016": 108100000.0,
+        "2017": 108200000.0
+      },
+      "positions": {
+        "2014": 287.0,
+        "2015": 287.0,
+        "2016": 287.0,
+        "2017": 287.0
+      }
     },
-    "children": [{
+    "children": [
+      {
         "id": "gesundheit-und-f-rsorge_spitalversorgung-streichung-der-frei-verf-gbaren-mittel-im-zusatzfinanzierungsbereich",
         "name": "Spitalversorgung: Streichung der frei verfügbaren Mittel im\nZusatzfinanzierungsbereich",
         "detail": true,
         "short_name": "4.1",
         "revenue": {
-            "budgets": {
-                "2014": 20000000.0,
-                "2015": 18000000.0,
-                "2016": 17000000.0,
-                "2017": 17000000.0
-            }
+          "budgets": {
+            "2014": 20000000.0,
+            "2015": 18000000.0,
+            "2016": 17000000.0,
+            "2017": 17000000.0
+          }
         }
-    }, {
+      },
+      {
         "id": "gesundheit-und-f-rsorge_spitalversorgung-verzicht-auf-restrukturierungsbeitr-ge",
         "name": "Spitalversorgung: Verzicht auf Restrukturierungsbeiträge",
         "detail": true,
         "short_name": "4.2",
         "revenue": {
-            "budgets": {
-                "2014": 1800000.0,
-                "2015": 1800000.0,
-                "2016": 1800000.0,
-                "2017": 1800000.0
-            }
+          "budgets": {
+            "2014": 1800000.0,
+            "2015": 1800000.0,
+            "2016": 1800000.0,
+            "2017": 1800000.0
+          }
         }
-    }, {
+      },
+      {
         "id": "gesundheit-und-f-rsorge_senkung-der-normkosten-f-r-rettungsdienste",
         "name": "Senkung der Normkosten für Rettungsdienste",
         "detail": true,
         "short_name": "4.3",
         "revenue": {
-            "budgets": {
-                "2014": 1300000.0,
-                "2015": 1300000.0,
-                "2016": 1300000.0,
-                "2017": 1400000.0
-            },
-            "positions": {
-                "2014": 0.0,
-                "2015": 0.0,
-                "2016": 0.0,
-                "2017": 0.0
-            }
+          "budgets": {
+            "2014": 1300000.0,
+            "2015": 1300000.0,
+            "2016": 1300000.0,
+            "2017": 1400000.0
+          },
+          "positions": {
+            "2014": 0.0,
+            "2015": 0.0,
+            "2016": 0.0,
+            "2017": 0.0
+          }
         }
-    }, {
+      },
+      {
         "id": "gesundheit-und-f-rsorge_wegfall-der-kompensation-minderleistung-mehraufwand-bei-der-erneuerung-der-kinderklinik-des-inselspitals",
         "name": "Wegfall der Kompensation Minderleistung/Mehraufwand bei der\nErneuerung der Kinderklinik des Inselspitals",
         "detail": true,
         "short_name": "4.4",
         "revenue": {
-            "budgets": {
-                "2014": 3600000.0,
-                "2015": 3600000.0,
-                "2016": 0.0,
-                "2017": 0.0
-            },
-            "positions": {
-                "2014": 0.0,
-                "2015": 0.0,
-                "2016": 0.0,
-                "2017": 0.0
-            }
+          "budgets": {
+            "2014": 3600000.0,
+            "2015": 3600000.0,
+            "2016": 0.0,
+            "2017": 0.0
+          },
+          "positions": {
+            "2014": 0.0,
+            "2015": 0.0,
+            "2016": 0.0,
+            "2017": 0.0
+          }
         }
-    }, {
+      },
+      {
         "id": "gesundheit-und-f-rsorge_beitr-ge-im-rahmen-des-gesundheitsgesetzes-beitr-ge-an-non-profit-organisationen",
         "name": "Beiträge im Rahmen des Gesundheitsgesetzes / Beiträge an Non-Profit-\nOrganisationen",
         "detail": true,
         "short_name": "4.5",
         "revenue": {
-            "budgets": {
-                "2014": 900000.0,
-                "2015": 900000.0,
-                "2016": 900000.0,
-                "2017": 900000.0
-            },
-            "positions": {
-                "2014": 0.0,
-                "2015": 0.0,
-                "2016": 0.0,
-                "2017": 0.0
-            }
+          "budgets": {
+            "2014": 900000.0,
+            "2015": 900000.0,
+            "2016": 900000.0,
+            "2017": 900000.0
+          },
+          "positions": {
+            "2014": 0.0,
+            "2015": 0.0,
+            "2016": 0.0,
+            "2017": 0.0
+          }
         }
-    }, {
+      },
+      {
         "id": "gesundheit-und-f-rsorge_streichung-der-gelder-f-r-f-hrungsentwicklung-in-den-upd",
         "name": "Streichung der Gelder für Führungsentwicklung in den UPD",
         "detail": true,
         "short_name": "5.1",
         "revenue": {
-            "budgets": {
-                "2014": 400000.0,
-                "2015": 400000.0,
-                "2016": 400000.0,
-                "2017": 400000.0
-            },
-            "positions": {
-                "2014": 0.0,
-                "2015": 0.0,
-                "2016": 0.0,
-                "2017": 0.0
-            }
+          "budgets": {
+            "2014": 400000.0,
+            "2015": 400000.0,
+            "2016": 400000.0,
+            "2017": 400000.0
+          },
+          "positions": {
+            "2014": 0.0,
+            "2015": 0.0,
+            "2016": 0.0,
+            "2017": 0.0
+          }
         }
-    }, {
+      },
+      {
         "id": "gesundheit-und-f-rsorge_stellenabbau-in-den-kantonalen-psychiatriebetrieben",
         "name": "Stellenabbau in den kantonalen Psychiatriebetrieben",
         "detail": true,
         "short_name": "5.3",
         "revenue": {
-            "budgets": {
-                "2014": 2500000.0,
-                "2015": 5000000.0,
-                "2016": 5000000.0,
-                "2017": 5000000.0
-            },
-            "positions": {
-                "2014": 60.0,
-                "2015": 60.0,
-                "2016": 60.0,
-                "2017": 60.0
-            }
+          "budgets": {
+            "2014": 2500000.0,
+            "2015": 5000000.0,
+            "2016": 5000000.0,
+            "2017": 5000000.0
+          },
+          "positions": {
+            "2014": 60.0,
+            "2015": 60.0,
+            "2016": 60.0,
+            "2017": 60.0
+          }
         }
-    }, {
+      },
+      {
         "id": "gesundheit-und-f-rsorge_einsparungen-bei-den-ambulanten-beratungsstellen-suchthilfe",
         "name": "Einsparungen bei den ambulanten Beratungsstellen Suchthilfe",
         "detail": true,
         "short_name": "6.1",
         "revenue": {
-            "budgets": {
-                "2014": 1000000.0,
-                "2015": 1000000.0,
-                "2016": 1000000.0,
-                "2017": 1000000.0
-            }
+          "budgets": {
+            "2014": 1000000.0,
+            "2015": 1000000.0,
+            "2016": 1000000.0,
+            "2017": 1000000.0
+          }
         }
-    }, {
+      },
+      {
         "id": "gesundheit-und-f-rsorge_streichung-der-subventionen-an-die-hauswirtschaftlichen-leistungen-der-spitex",
         "name": "Streichung der Subventionen an die hauswirtschaftlichen Leistungen der\nSpitex",
         "detail": true,
         "short_name": "6.2",
         "revenue": {
-            "budgets": {
-                "2014": 11500000.0,
-                "2015": 11500000.0,
-                "2016": 11500000.0,
-                "2017": 11500000.0
-            }
+          "budgets": {
+            "2014": 11500000.0,
+            "2015": 11500000.0,
+            "2016": 11500000.0,
+            "2017": 11500000.0
+          }
         }
-    }, {
+      },
+      {
         "id": "gesundheit-und-f-rsorge_k-rzung-der-abgeltung-der-versorgungspflicht-f-r-pflegerische-leistungen-der-spitex-um-25-",
         "name": "Kürzung der Abgeltung der Versorgungspflicht für pflegerische\nLeistungen der Spitex um 25%",
         "detail": true,
         "short_name": "6.3",
         "revenue": {
-            "budgets": {
-                "2014": 5200000.0,
-                "2015": 5200000.0,
-                "2016": 5200000.0,
-                "2017": 5200000.0
-            }
+          "budgets": {
+            "2014": 5200000.0,
+            "2015": 5200000.0,
+            "2016": 5200000.0,
+            "2017": 5200000.0
+          }
         }
-    }, {
+      },
+      {
         "id": "gesundheit-und-f-rsorge_k-rzung-der-abgeltung-der-versorgungspflicht-f-r-hauswirtschaftliche-leistungen-der-spitex-um-50-",
         "name": "Kürzung der Abgeltung der Versorgungspflicht für hauswirtschaftliche\nLeistungen der Spitex um 50%",
         "detail": true,
         "short_name": "6.4",
         "revenue": {
-            "budgets": {
-                "2014": 2500000.0,
-                "2015": 2500000.0,
-                "2016": 2500000.0,
-                "2017": 2500000.0
-            }
+          "budgets": {
+            "2014": 2500000.0,
+            "2015": 2500000.0,
+            "2016": 2500000.0,
+            "2017": 2500000.0
+          }
         }
-    }, {
+      },
+      {
         "id": "gesundheit-und-f-rsorge_streichung-der-subventionen-an-die-erg-nzenden-dienstleistungen-der-spitex",
         "name": "Streichung der Subventionen an die ergänzenden Dienstleistungen der\nSpitex",
         "detail": true,
         "short_name": "6.6",
         "revenue": {
-            "budgets": {
-                "2014": 700000.0,
-                "2015": 700000.0,
-                "2016": 700000.0,
-                "2017": 700000.0
-            }
+          "budgets": {
+            "2014": 700000.0,
+            "2015": 700000.0,
+            "2016": 700000.0,
+            "2017": 700000.0
+          }
         }
-    }, {
+      },
+      {
         "id": "gesundheit-und-f-rsorge_festlegung-eines-maximalbetrags-f-r-platzierungskosten-im-sozial-und-asylwesen",
         "name": "Festlegung eines Maximalbetrags für Platzierungskosten im Sozial- und\nAsylwesen",
         "detail": true,
         "short_name": "7a.1",
         "revenue": {
-            "budgets": {
-                "2014": 3000000.0,
-                "2015": 3000000.0,
-                "2016": 3000000.0,
-                "2017": 3000000.0
-            },
-            "positions": {
-                "2014": 0.0,
-                "2015": 0.0,
-                "2016": 0.0,
-                "2017": 0.0
-            }
+          "budgets": {
+            "2014": 3000000.0,
+            "2015": 3000000.0,
+            "2016": 3000000.0,
+            "2017": 3000000.0
+          },
+          "positions": {
+            "2014": 0.0,
+            "2015": 0.0,
+            "2016": 0.0,
+            "2017": 0.0
+          }
         }
-    }, {
+      },
+      {
         "id": "gesundheit-und-f-rsorge_k-rzungen-der-integrationszulagen-auf-skos-minimum",
         "name": "Kürzungen der Integrationszulagen auf SKOS-Minimum",
         "detail": true,
         "short_name": "7a.2",
         "revenue": {
-            "budgets": {
-                "2014": 5000000.0,
-                "2015": 5000000.0,
-                "2016": 5000000.0,
-                "2017": 5000000.0
-            },
-            "positions": {
-                "2014": 0.0,
-                "2015": 0.0,
-                "2016": 0.0,
-                "2017": 0.0
-            }
+          "budgets": {
+            "2014": 5000000.0,
+            "2015": 5000000.0,
+            "2016": 5000000.0,
+            "2017": 5000000.0
+          },
+          "positions": {
+            "2014": 0.0,
+            "2015": 0.0,
+            "2016": 0.0,
+            "2017": 0.0
+          }
         }
-    }, {
+      },
+      {
         "id": "gesundheit-und-f-rsorge_festsetzung-eines-maximalbetrags-f-r-krankenversicherungspr-mien-in-der-sozialhilfe",
         "name": "Festsetzung eines Maximalbetrags für Krankenversicherungsprämien in\nder Sozialhilfe",
         "detail": true,
         "short_name": "7a.3",
         "revenue": {
-            "budgets": {
-                "2014": 3500000.0,
-                "2015": 3500000.0,
-                "2016": 3500000.0,
-                "2017": 3500000.0
-            },
-            "positions": {
-                "2014": 0.0,
-                "2015": 0.0,
-                "2016": 0.0,
-                "2017": 0.0
-            }
+          "budgets": {
+            "2014": 3500000.0,
+            "2015": 3500000.0,
+            "2016": 3500000.0,
+            "2017": 3500000.0
+          },
+          "positions": {
+            "2014": 0.0,
+            "2015": 0.0,
+            "2016": 0.0,
+            "2017": 0.0
+          }
         }
-    }, {
+      },
+      {
         "id": "gesundheit-und-f-rsorge_abschaffung-des-zuschusses-nach-dekret",
         "name": "Abschaffung des Zuschusses nach Dekret",
         "detail": true,
         "short_name": "7a.4",
         "revenue": {
-            "budgets": {
-                "2014": 0.0,
-                "2015": 0.0,
-                "2016": 1500000.0,
-                "2017": 1500000.0
-            },
-            "positions": {
-                "2014": 0.0,
-                "2015": 0.0,
-                "2016": 0.0,
-                "2017": 0.0
-            }
+          "budgets": {
+            "2014": 0.0,
+            "2015": 0.0,
+            "2016": 1500000.0,
+            "2017": 1500000.0
+          },
+          "positions": {
+            "2014": 0.0,
+            "2015": 0.0,
+            "2016": 0.0,
+            "2017": 0.0
+          }
         }
-    }, {
+      },
+      {
         "id": "gesundheit-und-f-rsorge_kopplung-der-alimentenbevorschussung-an-das-einkommen",
         "name": "Kopplung der Alimentenbevorschussung an das Einkommen",
         "detail": true,
         "short_name": "7a.5",
         "revenue": {
-            "budgets": {
-                "2014": 0.0,
-                "2015": 0.0,
-                "2016": 3200000.0,
-                "2017": 3200000.0
-            },
-            "positions": {
-                "2014": 0.0,
-                "2015": 0.0,
-                "2016": 0.0,
-                "2017": 0.0
-            }
+          "budgets": {
+            "2014": 0.0,
+            "2015": 0.0,
+            "2016": 3200000.0,
+            "2017": 3200000.0
+          },
+          "positions": {
+            "2014": 0.0,
+            "2015": 0.0,
+            "2016": 0.0,
+            "2017": 0.0
+          }
         }
-    }, {
+      },
+      {
         "id": "gesundheit-und-f-rsorge_mitfinanzierung-der-besoldungskosten-des-personals-in-den-alimenteninkassostellen-anstelle-der-ausrichtung-von-inkassoprovisionen",
         "name": "Mitfinanzierung der Besoldungskosten des Personals in den\nAlimenteninkassostellen anstelle der Ausrichtung von Inkassoprovisionen",
         "detail": true,
         "short_name": "7a.6",
         "revenue": {
-            "budgets": {
-                "2014": 1400000.0,
-                "2015": 1400000.0,
-                "2016": 1400000.0,
-                "2017": 1400000.0
-            },
-            "positions": {
-                "2014": 0.0,
-                "2015": 0.0,
-                "2016": 0.0,
-                "2017": 0.0
-            }
+          "budgets": {
+            "2014": 1400000.0,
+            "2015": 1400000.0,
+            "2016": 1400000.0,
+            "2017": 1400000.0
+          },
+          "positions": {
+            "2014": 0.0,
+            "2015": 0.0,
+            "2016": 0.0,
+            "2017": 0.0
+          }
         }
-    }, {
+      },
+      {
         "id": "gesundheit-und-f-rsorge_aufhebung-der-testarbeitspl-tze",
         "name": "Aufhebung der Testarbeitsplätze",
         "detail": true,
         "short_name": "7a.7",
         "revenue": {
-            "budgets": {
-                "2014": 1600000.0,
-                "2015": 1600000.0,
-                "2016": 1600000.0,
-                "2017": 1600000.0
-            },
-            "positions": {
-                "2014": 7.0,
-                "2015": 7.0,
-                "2016": 7.0,
-                "2017": 7.0
-            }
+          "budgets": {
+            "2014": 1600000.0,
+            "2015": 1600000.0,
+            "2016": 1600000.0,
+            "2017": 1600000.0
+          },
+          "positions": {
+            "2014": 7.0,
+            "2015": 7.0,
+            "2016": 7.0,
+            "2017": 7.0
+          }
         }
-    }, {
+      },
+      {
         "id": "gesundheit-und-f-rsorge_reduktion-der-angebote-f-r-vorl-ufig-aufgenommen-und-fl-chtlinge",
         "name": "Reduktion der Angebote für vorläufig aufgenommen und Flüchtlinge",
         "detail": true,
         "short_name": "7a.8",
         "revenue": {
-            "budgets": {
-                "2014": 1300000.0,
-                "2015": 1300000.0,
-                "2016": 1300000.0,
-                "2017": 1300000.0
-            }
+          "budgets": {
+            "2014": 1300000.0,
+            "2015": 1300000.0,
+            "2016": 1300000.0,
+            "2017": 1300000.0
+          }
         }
-    }, {
+      },
+      {
         "id": "gesundheit-und-f-rsorge_aufschub-der-integrationsmassnahmen",
         "name": "Aufschub der Integrationsmassnahmen",
         "detail": true,
         "short_name": "7a.9",
         "revenue": {
-            "budgets": {
-                "2014": 2300000.0,
-                "2015": 2300000.0,
-                "2016": 2300000.0,
-                "2017": 2300000.0
-            },
-            "positions": {
-                "2014": 0.0,
-                "2015": 0.0,
-                "2016": 0.0,
-                "2017": 0.0
-            }
+          "budgets": {
+            "2014": 2300000.0,
+            "2015": 2300000.0,
+            "2016": 2300000.0,
+            "2017": 2300000.0
+          },
+          "positions": {
+            "2014": 0.0,
+            "2015": 0.0,
+            "2016": 0.0,
+            "2017": 0.0
+          }
         }
-    }, {
+      },
+      {
         "id": "gesundheit-und-f-rsorge_ausbau-der-personellen-ressourcen-f-r-erh-hte-kontrolle-und-revisionst-tigkeit-im-sozial-und-asylwesen",
         "name": "Ausbau der personellen Ressourcen für erhöhte Kontrolle und\nRevisionstätigkeit im Sozial- und Asylwesen",
         "detail": true,
         "short_name": "7a.10",
         "revenue": {
-            "budgets": {
-                "2014": 500000.0,
-                "2015": 500000.0,
-                "2016": 500000.0,
-                "2017": 500000.0
-            },
-            "positions": {
-                "2014": 0.0,
-                "2015": 0.0,
-                "2016": 0.0,
-                "2017": 0.0
-            }
+          "budgets": {
+            "2014": 500000.0,
+            "2015": 500000.0,
+            "2016": 500000.0,
+            "2017": 500000.0
+          },
+          "positions": {
+            "2014": 0.0,
+            "2015": 0.0,
+            "2016": 0.0,
+            "2017": 0.0
+          }
         }
-    }, {
+      },
+      {
         "id": "gesundheit-und-f-rsorge_k-rzung-der-betriebsbeitr-ge-an-institutionen-f-r-erwachsene-behinderte",
         "name": "Kürzung der Betriebsbeiträge an Institutionen für erwachsene Behinderte",
         "detail": true,
         "short_name": "8.4",
         "revenue": {
-            "budgets": {
-                "2014": 15700000.0,
-                "2015": 28700000.0,
-                "2016": 28700000.0,
-                "2017": 28700000.0
-            },
-            "positions": {
-                "2014": 220.0,
-                "2015": 220.0,
-                "2016": 220.0,
-                "2017": 220.0
-            }
+          "budgets": {
+            "2014": 15700000.0,
+            "2015": 28700000.0,
+            "2016": 28700000.0,
+            "2017": 28700000.0
+          },
+          "positions": {
+            "2014": 220.0,
+            "2015": 220.0,
+            "2016": 220.0,
+            "2017": 220.0
+          }
         }
-    }, {
+      },
+      {
         "id": "gesundheit-und-f-rsorge_reduktion-der-kostenbeteiligung-bei-der-station-ren-langzeitpflege-um-5-",
         "name": "Reduktion der Kostenbeteiligung bei der stationären Langzeitpflege um\n5 %",
         "detail": true,
         "short_name": "8.5",
         "revenue": {
-            "budgets": {
-                "2014": 8800000.0,
-                "2015": 8800000.0,
-                "2016": 8800000.0,
-                "2017": 8800000.0
-            }
+          "budgets": {
+            "2014": 8800000.0,
+            "2015": 8800000.0,
+            "2016": 8800000.0,
+            "2017": 8800000.0
+          }
         }
-    }]
-}, {
+      }
+    ]
+  },
+  {
     "id": "justiz-gemeinde-und-kirchen",
     "name": "Justiz, Gemeinde und Kirchen",
     "detail": false,
     "revenue": {
-        "budgets": {
-            "2014": 36000000.0,
-            "2015": 51000000.0,
-            "2016": 51000000.0,
-            "2017": 51000000.0
-        },
-        "positions": {
-            "2014": 0.0,
-            "2015": 0.0,
-            "2016": 0.0,
-            "2017": 0.0
-        }
+      "budgets": {
+        "2014": 36000000.0,
+        "2015": 51000000.0,
+        "2016": 51000000.0,
+        "2017": 51000000.0
+      },
+      "positions": {
+        "2014": 0.0,
+        "2015": 0.0,
+        "2016": 0.0,
+        "2017": 0.0
+      }
     },
-    "children": [{
+    "children": [
+      {
         "id": "justiz-gemeinde-und-kirchen_erg-nzungsleistungen-reduktion-der-h-chstbetr-ge-der-heimtarife-im-bereich-der-darin-enthaltenen-infrastrukturkosten",
         "name": "Ergänzungsleistungen: Reduktion der Höchstbeträge der Heimtarife im\nBereich der darin enthaltenen Infrastrukturkosten",
         "detail": true,
         "short_name": "9.1",
         "revenue": {
-            "budgets": {
-                "2014": 15000000.0,
-                "2015": 15000000.0,
-                "2016": 15000000.0,
-                "2017": 15000000.0
-            },
-            "positions": {
-                "2014": 0.0,
-                "2015": 0.0,
-                "2016": 0.0,
-                "2017": 0.0
-            }
+          "budgets": {
+            "2014": 15000000.0,
+            "2015": 15000000.0,
+            "2016": 15000000.0,
+            "2017": 15000000.0
+          },
+          "positions": {
+            "2014": 0.0,
+            "2015": 0.0,
+            "2016": 0.0,
+            "2017": 0.0
+          }
         }
-    }, {
+      },
+      {
         "id": "justiz-gemeinde-und-kirchen_erg-nzungsleistungen-reduktion-der-kostenvoranschlagslimite-bei-zahnbehandlungen",
         "name": "Ergänzungsleistungen: Reduktion der Kostenvoranschlagslimite bei\nZahnbehandlungen",
         "detail": true,
         "short_name": "9.2",
         "revenue": {
-            "budgets": {
-                "2014": 1000000.0,
-                "2015": 1000000.0,
-                "2016": 1000000.0,
-                "2017": 1000000.0
-            },
-            "positions": {
-                "2014": 0.0,
-                "2015": 0.0,
-                "2016": 0.0,
-                "2017": 0.0
-            }
+          "budgets": {
+            "2014": 1000000.0,
+            "2015": 1000000.0,
+            "2016": 1000000.0,
+            "2017": 1000000.0
+          },
+          "positions": {
+            "2014": 0.0,
+            "2015": 0.0,
+            "2016": 0.0,
+            "2017": 0.0
+          }
         }
-    }, {
+      },
+      {
         "id": "justiz-gemeinde-und-kirchen_kranken-und-unfallversicherung-k-rzungen-bei-der-pr-mienverbilligung",
         "name": "Kranken- und Unfallversicherung: Kürzungen bei der Prämienverbilligung",
         "detail": true,
         "short_name": "10.1",
         "revenue": {
-            "budgets": {
-                "2014": 20000000.0,
-                "2015": 35000000.0,
-                "2016": 35000000.0,
-                "2017": 35000000.0
-            },
-            "positions": {
-                "2014": 0.0,
-                "2015": 0.0,
-                "2016": 0.0,
-                "2017": 0.0
-            }
+          "budgets": {
+            "2014": 20000000.0,
+            "2015": 35000000.0,
+            "2016": 35000000.0,
+            "2017": 35000000.0
+          },
+          "positions": {
+            "2014": 0.0,
+            "2015": 0.0,
+            "2016": 0.0,
+            "2017": 0.0
+          }
         }
-    }]
-}, {
+      }
+    ]
+  },
+  {
     "id": "polizei",
     "name": "Polizei",
     "detail": false,
     "revenue": {
-        "budgets": {
-            "2014": 0.0,
-            "2015": 4300000.0,
-            "2016": 8400000.0,
-            "2017": 12700000.0
-        },
-        "positions": {
-            "2014": 0.0,
-            "2015": 33.0,
-            "2016": 66.0,
-            "2017": 100.0
-        }
+      "budgets": {
+        "2014": 0.0,
+        "2015": 4300000.0,
+        "2016": 8400000.0,
+        "2017": 12700000.0
+      },
+      "positions": {
+        "2014": 0.0,
+        "2015": 33.0,
+        "2016": 66.0,
+        "2017": 100.0
+      }
     },
-    "children": [{
+    "children": [
+      {
         "id": "polizei_stellenabbau-bei-der-kantonspolizei",
         "name": "Stellenabbau bei der Kantonspolizei",
         "detail": true,
         "short_name": "11.1",
         "revenue": {
-            "budgets": {
-                "2014": 0.0,
-                "2015": 4300000.0,
-                "2016": 8400000.0,
-                "2017": 12700000.0
-            },
-            "positions": {
-                "2014": 0.0,
-                "2015": 33.0,
-                "2016": 66.0,
-                "2017": 100.0
-            }
+          "budgets": {
+            "2014": 0.0,
+            "2015": 4300000.0,
+            "2016": 8400000.0,
+            "2017": 12700000.0
+          },
+          "positions": {
+            "2014": 0.0,
+            "2015": 33.0,
+            "2016": 66.0,
+            "2017": 100.0
+          }
         }
-    }]
-}, {
+      }
+    ]
+  },
+  {
     "id": "finanzen",
     "name": "Finanzen",
     "detail": false,
     "revenue": {
-        "budgets": {
-            "2014": 7000000.0,
-            "2015": 7000000.0,
-            "2016": 7000000.0,
-            "2017": 7000000.0
-        },
-        "positions": {
-            "2014": 24.0,
-            "2015": 24.0,
-            "2016": 24.0,
-            "2017": 24.0
-        }
+      "budgets": {
+        "2014": 7000000.0,
+        "2015": 7000000.0,
+        "2016": 7000000.0,
+        "2017": 7000000.0
+      },
+      "positions": {
+        "2014": 24.0,
+        "2015": 24.0,
+        "2016": 24.0,
+        "2017": 24.0
+      }
     },
-    "children": [{
+    "children": [
+      {
         "id": "finanzen_stellenverzicht-im-generalsekretariat",
         "name": "Stellenverzicht im Generalsekretariat",
         "detail": true,
         "short_name": "14.1",
         "revenue": {
-            "budgets": {
-                "2014": 130000.0,
-                "2015": 130000.0,
-                "2016": 130000.0,
-                "2017": 130000.0
-            },
-            "positions": {
-                "2014": 1.0,
-                "2015": 1.0,
-                "2016": 1.0,
-                "2017": 1.0
-            }
+          "budgets": {
+            "2014": 130000.0,
+            "2015": 130000.0,
+            "2016": 130000.0,
+            "2017": 130000.0
+          },
+          "positions": {
+            "2014": 1.0,
+            "2015": 1.0,
+            "2016": 1.0,
+            "2017": 1.0
+          }
         }
-    }, {
+      },
+      {
         "id": "finanzen_stellenverzicht-in-der-finanzverwaltung",
         "name": "Stellenverzicht in der Finanzverwaltung",
         "detail": true,
         "short_name": "14.2",
         "revenue": {
-            "budgets": {
-                "2014": 110000.0,
-                "2015": 110000.0,
-                "2016": 110000.0,
-                "2017": 110000.0
-            },
-            "positions": {
-                "2014": 1.0,
-                "2015": 1.0,
-                "2016": 1.0,
-                "2017": 1.0
-            }
+          "budgets": {
+            "2014": 110000.0,
+            "2015": 110000.0,
+            "2016": 110000.0,
+            "2017": 110000.0
+          },
+          "positions": {
+            "2014": 1.0,
+            "2015": 1.0,
+            "2016": 1.0,
+            "2017": 1.0
+          }
         }
-    }, {
+      },
+      {
         "id": "finanzen_finanzverwaltung-verzicht-auf-dienstleistungen-dritter",
         "name": "Finanzverwaltung: Verzicht auf Dienstleistungen Dritter",
         "detail": true,
         "short_name": "14.3",
         "revenue": {
-            "budgets": {
-                "2014": 150000.0,
-                "2015": 150000.0,
-                "2016": 150000.0,
-                "2017": 150000.0
-            },
-            "positions": {
-                "2014": 0.0,
-                "2015": 0.0,
-                "2016": 0.0,
-                "2017": 0.0
-            }
+          "budgets": {
+            "2014": 150000.0,
+            "2015": 150000.0,
+            "2016": 150000.0,
+            "2017": 150000.0
+          },
+          "positions": {
+            "2014": 0.0,
+            "2015": 0.0,
+            "2016": 0.0,
+            "2017": 0.0
+          }
         }
-    }, {
+      },
+      {
         "id": "finanzen_finanzverwaltung-verzicht-auf-informatikdienstleistungen-dritter",
         "name": "Finanzverwaltung: Verzicht auf Informatikdienstleistungen Dritter",
         "detail": true,
         "short_name": "14.4",
         "revenue": {
-            "budgets": {
-                "2014": 350000.0,
-                "2015": 350000.0,
-                "2016": 350000.0,
-                "2017": 350000.0
-            },
-            "positions": {
-                "2014": 0.0,
-                "2015": 0.0,
-                "2016": 0.0,
-                "2017": 0.0
-            }
+          "budgets": {
+            "2014": 350000.0,
+            "2015": 350000.0,
+            "2016": 350000.0,
+            "2017": 350000.0
+          },
+          "positions": {
+            "2014": 0.0,
+            "2015": 0.0,
+            "2016": 0.0,
+            "2017": 0.0
+          }
         }
-    }, {
+      },
+      {
         "id": "finanzen_steuerverwaltung-verzicht-auf-dienstleistungen-dritter-im-kommunikationsbereich",
         "name": "Steuerverwaltung: Verzicht auf Dienstleistungen Dritter im\nKommunikationsbereich",
         "detail": true,
         "short_name": "14.6",
         "revenue": {
-            "budgets": {
-                "2014": 40000.0,
-                "2015": 40000.0,
-                "2016": 40000.0,
-                "2017": 40000.0
-            },
-            "positions": {
-                "2014": 0.0,
-                "2015": 0.0,
-                "2016": 0.0,
-                "2017": 0.0
-            }
+          "budgets": {
+            "2014": 40000.0,
+            "2015": 40000.0,
+            "2016": 40000.0,
+            "2017": 40000.0
+          },
+          "positions": {
+            "2014": 0.0,
+            "2015": 0.0,
+            "2016": 0.0,
+            "2017": 0.0
+          }
         }
-    }, {
+      },
+      {
         "id": "finanzen_steuerverwaltung-verzicht-auf-taxme-cd-und-steuererkl-rungsformulare",
         "name": "Steuerverwaltung: Verzicht auf Taxme-CD und\nSteuererklärungsformulare",
         "detail": true,
         "short_name": "14.5",
         "revenue": {
-            "budgets": {
-                "2014": 80000.0,
-                "2015": 80000.0,
-                "2016": 80000.0,
-                "2017": 80000.0
-            },
-            "positions": {
-                "2014": 0.0,
-                "2015": 0.0,
-                "2016": 0.0,
-                "2017": 0.0
-            }
+          "budgets": {
+            "2014": 80000.0,
+            "2015": 80000.0,
+            "2016": 80000.0,
+            "2017": 80000.0
+          },
+          "positions": {
+            "2014": 0.0,
+            "2015": 0.0,
+            "2016": 0.0,
+            "2017": 0.0
+          }
         }
-    }, {
+      },
+      {
         "id": "finanzen_steuerverwaltung-verzicht-auf-kunden-und-b-gerbefragungen",
         "name": "Steuerverwaltung: Verzicht auf Kunden- und Bügerbefragungen",
         "detail": true,
         "short_name": "14.7",
         "revenue": {
-            "budgets": {
-                "2014": 30000.0,
-                "2015": 30000.0,
-                "2016": 30000.0,
-                "2017": 0.0
-            },
-            "positions": {
-                "2014": 0.0,
-                "2015": 0.0,
-                "2016": 0.0,
-                "2017": 0.0
-            }
+          "budgets": {
+            "2014": 30000.0,
+            "2015": 30000.0,
+            "2016": 30000.0,
+            "2017": 0.0
+          },
+          "positions": {
+            "2014": 0.0,
+            "2015": 0.0,
+            "2016": 0.0,
+            "2017": 0.0
+          }
         }
-    }, {
+      },
+      {
         "id": "finanzen_steuerverwaltung-einsparung-bei-der-it-wartung",
         "name": "Steuerverwaltung: Einsparung bei der IT-Wartung",
         "detail": true,
         "short_name": "14.8",
         "revenue": {
-            "budgets": {
-                "2014": 310000.0,
-                "2015": 310000.0,
-                "2016": 310000.0,
-                "2017": 340000.0
-            },
-            "positions": {
-                "2014": 0.0,
-                "2015": 0.0,
-                "2016": 0.0,
-                "2017": 0.0
-            }
+          "budgets": {
+            "2014": 310000.0,
+            "2015": 310000.0,
+            "2016": 310000.0,
+            "2017": 340000.0
+          },
+          "positions": {
+            "2014": 0.0,
+            "2015": 0.0,
+            "2016": 0.0,
+            "2017": 0.0
+          }
         }
-    }, {
+      },
+      {
         "id": "finanzen_steuerverwaltung-abbau-von-sch-tzert-tigkeiten",
         "name": "Steuerverwaltung: Abbau von Schätzertätigkeiten",
         "detail": true,
         "short_name": "14.9",
         "revenue": {
-            "budgets": {
-                "2014": 90000.0,
-                "2015": 90000.0,
-                "2016": 90000.0,
-                "2017": 90000.0
-            },
-            "positions": {
-                "2014": 0.0,
-                "2015": 0.0,
-                "2016": 0.0,
-                "2017": 0.0
-            }
+          "budgets": {
+            "2014": 90000.0,
+            "2015": 90000.0,
+            "2016": 90000.0,
+            "2017": 90000.0
+          },
+          "positions": {
+            "2014": 0.0,
+            "2015": 0.0,
+            "2016": 0.0,
+            "2017": 0.0
+          }
         }
-    }, {
+      },
+      {
         "id": "finanzen_steuerverwaltung-abbau-von-stellen",
         "name": "Steuerverwaltung: Abbau von Stellen",
         "detail": true,
         "short_name": "14.10",
         "revenue": {
-            "budgets": {
-                "2014": 2600000.0,
-                "2015": 2600000.0,
-                "2016": 2600000.0,
-                "2017": 2600000.0
-            },
-            "positions": {
-                "2014": 21.0,
-                "2015": 21.0,
-                "2016": 21.0,
-                "2017": 21.0
-            }
+          "budgets": {
+            "2014": 2600000.0,
+            "2015": 2600000.0,
+            "2016": 2600000.0,
+            "2017": 2600000.0
+          },
+          "positions": {
+            "2014": 21.0,
+            "2015": 21.0,
+            "2016": 21.0,
+            "2017": 21.0
+          }
         }
-    }, {
+      },
+      {
         "id": "finanzen_personalamt-abschaffung-der-fachstelle-change-und-projektmanagement",
         "name": "Personalamt: Abschaffung der Fachstelle Change- und\nProjektmanagement",
         "detail": true,
         "short_name": "14.11",
         "revenue": {
-            "budgets": {
-                "2014": 300000.0,
-                "2015": 300000.0,
-                "2016": 300000.0,
-                "2017": 300000.0
-            },
-            "positions": {
-                "2014": 1.0,
-                "2015": 1.0,
-                "2016": 1.0,
-                "2017": 1.0
-            }
+          "budgets": {
+            "2014": 300000.0,
+            "2015": 300000.0,
+            "2016": 300000.0,
+            "2017": 300000.0
+          },
+          "positions": {
+            "2014": 1.0,
+            "2015": 1.0,
+            "2016": 1.0,
+            "2017": 1.0
+          }
         }
-    }, {
+      },
+      {
         "id": "finanzen_personalamt-abbau-des-zentralen-kursangebots",
         "name": "Personalamt: Abbau des zentralen Kursangebots",
         "detail": true,
         "short_name": "14.12",
         "revenue": {
-            "budgets": {
-                "2014": 140000.0,
-                "2015": 140000.0,
-                "2016": 140000.0,
-                "2017": 140000.0
-            },
-            "positions": {
-                "2014": 0.0,
-                "2015": 0.0,
-                "2016": 0.0,
-                "2017": 0.0
-            }
+          "budgets": {
+            "2014": 140000.0,
+            "2015": 140000.0,
+            "2016": 140000.0,
+            "2017": 140000.0
+          },
+          "positions": {
+            "2014": 0.0,
+            "2015": 0.0,
+            "2016": 0.0,
+            "2017": 0.0
+          }
         }
-    }, {
+      },
+      {
         "id": "finanzen_reduktion-der-mittel-f-r-den-ausbau-des-kantonalen-weitbereichsnetzwerks-bewan",
         "name": "Reduktion der Mittel für den Ausbau des kantonalen\nWeitbereichsnetzwerks BEWAN",
         "detail": true,
         "short_name": "14.14",
         "revenue": {
-            "budgets": {
-                "2014": 1440000.0,
-                "2015": 1440000.0,
-                "2016": 1440000.0,
-                "2017": 1440000.0
-            },
-            "positions": {
-                "2014": 0.0,
-                "2015": 0.0,
-                "2016": 0.0,
-                "2017": 0.0
-            }
+          "budgets": {
+            "2014": 1440000.0,
+            "2015": 1440000.0,
+            "2016": 1440000.0,
+            "2017": 1440000.0
+          },
+          "positions": {
+            "2014": 0.0,
+            "2015": 0.0,
+            "2016": 0.0,
+            "2017": 0.0
+          }
         }
-    }, {
+      },
+      {
         "id": "finanzen_verzicht-auf-koordination-der-gever-anwendung-im-informatikbereich",
         "name": "Verzicht auf Koordination der GEVER-Anwendung im Informatikbereich",
         "detail": true,
         "short_name": "14.13",
         "revenue": {
-            "budgets": {
-                "2014": 340000.0,
-                "2015": 380000.0,
-                "2016": 430000.0,
-                "2017": 480000.0
-            },
-            "positions": {
-                "2014": 0.0,
-                "2015": 0.0,
-                "2016": 0.0,
-                "2017": 0.0
-            }
+          "budgets": {
+            "2014": 340000.0,
+            "2015": 380000.0,
+            "2016": 430000.0,
+            "2017": 480000.0
+          },
+          "positions": {
+            "2014": 0.0,
+            "2015": 0.0,
+            "2016": 0.0,
+            "2017": 0.0
+          }
         }
-    }, {
+      },
+      {
         "id": "finanzen_reduktion-der-mittel-f-r-die-weiterentwicklung-des-kantonalen-workplace",
         "name": "Reduktion der Mittel für die Weiterentwicklung des kantonalen Workplace",
         "detail": true,
         "short_name": "14.15",
         "revenue": {
-            "budgets": {
-                "2014": 290000.0,
-                "2015": 250000.0,
-                "2016": 200000.0,
-                "2017": 150000.0
-            },
-            "positions": {
-                "2014": 0.0,
-                "2015": 0.0,
-                "2016": 0.0,
-                "2017": 0.0
-            }
+          "budgets": {
+            "2014": 290000.0,
+            "2015": 250000.0,
+            "2016": 200000.0,
+            "2017": 150000.0
+          },
+          "positions": {
+            "2014": 0.0,
+            "2015": 0.0,
+            "2016": 0.0,
+            "2017": 0.0
+          }
         }
-    }, {
+      },
+      {
         "id": "finanzen_verzicht-auf-das-it-servicemanagement",
         "name": "Verzicht auf das IT-Servicemanagement",
         "detail": true,
         "short_name": "14.16",
         "revenue": {
-            "budgets": {
-                "2014": 100000.0,
-                "2015": 100000.0,
-                "2016": 100000.0,
-                "2017": 100000.0
-            },
-            "positions": {
-                "2014": 0.0,
-                "2015": 0.0,
-                "2016": 0.0,
-                "2017": 0.0
-            }
+          "budgets": {
+            "2014": 100000.0,
+            "2015": 100000.0,
+            "2016": 100000.0,
+            "2017": 100000.0
+          },
+          "positions": {
+            "2014": 0.0,
+            "2015": 0.0,
+            "2016": 0.0,
+            "2017": 0.0
+          }
         }
-    }, {
+      },
+      {
         "id": "finanzen_reduktion-der-mittel-im-informatikbereich-der-finanzdirektion",
         "name": "Reduktion der Mittel im Informatikbereich der Finanzdirektion",
         "detail": true,
         "short_name": "14.17",
         "revenue": {
-            "budgets": {
-                "2014": 500000.0,
-                "2015": 500000.0,
-                "2016": 500000.0,
-                "2017": 500000.0
-            },
-            "positions": {
-                "2014": 0.0,
-                "2015": 0.0,
-                "2016": 0.0,
-                "2017": 0.0
-            }
+          "budgets": {
+            "2014": 500000.0,
+            "2015": 500000.0,
+            "2016": 500000.0,
+            "2017": 500000.0
+          },
+          "positions": {
+            "2014": 0.0,
+            "2015": 0.0,
+            "2016": 0.0,
+            "2017": 0.0
+          }
         }
-    }]
-}, {
+      }
+    ]
+  },
+  {
     "id": "erziehung",
     "name": "Erziehung",
     "detail": false,
     "revenue": {
-        "budgets": {
-            "2014": 11950000.0,
-            "2015": 29200000.0,
-            "2016": 45750000.0,
-            "2017": 54350000.0
-        },
-        "positions": {
-            "2014": 36.0,
-            "2015": 95.0,
-            "2016": 163.0,
-            "2017": 194.0
-        }
+      "budgets": {
+        "2014": 11950000.0,
+        "2015": 29200000.0,
+        "2016": 45750000.0,
+        "2017": 54350000.0
+      },
+      "positions": {
+        "2014": 36.0,
+        "2015": 95.0,
+        "2016": 163.0,
+        "2017": 194.0
+      }
     },
-    "children": [{
+    "children": [
+      {
         "id": "erziehung_abbau-im-amt-f-r-kindergarten-volksschule-und-beratung",
         "name": "Abbau im Amt für Kindergarten, Volksschule und Beratung",
         "detail": true,
         "short_name": "15.3",
         "revenue": {
-            "budgets": {
-                "2014": 250000.0,
-                "2015": 250000.0,
-                "2016": 250000.0,
-                "2017": 250000.0
-            },
-            "positions": {
-                "2014": 1.0,
-                "2015": 1.0,
-                "2016": 1.0,
-                "2017": 1.0
-            }
+          "budgets": {
+            "2014": 250000.0,
+            "2015": 250000.0,
+            "2016": 250000.0,
+            "2017": 250000.0
+          },
+          "positions": {
+            "2014": 1.0,
+            "2015": 1.0,
+            "2016": 1.0,
+            "2017": 1.0
+          }
         }
-    }, {
+      },
+      {
         "id": "erziehung_abbau-bei-der-begabtenf-rderung",
         "name": "Abbau bei der Begabtenförderung",
         "detail": true,
         "short_name": "15.4",
         "revenue": {
-            "budgets": {
-                "2014": 0.0,
-                "2015": 1000000.0,
-                "2016": 2500000.0,
-                "2017": 2500000.0
-            },
-            "positions": {
-                "2014": 0.0,
-                "2015": 0.0,
-                "2016": 0.0,
-                "2017": 0.0
-            }
+          "budgets": {
+            "2014": 0.0,
+            "2015": 1000000.0,
+            "2016": 2500000.0,
+            "2017": 2500000.0
+          },
+          "positions": {
+            "2014": 0.0,
+            "2015": 0.0,
+            "2016": 0.0,
+            "2017": 0.0
+          }
         }
-    }, {
+      },
+      {
         "id": "erziehung_berufsbildung-entlastungen-im-bereich-br-ckenangebote",
         "name": "Berufsbildung: Entlastungen im Bereich Brückenangebote",
         "detail": true,
         "short_name": "17.1",
         "revenue": {
-            "budgets": {
-                "2014": 200000.0,
-                "2015": 400000.0,
-                "2016": 600000.0,
-                "2017": 1000000.0
-            },
-            "positions": {
-                "2014": 2.0,
-                "2015": 4.0,
-                "2016": 6.0,
-                "2017": 8.0
-            }
+          "budgets": {
+            "2014": 200000.0,
+            "2015": 400000.0,
+            "2016": 600000.0,
+            "2017": 1000000.0
+          },
+          "positions": {
+            "2014": 2.0,
+            "2015": 4.0,
+            "2016": 6.0,
+            "2017": 8.0
+          }
         }
-    }, {
+      },
+      {
         "id": "erziehung_berufsbildung-optimierung-der-vollzeitangebote",
         "name": "Berufsbildung: Optimierung der Vollzeitangebote",
         "detail": true,
         "short_name": "17.2",
         "revenue": {
-            "budgets": {
-                "2014": 500000.0,
-                "2015": 1400000.0,
-                "2016": 1800000.0,
-                "2017": 1800000.0
-            },
-            "positions": {
-                "2014": 3.0,
-                "2015": 8.0,
-                "2016": 11.0,
-                "2017": 11.0
-            }
+          "budgets": {
+            "2014": 500000.0,
+            "2015": 1400000.0,
+            "2016": 1800000.0,
+            "2017": 1800000.0
+          },
+          "positions": {
+            "2014": 3.0,
+            "2015": 8.0,
+            "2016": 11.0,
+            "2017": 11.0
+          }
         }
-    }, {
+      },
+      {
         "id": "erziehung_ausrichtung-der-handelsmittelschulen-auf-lehrg-nge-mit-berufsmaturit-t",
         "name": "Ausrichtung der Handelsmittelschulen auf Lehrgänge mit Berufsmaturität",
         "detail": true,
         "short_name": "17.6",
         "revenue": {
-            "budgets": {
-                "2014": 0.0,
-                "2015": 750000.0,
-                "2016": 1500000.0,
-                "2017": 2200000.0
-            },
-            "positions": {
-                "2014": 0.0,
-                "2015": 6.0,
-                "2016": 10.0,
-                "2017": 10.0
-            }
+          "budgets": {
+            "2014": 0.0,
+            "2015": 750000.0,
+            "2016": 1500000.0,
+            "2017": 2200000.0
+          },
+          "positions": {
+            "2014": 0.0,
+            "2015": 6.0,
+            "2016": 10.0,
+            "2017": 10.0
+          }
         }
-    }, {
+      },
+      {
         "id": "erziehung_einsparungen-bei-inforama",
         "name": "Einsparungen bei Inforama",
         "detail": true,
         "short_name": "17.7",
         "revenue": {
-            "budgets": {
-                "2014": 200000.0,
-                "2015": 500000.0,
-                "2016": 500000.0,
-                "2017": 500000.0
-            }
+          "budgets": {
+            "2014": 200000.0,
+            "2015": 500000.0,
+            "2016": 500000.0,
+            "2017": 500000.0
+          }
         }
-    }, {
+      },
+      {
         "id": "erziehung_entlastungen-im-bereich-informatik-an-kantonalen-berufsschulen",
         "name": "Entlastungen im Bereich Informatik an kantonalen Berufsschulen",
         "detail": true,
         "short_name": "17.8",
         "revenue": {
-            "budgets": {
-                "2014": 400000.0,
-                "2015": 900000.0,
-                "2016": 900000.0,
-                "2017": 900000.0
-            }
+          "budgets": {
+            "2014": 400000.0,
+            "2015": 900000.0,
+            "2016": 900000.0,
+            "2017": 900000.0
+          }
         }
-    }, {
+      },
+      {
         "id": "erziehung_kostenoptimierungen-am-bildungszentrum-pflege-und-standortbereinigung-in-thun",
         "name": "Kostenoptimierungen am Bildungszentrum Pflege und\nStandortbereinigung in Thun",
         "detail": true,
         "short_name": "17.9",
         "revenue": {
-            "budgets": {
-                "2014": 1500000.0,
-                "2015": 4000000.0,
-                "2016": 6500000.0,
-                "2017": 7500000.0
-            },
-            "positions": {
-                "2014": 7.0,
-                "2015": 20.0,
-                "2016": 30.0,
-                "2017": 35.0
-            }
+          "budgets": {
+            "2014": 1500000.0,
+            "2015": 4000000.0,
+            "2016": 6500000.0,
+            "2017": 7500000.0
+          },
+          "positions": {
+            "2014": 7.0,
+            "2015": 20.0,
+            "2016": 30.0,
+            "2017": 35.0
+          }
         }
-    }, {
+      },
+      {
         "id": "erziehung_mehrertr-ge-aus-h-heren-beitr-gen-ausserkantonaler-studierenden-am-zentrum-f-r-medizinische-bildung-in-bern",
         "name": "Mehrerträge aus höheren Beiträgen ausserkantonaler Studierenden am\nZentrum für medizinische Bildung in Bern",
         "detail": true,
         "short_name": "17.10",
         "revenue": {
-            "budgets": {
-                "2014": 0.0,
-                "2015": 0.0,
-                "2016": 2000000.0,
-                "2017": 2000000.0
-            },
-            "positions": {
-                "2014": 0.0,
-                "2015": 0.0,
-                "2016": 0.0,
-                "2017": 0.0
-            }
+          "budgets": {
+            "2014": 0.0,
+            "2015": 0.0,
+            "2016": 2000000.0,
+            "2017": 2000000.0
+          },
+          "positions": {
+            "2014": 0.0,
+            "2015": 0.0,
+            "2016": 0.0,
+            "2017": 0.0
+          }
         }
-    }, {
+      },
+      {
         "id": "erziehung_optimierung-der-bildungsg-nge-der-h-heren-fachschule-technik-in-biel",
         "name": "Optimierung der Bildungsgänge der Höheren Fachschule Technik in Biel",
         "detail": true,
         "short_name": "17.11",
         "revenue": {
-            "budgets": {
-                "2014": 0.0,
-                "2015": 400000.0,
-                "2016": 1000000.0,
-                "2017": 1000000.0
-            },
-            "positions": {
-                "2014": 0.0,
-                "2015": 2.0,
-                "2016": 5.0,
-                "2017": 5.0
-            }
+          "budgets": {
+            "2014": 0.0,
+            "2015": 400000.0,
+            "2016": 1000000.0,
+            "2017": 1000000.0
+          },
+          "positions": {
+            "2014": 0.0,
+            "2015": 2.0,
+            "2016": 5.0,
+            "2017": 5.0
+          }
         }
-    }, {
+      },
+      {
         "id": "erziehung_optimierungen-bei-der-h-heren-fachschule-technik-holz-in-biel",
         "name": "Optimierungen bei der Höheren Fachschule Technik Holz in Biel",
         "detail": true,
         "short_name": "17.12",
         "revenue": {
-            "budgets": {
-                "2014": 200000.0,
-                "2015": 200000.0,
-                "2016": 600000.0,
-                "2017": 600000.0
-            },
-            "positions": {
-                "2014": 1.0,
-                "2015": 1.0,
-                "2016": 3.0,
-                "2017": 3.0
-            }
+          "budgets": {
+            "2014": 200000.0,
+            "2015": 200000.0,
+            "2016": 600000.0,
+            "2017": 600000.0
+          },
+          "positions": {
+            "2014": 1.0,
+            "2015": 1.0,
+            "2016": 3.0,
+            "2017": 3.0
+          }
         }
-    }, {
+      },
+      {
         "id": "erziehung_optimierung-der-steuerung-von-berufsschulen",
         "name": "Optimierung der Steuerung von Berufsschulen",
         "detail": true,
         "short_name": "17.13",
         "revenue": {
-            "budgets": {
-                "2014": 900000.0,
-                "2015": 2200000.0,
-                "2016": 4800000.0,
-                "2017": 5200000.0
-            },
-            "positions": {
-                "2014": 6.0,
-                "2015": 15.0,
-                "2016": 32.0,
-                "2017": 35.0
-            }
+          "budgets": {
+            "2014": 900000.0,
+            "2015": 2200000.0,
+            "2016": 4800000.0,
+            "2017": 5200000.0
+          },
+          "positions": {
+            "2014": 6.0,
+            "2015": 15.0,
+            "2016": 32.0,
+            "2017": 35.0
+          }
         }
-    }, {
+      },
+      {
         "id": "erziehung_entlastungen-bei-den-lehrkr-ften-in-der-beruflichen-grundbildung",
         "name": "Entlastungen bei den Lehrkräften in der beruflichen Grundbildung",
         "detail": true,
         "short_name": "17.14",
         "revenue": {
-            "budgets": {
-                "2014": 2500000.0,
-                "2015": 5500000.0,
-                "2016": 5500000.0,
-                "2017": 5500000.0
-            },
-            "positions": {
-                "2014": 0.0,
-                "2015": 0.0,
-                "2016": 0.0,
-                "2017": 0.0
-            }
+          "budgets": {
+            "2014": 2500000.0,
+            "2015": 5500000.0,
+            "2016": 5500000.0,
+            "2017": 5500000.0
+          },
+          "positions": {
+            "2014": 0.0,
+            "2015": 0.0,
+            "2016": 0.0,
+            "2017": 0.0
+          }
         }
-    }, {
+      },
+      {
         "id": "erziehung_erh-hung-der-wochenpflichtlektionen-f-r-lehrkr-fte-in-der-h-heren-berufsbildung-um-eine-lektion",
         "name": "Erhöhung der Wochenpflichtlektionen für Lehrkräfte in der höheren\nBerufsbildung um eine Lektion",
         "detail": true,
         "short_name": "17.15",
         "revenue": {
-            "budgets": {
-                "2014": 1200000.0,
-                "2015": 2700000.0,
-                "2016": 2700000.0,
-                "2017": 2700000.0
-            },
-            "positions": {
-                "2014": 6.0,
-                "2015": 15.0,
-                "2016": 15.0,
-                "2017": 15.0
-            }
+          "budgets": {
+            "2014": 1200000.0,
+            "2015": 2700000.0,
+            "2016": 2700000.0,
+            "2017": 2700000.0
+          },
+          "positions": {
+            "2014": 6.0,
+            "2015": 15.0,
+            "2016": 15.0,
+            "2017": 15.0
+          }
         }
-    }, {
+      },
+      {
         "id": "erziehung_einf-hrung-durchgehendes-vierj-hriges-gymnasium",
         "name": "Einführung durchgehendes, vierjähriges Gymnasium",
         "detail": true,
         "short_name": "18.1",
         "revenue": {
-            "budgets": {
-                "2014": 0.0,
-                "2015": 0.0,
-                "2016": 2300000.0,
-                "2017": 5500000.0
-            },
-            "positions": {
-                "2014": 0.0,
-                "2015": 0.0,
-                "2016": 13.0,
-                "2017": 30.0
-            }
+          "budgets": {
+            "2014": 0.0,
+            "2015": 0.0,
+            "2016": 2300000.0,
+            "2017": 5500000.0
+          },
+          "positions": {
+            "2014": 0.0,
+            "2015": 0.0,
+            "2016": 13.0,
+            "2017": 30.0
+          }
         }
-    }, {
+      },
+      {
         "id": "erziehung_schwerpunktf-cher-an-den-gymnasien-reduzieren",
         "name": "Schwerpunktfächer an den Gymnasien reduzieren",
         "detail": true,
         "short_name": "18.2",
         "revenue": {
-            "budgets": {
-                "2014": 100000.0,
-                "2015": 300000.0,
-                "2016": 400000.0,
-                "2017": 400000.0
-            },
-            "positions": {
-                "2014": 1.0,
-                "2015": 2.0,
-                "2016": 3.0,
-                "2017": 3.0
-            }
+          "budgets": {
+            "2014": 100000.0,
+            "2015": 300000.0,
+            "2016": 400000.0,
+            "2017": 400000.0
+          },
+          "positions": {
+            "2014": 1.0,
+            "2015": 2.0,
+            "2016": 3.0,
+            "2017": 3.0
+          }
         }
-    }, {
+      },
+      {
         "id": "erziehung_unterricht-f-r-die-zweisprachige-maturit-t-deutsch-englisch-im-klassenverband",
         "name": "Unterricht für die zweisprachige Maturität Deutsch – Englisch im\nKlassenverband",
         "detail": true,
         "short_name": "18.3",
         "revenue": {
-            "budgets": {
-                "2014": 100000.0,
-                "2015": 200000.0,
-                "2016": 300000.0,
-                "2017": 300000.0
-            },
-            "positions": {
-                "2014": 1.0,
-                "2015": 1.0,
-                "2016": 2.0,
-                "2017": 2.0
-            }
+          "budgets": {
+            "2014": 100000.0,
+            "2015": 200000.0,
+            "2016": 300000.0,
+            "2017": 300000.0
+          },
+          "positions": {
+            "2014": 1.0,
+            "2015": 1.0,
+            "2016": 2.0,
+            "2017": 2.0
+          }
         }
-    }, {
+      },
+      {
         "id": "erziehung_senkung-des-kostendachs-f-r-subventionen-an-private-gymnasien",
         "name": "Senkung des Kostendachs für Subventionen an private Gymnasien",
         "detail": true,
         "short_name": "18.4",
         "revenue": {
-            "budgets": {
-                "2014": 1000000.0,
-                "2015": 1000000.0,
-                "2016": 1000000.0,
-                "2017": 1000000.0
-            },
-            "positions": {
-                "2014": 0.0,
-                "2015": 0.0,
-                "2016": 0.0,
-                "2017": 0.0
-            }
+          "budgets": {
+            "2014": 1000000.0,
+            "2015": 1000000.0,
+            "2016": 1000000.0,
+            "2017": 1000000.0
+          },
+          "positions": {
+            "2014": 0.0,
+            "2015": 0.0,
+            "2016": 0.0,
+            "2017": 0.0
+          }
         }
-    }, {
+      },
+      {
         "id": "erziehung_reorganisation-der-gymnasien-in-biel-und-thun",
         "name": "Reorganisation der Gymnasien in Biel und Thun",
         "detail": true,
         "short_name": "18.5",
         "revenue": {
-            "budgets": {
-                "2014": 0.0,
-                "2015": 200000.0,
-                "2016": 700000.0,
-                "2017": 900000.0
-            }
+          "budgets": {
+            "2014": 0.0,
+            "2015": 200000.0,
+            "2016": 700000.0,
+            "2017": 900000.0
+          }
         }
-    }, {
+      },
+      {
         "id": "erziehung_k-rzung-der-lektionendauer-im-instrumentalunterricht-an-den-gymnasien",
         "name": "Kürzung der Lektionendauer im Instrumentalunterricht an den Gymnasien",
         "detail": true,
         "short_name": "18.6",
         "revenue": {
-            "budgets": {
-                "2014": 300000.0,
-                "2015": 900000.0,
-                "2016": 900000.0,
-                "2017": 900000.0
-            },
-            "positions": {
-                "2014": 2.0,
-                "2015": 5.0,
-                "2016": 5.0,
-                "2017": 5.0
-            }
+          "budgets": {
+            "2014": 300000.0,
+            "2015": 900000.0,
+            "2016": 900000.0,
+            "2017": 900000.0
+          },
+          "positions": {
+            "2014": 2.0,
+            "2015": 5.0,
+            "2016": 5.0,
+            "2017": 5.0
+          }
         }
-    }, {
+      },
+      {
         "id": "erziehung_berner-fachhochschule-senkung-der-ausbildungskosten-an-ch-durchschnitt",
         "name": "Berner Fachhochschule: Senkung der Ausbildungskosten an CH- Durchschnitt",
         "detail": true,
         "short_name": "20.1",
         "revenue": {
-            "budgets": {
-                "2014": 500000.0,
-                "2015": 1000000.0,
-                "2016": 2000000.0,
-                "2017": 2000000.0
-            },
-            "positions": {
-                "2014": 3.0,
-                "2015": 6.0,
-                "2016": 12.0,
-                "2017": 12.0
-            }
+          "budgets": {
+            "2014": 500000.0,
+            "2015": 1000000.0,
+            "2016": 2000000.0,
+            "2017": 2000000.0
+          },
+          "positions": {
+            "2014": 3.0,
+            "2015": 6.0,
+            "2016": 12.0,
+            "2017": 12.0
+          }
         }
-    }, {
+      },
+      {
         "id": "erziehung_berner-fachhochschule-streichung-von-forschungsvorhaben-erh-hung-drittmittelanteil",
         "name": "Berner Fachhochschule: Streichung von Forschungsvorhaben / Erhöhung Drittmittelanteil",
         "detail": true,
         "short_name": "20.2",
         "revenue": {
-            "budgets": {
-                "2014": 500000.0,
-                "2015": 1500000.0,
-                "2016": 2000000.0,
-                "2017": 4000000.0
-            }
+          "budgets": {
+            "2014": 500000.0,
+            "2015": 1500000.0,
+            "2016": 2000000.0,
+            "2017": 4000000.0
+          }
         }
-    }, {
+      },
+      {
         "id": "erziehung_berner-fachhochschule-erh-hung-der-beitr-ge-der-kantone-der-haute-ecole-sp-cialis-e-de-suisse-occidentale-auf-niveau-der-fachhochschulvereinbarung",
         "name": "Berner Fachhochschule: Erhöhung der Beiträge der Kantone der Haute Ecole Spécialisée de Suisse occidentale auf Niveau der Fachhochschulvereinbarung",
         "detail": true,
         "short_name": "20.3",
         "revenue": {
-            "budgets": {
-                "2014": 700000.0,
-                "2015": 700000.0,
-                "2016": 700000.0,
-                "2017": 700000.0
-            },
-            "positions": {
-                "2014": 0.0,
-                "2015": 0.0,
-                "2016": 0.0,
-                "2017": 0.0
-            }
+          "budgets": {
+            "2014": 700000.0,
+            "2015": 700000.0,
+            "2016": 700000.0,
+            "2017": 700000.0
+          },
+          "positions": {
+            "2014": 0.0,
+            "2015": 0.0,
+            "2016": 0.0,
+            "2017": 0.0
+          }
         }
-    }, {
+      },
+      {
         "id": "erziehung_p-dagogische-hochschule-schliessung-des-vorbereitungskurses",
         "name": "Pädagogische Hochschule: Schliessung des Vorbereitungskurses",
         "detail": true,
         "short_name": "21.1",
         "revenue": {
-            "budgets": {
-                "2014": 0.0,
-                "2015": 200000.0,
-                "2016": 500000.0,
-                "2017": 500000.0
-            },
-            "positions": {
-                "2014": 0.0,
-                "2015": 1.0,
-                "2016": 3.0,
-                "2017": 3.0
-            }
+          "budgets": {
+            "2014": 0.0,
+            "2015": 200000.0,
+            "2016": 500000.0,
+            "2017": 500000.0
+          },
+          "positions": {
+            "2014": 0.0,
+            "2015": 1.0,
+            "2016": 3.0,
+            "2017": 3.0
+          }
         }
-    }, {
+      },
+      {
         "id": "erziehung_p-dagogische-hochschule-k-rzungen-bei-der-weiterbildung-beratung-und-medien",
         "name": "Pädagogische Hochschule: Kürzungen bei der Weiterbildung, Beratung und Medien",
         "detail": true,
         "short_name": "21.2",
         "revenue": {
-            "budgets": {
-                "2014": 500000.0,
-                "2015": 1000000.0,
-                "2016": 1500000.0,
-                "2017": 2000000.0
-            },
-            "positions": {
-                "2014": 3.0,
-                "2015": 6.0,
-                "2016": 9.0,
-                "2017": 12.0
-            }
+          "budgets": {
+            "2014": 500000.0,
+            "2015": 1000000.0,
+            "2016": 1500000.0,
+            "2017": 2000000.0
+          },
+          "positions": {
+            "2014": 3.0,
+            "2015": 6.0,
+            "2016": 9.0,
+            "2017": 12.0
+          }
         }
-    }, {
+      },
+      {
         "id": "erziehung_p-dagogische-hochschule-k-rzung-des-beitrags-an-die-haute-ecole-p-dagogique-berne-jura-neuch-tel",
         "name": "Pädagogische Hochschule: Kürzung des Beitrags an die Haute Ecole\nPédagogique Berne – Jura – Neuchâtel",
         "detail": true,
         "short_name": "21.3",
         "revenue": {
-            "budgets": {
-                "2014": 0.0,
-                "2015": 500000.0,
-                "2016": 500000.0,
-                "2017": 500000.0
-            }
+          "budgets": {
+            "2014": 0.0,
+            "2015": 500000.0,
+            "2016": 500000.0,
+            "2017": 500000.0
+          }
         }
-    }, {
+      },
+      {
         "id": "erziehung_angebots-und-strukturanpassung-bei-der-berufsberatung",
         "name": "Angebots- und Strukturanpassung bei der Berufsberatung",
         "detail": true,
         "short_name": "22.1",
         "revenue": {
-            "budgets": {
-                "2014": 0.0,
-                "2015": 500000.0,
-                "2016": 800000.0,
-                "2017": 1000000.0
-            },
-            "positions": {
-                "2014": 0.0,
-                "2015": 2.0,
-                "2016": 3.0,
-                "2017": 4.0
-            }
+          "budgets": {
+            "2014": 0.0,
+            "2015": 500000.0,
+            "2016": 800000.0,
+            "2017": 1000000.0
+          },
+          "positions": {
+            "2014": 0.0,
+            "2015": 2.0,
+            "2016": 3.0,
+            "2017": 4.0
+          }
         }
-    }, {
+      },
+      {
         "id": "erziehung_streichung-von-weiterbildungsangeboten-und-durchsetzung-der-kostendeckung",
         "name": "Streichung von Weiterbildungsangeboten und Durchsetzung der\nKostendeckung",
         "detail": true,
         "short_name": "22.2",
         "revenue": {
-            "budgets": {
-                "2014": 400000.0,
-                "2015": 1000000.0,
-                "2016": 1000000.0,
-                "2017": 1000000.0
-            }
+          "budgets": {
+            "2014": 400000.0,
+            "2015": 1000000.0,
+            "2016": 1000000.0,
+            "2017": 1000000.0
+          }
         }
-    }]
-}, {
+      }
+    ]
+  },
+  {
     "id": "bau-verkehr-und-energie",
     "name": "Bau, Verkehr und Energie",
     "detail": false,
     "revenue": {
-        "budgets": {
-            "2014": 2850000.0,
-            "2015": 5550000.0,
-            "2016": 6050000.0,
-            "2017": 7050000.0
-        },
-        "positions": {
-            "2014": 20.0,
-            "2015": 25.0,
-            "2016": 27.0,
-            "2017": 30.0
-        }
+      "budgets": {
+        "2014": 2850000.0,
+        "2015": 5550000.0,
+        "2016": 6050000.0,
+        "2017": 7050000.0
+      },
+      "positions": {
+        "2014": 20.0,
+        "2015": 25.0,
+        "2016": 27.0,
+        "2017": 30.0
+      }
     },
-    "children": [{
+    "children": [
+      {
         "id": "bau-verkehr-und-energie_reduktion-bei-den-dienstleistungen-dritter-im-bereich-vermessung-und-geoinformation",
         "name": "Reduktion bei den Dienstleistungen Dritter im Bereich Vermessung und\nGeoinformation",
         "detail": true,
         "short_name": "25a.2",
         "revenue": {
-            "budgets": {
-                "2014": 250000.0,
-                "2015": 250000.0,
-                "2016": 250000.0,
-                "2017": 250000.0
-            },
-            "positions": {
-                "2014": 0.0,
-                "2015": 0.0,
-                "2016": 0.0,
-                "2017": 0.0
-            }
+          "budgets": {
+            "2014": 250000.0,
+            "2015": 250000.0,
+            "2016": 250000.0,
+            "2017": 250000.0
+          },
+          "positions": {
+            "2014": 0.0,
+            "2015": 0.0,
+            "2016": 0.0,
+            "2017": 0.0
+          }
         }
-    }, {
+      },
+      {
         "id": "bau-verkehr-und-energie_erh-hung-der-grudis-geb-hren-f-r-banken",
         "name": "Erhöhung der GRUDIS-Gebühren für Banken",
         "detail": true,
         "short_name": "25a.3",
         "revenue": {
-            "budgets": {
-                "2014": 100000.0,
-                "2015": 100000.0,
-                "2016": 100000.0,
-                "2017": 100000.0
-            },
-            "positions": {
-                "2014": 0.0,
-                "2015": 0.0,
-                "2016": 0.0,
-                "2017": 0.0
-            }
+          "budgets": {
+            "2014": 100000.0,
+            "2015": 100000.0,
+            "2016": 100000.0,
+            "2017": 100000.0
+          },
+          "positions": {
+            "2014": 0.0,
+            "2015": 0.0,
+            "2016": 0.0,
+            "2017": 0.0
+          }
         }
-    }, {
+      },
+      {
         "id": "bau-verkehr-und-energie_wiedereinf-hrung-der-abgaben-f-r-w-rmepumpen",
         "name": "Wiedereinführung der Abgaben für Wärmepumpen",
         "detail": true,
         "short_name": "25a.4",
         "revenue": {
-            "budgets": {
-                "2014": 0.0,
-                "2015": 500000.0,
-                "2016": 500000.0,
-                "2017": 500000.0
-            },
-            "positions": {
-                "2014": 0.0,
-                "2015": 0.0,
-                "2016": 0.0,
-                "2017": 0.0
-            }
+          "budgets": {
+            "2014": 0.0,
+            "2015": 500000.0,
+            "2016": 500000.0,
+            "2017": 500000.0
+          },
+          "positions": {
+            "2014": 0.0,
+            "2015": 0.0,
+            "2016": 0.0,
+            "2017": 0.0
+          }
         }
-    }, {
+      },
+      {
         "id": "bau-verkehr-und-energie_reduktion-der-finanziellen-unterst-tzung-der-regionalen-energieberatungsstellen",
         "name": "Reduktion der finanziellen Unterstützung der regionalen\nEnergieberatungsstellen",
         "detail": true,
         "short_name": "25a.5",
         "revenue": {
-            "budgets": {
-                "2014": 200000.0,
-                "2015": 200000.0,
-                "2016": 200000.0,
-                "2017": 200000.0
-            },
-            "positions": {
-                "2014": 0.0,
-                "2015": 0.0,
-                "2016": 0.0,
-                "2017": 0.0
-            }
+          "budgets": {
+            "2014": 200000.0,
+            "2015": 200000.0,
+            "2016": 200000.0,
+            "2017": 200000.0
+          },
+          "positions": {
+            "2014": 0.0,
+            "2015": 0.0,
+            "2016": 0.0,
+            "2017": 0.0
+          }
         }
-    }, {
+      },
+      {
         "id": "bau-verkehr-und-energie_reorganisation-und-abbau-beim-unterhalt-kantonsstrassen",
         "name": "Reorganisation und Abbau beim Unterhalt Kantonsstrassen",
         "detail": true,
         "short_name": "28.1",
         "revenue": {
-            "budgets": {
-                "2014": 2300000.0,
-                "2015": 3500000.0,
-                "2016": 4000000.0,
-                "2017": 5000000.0
-            },
-            "positions": {
-                "2014": 20.0,
-                "2015": 20.0,
-                "2016": 22.0,
-                "2017": 25.0
-            }
+          "budgets": {
+            "2014": 2300000.0,
+            "2015": 3500000.0,
+            "2016": 4000000.0,
+            "2017": 5000000.0
+          },
+          "positions": {
+            "2014": 20.0,
+            "2015": 20.0,
+            "2016": 22.0,
+            "2017": 25.0
+          }
         }
-    }, {
+      },
+      {
         "id": "bau-verkehr-und-energie_reorganisation-des-amts-f-r-grundst-cke-und-geb-ude",
         "name": "Reorganisation des Amts für Grundstücke und Gebäude",
         "detail": true,
         "short_name": "30.1",
         "revenue": {
-            "budgets": {
-                "2014": 0.0,
-                "2015": 1000000.0,
-                "2016": 1000000.0,
-                "2017": 1000000.0
-            },
-            "positions": {
-                "2014": 0.0,
-                "2015": 5.0,
-                "2016": 5.0,
-                "2017": 5.0
-            }
+          "budgets": {
+            "2014": 0.0,
+            "2015": 1000000.0,
+            "2016": 1000000.0,
+            "2017": 1000000.0
+          },
+          "positions": {
+            "2014": 0.0,
+            "2015": 5.0,
+            "2016": 5.0,
+            "2017": 5.0
+          }
         }
-    }]
-}]
+      }
+    ]
+  }
+]

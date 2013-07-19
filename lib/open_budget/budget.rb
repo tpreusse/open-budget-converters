@@ -56,6 +56,24 @@ module OpenBudget
       end
     end
 
+    def normalize_num num, options = {}
+      if options[:clear_comma]
+        num = num.to_s.gsub(',', '')
+      end
+      num = num.to_f
+      if options[:exponent]
+        num = num * (10 ** options[:exponent])
+      end
+      num
+    end
+
+    def save_pretty_json file_path
+      File.open(file_path, 'wb') do |file|
+        # ToDo: fix to be able to do JSON.pretty_generate self
+        file.write JSON.pretty_generate JSON.parse(self.to_json)
+      end
+    end
+
     def from_finstabe_bfh_csv file_path
       CSV.foreach(file_path, :encoding => 'windows-1251:utf-8', :headers => true, :header_converters => :symbol, :converters => :all) do |row|
         if !@meta
@@ -93,17 +111,6 @@ module OpenBudget
       names.dup.each(&:strip).reject(&:blank?).collect {|id_segment|
         id_segment.downcase.gsub(/[^0-9a-z]/, ' ').gsub(/[,-]+/, ' ').gsub(/ +/, '-')
       }
-    end
-
-    def normalize_num num, options = {}
-      if options[:clear_comma]
-        num = num.to_s.gsub(',', '')
-      end
-      num = num.to_f
-      if options[:exponent]
-        num = num * (10 ** options[:exponent])
-      end
-      num
     end
 
     def load_cantonbe_csv file_path, options = {}
