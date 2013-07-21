@@ -126,10 +126,10 @@ module OpenBudget
             comma: :decimal,
             exponent: 6
           }
-          node.add_revenue('budgets', 2014, normalize_num(row[:'2014_in_mio_chf'], options))
-          node.add_revenue('budgets', 2015, normalize_num(row[:'2015'], options))
-          node.add_revenue('budgets', 2016, normalize_num(row[:'2016'], options))
-          node.add_revenue('budgets', 2017, normalize_num(row[:'2017'], options))
+          node.add(:cuts, 'budgets', 2014, normalize_num(row[:'2014_in_mio_chf'], options))
+          node.add(:cuts, 'budgets', 2015, normalize_num(row[:'2015'], options))
+          node.add(:cuts, 'budgets', 2016, normalize_num(row[:'2016'], options))
+          node.add(:cuts, 'budgets', 2017, normalize_num(row[:'2017'], options))
         end
       end
 

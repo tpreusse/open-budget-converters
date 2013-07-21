@@ -31,7 +31,7 @@
       "name": "Reorganisation und Leistungsabbau beim Jagdinspektorat",
       "detail": true,
       "short_name": "2.1",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 420000.0,
           "2015": 840000.0,
@@ -79,7 +79,7 @@
       "name": "Struktur und Leistungsabbau beim Fischereiinspektorat (Teil 1, ohne\nRenaturierungsfonds)",
       "detail": true,
       "short_name": "2.2",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 320000.0,
           "2015": 480000.0,
@@ -127,7 +127,7 @@
       "name": "Struktur- und Leistungsabbau beim Fischereiinspektorat (Teil 2, mit\nRenaturierungsfonds)",
       "detail": true,
       "short_name": "2.3",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 200000.0,
           "2015": 200000.0,
@@ -175,7 +175,7 @@
       "name": "Spitalversorgung: Streichung der frei verfügbaren Mittel im\nZusatzfinanzierungsbereich",
       "detail": true,
       "short_name": "4.1",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 20000000.0,
           "2015": 18000000.0,
@@ -217,7 +217,7 @@
       "name": "Spitalversorgung: Verzicht auf Restrukturierungsbeiträge",
       "detail": true,
       "short_name": "4.2",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 1800000.0,
           "2015": 1800000.0,
@@ -259,7 +259,7 @@
       "name": "Senkung der Normkosten für Rettungsdienste",
       "detail": true,
       "short_name": "4.3",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 1300000.0,
           "2015": 1300000.0,
@@ -307,7 +307,7 @@
       "name": "Wegfall der Kompensation Minderleistung/Mehraufwand bei der\nErneuerung der Kinderklinik des Inselspitals",
       "detail": true,
       "short_name": "4.4",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 3600000.0,
           "2015": 3600000.0,
@@ -355,7 +355,7 @@
       "name": "Beiträge im Rahmen des Gesundheitsgesetzes / Beiträge an Non-Profit-\nOrganisationen",
       "detail": true,
       "short_name": "4.5",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 900000.0,
           "2015": 900000.0,
@@ -403,7 +403,7 @@
       "name": "Streichung der Gelder für Führungsentwicklung in den UPD",
       "detail": true,
       "short_name": "5.1",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 400000.0,
           "2015": 400000.0,
@@ -451,7 +451,7 @@
       "name": "Stellenabbau in den kantonalen Psychiatriebetrieben",
       "detail": true,
       "short_name": "5.3",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 2500000.0,
           "2015": 5000000.0,
@@ -499,7 +499,7 @@
       "name": "Einsparungen bei den ambulanten Beratungsstellen Suchthilfe",
       "detail": true,
       "short_name": "6.1",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 1000000.0,
           "2015": 1000000.0,
@@ -541,7 +541,7 @@
       "name": "Streichung der Subventionen an die hauswirtschaftlichen Leistungen der\nSpitex",
       "detail": true,
       "short_name": "6.2",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 11500000.0,
           "2015": 11500000.0,
@@ -583,7 +583,7 @@
       "name": "Kürzung der Abgeltung der Versorgungspflicht für pflegerische\nLeistungen der Spitex um 25%",
       "detail": true,
       "short_name": "6.3",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 5200000.0,
           "2015": 5200000.0,
@@ -625,7 +625,7 @@
       "name": "Kürzung der Abgeltung der Versorgungspflicht für hauswirtschaftliche\nLeistungen der Spitex um 50%",
       "detail": true,
       "short_name": "6.4",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 2500000.0,
           "2015": 2500000.0,
@@ -667,7 +667,7 @@
       "name": "Streichung der Subventionen an die ergänzenden Dienstleistungen der\nSpitex",
       "detail": true,
       "short_name": "6.6",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 700000.0,
           "2015": 700000.0,
@@ -709,7 +709,7 @@
       "name": "Festlegung eines Maximalbetrags für Platzierungskosten im Sozial- und\nAsylwesen",
       "detail": true,
       "short_name": "7a.1",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 3000000.0,
           "2015": 3000000.0,
@@ -757,7 +757,7 @@
       "name": "Kürzungen der Integrationszulagen auf SKOS-Minimum",
       "detail": true,
       "short_name": "7a.2",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 5000000.0,
           "2015": 5000000.0,
@@ -805,7 +805,7 @@
       "name": "Festsetzung eines Maximalbetrags für Krankenversicherungsprämien in\nder Sozialhilfe",
       "detail": true,
       "short_name": "7a.3",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 3500000.0,
           "2015": 3500000.0,
@@ -853,7 +853,7 @@
       "name": "Abschaffung des Zuschusses nach Dekret",
       "detail": true,
       "short_name": "7a.4",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 0.0,
           "2015": 0.0,
@@ -901,7 +901,7 @@
       "name": "Kopplung der Alimentenbevorschussung an das Einkommen",
       "detail": true,
       "short_name": "7a.5",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 0.0,
           "2015": 0.0,
@@ -949,7 +949,7 @@
       "name": "Mitfinanzierung der Besoldungskosten des Personals in den\nAlimenteninkassostellen anstelle der Ausrichtung von Inkassoprovisionen",
       "detail": true,
       "short_name": "7a.6",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 1400000.0,
           "2015": 1400000.0,
@@ -997,7 +997,7 @@
       "name": "Aufhebung der Testarbeitsplätze",
       "detail": true,
       "short_name": "7a.7",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 1600000.0,
           "2015": 1600000.0,
@@ -1045,7 +1045,7 @@
       "name": "Reduktion der Angebote für vorläufig aufgenommen und Flüchtlinge",
       "detail": true,
       "short_name": "7a.8",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 1300000.0,
           "2015": 1300000.0,
@@ -1087,7 +1087,7 @@
       "name": "Aufschub der Integrationsmassnahmen",
       "detail": true,
       "short_name": "7a.9",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 2300000.0,
           "2015": 2300000.0,
@@ -1135,7 +1135,7 @@
       "name": "Ausbau der personellen Ressourcen für erhöhte Kontrolle und\nRevisionstätigkeit im Sozial- und Asylwesen",
       "detail": true,
       "short_name": "7a.10",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 500000.0,
           "2015": 500000.0,
@@ -1183,7 +1183,7 @@
       "name": "Kürzung der Betriebsbeiträge an Institutionen für erwachsene Behinderte",
       "detail": true,
       "short_name": "8.4",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 15700000.0,
           "2015": 28700000.0,
@@ -1231,7 +1231,7 @@
       "name": "Reduktion der Kostenbeteiligung bei der stationären Langzeitpflege um\n5 %",
       "detail": true,
       "short_name": "8.5",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 8800000.0,
           "2015": 8800000.0,
@@ -1273,7 +1273,7 @@
       "name": "Ergänzungsleistungen: Reduktion der Höchstbeträge der Heimtarife im\nBereich der darin enthaltenen Infrastrukturkosten",
       "detail": true,
       "short_name": "9.1",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 15000000.0,
           "2015": 15000000.0,
@@ -1321,7 +1321,7 @@
       "name": "Ergänzungsleistungen: Reduktion der Kostenvoranschlagslimite bei\nZahnbehandlungen",
       "detail": true,
       "short_name": "9.2",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 1000000.0,
           "2015": 1000000.0,
@@ -1370,7 +1370,7 @@
       "name": "Kranken- und Unfallversicherung: Kürzungen bei der Prämienverbilligung",
       "detail": true,
       "short_name": "10.1",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 20000000.0,
           "2015": 35000000.0,
@@ -1418,7 +1418,7 @@
       "name": "Stellenabbau bei der Kantonspolizei",
       "detail": true,
       "short_name": "11.1",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 0.0,
           "2015": 4300000.0,
@@ -1466,7 +1466,7 @@
       "name": "Stellenverzicht im Generalsekretariat",
       "detail": true,
       "short_name": "14.1",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 130000.0,
           "2015": 130000.0,
@@ -1514,7 +1514,7 @@
       "name": "Stellenverzicht in der Finanzverwaltung",
       "detail": true,
       "short_name": "14.2",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 110000.0,
           "2015": 110000.0,
@@ -1562,7 +1562,7 @@
       "name": "Finanzverwaltung: Verzicht auf Dienstleistungen Dritter",
       "detail": true,
       "short_name": "14.3",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 150000.0,
           "2015": 150000.0,
@@ -1610,7 +1610,7 @@
       "name": "Finanzverwaltung: Verzicht auf Informatikdienstleistungen Dritter",
       "detail": true,
       "short_name": "14.4",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 350000.0,
           "2015": 350000.0,
@@ -1658,7 +1658,7 @@
       "name": "Steuerverwaltung: Verzicht auf Taxme-CD und\nSteuererklärungsformulare",
       "detail": true,
       "short_name": "14.5",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 80000.0,
           "2015": 80000.0,
@@ -1706,7 +1706,7 @@
       "name": "Steuerverwaltung: Verzicht auf Dienstleistungen Dritter im\nKommunikationsbereich",
       "detail": true,
       "short_name": "14.6",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 40000.0,
           "2015": 40000.0,
@@ -1754,7 +1754,7 @@
       "name": "Steuerverwaltung: Verzicht auf Kunden- und Bügerbefragungen",
       "detail": true,
       "short_name": "14.7",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 30000.0,
           "2015": 30000.0,
@@ -1802,7 +1802,7 @@
       "name": "Steuerverwaltung: Einsparung bei der IT-Wartung",
       "detail": true,
       "short_name": "14.8",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 310000.0,
           "2015": 310000.0,
@@ -1850,7 +1850,7 @@
       "name": "Steuerverwaltung: Abbau von Schätzertätigkeiten",
       "detail": true,
       "short_name": "14.9",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 90000.0,
           "2015": 90000.0,
@@ -1898,7 +1898,7 @@
       "name": "Steuerverwaltung: Abbau von Stellen",
       "detail": true,
       "short_name": "14.10",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 2600000.0,
           "2015": 2600000.0,
@@ -1946,7 +1946,7 @@
       "name": "Personalamt: Abschaffung der Fachstelle Change- und\nProjektmanagement",
       "detail": true,
       "short_name": "14.11",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 300000.0,
           "2015": 300000.0,
@@ -1994,7 +1994,7 @@
       "name": "Personalamt: Abbau des zentralen Kursangebots",
       "detail": true,
       "short_name": "14.12",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 140000.0,
           "2015": 140000.0,
@@ -2042,7 +2042,7 @@
       "name": "Verzicht auf Koordination der GEVER-Anwendung im Informatikbereich",
       "detail": true,
       "short_name": "14.13",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 340000.0,
           "2015": 380000.0,
@@ -2090,7 +2090,7 @@
       "name": "Reduktion der Mittel für den Ausbau des kantonalen\nWeitbereichsnetzwerks BEWAN",
       "detail": true,
       "short_name": "14.14",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 1440000.0,
           "2015": 1440000.0,
@@ -2138,7 +2138,7 @@
       "name": "Reduktion der Mittel für die Weiterentwicklung des kantonalen Workplace",
       "detail": true,
       "short_name": "14.15",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 290000.0,
           "2015": 250000.0,
@@ -2186,7 +2186,7 @@
       "name": "Verzicht auf das IT-Servicemanagement",
       "detail": true,
       "short_name": "14.16",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 100000.0,
           "2015": 100000.0,
@@ -2234,7 +2234,7 @@
       "name": "Reduktion der Mittel im Informatikbereich der Finanzdirektion",
       "detail": true,
       "short_name": "14.17",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 500000.0,
           "2015": 500000.0,
@@ -2282,7 +2282,7 @@
       "name": "Abbau im Amt für Kindergarten, Volksschule und Beratung",
       "detail": true,
       "short_name": "15.3",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 250000.0,
           "2015": 250000.0,
@@ -2330,7 +2330,7 @@
       "name": "Abbau bei der Begabtenförderung",
       "detail": true,
       "short_name": "15.4",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 0.0,
           "2015": 1000000.0,
@@ -2378,7 +2378,7 @@
       "name": "Berufsbildung: Entlastungen im Bereich Brückenangebote",
       "detail": true,
       "short_name": "17.1",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 200000.0,
           "2015": 400000.0,
@@ -2426,7 +2426,7 @@
       "name": "Berufsbildung: Optimierung der Vollzeitangebote",
       "detail": true,
       "short_name": "17.2",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 500000.0,
           "2015": 1400000.0,
@@ -2474,7 +2474,7 @@
       "name": "Ausrichtung der Handelsmittelschulen auf Lehrgänge mit Berufsmaturität",
       "detail": true,
       "short_name": "17.6",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 0.0,
           "2015": 750000.0,
@@ -2522,7 +2522,7 @@
       "name": "Einsparungen bei Inforama",
       "detail": true,
       "short_name": "17.7",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 200000.0,
           "2015": 500000.0,
@@ -2564,7 +2564,7 @@
       "name": "Entlastungen im Bereich Informatik an kantonalen Berufsschulen",
       "detail": true,
       "short_name": "17.8",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 400000.0,
           "2015": 900000.0,
@@ -2606,7 +2606,7 @@
       "name": "Kostenoptimierungen am Bildungszentrum Pflege und\nStandortbereinigung in Thun",
       "detail": true,
       "short_name": "17.9",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 1500000.0,
           "2015": 4000000.0,
@@ -2654,7 +2654,7 @@
       "name": "Mehrerträge aus höheren Beiträgen ausserkantonaler Studierenden am\nZentrum für medizinische Bildung in Bern",
       "detail": true,
       "short_name": "17.10",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 0.0,
           "2015": 0.0,
@@ -2702,7 +2702,7 @@
       "name": "Optimierung der Bildungsgänge der Höheren Fachschule Technik in Biel",
       "detail": true,
       "short_name": "17.11",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 0.0,
           "2015": 400000.0,
@@ -2750,7 +2750,7 @@
       "name": "Optimierungen bei der Höheren Fachschule Technik Holz in Biel",
       "detail": true,
       "short_name": "17.12",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 200000.0,
           "2015": 200000.0,
@@ -2798,7 +2798,7 @@
       "name": "Optimierung der Steuerung von Berufsschulen",
       "detail": true,
       "short_name": "17.13",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 900000.0,
           "2015": 2200000.0,
@@ -2846,7 +2846,7 @@
       "name": "Entlastungen bei den Lehrkräften in der beruflichen Grundbildung",
       "detail": true,
       "short_name": "17.14",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 2500000.0,
           "2015": 5500000.0,
@@ -2894,7 +2894,7 @@
       "name": "Erhöhung der Wochenpflichtlektionen für Lehrkräfte in der höheren\nBerufsbildung um eine Lektion",
       "detail": true,
       "short_name": "17.15",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 1200000.0,
           "2015": 2700000.0,
@@ -2942,7 +2942,7 @@
       "name": "Einführung durchgehendes, vierjähriges Gymnasium",
       "detail": true,
       "short_name": "18.1",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 0.0,
           "2015": 0.0,
@@ -2990,7 +2990,7 @@
       "name": "Schwerpunktfächer an den Gymnasien reduzieren",
       "detail": true,
       "short_name": "18.2",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 100000.0,
           "2015": 300000.0,
@@ -3038,7 +3038,7 @@
       "name": "Unterricht für die zweisprachige Maturität Deutsch – Englisch im\nKlassenverband",
       "detail": true,
       "short_name": "18.3",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 100000.0,
           "2015": 200000.0,
@@ -3086,7 +3086,7 @@
       "name": "Senkung des Kostendachs für Subventionen an private Gymnasien",
       "detail": true,
       "short_name": "18.4",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 1000000.0,
           "2015": 1000000.0,
@@ -3134,7 +3134,7 @@
       "name": "Reorganisation der Gymnasien in Biel und Thun",
       "detail": true,
       "short_name": "18.5",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 0.0,
           "2015": 200000.0,
@@ -3176,7 +3176,7 @@
       "name": "Kürzung der Lektionendauer im Instrumentalunterricht an den Gymnasien",
       "detail": true,
       "short_name": "18.6",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 300000.0,
           "2015": 900000.0,
@@ -3224,7 +3224,7 @@
       "name": "Berner Fachhochschule: Senkung der Ausbildungskosten an CH- Durchschnitt",
       "detail": true,
       "short_name": "20.1",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 500000.0,
           "2015": 1000000.0,
@@ -3272,7 +3272,7 @@
       "name": "Berner Fachhochschule: Streichung von Forschungsvorhaben / Erhöhung Drittmittelanteil",
       "detail": true,
       "short_name": "20.2",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 500000.0,
           "2015": 1500000.0,
@@ -3314,7 +3314,7 @@
       "name": "Berner Fachhochschule: Erhöhung der Beiträge der Kantone der Haute Ecole Spécialisée de Suisse occidentale auf Niveau der Fachhochschulvereinbarung",
       "detail": true,
       "short_name": "20.3",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 700000.0,
           "2015": 700000.0,
@@ -3362,7 +3362,7 @@
       "name": "Pädagogische Hochschule: Schliessung des Vorbereitungskurses",
       "detail": true,
       "short_name": "21.1",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 0.0,
           "2015": 200000.0,
@@ -3410,7 +3410,7 @@
       "name": "Pädagogische Hochschule: Kürzungen bei der Weiterbildung, Beratung und Medien",
       "detail": true,
       "short_name": "21.2",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 500000.0,
           "2015": 1000000.0,
@@ -3458,7 +3458,7 @@
       "name": "Pädagogische Hochschule: Kürzung des Beitrags an die Haute Ecole\nPédagogique Berne – Jura – Neuchâtel",
       "detail": true,
       "short_name": "21.3",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 0.0,
           "2015": 500000.0,
@@ -3500,7 +3500,7 @@
       "name": "Angebots- und Strukturanpassung bei der Berufsberatung",
       "detail": true,
       "short_name": "22.1",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 0.0,
           "2015": 500000.0,
@@ -3548,7 +3548,7 @@
       "name": "Streichung von Weiterbildungsangeboten und Durchsetzung der\nKostendeckung",
       "detail": true,
       "short_name": "22.2",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 400000.0,
           "2015": 1000000.0,
@@ -3590,7 +3590,7 @@
       "name": "Reduktion bei den Dienstleistungen Dritter im Bereich Vermessung und\nGeoinformation",
       "detail": true,
       "short_name": "25a.2",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 250000.0,
           "2015": 250000.0,
@@ -3638,7 +3638,7 @@
       "name": "Erhöhung der GRUDIS-Gebühren für Banken",
       "detail": true,
       "short_name": "25a.3",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 100000.0,
           "2015": 100000.0,
@@ -3686,7 +3686,7 @@
       "name": "Wiedereinführung der Abgaben für Wärmepumpen",
       "detail": true,
       "short_name": "25a.4",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 0.0,
           "2015": 500000.0,
@@ -3734,7 +3734,7 @@
       "name": "Reduktion der finanziellen Unterstützung der regionalen\nEnergieberatungsstellen",
       "detail": true,
       "short_name": "25a.5",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 200000.0,
           "2015": 200000.0,
@@ -3782,7 +3782,7 @@
       "name": "Reorganisation und Abbau beim Unterhalt Kantonsstrassen",
       "detail": true,
       "short_name": "28.1",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 2300000.0,
           "2015": 3500000.0,
@@ -3830,7 +3830,7 @@
       "name": "Reorganisation des Amts für Grundstücke und Gebäude",
       "detail": true,
       "short_name": "30.1",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 0.0,
           "2015": 1000000.0,
@@ -3878,7 +3878,7 @@
       "name": "Streichung des Beitrags an die Zweisprachigkeit der Psychiatrischen Diens- te Biel - Seeland – Berner Jura",
       "detail": true,
       "short_name": "5.2",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 150000.0,
           "2015": 150000.0,
@@ -3926,7 +3926,7 @@
       "name": "Verzicht auf den Aufbau ambulanter Leistungen",
       "detail": true,
       "short_name": "5.4a",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 2960000.0,
           "2015": 2960000.0,
@@ -3974,7 +3974,7 @@
       "name": "Anschubfinanzierung ambulante und tagesklinische Psychiatrie",
       "detail": true,
       "short_name": "5.4b",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 5500000.0,
           "2015": 5500000.0,
@@ -4016,7 +4016,7 @@
       "name": "Streichung der Mitfinanzierung von Modellprojekten in der Psychiatrie",
       "detail": true,
       "short_name": "5.4c",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 1440000.0,
           "2015": 1440000.0,
@@ -4058,7 +4058,7 @@
       "name": "Kürzung der bevölkerungsbezogenen Pro-Kopf-Pauschale in der Psychiatrie",
       "detail": true,
       "short_name": "5.4d",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 990000.0,
           "2015": 1970000.0,
@@ -4106,7 +4106,7 @@
       "name": "Kürzung der Pauschalabgeltung für tagesklinische Leistungen",
       "detail": true,
       "short_name": "5.4e",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 820000.0,
           "2015": 1640000.0,
@@ -4154,7 +4154,7 @@
       "name": "Streichung der Mitfinanzierung des Aufenthaltes von Personen, die keine\nSpitalpflege in einer psychiatrischen Klinik mehr brauchen",
       "detail": true,
       "short_name": "5.4f",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 6570000.0,
           "2015": 6570000.0,
@@ -4202,7 +4202,7 @@
       "name": "Erhöhung der Patientenbeteiligung auf Maximalansatz für alle Personen, die\nälter als 65 Jahre sind",
       "detail": true,
       "short_name": "6.5",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 15000000.0,
           "2015": 15000000.0,
@@ -4250,7 +4250,7 @@
       "name": "Lineare Kürzung der Nettobetriebskosten bei Behinderteninstitutionen für\nKinder und Jugendliche",
       "detail": true,
       "short_name": "8.1",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 5500000.0,
           "2015": 5500000.0,
@@ -4298,7 +4298,7 @@
       "name": "Verzicht auf Unterstützungsmassnahmen im Regelschulbereich",
       "detail": true,
       "short_name": "8.2",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 2000000.0,
           "2015": 5000000.0,
@@ -4340,7 +4340,7 @@
       "name": "Strukturanpassungen bei den Behinderteninstitutionen für Kinder und Ju-\ngendliche",
       "detail": true,
       "short_name": "8.3",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 0.0,
           "2015": 500000.0,
@@ -4382,7 +4382,7 @@
       "name": "Ergänzungsleistungen: Reduktion des Beitrags für persönliche Auslagen",
       "detail": true,
       "short_name": "9.3.1",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 9150000.0,
           "2015": 9150000.0,
@@ -4430,7 +4430,7 @@
       "name": "Ergänzungsleistungen: Reduktion des Höchstbetrags der übrigen Heimtarife um CHF 10 pro Tag",
       "detail": true,
       "short_name": "9.3.2",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 6200000.0,
           "2015": 6200000.0,
@@ -4468,7 +4468,7 @@
       "name": "Kranken und Unfallversicherung: Zusätzliche Kürzungen bei der Prämien-\nverbilligung",
       "detail": true,
       "short_name": "10.1",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 59000000.0,
           "2015": 44000000.0,
@@ -4510,7 +4510,7 @@
       "name": "Kindergarten/Volksschule: Erhöhung des Durchschnitts der Klassengrösse",
       "detail": true,
       "short_name": "15.1",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 4500000.0,
           "2015": 11000000.0,
@@ -4558,7 +4558,7 @@
       "name": "Kindergarten/Volksschule: Abbau von Unterrichtslektionen",
       "detail": true,
       "short_name": "15.2",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 6000000.0,
           "2015": 14500000.0,
@@ -4606,7 +4606,7 @@
       "name": "Schliessung der Gartenbauschule Hünibach",
       "detail": true,
       "short_name": "17.3",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 800000.0,
           "2015": 1200000.0,
@@ -4654,7 +4654,7 @@
       "name": "Schliessung der Gartenbauschule Oeschberg",
       "detail": true,
       "short_name": "17.4",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 0.0,
           "2015": 500000.0,
@@ -4702,7 +4702,7 @@
       "name": "Entlastungen bei den Lehrwerkstätten Bern",
       "detail": true,
       "short_name": "17.5",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 0.0,
           "2015": 300000.0,
@@ -4750,7 +4750,7 @@
       "name": "Berner Fachhochschule: Standortkonzentration „Ein-Standort-Strategie“",
       "detail": true,
       "short_name": "20.4a",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 0.0,
           "2015": 0.0,
@@ -4792,7 +4792,7 @@
       "name": "Berner Fachhochschule: Aufgabe des Standortes Burgdorf",
       "detail": true,
       "short_name": "20.4",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 0.0,
           "2015": 0.0,
@@ -4834,7 +4834,7 @@
       "name": "Pädagogische Hochschule: Aufgabe der Ausbildung für die Vorschul- und\nPrimarstufe an der NMS Bern",
       "detail": true,
       "short_name": "21.4",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 500000.0,
           "2015": 1000000.0,
@@ -4882,7 +4882,7 @@
       "name": "Einschränkung des Angebots der Erziehungsberatung",
       "detail": true,
       "short_name": "22.3",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 0.0,
           "2015": 1500000.0,
@@ -4930,7 +4930,7 @@
       "name": "Umstellung verschiedener Bahnlinien auf Bus",
       "detail": true,
       "short_name": "27.2",
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 0.0,
           "2015": 0.0,
@@ -4965,7 +4965,7 @@
       "id": "weitere-entlastungsmassnahmen_k-rzung-der-lohnmassnahmen",
       "name": "Kürzung der Lohnmassnahmen",
       "detail": true,
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 32140000.0,
           "2015": 50130000.0,
@@ -4994,7 +4994,7 @@
       "id": "weitere-entlastungsmassnahmen_zus-tzliche-k-rzung-der-lohnmassnahmen",
       "name": "Zusätzliche Kürzung der Lohnmassnahmen",
       "detail": true,
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 64800000.0,
           "2015": 29000000.0,
@@ -5023,7 +5023,7 @@
       "id": "weitere-entlastungsmassnahmen_steuern-aufhebung-der-gesamtpauschale-f-r-berufskosten",
       "name": "Steuern: Aufhebung der Gesamtpauschale für Berufskosten",
       "detail": true,
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 41000000.0,
           "2015": 41000000.0,
@@ -5052,7 +5052,7 @@
       "id": "weitere-entlastungsmassnahmen_steuern-plafonierung-des-fahrkostenabzugs-auf-chf-3-000",
       "name": "Steuern: Plafonierung des Fahrkostenabzugs auf CHF 3‘000",
       "detail": true,
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 0.0,
           "2015": 0.0,
@@ -5072,7 +5072,7 @@
       "id": "weitere-entlastungsmassnahmen_allgemeine-neubewertung-der-grundst-cke",
       "name": "Allgemeine Neubewertung der Grundstücke",
       "detail": true,
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 0.0,
           "2015": 0.0,
@@ -5101,7 +5101,7 @@
       "id": "weitere-entlastungsmassnahmen_abschreibungen-nach-rechnungsmodell-hrm2-ipsas-aufl-sung-der-aufwertungsreserven-innerhalb-von-15-jahren-",
       "name": "Abschreibungen nach Rechnungsmodell HRM2/IPSAS (Auflösung der Aufwertungsreserven innerhalb von 15 Jahren)",
       "detail": true,
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 0.0,
           "2015": 40000000.0,
@@ -5130,7 +5130,7 @@
       "id": "weitere-entlastungsmassnahmen_teilabsch-pfung-der-entlastungen-der-gemeinden-durch-asp-2014",
       "name": "Teilabschöpfung der Entlastungen der Gemeinden durch ASP 2014",
       "detail": true,
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 20000000.0,
           "2015": 20000000.0,
@@ -5149,7 +5149,7 @@
       "id": "gerichtsbeh-rden-und-staatsanwaltschaft_angebots-und-strukturanpassungen-im-bereich-der-gerichtsbeh-rden-und-der-staatsanwaltschaft",
       "name": "Angebots- und Strukturanpassungen im Bereich der Gerichtsbehörden und der Staatsanwaltschaft",
       "detail": true,
-      "revenue": {
+      "cuts": {
         "budgets": {
           "2014": 5000000.0,
           "2015": 5000000.0,

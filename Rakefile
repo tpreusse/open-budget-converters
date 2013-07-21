@@ -153,7 +153,7 @@ namespace :cantonbe do
           [2014, 2015, 2016, 2017].each do |year|
             val = massnahme['Auswirkungen']['Vollzeitstellen'][year.to_s]
             unless val == 'n.q.'
-              node.add_revenue('positions', year, val.to_f)
+              node.add(:cuts, 'positions', year, val.to_f)
             end
           end
         end
@@ -161,7 +161,7 @@ namespace :cantonbe do
         if massnahme['Auswirkungen'].present? && massnahme['Auswirkungen']['Finanzielle'].present?
           [2014, 2015, 2016, 2017].each do |year|
             val = massnahme['Auswirkungen']['Finanzielle'][year.to_s].to_f * (10 ** 6)
-            node_val = node.balances[:revenue].accounts['budgets'][year]
+            node_val = node.balances[:cuts].accounts['budgets'][year]
             if node_val != val
               puts "---"
               puts "detected irregularity"
@@ -196,7 +196,7 @@ namespace :cantonbe do
           [2014, 2015, 2016, 2017].each do |year|
             val = massnahme['Auswirkungen']['Vollzeitstellen'][year.to_s]
             unless val == 'n.q.'
-              node.add_revenue('positions', year, val.to_f)
+              node.add(:cuts, 'positions', year, val.to_f)
             end
           end
         end

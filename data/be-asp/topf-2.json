@@ -3,7 +3,7 @@
     "id": "weitere-entlastungsmassnahmen",
     "name": "Weitere Entlastungsmassnahmen",
     "detail": false,
-    "revenue": {
+    "cuts": {
       "budgets": {
         "2014": 84800000.0,
         "2015": 49000000.0,
@@ -16,7 +16,7 @@
         "id": "weitere-entlastungsmassnahmen_zus-tzliche-k-rzung-der-lohnmassnahmen",
         "name": "Zusätzliche Kürzung der Lohnmassnahmen",
         "detail": true,
-        "revenue": {
+        "cuts": {
           "budgets": {
             "2014": 64800000.0,
             "2015": 29000000.0,
@@ -29,7 +29,7 @@
         "id": "weitere-entlastungsmassnahmen_teilabsch-pfung-der-entlastungen-der-gemeinden-durch-asp-2014",
         "name": "Teilabschöpfung der Entlastungen der Gemeinden durch ASP 2014",
         "detail": true,
-        "revenue": {
+        "cuts": {
           "budgets": {
             "2014": 20000000.0,
             "2015": 20000000.0,
@@ -44,7 +44,7 @@
     "id": "gef",
     "name": "Gesundheit und Fürsorge",
     "detail": false,
-    "revenue": {
+    "cuts": {
       "budgets": {
         "2014": 40930000.0,
         "2015": 46230000.0,
@@ -64,7 +64,7 @@
         "name": "Verzicht auf den Aufbau ambulanter Leistungen",
         "detail": true,
         "short_name": "5.4a",
-        "revenue": {
+        "cuts": {
           "budgets": {
             "2014": 2960000.0,
             "2015": 2960000.0,
@@ -84,7 +84,7 @@
         "name": "Streichung des Beitrags an die Zweisprachigkeit der Psychiatrischen Diens- te Biel - Seeland – Berner Jura",
         "detail": true,
         "short_name": "5.2",
-        "revenue": {
+        "cuts": {
           "budgets": {
             "2014": 150000.0,
             "2015": 150000.0,
@@ -104,7 +104,7 @@
         "name": "Anschubfinanzierung ambulante und tagesklinische Psychiatrie",
         "detail": true,
         "short_name": "5.4b",
-        "revenue": {
+        "cuts": {
           "budgets": {
             "2014": 5500000.0,
             "2015": 5500000.0,
@@ -118,7 +118,7 @@
         "name": "Streichung der Mitfinanzierung von Modellprojekten in der Psychiatrie",
         "detail": true,
         "short_name": "5.4c",
-        "revenue": {
+        "cuts": {
           "budgets": {
             "2014": 1440000.0,
             "2015": 1440000.0,
@@ -132,7 +132,7 @@
         "name": "Kürzung der bevölkerungsbezogenen Pro-Kopf-Pauschale in der Psychiatrie",
         "detail": true,
         "short_name": "5.4d",
-        "revenue": {
+        "cuts": {
           "budgets": {
             "2014": 990000.0,
             "2015": 1970000.0,
@@ -152,7 +152,7 @@
         "name": "Kürzung der Pauschalabgeltung für tagesklinische Leistungen",
         "detail": true,
         "short_name": "5.4e",
-        "revenue": {
+        "cuts": {
           "budgets": {
             "2014": 820000.0,
             "2015": 1640000.0,
@@ -172,7 +172,7 @@
         "name": "Streichung der Mitfinanzierung des Aufenthaltes von Personen, die keine\nSpitalpflege in einer psychiatrischen Klinik mehr brauchen",
         "detail": true,
         "short_name": "5.4f",
-        "revenue": {
+        "cuts": {
           "budgets": {
             "2014": 6570000.0,
             "2015": 6570000.0,
@@ -192,7 +192,7 @@
         "name": "Erhöhung der Patientenbeteiligung auf Maximalansatz für alle Personen, die\nälter als 65 Jahre sind",
         "detail": true,
         "short_name": "6.5",
-        "revenue": {
+        "cuts": {
           "budgets": {
             "2014": 15000000.0,
             "2015": 15000000.0,
@@ -212,7 +212,7 @@
         "name": "Lineare Kürzung der Nettobetriebskosten bei Behinderteninstitutionen für\nKinder und Jugendliche",
         "detail": true,
         "short_name": "8.1",
-        "revenue": {
+        "cuts": {
           "budgets": {
             "2014": 5500000.0,
             "2015": 5500000.0,
@@ -232,7 +232,7 @@
         "name": "Verzicht auf Unterstützungsmassnahmen im Regelschulbereich",
         "detail": true,
         "short_name": "8.2",
-        "revenue": {
+        "cuts": {
           "budgets": {
             "2014": 2000000.0,
             "2015": 5000000.0,
@@ -246,7 +246,7 @@
         "name": "Strukturanpassungen bei den Behinderteninstitutionen für Kinder und Ju-\ngendliche",
         "detail": true,
         "short_name": "8.3",
-        "revenue": {
+        "cuts": {
           "budgets": {
             "2014": 0.0,
             "2015": 500000.0,
@@ -261,7 +261,7 @@
     "id": "jgk",
     "name": "Justiz, Gemeinde und Kirchen",
     "detail": false,
-    "revenue": {
+    "cuts": {
       "budgets": {
         "2014": 74350000.0,
         "2015": 59350000.0,
@@ -281,7 +281,7 @@
         "name": "Ergänzungsleistungen: Reduktion des Beitrags für persönliche Auslagen",
         "detail": true,
         "short_name": "9.3.1",
-        "revenue": {
+        "cuts": {
           "budgets": {
             "2014": 9150000.0,
             "2015": 9150000.0,
@@ -301,7 +301,7 @@
         "name": "Ergänzungsleistungen: Reduktion des Höchstbetrags der übrigen Heimtarife um CHF 10 pro Tag",
         "detail": true,
         "short_name": "9.3.2",
-        "revenue": {
+        "cuts": {
           "budgets": {
             "2014": 6200000.0,
             "2015": 6200000.0,
@@ -321,7 +321,7 @@
         "name": "Kranken und Unfallversicherung: Zusätzliche Kürzungen bei der Prämien-\nverbilligung",
         "detail": true,
         "short_name": "10.1",
-        "revenue": {
+        "cuts": {
           "budgets": {
             "2014": 59000000.0,
             "2015": 44000000.0,
@@ -336,7 +336,7 @@
     "id": "erz",
     "name": "Erziehung",
     "detail": false,
-    "revenue": {
+    "cuts": {
       "budgets": {
         "2014": 11800000.0,
         "2015": 30000000.0,
@@ -356,7 +356,7 @@
         "name": "Kindergarten/Volksschule: Erhöhung des Durchschnitts der Klassengrösse",
         "detail": true,
         "short_name": "15.1",
-        "revenue": {
+        "cuts": {
           "budgets": {
             "2014": 4500000.0,
             "2015": 11000000.0,
@@ -376,7 +376,7 @@
         "name": "Kindergarten/Volksschule: Abbau von Unterrichtslektionen",
         "detail": true,
         "short_name": "15.2",
-        "revenue": {
+        "cuts": {
           "budgets": {
             "2014": 6000000.0,
             "2015": 14500000.0,
@@ -396,7 +396,7 @@
         "name": "Schliessung der Gartenbauschule Hünibach",
         "detail": true,
         "short_name": "17.3",
-        "revenue": {
+        "cuts": {
           "budgets": {
             "2014": 800000.0,
             "2015": 1200000.0,
@@ -416,7 +416,7 @@
         "name": "Schliessung der Gartenbauschule Oeschberg",
         "detail": true,
         "short_name": "17.4",
-        "revenue": {
+        "cuts": {
           "budgets": {
             "2014": 0.0,
             "2015": 500000.0,
@@ -436,7 +436,7 @@
         "name": "Entlastungen bei den Lehrwerkstätten Bern",
         "detail": true,
         "short_name": "17.5",
-        "revenue": {
+        "cuts": {
           "budgets": {
             "2014": 0.0,
             "2015": 300000.0,
@@ -456,7 +456,7 @@
         "name": "Pädagogische Hochschule: Aufgabe der Ausbildung für die Vorschul- und\nPrimarstufe an der NMS Bern",
         "detail": true,
         "short_name": "21.4",
-        "revenue": {
+        "cuts": {
           "budgets": {
             "2014": 500000.0,
             "2015": 1000000.0,
@@ -476,7 +476,7 @@
         "name": "Einschränkung des Angebots der Erziehungsberatung",
         "detail": true,
         "short_name": "22.3",
-        "revenue": {
+        "cuts": {
           "budgets": {
             "2014": 0.0,
             "2015": 1500000.0,
@@ -496,7 +496,7 @@
         "name": "Berner Fachhochschule: Standortkonzentration „Ein-Standort-Strategie“",
         "detail": true,
         "short_name": "20.4a",
-        "revenue": {
+        "cuts": {
           "budgets": {
             "2014": 0.0,
             "2015": 0.0,
@@ -510,7 +510,7 @@
         "name": "Berner Fachhochschule: Aufgabe des Standortes Burgdorf",
         "detail": true,
         "short_name": "20.4",
-        "revenue": {
+        "cuts": {
           "budgets": {
             "2014": 0.0,
             "2015": 0.0,
@@ -525,7 +525,7 @@
     "id": "bve",
     "name": "Bau, Verkehr und Energie",
     "detail": false,
-    "revenue": {
+    "cuts": {
       "budgets": {
         "2014": 0.0,
         "2015": 0.0,
@@ -545,7 +545,7 @@
         "name": "Umstellung verschiedener Bahnlinien auf Bus",
         "detail": true,
         "short_name": "27.2",
-        "revenue": {
+        "cuts": {
           "budgets": {
             "2014": 0.0,
             "2015": 0.0,
