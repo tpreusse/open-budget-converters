@@ -67,7 +67,7 @@ namespace :cantonbe do
   end
 
   desc "download canton bern org meta data"
-  task :download_organisation_meta do
+  task :download_directorate_meta do
     overview = Nokogiri::HTML(open('http://www.be.ch/portal/de/behoerden/verwaltung.html'))
 
     directorates = []
@@ -92,7 +92,7 @@ namespace :cantonbe do
       }
     end
 
-    File.open('source/cantonbe/organisation_meta.json', 'wb') do |file|
+    File.open('source/cantonbe/directorate_meta.json', 'wb') do |file|
       file.write JSON.pretty_generate JSON.parse(directorates.to_json)
     end
   end
@@ -116,7 +116,7 @@ namespace :cantonbe do
       nr_to_id_path["topf#{row[:topf]}_#{row[:nr]}"] = topf1.cantonbe_names_to_ids [
         row[:overview_dir],
         row[:overview_action]
-      ]
+      ], :massnahme => true
     end
 
     massnahmen = JSON.parse File.read('source/cantonbe/asp/massnahmen.json')
@@ -178,6 +178,8 @@ namespace :cantonbe do
     massnahmen = JSON.parse File.read('source/cantonbe/asp/massnahmen_static.json')
     massnahmen.each do |massnahme|
       id_path = massnahme['Id'].split('_')
+      id_path[0] = topf1.cantonbe_directorate_id id_path[0]
+
       node = topf1.get_node(id_path) || topf2.get_node(id_path)
       unless node
         puts "detail not found: #{id_path}"
@@ -213,9 +215,9 @@ namespace :cantonbe do
   desc "enrich data json"
   task :enrich_json do
     budget = OpenBudget::Budget.from_file('data/be/data.json')
-    organisation_meta = JSON.parse File.read('source/cantonbe/organisation_meta.json')
+    directorate_meta = JSON.parse File.read('source/cantonbe/directorate_meta.json')
 
-    organisation_meta.each do |directorate|
+    directorate_meta.each do |directorate|
       id_path = budget.cantonbe_names_to_ids [
         directorate['name']
       ]

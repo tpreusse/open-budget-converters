@@ -2,7 +2,9 @@
 	"direktion": {
 		"Justiz": "Gerichtsbehörden und Staatsanwaltschaft",
 		"Gesamte Verwaltung": "Weitere Entlastungsmassnahmen",
-		"Bau, Verkehr, Energie": "Bau, Verkehr und Energie"
+		"Bau, Verkehr, Energie": "Bau, Verkehr und Energie",
+		"Polizei": "Polizei und Militär",
+		"Finanzen": "Finanz"
 	},
 	"massnahme": {
 		"Gerichtsbehörden und Staatsanwaltschaft": {

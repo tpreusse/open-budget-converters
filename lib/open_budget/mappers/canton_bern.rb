@@ -29,18 +29,46 @@ module OpenBudget
         end
       end
 
-      def cantonbe_names_to_ids names
+      def cantonbe_normalize_names names, options = {}
         # normalization and manual renaming as recommended by be.ch employees
         @cantonbe_names_overwrites ||= JSON.parse File.read('source/cantonbe/asp/massnahmen_overwrite.json')
 
         names[0] = @cantonbe_names_overwrites['direktion'][names[0]].presence || names[0]
-        if names[1].present?
+        if options[:massnahme] && names[1].present?
           names[1] = @cantonbe_names_overwrites['massnahme'].fetch(names[0], {})[names[1]].presence || names[1]
         end
 
-        names.dup.each(&:strip).reject(&:blank?).collect {|id_segment|
+        names = names.dup
+        names[0] = names[0].gsub(/s?(direktion)?\b/, '')
+
+        names.each(&:strip).reject(&:blank?).collect {|id_segment|
           id_segment.downcase.gsub(/[^0-9a-z]/, ' ').gsub(/[,-]+/, ' ').gsub(/ +/, '-')
         }
+      end
+
+      def cantonbe_directorate_id normalized_name
+        @cantonbe_directorate_index ||= lambda do
+          directorate_meta = JSON.parse File.read('source/cantonbe/directorate_meta.json')
+          index = {}
+          directorate_meta.each do |directorate|
+            name = cantonbe_normalize_names([directorate['name']])[0]
+            index[name] = directorate['acronym'].downcase
+          end
+          index
+        end.call
+
+        # unless @cantonbe_directorate_index[normalized_name]
+        #   p "unknown directorate #{normalized_name}"
+        # end
+
+        @cantonbe_directorate_index[normalized_name] || normalized_name
+      end
+
+      def cantonbe_names_to_ids names, options = {}
+        names = cantonbe_normalize_names names, options
+        names[0] = cantonbe_directorate_id names[0]
+
+        names
       end
 
       def load_cantonbe_csv file_path, options = {}
@@ -90,7 +118,7 @@ module OpenBudget
             row[:direktion],
             row[:massnahme]
           ]
-          id_path = cantonbe_names_to_ids names
+          id_path = cantonbe_names_to_ids names, :massnahme => true
 
           node = get_or_create_node id_path, names
 

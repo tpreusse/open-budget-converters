@@ -1,6 +1,6 @@
 [
   {
-    "id": "volkswirtschaftsdirektion",
+    "id": "vol",
     "name": "Volkswirtschaftsdirektion",
     "detail": false,
     "short_name": "VOL",
@@ -26,7 +26,7 @@
     },
     "children": [
       {
-        "id": "volkswirtschaftsdirektion_arbeitslosenversicherung",
+        "id": "vol_arbeitslosenversicherung",
         "name": "Arbeitslosenversicherung",
         "detail": false,
         "gross_cost": {
@@ -51,7 +51,7 @@
         }
       },
       {
-        "id": "volkswirtschaftsdirektion_schutz-vor-naturgefahren",
+        "id": "vol_schutz-vor-naturgefahren",
         "name": "Schutz vor Naturgefahren",
         "detail": false,
         "gross_cost": {
@@ -76,7 +76,7 @@
         }
       },
       {
-        "id": "volkswirtschaftsdirektion_immissionsschutz",
+        "id": "vol_immissionsschutz",
         "name": "Immissionsschutz",
         "detail": false,
         "gross_cost": {
@@ -101,7 +101,7 @@
         }
       },
       {
-        "id": "volkswirtschaftsdirektion_f-hrungsunterst-tzung",
+        "id": "vol_f-hrungsunterst-tzung",
         "name": "Führungsunterstützung",
         "detail": false,
         "gross_cost": {
@@ -126,7 +126,7 @@
         }
       },
       {
-        "id": "volkswirtschaftsdirektion_landwirtschaft",
+        "id": "vol_landwirtschaft",
         "name": "Landwirtschaft",
         "detail": false,
         "gross_cost": {
@@ -151,7 +151,7 @@
         }
       },
       {
-        "id": "volkswirtschaftsdirektion_natur",
+        "id": "vol_natur",
         "name": "Natur",
         "detail": false,
         "gross_cost": {
@@ -176,7 +176,7 @@
         }
       },
       {
-        "id": "volkswirtschaftsdirektion_staatsforstbetrieb",
+        "id": "vol_staatsforstbetrieb",
         "name": "Staatsforstbetrieb",
         "detail": false,
         "gross_cost": {
@@ -201,7 +201,7 @@
         }
       },
       {
-        "id": "volkswirtschaftsdirektion_walderhaltung-und-waldbewirtschaftung",
+        "id": "vol_walderhaltung-und-waldbewirtschaftung",
         "name": "Walderhaltung und Waldbewirtschaftung",
         "detail": false,
         "gross_cost": {
@@ -226,7 +226,7 @@
         }
       },
       {
-        "id": "volkswirtschaftsdirektion_tourismus-und-regionalentwicklung",
+        "id": "vol_tourismus-und-regionalentwicklung",
         "name": "Tourismus und Regionalentwicklung",
         "detail": false,
         "gross_cost": {
@@ -251,7 +251,7 @@
         }
       },
       {
-        "id": "volkswirtschaftsdirektion_wirtschaftsf-rderung",
+        "id": "vol_wirtschaftsf-rderung",
         "name": "Wirtschaftsförderung",
         "detail": false,
         "gross_cost": {
@@ -276,7 +276,7 @@
         }
       },
       {
-        "id": "volkswirtschaftsdirektion_arbeitsbedingungen",
+        "id": "vol_arbeitsbedingungen",
         "name": "Arbeitsbedingungen",
         "detail": false,
         "gross_cost": {
@@ -303,7 +303,7 @@
     ]
   },
   {
-    "id": "staatskanzlei",
+    "id": "sta",
     "name": "Staatskanzlei",
     "detail": false,
     "short_name": "STA",
@@ -329,7 +329,7 @@
     },
     "children": [
       {
-        "id": "staatskanzlei_f-hrungsunterst-tzung",
+        "id": "sta_f-hrungsunterst-tzung",
         "name": "Führungsunterstützung",
         "detail": false,
         "gross_cost": {
@@ -354,7 +354,7 @@
         }
       },
       {
-        "id": "staatskanzlei_sprachliche-minderheit-rechtliche-dienstleistungen-und-aussenbeziehungen",
+        "id": "sta_sprachliche-minderheit-rechtliche-dienstleistungen-und-aussenbeziehungen",
         "name": "Sprachliche Minderheit, rechtliche Dienstleistungen und Aussenbeziehungen",
         "detail": false,
         "gross_cost": {
@@ -379,7 +379,7 @@
         }
       },
       {
-        "id": "staatskanzlei_kommunikation",
+        "id": "sta_kommunikation",
         "name": "Kommunikation",
         "detail": false,
         "gross_cost": {
@@ -404,7 +404,7 @@
         }
       },
       {
-        "id": "staatskanzlei_archiv",
+        "id": "sta_archiv",
         "name": "Archiv",
         "detail": false,
         "gross_cost": {
@@ -429,7 +429,7 @@
         }
       },
       {
-        "id": "staatskanzlei_entscheidunterst-tzung-f-r-den-grossen-rat",
+        "id": "sta_entscheidunterst-tzung-f-r-den-grossen-rat",
         "name": "Entscheidunterstützung für den Grossen Rat",
         "detail": false,
         "gross_cost": {
@@ -454,7 +454,7 @@
         }
       },
       {
-        "id": "staatskanzlei_gleichstellung",
+        "id": "sta_gleichstellung",
         "name": "Gleichstellung",
         "detail": false,
         "gross_cost": {
@@ -481,7 +481,7 @@
     ]
   },
   {
-    "id": "polizei-und-milit-rdirektion",
+    "id": "pom",
     "name": "Polizei- und Militärdirektion",
     "detail": false,
     "short_name": "POM",
@@ -507,7 +507,7 @@
     },
     "children": [
       {
-        "id": "polizei-und-milit-rdirektion_f-hrungsunterst-tzung-verwaltungsrechtspflege-und-fonds",
+        "id": "pom_f-hrungsunterst-tzung-verwaltungsrechtspflege-und-fonds",
         "name": "Führungsunterstützung, Verwaltungsrechtspflege und Fonds",
         "detail": false,
         "gross_cost": {
@@ -532,7 +532,7 @@
         }
       },
       {
-        "id": "polizei-und-milit-rdirektion_polizei",
+        "id": "pom_polizei",
         "name": "Polizei",
         "detail": false,
         "gross_cost": {
@@ -557,7 +557,7 @@
         }
       },
       {
-        "id": "polizei-und-milit-rdirektion_strassenverkehr-und-schifffahrt",
+        "id": "pom_strassenverkehr-und-schifffahrt",
         "name": "Strassenverkehr und Schifffahrt",
         "detail": false,
         "gross_cost": {
@@ -582,7 +582,7 @@
         }
       },
       {
-        "id": "polizei-und-milit-rdirektion_freiheitsentzug-und-betreuung-erwachsene-und-jugendliche-",
+        "id": "pom_freiheitsentzug-und-betreuung-erwachsene-und-jugendliche-",
         "name": "Freiheitsentzug und Betreuung (Erwachsene und Jugendliche)",
         "detail": false,
         "gross_cost": {
@@ -607,7 +607,7 @@
         }
       },
       {
-        "id": "polizei-und-milit-rdirektion_migration-und-personen-stand",
+        "id": "pom_migration-und-personen-stand",
         "name": "Migration und Personen-stand",
         "detail": false,
         "gross_cost": {
@@ -632,7 +632,7 @@
         }
       },
       {
-        "id": "polizei-und-milit-rdirektion_bev-lkerungsschutz-sport-und-milit-r",
+        "id": "pom_bev-lkerungsschutz-sport-und-milit-r",
         "name": "Bevölkerungsschutz, Sport und Militär",
         "detail": false,
         "gross_cost": {
@@ -659,7 +659,7 @@
     ]
   },
   {
-    "id": "justiz-gemeinde-und-kirchendirektion",
+    "id": "jgk",
     "name": "Justiz-, Gemeinde- und Kirchendirektion",
     "detail": false,
     "short_name": "JGK",
@@ -685,7 +685,7 @@
     },
     "children": [
       {
-        "id": "justiz-gemeinde-und-kirchendirektion_unterst-tzung-und-aufsicht-gemeinden",
+        "id": "jgk_unterst-tzung-und-aufsicht-gemeinden",
         "name": "Unterstützung und Aufsicht Gemeinden",
         "detail": false,
         "gross_cost": {
@@ -710,7 +710,7 @@
         }
       },
       {
-        "id": "justiz-gemeinde-und-kirchendirektion_pfarramtliche-versorgung-der-kirchgemeinden-und-beziehung-zwischen-kirche-und-staat",
+        "id": "jgk_pfarramtliche-versorgung-der-kirchgemeinden-und-beziehung-zwischen-kirche-und-staat",
         "name": "Pfarramtliche Versorgung der Kirchgemeinden und Beziehung zwischen Kirche und Staat",
         "detail": false,
         "gross_cost": {
@@ -735,7 +735,7 @@
         }
       },
       {
-        "id": "justiz-gemeinde-und-kirchendirektion_f-hrungsunterst-tzung",
+        "id": "jgk_f-hrungsunterst-tzung",
         "name": "Führungsunterstützung",
         "detail": false,
         "gross_cost": {
@@ -760,7 +760,7 @@
         }
       },
       {
-        "id": "justiz-gemeinde-und-kirchendirektion_dienstleistungen-f-r-mter",
+        "id": "jgk_dienstleistungen-f-r-mter",
         "name": "Dienstleistungen für Ämter",
         "detail": false,
         "gross_cost": {
@@ -781,7 +781,7 @@
         }
       },
       {
-        "id": "justiz-gemeinde-und-kirchendirektion_sicherstellen-betrieb-dezentrale-justizverwaltung-und-notariatsaufsicht",
+        "id": "jgk_sicherstellen-betrieb-dezentrale-justizverwaltung-und-notariatsaufsicht",
         "name": "Sicherstellen Betrieb dezentrale Justizverwaltung und Notariatsaufsicht",
         "detail": false,
         "gross_cost": {
@@ -802,7 +802,7 @@
         }
       },
       {
-        "id": "justiz-gemeinde-und-kirchendirektion_regierungsstatthalter-mter",
+        "id": "jgk_regierungsstatthalter-mter",
         "name": "Regierungsstatthalterämter",
         "detail": false,
         "gross_cost": {
@@ -827,7 +827,7 @@
         }
       },
       {
-        "id": "justiz-gemeinde-und-kirchendirektion_f-hren-des-grundbuches",
+        "id": "jgk_f-hren-des-grundbuches",
         "name": "Führen des Grundbuches",
         "detail": false,
         "gross_cost": {
@@ -852,7 +852,7 @@
         }
       },
       {
-        "id": "justiz-gemeinde-und-kirchendirektion_f-hren-des-handelsregisters",
+        "id": "jgk_f-hren-des-handelsregisters",
         "name": "Führen des Handelsregisters",
         "detail": false,
         "gross_cost": {
@@ -877,7 +877,7 @@
         }
       },
       {
-        "id": "justiz-gemeinde-und-kirchendirektion_betreibungen-und-konkurse",
+        "id": "jgk_betreibungen-und-konkurse",
         "name": "Betreibungen und Konkurse",
         "detail": false,
         "gross_cost": {
@@ -902,7 +902,7 @@
         }
       },
       {
-        "id": "justiz-gemeinde-und-kirchendirektion_verwaltungsinterne-verwaltungsrechtspflege-und-rechtliche-dienstleistungen",
+        "id": "jgk_verwaltungsinterne-verwaltungsrechtspflege-und-rechtliche-dienstleistungen",
         "name": "Verwaltungsinterne Verwaltungsrechtspflege und rechtliche Dienstleistungen",
         "detail": false,
         "gross_cost": {
@@ -927,7 +927,7 @@
         }
       },
       {
-        "id": "justiz-gemeinde-und-kirchendirektion_differenzierte-jugendhilfemassnahmen",
+        "id": "jgk_differenzierte-jugendhilfemassnahmen",
         "name": "Differenzierte Jugendhilfemassnahmen",
         "detail": false,
         "gross_cost": {
@@ -952,7 +952,7 @@
         }
       },
       {
-        "id": "justiz-gemeinde-und-kirchendirektion_kindesschutz-und-vormundschaftswesen",
+        "id": "jgk_kindesschutz-und-vormundschaftswesen",
         "name": "Kindesschutz und Vormundschaftswesen",
         "detail": false,
         "gross_cost": {
@@ -973,7 +973,7 @@
         }
       },
       {
-        "id": "justiz-gemeinde-und-kirchendirektion_jugendf-rderung",
+        "id": "jgk_jugendf-rderung",
         "name": "Jugendförderung",
         "detail": false,
         "gross_cost": {
@@ -994,7 +994,7 @@
         }
       },
       {
-        "id": "justiz-gemeinde-und-kirchendirektion_vollzug-der-sozialversicherung",
+        "id": "jgk_vollzug-der-sozialversicherung",
         "name": "Vollzug der Sozialversicherung",
         "detail": false,
         "gross_cost": {
@@ -1019,7 +1019,7 @@
         }
       },
       {
-        "id": "justiz-gemeinde-und-kirchendirektion_raumordnung",
+        "id": "jgk_raumordnung",
         "name": "Raumordnung",
         "detail": false,
         "gross_cost": {
@@ -1044,7 +1044,7 @@
         }
       },
       {
-        "id": "justiz-gemeinde-und-kirchendirektion_ressourcenverwaltung-f-r-die-mter",
+        "id": "jgk_ressourcenverwaltung-f-r-die-mter",
         "name": "Ressourcenverwaltung für die Ämter",
         "detail": false,
         "gross_cost": {
@@ -1065,7 +1065,7 @@
         }
       },
       {
-        "id": "justiz-gemeinde-und-kirchendirektion_steuerung-der-dezentralen-kantonalen-verwaltung",
+        "id": "jgk_steuerung-der-dezentralen-kantonalen-verwaltung",
         "name": "Steuerung der dezentralen kantonalen Verwaltung",
         "detail": false,
         "gross_cost": {
@@ -1086,7 +1086,7 @@
         }
       },
       {
-        "id": "justiz-gemeinde-und-kirchendirektion_kindesschutz-und-jugendf-rderung",
+        "id": "jgk_kindesschutz-und-jugendf-rderung",
         "name": "Kindesschutz und Jugendförderung",
         "detail": false,
         "gross_cost": {
@@ -1109,7 +1109,7 @@
     ]
   },
   {
-    "id": "gesundheits-und-f-rsorgedirektion",
+    "id": "gef",
     "name": "Gesundheits- und Fürsorgedirektion",
     "detail": false,
     "short_name": "GEF",
@@ -1135,7 +1135,7 @@
     },
     "children": [
       {
-        "id": "gesundheits-und-f-rsorgedirektion_f-hrungsunterst-tzung-weitere-dienstleistungen-und-verwaltungsinterne-verwaltungsrechtspflege",
+        "id": "gef_f-hrungsunterst-tzung-weitere-dienstleistungen-und-verwaltungsinterne-verwaltungsrechtspflege",
         "name": "Führungsunterstützung, weitere Dienstleistungen und verwaltungsinterne Verwaltungsrechtspflege",
         "detail": false,
         "gross_cost": {
@@ -1160,7 +1160,7 @@
         }
       },
       {
-        "id": "gesundheits-und-f-rsorgedirektion_heilmittelsicherheit-qualit-tssicherung",
+        "id": "gef_heilmittelsicherheit-qualit-tssicherung",
         "name": "Heilmittelsicherheit / Qualitätssicherung",
         "detail": false,
         "gross_cost": {
@@ -1185,7 +1185,7 @@
         }
       },
       {
-        "id": "gesundheits-und-f-rsorgedirektion_rechtliche-dienstleistungen",
+        "id": "gef_rechtliche-dienstleistungen",
         "name": "Rechtliche Dienstleistungen",
         "detail": false,
         "gross_cost": {
@@ -1210,7 +1210,7 @@
         }
       },
       {
-        "id": "gesundheits-und-f-rsorgedirektion_somatische-spitalversorgung",
+        "id": "gef_somatische-spitalversorgung",
         "name": "Somatische Spitalversorgung",
         "detail": false,
         "gross_cost": {
@@ -1235,7 +1235,7 @@
         }
       },
       {
-        "id": "gesundheits-und-f-rsorgedirektion_gesundheitsschutz-und-sanit-tsdienst",
+        "id": "gef_gesundheitsschutz-und-sanit-tsdienst",
         "name": "Gesundheitsschutz und Sanitätsdienst",
         "detail": false,
         "gross_cost": {
@@ -1260,7 +1260,7 @@
         }
       },
       {
-        "id": "gesundheits-und-f-rsorgedirektion_suchthilfeangebote",
+        "id": "gef_suchthilfeangebote",
         "name": "Suchthilfeangebote",
         "detail": false,
         "gross_cost": {
@@ -1285,7 +1285,7 @@
         }
       },
       {
-        "id": "gesundheits-und-f-rsorgedirektion_psychiatrieversorgung",
+        "id": "gef_psychiatrieversorgung",
         "name": "Psychiatrieversorgung",
         "detail": false,
         "gross_cost": {
@@ -1306,7 +1306,7 @@
         }
       },
       {
-        "id": "gesundheits-und-f-rsorgedirektion_verbraucherschutz",
+        "id": "gef_verbraucherschutz",
         "name": "Verbraucherschutz",
         "detail": false,
         "gross_cost": {
@@ -1331,7 +1331,7 @@
         }
       },
       {
-        "id": "gesundheits-und-f-rsorgedirektion_chemie-bio-und-strah-lensicherheit",
+        "id": "gef_chemie-bio-und-strah-lensicherheit",
         "name": "Chemie-, Bio- und Strah-lensicherheit",
         "detail": false,
         "gross_cost": {
@@ -1356,7 +1356,7 @@
         }
       },
       {
-        "id": "gesundheits-und-f-rsorgedirektion_angebote-zur-sozialen-existenzsicherung",
+        "id": "gef_angebote-zur-sozialen-existenzsicherung",
         "name": "Angebote zur sozialen Existenzsicherung",
         "detail": false,
         "gross_cost": {
@@ -1381,7 +1381,7 @@
         }
       },
       {
-        "id": "gesundheits-und-f-rsorgedirektion_angebote-zur-sozialen-integration",
+        "id": "gef_angebote-zur-sozialen-integration",
         "name": "Angebote zur sozialen Integration",
         "detail": false,
         "gross_cost": {
@@ -1406,7 +1406,7 @@
         }
       },
       {
-        "id": "gesundheits-und-f-rsorgedirektion_angebote-f-r-menschen-mit-einer-behinderung-und-oder-einem-integrationsbedarf",
+        "id": "gef_angebote-f-r-menschen-mit-einer-behinderung-und-oder-einem-integrationsbedarf",
         "name": "Angebote für Menschen mit einer Behinderung und/oder einem Integrationsbedarf",
         "detail": false,
         "gross_cost": {
@@ -1431,7 +1431,7 @@
         }
       },
       {
-        "id": "gesundheits-und-f-rsorgedirektion_angebote-f-r-ltere-und-oder-chronischkranke-menschen",
+        "id": "gef_angebote-f-r-ltere-und-oder-chronischkranke-menschen",
         "name": "Angebote für ältere und/oder chronischkranke Menschen",
         "detail": false,
         "gross_cost": {
@@ -1456,7 +1456,7 @@
         }
       },
       {
-        "id": "gesundheits-und-f-rsorgedirektion_psychiatrieversorgung-",
+        "id": "gef_psychiatrieversorgung-",
         "name": "Psychiatrieversorgung",
         "detail": false,
         "gross_cost": {
@@ -1658,7 +1658,7 @@
     ]
   },
   {
-    "id": "finanzdirektion",
+    "id": "fin",
     "name": "Finanzdirektion",
     "detail": false,
     "short_name": "FIN",
@@ -1684,7 +1684,7 @@
     },
     "children": [
       {
-        "id": "finanzdirektion_personalentwicklung-gesundheit-und-soziales",
+        "id": "fin_personalentwicklung-gesundheit-und-soziales",
         "name": "Personalentwicklung, Gesundheit und Soziales",
         "detail": false,
         "gross_cost": {
@@ -1709,7 +1709,7 @@
         }
       },
       {
-        "id": "finanzdirektion_personal-und-gehaltsmanagement",
+        "id": "fin_personal-und-gehaltsmanagement",
         "name": "Personal- und Gehaltsmanagement",
         "detail": false,
         "gross_cost": {
@@ -1734,7 +1734,7 @@
         }
       },
       {
-        "id": "finanzdirektion_informatik-und-telekommunikation",
+        "id": "fin_informatik-und-telekommunikation",
         "name": "Informatik und Telekommunikation",
         "detail": false,
         "gross_cost": {
@@ -1759,7 +1759,7 @@
         }
       },
       {
-        "id": "finanzdirektion_organisationsentwicklung",
+        "id": "fin_organisationsentwicklung",
         "name": "Organisationsentwicklung",
         "detail": false,
         "gross_cost": {
@@ -1784,7 +1784,7 @@
         }
       },
       {
-        "id": "finanzdirektion_f-hrungsunterst-tzung",
+        "id": "fin_f-hrungsunterst-tzung",
         "name": "Führungsunterstützung",
         "detail": false,
         "gross_cost": {
@@ -1809,7 +1809,7 @@
         }
       },
       {
-        "id": "finanzdirektion_verwaltungsinterne-verwaltungsrechtspflege",
+        "id": "fin_verwaltungsinterne-verwaltungsrechtspflege",
         "name": "Verwaltungsinterne Verwaltungsrechtspflege",
         "detail": false,
         "gross_cost": {
@@ -1834,7 +1834,7 @@
         }
       },
       {
-        "id": "finanzdirektion_voranschlag-und-aufgaben-finanzplan-kanton",
+        "id": "fin_voranschlag-und-aufgaben-finanzplan-kanton",
         "name": "Voranschlag und Aufgaben-/Finanzplan Kanton",
         "detail": false,
         "gross_cost": {
@@ -1859,7 +1859,7 @@
         }
       },
       {
-        "id": "finanzdirektion_tresorerie",
+        "id": "fin_tresorerie",
         "name": "Tresorerie",
         "detail": false,
         "gross_cost": {
@@ -1884,7 +1884,7 @@
         }
       },
       {
-        "id": "finanzdirektion_finanzausgleich-bund-kanton-kanton-gemeinden",
+        "id": "fin_finanzausgleich-bund-kanton-kanton-gemeinden",
         "name": "Finanzausgleich Bund – Kanton / Kanton – Gemeinden",
         "detail": false,
         "gross_cost": {
@@ -1909,7 +1909,7 @@
         }
       },
       {
-        "id": "finanzdirektion_dienstleistungen-haushaltsf-hrung",
+        "id": "fin_dienstleistungen-haushaltsf-hrung",
         "name": "Dienstleistungen Haushaltsführung",
         "detail": false,
         "gross_cost": {
@@ -1934,7 +1934,7 @@
         }
       },
       {
-        "id": "finanzdirektion_konzernrechnungswesen",
+        "id": "fin_konzernrechnungswesen",
         "name": "Konzernrechnungswesen",
         "detail": false,
         "gross_cost": {
@@ -1959,7 +1959,7 @@
         }
       },
       {
-        "id": "finanzdirektion_veranlagung-periodische-steuern",
+        "id": "fin_veranlagung-periodische-steuern",
         "name": "Veranlagung periodische Steuern",
         "detail": false,
         "gross_cost": {
@@ -1984,7 +1984,7 @@
         }
       },
       {
-        "id": "finanzdirektion_bezug-und-dienstleistungen",
+        "id": "fin_bezug-und-dienstleistungen",
         "name": "Bezug und Dienstleistungen",
         "detail": false,
         "gross_cost": {
@@ -2009,7 +2009,7 @@
         }
       },
       {
-        "id": "finanzdirektion_veranlagung-spezialsteuern",
+        "id": "fin_veranlagung-spezialsteuern",
         "name": "Veranlagung Spezialsteuern",
         "detail": false,
         "gross_cost": {
@@ -2036,7 +2036,7 @@
     ]
   },
   {
-    "id": "erziehungsdirektion",
+    "id": "erz",
     "name": "Erziehungsdirektion",
     "detail": false,
     "short_name": "ERZ",
@@ -2062,7 +2062,7 @@
     },
     "children": [
       {
-        "id": "erziehungsdirektion_f-hrungsunterst-tzung",
+        "id": "erz_f-hrungsunterst-tzung",
         "name": "Führungsunterstützung",
         "detail": false,
         "gross_cost": {
@@ -2087,7 +2087,7 @@
         }
       },
       {
-        "id": "erziehungsdirektion_rechtliche-dienstleistungen",
+        "id": "erz_rechtliche-dienstleistungen",
         "name": "Rechtliche Dienstleistungen",
         "detail": false,
         "gross_cost": {
@@ -2112,7 +2112,7 @@
         }
       },
       {
-        "id": "erziehungsdirektion_kindergarten-und-volksschule",
+        "id": "erz_kindergarten-und-volksschule",
         "name": "Kindergarten und Volksschule",
         "detail": false,
         "gross_cost": {
@@ -2137,7 +2137,7 @@
         }
       },
       {
-        "id": "erziehungsdirektion_erziehungsberatung-und-schulerg-nzende-angebote",
+        "id": "erz_erziehungsberatung-und-schulerg-nzende-angebote",
         "name": "Erziehungsberatung und Schulergänzende Angebote",
         "detail": false,
         "gross_cost": {
@@ -2162,7 +2162,7 @@
         }
       },
       {
-        "id": "erziehungsdirektion_berufsbildung-weiterbildung-und-berufsberatung",
+        "id": "erz_berufsbildung-weiterbildung-und-berufsberatung",
         "name": "Berufsbildung, Weiterbildung und Berufsberatung",
         "detail": false,
         "gross_cost": {
@@ -2187,7 +2187,7 @@
         }
       },
       {
-        "id": "erziehungsdirektion_bildung-mittelschulen",
+        "id": "erz_bildung-mittelschulen",
         "name": "Bildung Mittelschulen",
         "detail": false,
         "gross_cost": {
@@ -2212,7 +2212,7 @@
         }
       },
       {
-        "id": "erziehungsdirektion_universit-re-bildung",
+        "id": "erz_universit-re-bildung",
         "name": "Universitäre Bildung",
         "detail": false,
         "gross_cost": {
@@ -2233,7 +2233,7 @@
         }
       },
       {
-        "id": "erziehungsdirektion_fachhochschulbildung",
+        "id": "erz_fachhochschulbildung",
         "name": "Fachhochschulbildung",
         "detail": false,
         "gross_cost": {
@@ -2254,7 +2254,7 @@
         }
       },
       {
-        "id": "erziehungsdirektion_lehrerinnen-und-lehrerbildung",
+        "id": "erz_lehrerinnen-und-lehrerbildung",
         "name": "Lehrerinnen- und Lehrerbildung",
         "detail": false,
         "gross_cost": {
@@ -2279,7 +2279,7 @@
         }
       },
       {
-        "id": "erziehungsdirektion_interne-dienstleistungen",
+        "id": "erz_interne-dienstleistungen",
         "name": "Interne Dienstleistungen",
         "detail": false,
         "gross_cost": {
@@ -2304,7 +2304,7 @@
         }
       },
       {
-        "id": "erziehungsdirektion_ausbildungsbeitr-ge",
+        "id": "erz_ausbildungsbeitr-ge",
         "name": "Ausbildungsbeiträge",
         "detail": false,
         "gross_cost": {
@@ -2329,7 +2329,7 @@
         }
       },
       {
-        "id": "erziehungsdirektion_kultur",
+        "id": "erz_kultur",
         "name": "Kultur",
         "detail": false,
         "gross_cost": {
@@ -2354,7 +2354,7 @@
         }
       },
       {
-        "id": "erziehungsdirektion_universit-re-bildung-",
+        "id": "erz_universit-re-bildung-",
         "name": "Universitäre Bildung",
         "detail": false,
         "gross_cost": {
@@ -2375,7 +2375,7 @@
         }
       },
       {
-        "id": "erziehungsdirektion_fachhochschulbildung-",
+        "id": "erz_fachhochschulbildung-",
         "name": "Fachhochschulbildung",
         "detail": false,
         "gross_cost": {
@@ -2450,7 +2450,7 @@
     ]
   },
   {
-    "id": "bau-verkehrs-und-energiedirektion",
+    "id": "bve",
     "name": "Bau-, Verkehrs- und Energiedirektion",
     "detail": false,
     "short_name": "BVE",
@@ -2476,7 +2476,7 @@
     },
     "children": [
       {
-        "id": "bau-verkehrs-und-energiedirektion_vermessung-und-geoinformation",
+        "id": "bve_vermessung-und-geoinformation",
         "name": "Vermessung und Geoinformation",
         "detail": false,
         "gross_cost": {
@@ -2501,7 +2501,7 @@
         }
       },
       {
-        "id": "bau-verkehrs-und-energiedirektion_betrieb-der-liegenschaften",
+        "id": "bve_betrieb-der-liegenschaften",
         "name": "Betrieb der Liegenschaften",
         "detail": false,
         "gross_cost": {
@@ -2526,7 +2526,7 @@
         }
       },
       {
-        "id": "bau-verkehrs-und-energiedirektion_entwicklung-des-liegenschaftsbestandes",
+        "id": "bve_entwicklung-des-liegenschaftsbestandes",
         "name": "Entwicklung des Liegenschaftsbestandes",
         "detail": false,
         "gross_cost": {
@@ -2551,7 +2551,7 @@
         }
       },
       {
-        "id": "bau-verkehrs-und-energiedirektion_nachhaltige-entwicklung",
+        "id": "bve_nachhaltige-entwicklung",
         "name": "Nachhaltige Entwicklung",
         "detail": false,
         "gross_cost": {
@@ -2576,7 +2576,7 @@
         }
       },
       {
-        "id": "bau-verkehrs-und-energiedirektion_wasser-und-abfall",
+        "id": "bve_wasser-und-abfall",
         "name": "Wasser und Abfall",
         "detail": false,
         "gross_cost": {
@@ -2601,7 +2601,7 @@
         }
       },
       {
-        "id": "bau-verkehrs-und-energiedirektion_hochwasserschutz",
+        "id": "bve_hochwasserschutz",
         "name": "Hochwasserschutz",
         "detail": false,
         "gross_cost": {
@@ -2626,7 +2626,7 @@
         }
       },
       {
-        "id": "bau-verkehrs-und-energiedirektion_f-hrungsunterst-tzung",
+        "id": "bve_f-hrungsunterst-tzung",
         "name": "Führungsunterstützung",
         "detail": false,
         "gross_cost": {
@@ -2651,7 +2651,7 @@
         }
       },
       {
-        "id": "bau-verkehrs-und-energiedirektion_verwaltungsrechtspflege-und-rechtliche-dienstleistungen",
+        "id": "bve_verwaltungsrechtspflege-und-rechtliche-dienstleistungen",
         "name": "Verwaltungsrechtspflege und rechtliche Dienstleistungen",
         "detail": false,
         "gross_cost": {
@@ -2676,7 +2676,7 @@
         }
       },
       {
-        "id": "bau-verkehrs-und-energiedirektion_kantonsstrassen",
+        "id": "bve_kantonsstrassen",
         "name": "Kantonsstrassen",
         "detail": false,
         "gross_cost": {
@@ -2701,7 +2701,7 @@
         }
       },
       {
-        "id": "bau-verkehrs-und-energiedirektion_nationalstrassen",
+        "id": "bve_nationalstrassen",
         "name": "Nationalstrassen",
         "detail": false,
         "gross_cost": {
@@ -2726,7 +2726,7 @@
         }
       },
       {
-        "id": "bau-verkehrs-und-energiedirektion_spezialprodukte",
+        "id": "bve_spezialprodukte",
         "name": "Spezialprodukte",
         "detail": false,
         "gross_cost": {
@@ -2751,7 +2751,7 @@
         }
       },
       {
-        "id": "bau-verkehrs-und-energiedirektion_verkehrsangebot-ffentlicher-verkehr",
+        "id": "bve_verkehrsangebot-ffentlicher-verkehr",
         "name": "Verkehrsangebot öffentlicher Verkehr",
         "detail": false,
         "gross_cost": {
@@ -2776,7 +2776,7 @@
         }
       },
       {
-        "id": "bau-verkehrs-und-energiedirektion_infrastruktur-und-rollmaterial-ffentlicher-verkehr",
+        "id": "bve_infrastruktur-und-rollmaterial-ffentlicher-verkehr",
         "name": "Infrastruktur und Rollmaterial öffentlicher Verkehr",
         "detail": false,
         "gross_cost": {
