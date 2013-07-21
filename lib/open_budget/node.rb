@@ -3,11 +3,10 @@
 module OpenBudget
   class Node
     attr_accessor :id, :name, :short_name, :detail, :children, :parent
-    attr_reader :gross_cost, :revenue
+    attr_reader :balances
 
     def initialize
-      @gross_cost = BalanceCollection.new
-      @revenue = BalanceCollection.new
+      @balances = {}
       @children = []
     end
 
@@ -27,24 +26,28 @@ module OpenBudget
 
     def prepare
       if @dirty
-        puts "cleaning #{id}"
+        puts "#{id} cleaning"
         if @children.empty?
-          puts "leaf node was dirty"
+          puts " - leaf node was dirty"
         else
-          sum_gross_cost = BalanceCollection.new
-          sum_revenue = BalanceCollection.new
+          sums = {}
           children.each do |child|
             child.prepare
-            sum_gross_cost += child.gross_cost
-            sum_revenue += child.revenue
+            child.balances.each do |balance_key, balance|
+              sum = sums[balance_key] ||= Balance.new
+              sum += balance
+            end
           end
-          if sum_gross_cost != gross_cost
-            warn "gross_cost diff detected #{id} sum #{sum_gross_cost.accounts.to_s} orig #{gross_cost.accounts.to_s}"
-            @gross_cost = sum_gross_cost
-          end
-          if sum_revenue != revenue
-            warn "revenue diff detected #{id} sum #{sum_revenue.accounts.to_s} orig #{revenue.accounts.to_s}"
-            @revenue = sum_revenue
+
+          sums.each do |key, sum|
+            if sum != balances[key]
+              if balances[key] == nil
+                puts " - #{key}: created aggregate"
+              else
+                puts " - #{key}: diff detected sum #{sum.accounts.to_s} orig #{balances[key].accounts.to_s}"
+              end
+              balances[key] = sum
+            end
           end
         end
 
@@ -61,8 +64,11 @@ module OpenBudget
       hash[:short_name] = short_name unless short_name.blank?
 
       prepare
-      hash[:gross_cost] = gross_cost unless gross_cost.empty?
-      hash[:revenue] = revenue unless revenue.empty?
+
+      balances.each do |key, balance|
+        hash[key] = balance unless balance.empty?
+      end
+
       hash
     end
 
@@ -84,27 +90,36 @@ module OpenBudget
         node.children << Node.from_hash(child, node)
       end
 
-      node.gross_cost.load_hash hash[:gross_cost]
-      node.revenue.load_hash hash[:revenue]
+      hash.each do |key, value|
+        if value.is_a? Hash
+          balance = node.balances[key.to_sym] ||= Balance.new
+          balance.load_hash value
+        end
+      end
 
       node
     end
 
-    def add_gross_cost(type, year, balance)
-      if balance < 0
-        add_revenue(type, year, balance * -1)
+    def add(balance_name, type, year, amount)
+      balance = balances[balance_name.to_sym] ||= Balance.new
+      balance.add(type, year, amount)
+    end
+
+    def add_gross_cost(type, year, amount)
+      if amount < 0
+        add_revenue(type, year, amount * -1)
         # parent.touch # disabled propagating, needs more thought
       else
-        @gross_cost.add(type, year, balance)
+        add(:gross_cost, type, year, amount)
       end
     end
 
-    def add_revenue(type, year, balance)
-      if balance < 0
-        add_gross_cost(type, year, balance * -1)
+    def add_revenue(type, year, amount)
+      if amount < 0
+        add_gross_cost(type, year, amount * -1)
         # parent.touch # disabled propagating, needs more thought
       else
-        @revenue.add(type, year, balance)
+        add(:revenue, type, year, amount)
       end
     end
   end

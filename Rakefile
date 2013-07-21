@@ -156,7 +156,7 @@ namespace :cantonbe do
         if massnahme['Auswirkungen'].present? && massnahme['Auswirkungen']['Finanzielle'].present?
           [2014, 2015, 2016, 2017].each do |year|
             val = massnahme['Auswirkungen']['Finanzielle'][year.to_s].to_f * (10 ** 6)
-            node_val = node.revenue.accounts['budgets'][year]
+            node_val = node.balances[:revenue].accounts['budgets'][year]
             if node_val != val
               puts "---"
               puts "detected irregularity"

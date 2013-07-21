@@ -1,7 +1,7 @@
 # encoding: UTF-8
 
 module OpenBudget
-  class BalanceCollection
+  class Balance
     attr_reader :accounts
 
     def initialize
@@ -15,15 +15,12 @@ module OpenBudget
     end
 
     def +(b)
-      collection = BalanceCollection.new
-      [accounts, b.accounts].each do |accounts|
-        collection.load_hash accounts
-      end
-      collection
+      self.load_hash b.accounts
+      self
     end
 
     def ==(b)
-      @accounts == b.accounts
+      @accounts == b.try(:accounts)
     end
 
     def empty?
