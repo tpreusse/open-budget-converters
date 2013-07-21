@@ -23,7 +23,7 @@
 
 ## Massnahmen.json
 
-[Kindly extracted by Oleg](https://github.com/loleg/open-budget-miner)
+[Kindly extracted by Oleg](https://github.com/loleg/open-budget-miner) and then [manually improved](https://github.com/tpreusse/open-budget-converters/commits/master/source/cantonbe/asp/massnahmen.json).
 
 ## Massnahmen static.json
 
