@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Bau-, Verkehrs- und Energiedirektion",
+    "acronym": "BVE",
+    "website": "http://www.bve.be.ch/de/index.html",
+    "director": {
+      "name": "Regierungsrätin Barbara Egger-Jenzer",
+      "image_url": "http://www.sta.directories.be.ch/portal/include/media/beispielbilder/departement-1.jpg",
+      "website": "http://www.bve.be.ch/bve/de/index/direktion/direktor.html"
+    }
+  },
+  {
+    "name": "Justiz-, Gemeinde- und Kirchendirektion",
+    "acronym": "JGK",
+    "website": "http://www.jgk.be.ch",
+    "director": {
+      "name": "Regierungsrat Christoph Neuhaus",
+      "image_url": "http://www.sta.directories.be.ch/portal/include/media/beispielbilder/departement-2.jpg",
+      "website": "http://www.jgk.be.ch/jgk/de/index/direktion/direktor.html"
+    }
+  },
+  {
+    "name": "Erziehungsdirektion",
+    "acronym": "ERZ",
+    "website": "http://www.erz.be.ch/",
+    "director": {
+      "name": "Regierungsrat Bernhard Pulver",
+      "image_url": "http://www.sta.directories.be.ch/portal/include/media/beispielbilder/departement-3.jpg",
+      "website": "http://www.erz.be.ch/erz/de/index/direktion/direktor.html"
+    }
+  },
+  {
+    "name": "Polizei- und Militärdirektion",
+    "acronym": "POM",
+    "website": "http://www.pom.be.ch/",
+    "director": {
+      "name": "Regierungsrat Hans-Jürg Käser",
+      "image_url": "http://www.sta.directories.be.ch/portal/include/media/beispielbilder/departement-4.jpg",
+      "website": "http://www.pom.be.ch/pom/de/index/direktion/direktor.html"
+    }
+  },
+  {
+    "name": "Finanzdirektion",
+    "acronym": "FIN",
+    "website": "http://www.fin.be.ch/",
+    "director": {
+      "name": "Regierungsrätin Beatrice Simon",
+      "image_url": "http://www.sta.directories.be.ch/portal/include/media/beispielbilder/departement-5.jpg",
+      "website": "http://www.fin.be.ch/fin/de/index/direktion/direktor.html"
+    }
+  },
+  {
+    "name": "Volkswirtschaftsdirektion",
+    "acronym": "VOL",
+    "website": "http://www.vol.be.ch/",
+    "director": {
+      "name": "Regierungsrat  Andreas Rickenbacher",
+      "image_url": "http://www.sta.directories.be.ch/portal/include/media/beispielbilder/departement-6.jpg",
+      "website": "http://www.vol.be.ch/vol/de/index/direktion/direktor.html"
+    }
+  },
+  {
+    "name": "Gesundheits- und Fürsorgedirektion",
+    "acronym": "GEF",
+    "website": "http://www.gef.be.ch/",
+    "director": {
+      "name": "Regierungsrat    Philippe Perrenoud",
+      "image_url": "http://www.sta.directories.be.ch/portal/include/media/beispielbilder/departement-7.jpg",
+      "website": "http://www.gef.be.ch/gef/de/index/direktion/direktor.html"
+    }
+  },
+  {
+    "name": "Staatskanzlei",
+    "acronym": "STA",
+    "website": "http://www.sta.be.ch/sta/de/index.html",
+    "director": {
+      "name": "Staatsschreiber Christoph Auer",
+      "image_url": "http://www.sta.directories.be.ch/portal/include/media/beispielbilder/departement-8.jpg",
+      "website": "http://www.sta.be.ch/sta/de/index/staatskanzlei/staatsschreiber.html"
+    }
+  }
+]

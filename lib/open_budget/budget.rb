@@ -49,7 +49,7 @@ module OpenBudget
       @meta = JSON.parse File.read(file_path)
     end
 
-    def load_nodes json
+    def load_nodes nodes
       nodes = JSON.parse json, {object_class: ActiveSupport::HashWithIndifferentAccess}
       nodes.each do |node|
         @nodes << Node.from_hash(node)
@@ -72,6 +72,12 @@ module OpenBudget
         # ToDo: fix to be able to do JSON.pretty_generate self
         file.write JSON.pretty_generate JSON.parse(self.to_json)
       end
+    end
+
+    def self.from_file file_path
+      budget = new
+      budget.load_nodes File.read(file_path)
+      budget
     end
 
     def from_finstabe_bfh_csv file_path

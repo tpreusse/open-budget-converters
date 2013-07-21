@@ -8,9 +8,17 @@ GEM
       i18n (= 0.6.1)
       multi_json (~> 1.0)
     builder (3.0.4)
+    coderay (1.0.9)
     i18n (0.6.1)
+    method_source (0.8.1)
     multi_json (1.7.2)
+    nokogiri (1.5.9)
+    pry (0.9.12.2)
+      coderay (~> 1.0.5)
+      method_source (~> 0.8)
+      slop (~> 3.4)
     rake (10.0.3)
+    slop (3.4.5)
 
 PLATFORMS
   ruby
@@ -18,4 +26,6 @@ PLATFORMS
 DEPENDENCIES
   activemodel (~> 3.2.13)
   activesupport (~> 3.2.13)
+  nokogiri
+  pry
   rake

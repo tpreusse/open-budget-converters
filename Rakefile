@@ -1,7 +1,10 @@
 # encoding: UTF-8
 
+require 'pry'
 require 'csv'
 require 'json'
+require 'nokogiri'
+require 'open-uri'
 require 'active_support/all'
 
 require './lib/open_budget'
@@ -61,6 +64,37 @@ namespace :cantonbe do
 
     budget.save_pretty_json 'data/be/data.json'
     puts "done"
+  end
+
+  desc "download canton bern org meta data"
+  task :download_organisation_meta do
+    overview = Nokogiri::HTML(open('http://www.be.ch/portal/de/behoerden/verwaltung.html'))
+
+    directions = []
+    overview.css('.departement-index div').each do |direction|
+      h3 = direction.css('h3 a')[0]
+      next unless h3
+
+      name = h3.content.match(/(?<name>.+)\s*\((?<acronym>.+)\)/)
+
+      img = direction.css('img')[0]
+      director = direction.css('ul li a')[0]
+
+      directions << {
+        name: name[:name].strip.gsub(/\s+/, ' '),
+        acronym: name[:acronym],
+        website: h3[:href],
+        director: {
+          name: img[:alt],
+          image_url: img[:src],
+          website: director[:href]
+        }
+      }
+    end
+
+    File.open('data/be/organisation_meta.json', 'wb') do |file|
+      file.write JSON.pretty_generate JSON.parse(directions.to_json)
+    end
   end
 
   desc "creates canton bern asp topf 1 and 2 json file"
@@ -178,8 +212,12 @@ namespace :cantonbe do
 
   desc "enrich asp topf 1 and topf 2 json"
   task :enrich_asp_json do
-    topf1 = OpenBudget::Budget.new
-    topf1.load_nodes File.read('data/be-asp/topf-1.json')
+    topf1 = OpenBudget::Budget.from_file('data/be-asp/topf-1.json')
+    budget = OpenBudget::Budget.from_file('data/be/data.json')
+
+    topf1.nodes.each do |node|
+
+    end
 
     topf1.save_pretty_json 'data/be-asp/topf-1.json'
   end
