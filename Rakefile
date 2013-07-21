@@ -70,17 +70,17 @@ namespace :cantonbe do
   task :download_organisation_meta do
     overview = Nokogiri::HTML(open('http://www.be.ch/portal/de/behoerden/verwaltung.html'))
 
-    directions = []
-    overview.css('.departement-index div').each do |direction|
-      h3 = direction.css('h3 a')[0]
+    directorates = []
+    overview.css('.departement-index div').each do |directorate|
+      h3 = directorate.css('h3 a')[0]
       next unless h3
 
       name = h3.content.match(/(?<name>.+)\s*\((?<acronym>.+)\)/)
 
-      img = direction.css('img')[0]
-      director = direction.css('ul li a')[0]
+      img = directorate.css('img')[0]
+      director = directorate.css('ul li a')[0]
 
-      directions << {
+      directorates << {
         name: name[:name].strip.gsub(/\s+/, ' '),
         acronym: name[:acronym],
         website: h3[:href],
@@ -92,8 +92,8 @@ namespace :cantonbe do
       }
     end
 
-    File.open('data/be/organisation_meta.json', 'wb') do |file|
-      file.write JSON.pretty_generate JSON.parse(directions.to_json)
+    File.open('source/cantonbe/organisation_meta.json', 'wb') do |file|
+      file.write JSON.pretty_generate JSON.parse(directorates.to_json)
     end
   end
 
@@ -208,6 +208,27 @@ namespace :cantonbe do
     topf2.save_pretty_json 'data/be-asp/topf-2.json'
 
     puts "done"
+  end
+
+  desc "enrich data json"
+  task :enrich_json do
+    budget = OpenBudget::Budget.from_file('data/be/data.json')
+    organisation_meta = JSON.parse File.read('source/cantonbe/organisation_meta.json')
+
+    organisation_meta.each do |directorate|
+      id_path = budget.cantonbe_names_to_ids [
+        directorate['name']
+      ]
+      node = budget.get_node(id_path)
+      if node
+        p "found #{directorate['name']}"
+        node.short_name = directorate['acronym']
+      else
+        p "not found #{directorate['name']} #{id_path}"
+      end
+    end
+
+    budget.save_pretty_json 'data/be/data.json'
   end
 
   desc "enrich asp topf 1 and topf 2 json"

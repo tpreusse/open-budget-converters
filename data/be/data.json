@@ -3,6 +3,7 @@
     "id": "volkswirtschaftsdirektion",
     "name": "Volkswirtschaftsdirektion",
     "detail": false,
+    "short_name": "VOL",
     "gross_cost": {
       "accounts": {
         "2011": 223100000.0,
@@ -305,6 +306,7 @@
     "id": "staatskanzlei",
     "name": "Staatskanzlei",
     "detail": false,
+    "short_name": "STA",
     "gross_cost": {
       "accounts": {
         "2011": 19200000.0,
@@ -482,6 +484,7 @@
     "id": "polizei-und-milit-rdirektion",
     "name": "Polizei- und Militärdirektion",
     "detail": false,
+    "short_name": "POM",
     "gross_cost": {
       "accounts": {
         "2011": 691600000.0,
@@ -659,6 +662,7 @@
     "id": "justiz-gemeinde-und-kirchendirektion",
     "name": "Justiz-, Gemeinde- und Kirchendirektion",
     "detail": false,
+    "short_name": "JGK",
     "gross_cost": {
       "accounts": {
         "2011": 1396800000.0,
@@ -1108,6 +1112,7 @@
     "id": "gesundheits-und-f-rsorgedirektion",
     "name": "Gesundheits- und Fürsorgedirektion",
     "detail": false,
+    "short_name": "GEF",
     "gross_cost": {
       "accounts": {
         "2011": 2150200000.0,
@@ -1656,6 +1661,7 @@
     "id": "finanzdirektion",
     "name": "Finanzdirektion",
     "detail": false,
+    "short_name": "FIN",
     "gross_cost": {
       "accounts": {
         "2011": 261500000.0,
@@ -2033,6 +2039,7 @@
     "id": "erziehungsdirektion",
     "name": "Erziehungsdirektion",
     "detail": false,
+    "short_name": "ERZ",
     "gross_cost": {
       "accounts": {
         "2011": 2862000000.0,
@@ -2446,6 +2453,7 @@
     "id": "bau-verkehrs-und-energiedirektion",
     "name": "Bau-, Verkehrs- und Energiedirektion",
     "detail": false,
+    "short_name": "BVE",
     "gross_cost": {
       "accounts": {
         "2011": 1045500000.0,

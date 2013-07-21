@@ -49,10 +49,19 @@ module OpenBudget
       @meta = JSON.parse File.read(file_path)
     end
 
-    def load_nodes nodes
+    def index_node node
+      @node_index[node.id] ||= node
+      node.children.each do |child|
+        index_node child
+      end
+    end
+
+    def load_nodes json
       nodes = JSON.parse json, {object_class: ActiveSupport::HashWithIndifferentAccess}
-      nodes.each do |node|
-        @nodes << Node.from_hash(node)
+      nodes.each do |node_data|
+        node = Node.from_hash(node_data)
+        index_node node
+        @nodes << node
       end
     end
 
