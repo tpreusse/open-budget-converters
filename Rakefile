@@ -241,12 +241,19 @@ namespace :cantonbe do
   desc "enrich asp topf 1 and topf 2 json"
   task :enrich_asp_json do
     topf1 = OpenBudget::Budget.from_file('data/be-asp/topf-1.json')
+    topf2 = OpenBudget::Budget.from_file('data/be-asp/topf-2.json')
     budget = OpenBudget::Budget.from_file('data/be/data.json')
 
-    topf1.nodes.each do |node|
-
+    (topf1.nodes + topf2.nodes).each do |node|
+      budget_node = budget.get_node([node.id])
+      if budget_node
+        budget_node.balances.each do |key, balance|
+          node.balances[key] = balance
+        end
+      end
     end
 
     topf1.save_pretty_json 'data/be-asp/topf-1.json'
+    topf2.save_pretty_json 'data/be-asp/topf-2.json'
   end
 end
