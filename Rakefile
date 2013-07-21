@@ -53,6 +53,11 @@ namespace :zurich do
 end
 
 namespace :cantonbe do
+  desc "generate budget json"
+  task :generate_budget => [:generate_json_from_csvs, :enrich_json]
+  desc "generate asp json"
+  task :generate_asp => [:generate_json_from_asp_csvs, :enrich_asp_json]
+
   desc "creates canton bern json file"
   task :generate_json_from_csvs do
     puts "start processing"
@@ -60,7 +65,7 @@ namespace :cantonbe do
 
     budget.load_meta 'data/be/meta.json'
     budget.load_cantonbe_csv 'source/cantonbe/Kanton BE_Produkgruppen_DB IV nach DIR_2011.csv'
-    budget.load_cantonbe_csv 'source/cantonbe/Kanton BE_Produkgruppen_DB IV nach DIR_2012_Werte in 1000.csv', exponent: 3, clear_comma: true
+    budget.load_cantonbe_csv 'source/cantonbe/Kanton BE_Produkgruppen_DB IV nach DIR_2012_Werte in 1000.csv', exponent: 3, comma: :clear
 
     budget.save_pretty_json 'data/be/data.json'
     puts "done"

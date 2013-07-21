@@ -72,8 +72,12 @@ module OpenBudget
     end
 
     def normalize_num num, options = {}
-      if options[:clear_comma]
-        num = num.to_s.gsub(',', '')
+      if options[:comma]
+        comma_map = {
+          :clear => '',
+          :decimal => '.'
+        }
+        num = num.to_s.gsub(',', comma_map[options[:comma]])
       end
       num = num.to_f
       if options[:exponent]

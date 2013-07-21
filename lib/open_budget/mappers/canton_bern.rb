@@ -122,10 +122,14 @@ module OpenBudget
 
           node = get_or_create_node id_path, names
 
-          node.add_revenue('budgets', 2014, row[:'2014_in_mio_chf'].to_s.sub(',', '.').to_f * (10 ** 6))
-          node.add_revenue('budgets', 2015, row[:'2015'].to_s.sub(',', '.').to_f * (10 ** 6))
-          node.add_revenue('budgets', 2016, row[:'2016'].to_s.sub(',', '.').to_f * (10 ** 6))
-          node.add_revenue('budgets', 2017, row[:'2017'].to_s.sub(',', '.').to_f * (10 ** 6))
+          options = {
+            comma: :decimal,
+            exponent: 6
+          }
+          node.add_revenue('budgets', 2014, normalize_num(row[:'2014_in_mio_chf'], options))
+          node.add_revenue('budgets', 2015, normalize_num(row[:'2015'], options))
+          node.add_revenue('budgets', 2016, normalize_num(row[:'2016'], options))
+          node.add_revenue('budgets', 2017, normalize_num(row[:'2017'], options))
         end
       end
 
