@@ -131,6 +131,7 @@
     "id": "vol",
     "name": "Volkswirtschaft",
     "detail": false,
+    "short_name": "VOL",
     "cuts": {
       "budgets": {
         "2014": 940000.0,
@@ -232,6 +233,7 @@
     "id": "gef",
     "name": "Gesundheit und Fürsorge",
     "detail": false,
+    "short_name": "GEF",
     "cuts": {
       "budgets": {
         "2014": 94500000.0,
@@ -699,6 +701,7 @@
     "id": "jgk",
     "name": "Justiz, Gemeinde und Kirchen",
     "detail": false,
+    "short_name": "JGK",
     "cuts": {
       "budgets": {
         "2014": 36000000.0,
@@ -800,6 +803,7 @@
     "id": "pom",
     "name": "Polizei und Militär",
     "detail": false,
+    "short_name": "POM",
     "cuts": {
       "budgets": {
         "2014": 0.0,
@@ -861,6 +865,7 @@
     "id": "fin",
     "name": "Finanz",
     "detail": false,
+    "short_name": "FIN",
     "cuts": {
       "budgets": {
         "2014": 7000000.0,
@@ -1242,6 +1247,7 @@
     "id": "erz",
     "name": "Erziehung",
     "detail": false,
+    "short_name": "ERZ",
     "cuts": {
       "budgets": {
         "2014": 11950000.0,
@@ -1807,6 +1813,7 @@
     "id": "bve",
     "name": "Bau, Verkehr und Energie",
     "detail": false,
+    "short_name": "BVE",
     "cuts": {
       "budgets": {
         "2014": 2850000.0,

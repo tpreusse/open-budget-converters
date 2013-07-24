@@ -44,6 +44,7 @@
     "id": "gef",
     "name": "Gesundheit und Fürsorge",
     "detail": false,
+    "short_name": "GEF",
     "cuts": {
       "budgets": {
         "2014": 40930000.0,
@@ -281,6 +282,7 @@
     "id": "jgk",
     "name": "Justiz, Gemeinde und Kirchen",
     "detail": false,
+    "short_name": "JGK",
     "cuts": {
       "budgets": {
         "2014": 74350000.0,
@@ -376,6 +378,7 @@
     "id": "erz",
     "name": "Erziehung",
     "detail": false,
+    "short_name": "ERZ",
     "cuts": {
       "budgets": {
         "2014": 11800000.0,
@@ -585,6 +588,7 @@
     "id": "bve",
     "name": "Bau, Verkehr und Energie",
     "detail": false,
+    "short_name": "BVE",
     "cuts": {
       "budgets": {
         "2014": 0.0,

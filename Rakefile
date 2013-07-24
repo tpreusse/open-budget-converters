@@ -250,6 +250,7 @@ namespace :cantonbe do
         budget_node.balances.each do |key, balance|
           node.balances[key] = balance
         end
+        node.short_name = budget_node.short_name
       end
     end
 
