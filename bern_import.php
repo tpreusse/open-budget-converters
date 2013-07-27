@@ -588,7 +588,7 @@ foreach($directorates as $dKey => &$directorate) {
 // var_dump($directorates);
 // echo '</pre>';
 
-file_put_contents('data/bern/directorates'.$year.'.json', json_encode($directorates));
+// file_put_contents('data/bern/directorates'.$year.'.json', json_encode($directorates));
 
 $flare = array('name' => 'Total');
 $rootChilds = array();
@@ -656,13 +656,13 @@ echo '</pre>';*/
 
 // file_put_contents('data/bern/flareWithProducts'.$year.'.json', json_encode($flare));
 
-$newFlare = array(
-	'meta' => array(
-		'name' => 'Stadt Bern Budget '.$year,
-		'hierarchy' => array('Direktion', 'Dienststelle', 'Produktegruppe', 'Produkt')
-	)//,
-	// 'type' => 'city'
-);
+// $newFlare = array(
+// 	'meta' => array(
+// 		'name' => 'Stadt Bern Budget '.$year,
+// 		'hierarchy' => array('Direktion', 'Dienststelle', 'Produktegruppe', 'Produkt')
+// 	)//,
+// 	// 'type' => 'city'
+// );
 $rootChilds = array();
 foreach($directorates as &$directorate) {
 	$directorateChilds = array();
@@ -711,7 +711,7 @@ foreach($directorates as &$directorate) {
 			'name' => $directorate['name']
 		);
 		if(isset($directorate['acronym'])) {
-			$rootChild['acronym'] = $directorate['acronym'];
+			$rootChild['short_name'] = $directorate['acronym'];
 		}
 		$rootChild = array_merge($rootChild, array(
 			// 'type' => 'directorate',
@@ -722,14 +722,14 @@ foreach($directorates as &$directorate) {
 		$rootChilds[] = $rootChild;
 	}
 }
-$newFlare['nodes'] = $rootChilds;
+// $newFlare['nodes'] = $rootChilds;
 
 
 // echo '<pre>';
 // echo json_encode($newFlare);
 // echo '</pre>';
 
-file_put_contents('data/bern/bernbudget'.$year.'.ogd.json', json_encode($newFlare));
+file_put_contents('data/bern/data-'.$year.'.json', json_encode($rootChilds));
 
 //CSV for openspending (not working yet)
 /* CSV export not yet working with extended data */

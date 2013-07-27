@@ -556,7 +556,7 @@ echo '<pre>';
 var_dump($directorates);
 echo '</pre>';
 
-file_put_contents('data/bern/directorates.json', json_encode($directorates));
+// file_put_contents('data/bern/directorates.json', json_encode($directorates));
 
 $flare = array('name' => 'Total');
 $rootChilds = array();
@@ -624,90 +624,156 @@ echo '</pre>';*/
 
 //file_put_contents('data/bern/flareWithProducts.json', json_encode($flare));
 
-$newFlare = array(
-	'name' => 'Stadt Bern Budget 2012',
-	'type' => 'city'
-);
+// $newFlare = array(
+// 	'name' => 'Stadt Bern Budget 2012',
+// 	'type' => 'city'
+// );
+// $rootChilds = array();
+// $rootCost = 0.0;
+// $rootRevenue = 0.0;
+// foreach($directorates as &$directorate) {
+// 	$directorateChilds = array();
+// 	$directorateCost = 0.0;
+// 	$directorateRevenue = 0.0;
+// 	foreach($directorate['agencies'] as &$agency) {
+// 		$agencyChilds = array();
+// 		$agencyCost = 0.0;
+// 		$agencyRevenue = 0.0;
+// 		foreach($agency['product_groups'] as &$product_group) {
+// 			$productGroupChilds = array();
+// 			$productGroupCost = 0.0;
+// 			$productGroupRevenue = 0.0;
+// 			foreach($product_group['products'] as &$product) {
+// 				if($product['net_cost']['budgets'][2012] > 0) {
+// 					$productGroupChilds[] = array(
+// 						'name' => $product['name'],
+// 						'type' => 'product',
+// 						'cost' => ceil($product['gross_cost']['budgets'][2012]),
+// 						'revenue' => ceil($product['revenue']['budgets'][2012])
+// 					);
+// 					$productGroupCost += $product['gross_cost']['budgets'][2012];
+// 					$productGroupRevenue += $product['revenue']['budgets'][2012];
+// 				}
+// 			}
+// 			if(!empty($productGroupChilds)) {
+// 				$agencyChilds[] = array(
+// 					'name' => $product_group['name'],
+// 					'type' => 'product_group',
+// 					'cost' => ceil($productGroupCost),
+// 					'revenue' => ceil($productGroupRevenue),
+// 					'children' => $productGroupChilds
+// 				);
+// 			}
+// 			$agencyCost += $productGroupCost;
+// 			$agencyRevenue += $productGroupRevenue;
+// 		}
+// 		if(!empty($agencyChilds)) {
+// 			$directorateChild = array(
+// 				'name' => $agency['name'],
+// 				'type' => 'agency',
+// 				'cost' => ceil($agencyCost),
+// 				'revenue' => ceil($agencyRevenue),
+// 				'children' => $agencyChilds
+// 			);
+// 			$directorateChilds[] = $directorateChild;
+// 		}
+// 		$directorateCost += $agencyCost;
+// 		$directorateRevenue += $agencyRevenue;
+// 	}
+// 	if(!empty($directorateChilds)) {
+// 		$rootChild = array(
+// 			'name' => $directorate['name']
+// 		);
+// 		if(isset($directorate['acronym'])) {
+// 			$rootChild['acronym'] = $directorate['acronym'];
+// 		}
+// 		$rootChild = array_merge($rootChild, array(
+// 			'type' => 'directorate',
+// 			'cost' => ceil($directorateCost),
+// 			'revenue' => ceil($directorateRevenue),
+// 			'children' => $directorateChilds
+// 		));
+// 		$rootChilds[] = $rootChild;
+// 		$rootCost += $directorateCost;
+// 		$rootRevenue += $directorateRevenue;
+// 	}
+// }
+// $newFlare['cost'] = ceil($rootCost);
+// $newFlare['revenue'] = ceil($rootRevenue);
+// $newFlare['children'] = $rootChilds;
+
+
+// echo '<pre>';
+// echo json_encode($newFlare);
+// echo '</pre>';
+
+// file_put_contents('data/bern/bernbudget2012.ogd.json', json_encode($newFlare));
+
+
 $rootChilds = array();
-$rootCost = 0.0;
-$rootRevenue = 0.0;
 foreach($directorates as &$directorate) {
 	$directorateChilds = array();
-	$directorateCost = 0.0;
-	$directorateRevenue = 0.0;
 	foreach($directorate['agencies'] as &$agency) {
 		$agencyChilds = array();
-		$agencyCost = 0.0;
-		$agencyRevenue = 0.0;
 		foreach($agency['product_groups'] as &$product_group) {
 			$productGroupChilds = array();
-			$productGroupCost = 0.0;
-			$productGroupRevenue = 0.0;
-			foreach($product_group['products'] as &$product) {
-				if($product['net_cost']['budgets'][2012] > 0) {
+			foreach($product_group['products'] as $product_id => &$product) {
+
+				// if($product['net_cost']['budgets'][$year] > 0) {
 					$productGroupChilds[] = array(
+						'id' => $product_id,
 						'name' => $product['name'],
-						'type' => 'product',
-						'cost' => ceil($product['gross_cost']['budgets'][2012]),
-						'revenue' => ceil($product['revenue']['budgets'][2012])
+						// 'type' => 'product',
+						'net_cost' => $product['net_cost'],
+						'gross_cost' => $product['gross_cost'],
+						'revenue' => $product['revenue']
 					);
-					$productGroupCost += $product['gross_cost']['budgets'][2012];
-					$productGroupRevenue += $product['revenue']['budgets'][2012];
-				}
+				// }
 			}
 			if(!empty($productGroupChilds)) {
 				$agencyChilds[] = array(
+					'id' => $product_group['number'],
 					'name' => $product_group['name'],
-					'type' => 'product_group',
-					'cost' => ceil($productGroupCost),
-					'revenue' => ceil($productGroupRevenue),
+					// 'type' => 'product_group',
+					'net_cost' => $product_group['net_cost'],
+					'gross_cost' => $product_group['gross_cost'],
+					'revenue' => $product_group['revenue'],
 					'children' => $productGroupChilds
 				);
 			}
-			$agencyCost += $productGroupCost;
-			$agencyRevenue += $productGroupRevenue;
 		}
 		if(!empty($agencyChilds)) {
 			$directorateChild = array(
+				'id' => $agency['number'],
 				'name' => $agency['name'],
-				'type' => 'agency',
-				'cost' => ceil($agencyCost),
-				'revenue' => ceil($agencyRevenue),
+				// 'type' => 'agency',
+				'net_cost' => $agency['net_cost'],
+				'gross_cost' => $agency['gross_cost'],
+				'revenue' => $agency['revenue'],
 				'children' => $agencyChilds
 			);
 			$directorateChilds[] = $directorateChild;
 		}
-		$directorateCost += $agencyCost;
-		$directorateRevenue += $agencyRevenue;
 	}
 	if(!empty($directorateChilds)) {
 		$rootChild = array(
+			'id' => $directorate['number'],
 			'name' => $directorate['name']
 		);
 		if(isset($directorate['acronym'])) {
-			$rootChild['acronym'] = $directorate['acronym'];
+			$rootChild['short_name'] = $directorate['acronym'];
 		}
 		$rootChild = array_merge($rootChild, array(
-			'type' => 'directorate',
-			'cost' => ceil($directorateCost),
-			'revenue' => ceil($directorateRevenue),
+			// 'type' => 'directorate',
+			'net_cost' => $directorate['net_cost'],
+			'gross_cost' => $directorate['gross_cost'],
+			'revenue' => $directorate['revenue'],
 			'children' => $directorateChilds
 		));
 		$rootChilds[] = $rootChild;
-		$rootCost += $directorateCost;
-		$rootRevenue += $directorateRevenue;
 	}
 }
-$newFlare['cost'] = ceil($rootCost);
-$newFlare['revenue'] = ceil($rootRevenue);
-$newFlare['children'] = $rootChilds;
-
-
-echo '<pre>';
-echo json_encode($newFlare);
-echo '</pre>';
-
-file_put_contents('data/bern/bernbudget2012.ogd.json', json_encode($newFlare));
+file_put_contents('data/bern/data-2012.json', json_encode($rootChilds));
 
 //CSV for openspending (not working yet)
 /* CSV export not yet working with extended data */
