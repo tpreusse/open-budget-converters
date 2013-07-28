@@ -1,0 +1,329 @@
+level_0_id,level_0_name,level_1_id,level_1_name,level_2_id,level_2_name,level_3_id,level_3_name,value_revenue_accounts_2014,value_revenue_accounts_2014,value_revenue_accounts_2013,value_revenue_accounts_2013,value_revenue_accounts_2012,value_revenue_accounts_2012
+1000,Gemeinde und Behörden,010,Stadtrat,PG010000,Stadtrat,P010010,Stadtrat,814545.58,0.00,874811.62,0.00,906709.06,130.00
+1000,Gemeinde und Behörden,010,Stadtrat,PG010100,Ratssekretariat,P010110,Sitzungsmanagement,591379.68,7628.30,603655.14,8335.00,597615.27,9012.30
+1000,Gemeinde und Behörden,010,Stadtrat,PG010100,Ratssekretariat,P010120,Dienstleistungen,320748.30,0.00,327406.10,0.00,355643.10,0.00
+1000,Gemeinde und Behörden,020,Ombudsstelle,PG020000,Ombudstätigkeit und Datenschutz,P020010,Ombudstätigkeit,298809.75,2310.44,314805.18,2286.96,280437.63,2296.56
+1000,Gemeinde und Behörden,020,Ombudsstelle,PG020000,Ombudstätigkeit und Datenschutz,P020020,Datenschutz,74702.40,577.56,78701.16,571.74,91771.70,574.14
+1000,Gemeinde und Behörden,030,Gemeinderat,PG030000,Gemeinderat,P030010,Gemeinderat,2404157.21,243983.00,2729612.50,265000.00,2162882.04,281504.90
+1000,Gemeinde und Behörden,030,Gemeinderat,PG030000,Gemeinderat,P030020,Beiträge,1150400.00,0.00,1345400.00,0.00,1276144.95,0.00
+1000,Gemeinde und Behörden,040,Stadtkanzlei,PG040000,Leistungen für Politk und Verw'führung,P040010,Beziehungspflege und Repräsentation,281599.10,65072.37,287769.64,7755.12,424374.42,67179.00
+1000,Gemeinde und Behörden,040,Stadtkanzlei,PG040000,Leistungen für Politk und Verw'führung,P040020,Administrative Dienstleistungen,821330.82,41795.49,806646.07,4981.08,882076.36,35269.25
+1000,Gemeinde und Behörden,040,Stadtkanzlei,PG040000,Leistungen für Politk und Verw'führung,P040030,Rechtliche Dienstleistungen,539731.68,3086.40,513320.24,367.80,718543.57,62815.28
+1000,Gemeinde und Behörden,040,Stadtkanzlei,PG040000,Leistungen für Politk und Verw'führung,P040040,E-Government,211199.36,0.00,274438.24,0.00,115317.60,0.00
+1000,Gemeinde und Behörden,040,Stadtkanzlei,PG040100,Politische Rechte,P040110,Abstimmungen und Wahlen,1703983.92,116147.23,1464656.46,39722.30,1862750.64,13210.07
+1000,Gemeinde und Behörden,040,Stadtkanzlei,PG040100,Politische Rechte,P040120,Initiativen und Referenden,170000.00,0.00,0.00,0.00,0.00,0.00
+1000,Gemeinde und Behörden,040,Stadtkanzlei,PG040200,Stadtarchiv,P040210,Archivierung,895370.78,50400.04,976567.19,47883.98,971368.58,32694.66
+1000,Gemeinde und Behörden,040,Stadtkanzlei,PG040200,Stadtarchiv,P040220,Information,525852.79,29599.96,573539.48,28122.32,387488.62,19932.59
+1000,Gemeinde und Behörden,050,Informationsdienst,PG050000,Informationsdienst,P050010,Information (Medien und Internet),715905.18,5595.36,754369.86,5493.50,647324.06,21369.69
+1000,Gemeinde und Behörden,050,Informationsdienst,PG050000,Informationsdienst,P050020,Beratung/Unterstützung/Schulung GR/Verw.,238635.00,1865.08,251456.49,1831.20,323497.93,7123.21
+1000,Gemeinde und Behörden,060,Finanzinspektorat,PG060000,Revision,P060010,"Revision verrechenbar, Stiftungsaufsicht",0.00,0.00,0.00,0.00,0.00,0.00
+1000,Gemeinde und Behörden,060,Finanzinspektorat,PG060000,Revision,P060020,Revision nicht verrechenbar,0.00,0.00,0.00,0.00,0.00,0.00
+1100,Präsidialdirektion,100,Direktionsstabsdienste u. Gleichstellung,PG100100,Leistungen für Politik und Verw'führung,P100110,Führungsunterstützung,1722794.22,181476.95,1920313.16,225548.90,3923327.46,2089184.78
+1100,Präsidialdirektion,100,Direktionsstabsdienste u. Gleichstellung,PG100100,Leistungen für Politik und Verw'führung,P100150,Grossanlässe,0.00,0.00,0.00,0.00,0.00,0.00
+1100,Präsidialdirektion,100,Direktionsstabsdienste u. Gleichstellung,PG100200,Zentrale Dienste,P100210,Finanzwesen,448156.86,6500.00,446224.98,6100.04,345220.73,8796.82
+1100,Präsidialdirektion,100,Direktionsstabsdienste u. Gleichstellung,PG100200,Zentrale Dienste,P100220,Personalwesen,376451.70,5459.96,374828.87,5124.00,490953.26,25932.55
+1100,Präsidialdirektion,100,Direktionsstabsdienste u. Gleichstellung,PG100200,Zentrale Dienste,P100230,Informatikkoordination,38963.16,129.96,38924.52,122.04,34118.77,70.21
+1100,Präsidialdirektion,100,Direktionsstabsdienste u. Gleichstellung,PG100200,Zentrale Dienste,P100240,Ausbildungswesen,462826.84,25910.08,446334.33,21590.92,439321.23,29603.02
+1100,Präsidialdirektion,100,Direktionsstabsdienste u. Gleichstellung,PG100300,Gleichstellung,P100310,Gleichstellungsprojekte,206553.41,1733.00,214510.37,2043.30,258524.04,1526.97
+1100,Präsidialdirektion,100,Direktionsstabsdienste u. Gleichstellung,PG100300,Gleichstellung,P100320,Auskunft und Beratung,123932.00,1039.80,128706.14,1225.98,98331.92,916.19
+1100,Präsidialdirektion,100,Direktionsstabsdienste u. Gleichstellung,PG100300,Gleichstellung,P100330,Öffentlichkeitsarbeit,82621.21,693.20,85804.02,817.22,98645.36,610.74
+1100,Präsidialdirektion,100,Direktionsstabsdienste u. Gleichstellung,PG100500,"Enteignungen, Bausperren",P100510,"Enteignungen, Bausperren usw.",235202.03,0.00,331787.74,0.00,343143.30,0.00
+1100,Präsidialdirektion,110,Abteilung Kulturelles,PG110000,Kulturförderung,P110020,Beiträge direkte Förderung,3673328.39,585613.20,3698353.25,502370.04,4652328.03,819875.11
+1100,Präsidialdirektion,110,Abteilung Kulturelles,PG110000,Kulturförderung,P110030,Abgeltung Leistungsverträge,26918198.52,617452.20,31887928.33,616793.96,31464734.94,675379.09
+1100,Präsidialdirektion,120,Denkmalpflege,PG120000,Denkmalpflege,P120010,Baugesuche / Restaurierungen,831108.90,359291.62,831182.71,316249.76,920293.65,360963.82
+1100,Präsidialdirektion,120,Denkmalpflege,PG120000,Denkmalpflege,P120020,Grundlagenarbeit,307396.46,132888.68,307423.78,116969.04,245084.13,110763.18
+1100,Präsidialdirektion,130,Aussenbeziehungen und Statistik,PG130100,Aussenbeziehungen und Statistik,P130130,Aussenbeziehungen,501046.80,3610.80,1114667.91,7374.60,978061.52,27177.96
+1100,Präsidialdirektion,130,Aussenbeziehungen und Statistik,PG130100,Aussenbeziehungen und Statistik,P130140,Grundlagen und politisches Controlling,237544.60,1666.50,0.00,0.00,0.00,0.00
+1100,Präsidialdirektion,130,Aussenbeziehungen und Statistik,PG130100,Aussenbeziehungen und Statistik,P130210,Dienstleistungen Statistik,1123764.49,37448.35,1168785.49,36725.00,1096756.20,66494.69
+1100,Präsidialdirektion,140,Hochbauamt,PG140100,Hochbauamt,P140110,Dienstleistungen,302411.52,93960.00,0.00,0.00,0.00,0.00
+1100,Präsidialdirektion,140,Hochbauamt,PG140100,Hochbauamt,P140120,Bauherrenleistungen,3729742.63,1158840.00,0.00,0.00,0.00,0.00
+1100,Präsidialdirektion,140,Hochbauamt,PG140100,Hochbauamt,P140130,Wettbewerbe,1008038.60,313200.00,0.00,0.00,0.00,0.00
+1100,Präsidialdirektion,150,Bauinspektorat,PG150000,Baurechtl. Bewilligungsverf./Voranfragen,P150010,Baugesuche,3773521.07,2753995.08,3631589.26,2347953.00,4347269.96,3742656.32
+1100,Präsidialdirektion,150,Bauinspektorat,PG150000,Baurechtl. Bewilligungsverf./Voranfragen,P150020,Plakatreklamegesuche,122740.18,164575.92,339324.04,365305.20,103044.85,80534.20
+1100,Präsidialdirektion,150,Bauinspektorat,PG150000,Baurechtl. Bewilligungsverf./Voranfragen,P150050,Voranfragen,50789.04,13272.24,51707.28,12172.68,29633.02,16130.68
+1100,Präsidialdirektion,150,Bauinspektorat,PG150100,Beschwerden / Widerrechtliches Bauen,P150110,Beschwerden,76183.56,0.00,77560.80,0.00,48233.01,4850.00
+1100,Präsidialdirektion,150,Bauinspektorat,PG150100,Beschwerden / Widerrechtliches Bauen,P150120,Widerrechtliches Bauen / Nutzungskontr.,131205.01,18581.16,133576.80,17041.56,115206.54,361.44
+1100,Präsidialdirektion,150,Bauinspektorat,PG150200,Baurechtl. Auskünfte + Stellungn./Archiv,P150210,Vernehmlassungen / Stellungnahmen,59253.88,0.00,60325.20,0.00,56149.02,0.00
+1100,Präsidialdirektion,150,Bauinspektorat,PG150200,Baurechtl. Auskünfte + Stellungn./Archiv,P150220,Auskünfte / Beratungen bew'freies Bauen,203156.28,0.00,206828.76,0.00,328370.32,0.00
+1100,Präsidialdirektion,150,Bauinspektorat,PG150200,Baurechtl. Auskünfte + Stellungn./Archiv,P150230,Archiv,135437.63,23890.05,137885.67,21910.56,125319.41,28888.86
+1100,Präsidialdirektion,170,Stadtplanungsamt,PG170500,Stadtplanung,P170510,Räumliche Stadtentwicklung,1862160.81,35492.80,1481776.56,34525.48,1585165.51,25503.23
+1100,Präsidialdirektion,170,Stadtplanungsamt,PG170500,Stadtplanung,P170520,Nutzungsplanung,1032076.46,124224.80,1436874.35,120839.20,1401488.47,89650.13
+1100,Präsidialdirektion,170,Stadtplanungsamt,PG170500,Stadtplanung,P170530,Öffentlicher Raum,329281.54,17746.40,538827.80,17262.80,554930.77,12644.99
+1100,Präsidialdirektion,170,Stadtplanungsamt,PG170500,Stadtplanung,P170540,Grünraum,1302382.29,0.00,1032753.35,0.00,922128.03,0.00
+1100,Präsidialdirektion,170,Stadtplanungsamt,PG170500,Stadtplanung,P170550,Förderung Wohnbautätigkeit,388748.68,0.00,0.00,0.00,0.00,0.00
+1200,"Direktion für Sicherheit,Umwelt,Energie",200,Direktionsstabsdienste,PG200100,Leistungen für Politik und Verw'führung,P200110,Führungsunterstützung,1187562.96,305201.28,1207063.59,279462.76,1124288.97,279544.88
+1200,"Direktion für Sicherheit,Umwelt,Energie",200,Direktionsstabsdienste,PG200100,Leistungen für Politik und Verw'führung,P200140,Rechtliche Dienstleistungen,243235.68,62511.12,247229.88,57239.40,278843.33,57256.17
+1200,"Direktion für Sicherheit,Umwelt,Energie",200,Direktionsstabsdienste,PG200200,Stabsdienstleistungen,P200210,Finanzwesen,588782.71,111869.52,619728.39,111752.84,590518.81,121247.18
+1200,"Direktion für Sicherheit,Umwelt,Energie",200,Direktionsstabsdienste,PG200200,Stabsdienstleistungen,P200220,Controlling,136797.24,25991.74,143987.16,25964.60,132454.11,28170.49
+1200,"Direktion für Sicherheit,Umwelt,Energie",200,Direktionsstabsdienste,PG200200,Stabsdienstleistungen,P200230,Personalwesen,765745.20,112571.80,759858.51,112350.52,804664.30,121446.45
+1200,"Direktion für Sicherheit,Umwelt,Energie",200,Direktionsstabsdienste,PG200200,Stabsdienstleistungen,P200240,Informatikbetreuung und -koordination,60079.84,11415.24,63237.64,11403.36,59592.42,12372.19
+1200,"Direktion für Sicherheit,Umwelt,Energie",200,Direktionsstabsdienste,PG200200,Stabsdienstleistungen,P200260,Spezialitäten Stabsdienstleistungen,163545.88,350818.00,169032.84,362165.44,215238.64,323030.95
+1200,"Direktion für Sicherheit,Umwelt,Energie",210,Kantonspolizei,PG210100,Kantonspolizei,P210110,Sicherheits-/Verkehrspolizeiliche Leist.,32041303.00,0.00,32229162.00,0.00,30961688.00,0.00
+1200,"Direktion für Sicherheit,Umwelt,Energie",220,Amt für Umweltschutz,PG220100,Umweltschutz,P220110,Chemie und Umwelt,2466089.17,1573412.44,2658423.86,1573544.68,2669419.41,1791188.51
+1200,"Direktion für Sicherheit,Umwelt,Energie",220,Amt für Umweltschutz,PG220100,Umweltschutz,P220130,Lärmschutz,2035906.55,215974.56,2150332.28,216656.04,1823452.74,179895.55
+1200,"Direktion für Sicherheit,Umwelt,Energie",220,Amt für Umweltschutz,PG220100,Umweltschutz,P220140,Lokale Agenda 21,876380.95,3768.12,876248.44,2730.96,1088532.83,3581.91
+1200,"Direktion für Sicherheit,Umwelt,Energie",220,Amt für Umweltschutz,PG220100,Umweltschutz,P220150,Energie,1263711.95,39379.04,1055299.64,38012.72,1208856.17,112915.94
+1200,"Direktion für Sicherheit,Umwelt,Energie",230,Polizeiinspektorat,PG230100,Dienstleistungen,P230140,"Auskunft und Beratung, Call Center",645431.16,105153.72,813567.35,120017.60,698817.75,119024.44
+1200,"Direktion für Sicherheit,Umwelt,Energie",230,Polizeiinspektorat,PG230100,Dienstleistungen,P230160,Geschäftsleitung Bern. Ortpolizeiverein.,10100.00,0.00,12000.00,0.00,12781.65,1124.30
+1200,"Direktion für Sicherheit,Umwelt,Energie",230,Polizeiinspektorat,PG230200,Ruhe und Ordnung,P230210,Waffenbesitz,0.00,2500.00,169457.76,3784.48,42619.35,5139.31
+1200,"Direktion für Sicherheit,Umwelt,Energie",230,Polizeiinspektorat,PG230200,Ruhe und Ordnung,P230220,Strafvollzug,72010.20,106659.04,129505.92,169981.60,89286.22,132842.48
+1200,"Direktion für Sicherheit,Umwelt,Energie",230,Polizeiinspektorat,PG230200,Ruhe und Ordnung,P230230,"Bescheinigungen, Gutachten",73017.24,20168.28,142823.28,20082.52,91192.55,54093.58
+1200,"Direktion für Sicherheit,Umwelt,Energie",230,Polizeiinspektorat,PG230200,Ruhe und Ordnung,P230240,Gemeindestelle wirtsch. Landesversorgung,2000.00,0.00,4500.00,0.00,1890.00,0.00
+1200,"Direktion für Sicherheit,Umwelt,Energie",230,Polizeiinspektorat,PG230200,Ruhe und Ordnung,P230250,Bestattungen,638412.92,353107.84,881901.46,372782.08,580839.96,363855.44
+1200,"Direktion für Sicherheit,Umwelt,Energie",230,Polizeiinspektorat,PG230200,Ruhe und Ordnung,P230260,Fundsachen und Räumungen,692739.41,30266.48,625346.60,43809.56,599864.75,38508.40
+1200,"Direktion für Sicherheit,Umwelt,Energie",230,Polizeiinspektorat,PG230200,Ruhe und Ordnung,P230270,Vollzug und Kontrolle,1802518.06,188971.90,1465416.36,329484.92,1706786.39,198747.17
+1200,"Direktion für Sicherheit,Umwelt,Energie",230,Polizeiinspektorat,PG230200,Ruhe und Ordnung,P230280,Veranstaltungen,2089211.92,967459.24,1861860.24,986077.20,2160206.07,1131000.80
+1200,"Direktion für Sicherheit,Umwelt,Energie",230,Polizeiinspektorat,PG230200,Ruhe und Ordnung,P230290,Verkehrspolizeiliche Bewilligungen,592174.75,6359175.04,1039831.67,6361580.20,632133.64,6300535.59
+1200,"Direktion für Sicherheit,Umwelt,Energie",230,Polizeiinspektorat,PG230300,"Gewerbe, Betriebe und Markt",P230310,Gastgewerbe,555100.87,644042.52,405855.55,613874.00,613568.09,663963.87
+1200,"Direktion für Sicherheit,Umwelt,Energie",230,Polizeiinspektorat,PG230300,"Gewerbe, Betriebe und Markt",P230320,Transportgewerbe,420232.88,301393.80,455216.68,318147.92,482450.33,308578.01
+1200,"Direktion für Sicherheit,Umwelt,Energie",230,Polizeiinspektorat,PG230300,"Gewerbe, Betriebe und Markt",P230330,Gewerbebetriebe,3524.88,32.28,177332.76,1407.12,63977.81,5674.57
+1200,"Direktion für Sicherheit,Umwelt,Energie",230,Polizeiinspektorat,PG230300,"Gewerbe, Betriebe und Markt",P230340,Markt,887625.01,770056.04,569798.78,762645.68,799138.57,772184.57
+1200,"Direktion für Sicherheit,Umwelt,Energie",230,Polizeiinspektorat,PG230400,Regelung des Einwohnerwesens,P230410,Aufenthaltsregelung von inländ. Personen,2034745.84,567990.48,1988668.54,519007.48,1926556.69,450187.89
+1200,"Direktion für Sicherheit,Umwelt,Energie",230,Polizeiinspektorat,PG230400,Regelung des Einwohnerwesens,P230420,Aufenthaltsregelung v. ausländ. Personen,4059584.43,1897034.08,4739020.10,1701892.88,4627027.33,2008301.70
+1200,"Direktion für Sicherheit,Umwelt,Energie",230,Polizeiinspektorat,PG230400,Regelung des Einwohnerwesens,P230440,Ausländerrechtliche Massnahmen,1525440.04,76626.44,693754.74,25958.36,1070359.69,33638.71
+1200,"Direktion für Sicherheit,Umwelt,Energie",230,Polizeiinspektorat,PG230400,Regelung des Einwohnerwesens,P230450,Regelung von Einbürgerungen,876990.45,370819.60,918300.96,455198.60,772827.24,306421.33
+1200,"Direktion für Sicherheit,Umwelt,Energie",240,Sanitätspolizei,PG240100,Hilfeleistungen,P240110,Primärtransporte,14373008.75,14373008.75,14537552.21,14537552.21,14257186.06,14101587.59
+1200,"Direktion für Sicherheit,Umwelt,Energie",240,Sanitätspolizei,PG240100,Hilfeleistungen,P240120,Sekundärtransporte,4455347.03,4455347.03,4331373.97,4331373.97,4336741.61,4396441.41
+1200,"Direktion für Sicherheit,Umwelt,Energie",240,Sanitätspolizei,PG240200,Übrige Dienstleistungen,P240210,Aus- und Weiterbildung für Dritte,268754.28,291579.28,266765.54,287620.22,262487.28,241427.88
+1200,"Direktion für Sicherheit,Umwelt,Energie",250,"Feuerwehr, Zivilschutz und Quartieramt",PG250100,Feuerwehraufgaben,P250110,Brandbekämpfung,7622777.48,1191956.12,7495402.54,1190144.96,7806403.00,1248125.65
+1200,"Direktion für Sicherheit,Umwelt,Energie",250,"Feuerwehr, Zivilschutz und Quartieramt",PG250100,Feuerwehraufgaben,P250120,Automatische Alarme,5500559.51,1832470.76,5457378.14,1828871.92,5470919.37,1928313.54
+1200,"Direktion für Sicherheit,Umwelt,Energie",250,"Feuerwehr, Zivilschutz und Quartieramt",PG250100,Feuerwehraufgaben,P250130,Rettungen,1770147.14,688057.69,1693163.40,687041.05,1746498.11,719570.02
+1200,"Direktion für Sicherheit,Umwelt,Energie",250,"Feuerwehr, Zivilschutz und Quartieramt",PG250100,Feuerwehraufgaben,P250150,Öl-/Chemieereignisse,1544578.32,501485.50,1489372.92,500808.94,1581030.04,560946.13
+1200,"Direktion für Sicherheit,Umwelt,Energie",250,"Feuerwehr, Zivilschutz und Quartieramt",PG250100,Feuerwehraufgaben,P250160,Elementarereignisse,1224996.91,95205.68,1236558.08,94711.52,1458926.84,64493.18
+1200,"Direktion für Sicherheit,Umwelt,Energie",250,"Feuerwehr, Zivilschutz und Quartieramt",PG250200,Hilfe- und Dienstleistungen,P250210,Hilfeleistungen,832041.17,352576.56,867756.38,358372.20,1050608.50,403971.25
+1200,"Direktion für Sicherheit,Umwelt,Energie",250,"Feuerwehr, Zivilschutz und Quartieramt",PG250200,Hilfe- und Dienstleistungen,P250220,Dienstleistungen,540849.44,633714.72,557291.60,667578.70,817035.67,925987.60
+1200,"Direktion für Sicherheit,Umwelt,Energie",250,"Feuerwehr, Zivilschutz und Quartieramt",PG250300,Zivilschutz,P250310,Zivilschutzstelle,455183.94,241187.32,445136.96,235808.08,556106.26,97167.88
+1200,"Direktion für Sicherheit,Umwelt,Energie",250,"Feuerwehr, Zivilschutz und Quartieramt",PG250300,Zivilschutz,P250320,Ausbildung,576903.68,2483.28,628861.06,2386.08,497612.91,7914.42
+1200,"Direktion für Sicherheit,Umwelt,Energie",250,"Feuerwehr, Zivilschutz und Quartieramt",PG250300,Zivilschutz,P250330,"Planungen, Bereitschaft und Einsatz",2997581.64,131417.36,2998219.58,125475.40,3183410.55,271200.69
+1200,"Direktion für Sicherheit,Umwelt,Energie",250,"Feuerwehr, Zivilschutz und Quartieramt",PG250300,Zivilschutz,P250340,Katastrophen und Notlagen,280944.87,24692.12,322685.51,24580.88,304123.06,32744.93
+1200,"Direktion für Sicherheit,Umwelt,Energie",250,"Feuerwehr, Zivilschutz und Quartieramt",PG250400,Quartieramt,P250410,Infrastruktur,302854.96,7999.20,307122.08,8977.36,226580.99,3985.99
+1200,"Direktion für Sicherheit,Umwelt,Energie",250,"Feuerwehr, Zivilschutz und Quartieramt",PG250400,Quartieramt,P250420,Schiesswesen,651184.82,75342.64,687930.90,80332.44,606439.29,74911.95
+1200,"Direktion für Sicherheit,Umwelt,Energie",250,"Feuerwehr, Zivilschutz und Quartieramt",PG250400,Quartieramt,P250430,Dienstleistungen,1528896.71,963793.16,1581463.58,871127.68,1482031.60,1048896.09
+1200,"Direktion für Sicherheit,Umwelt,Energie",260,Wirtschaftsamt,PG260100,Wirtschaftförderung,P260110,Standortpromotion,192833.22,47055.96,197538.12,47036.28,175803.30,58584.49
+1200,"Direktion für Sicherheit,Umwelt,Energie",260,Wirtschaftsamt,PG260100,Wirtschaftförderung,P260120,Anlaufstelle Wirtschaft,699020.38,170578.12,716075.36,170506.84,677687.59,212368.77
+1200,"Direktion für Sicherheit,Umwelt,Energie",260,Wirtschaftsamt,PG260100,Wirtschaftförderung,P260130,"Beratung Behörden, Verw., Institutionen",313353.91,76466.16,320999.04,76434.24,443284.87,95199.79
+1200,"Direktion für Sicherheit,Umwelt,Energie",260,Wirtschaftsamt,PG260100,Wirtschaftförderung,P260140,Bern Tourismus,2755000.00,0.00,3070000.00,0.00,3003037.40,0.00
+1200,"Direktion für Sicherheit,Umwelt,Energie",270,Tierpark,PG270100,Tierpark,P270110,Zoo,6486347.36,2036830.64,6647111.60,2026556.60,6291705.11,1731347.58
+1200,"Direktion für Sicherheit,Umwelt,Energie",270,Tierpark,PG270100,Tierpark,P270120,Zoopädagogik,1222136.68,237638.68,1239451.62,172034.56,1157692.45,196241.83
+1200,"Direktion für Sicherheit,Umwelt,Energie",270,Tierpark,PG270100,Tierpark,P270130,Wissenschaft,281572.56,3485.04,289372.32,2962.20,270675.14,4860.83
+1200,"Direktion für Sicherheit,Umwelt,Energie",270,Tierpark,PG270100,Tierpark,P270140,Erhaltung bedrohter Tierarten,451053.40,4818.60,466680.76,4029.88,434151.92,7145.21
+1200,"Direktion für Sicherheit,Umwelt,Energie",270,Tierpark,PG270100,Tierpark,P270150,Bärenpark,1194168.56,28397.24,1370591.01,554820.44,1282835.85,141840.06
+1200,"Direktion für Sicherheit,Umwelt,Energie",280,Amt für Erwachsenen- und Kindesschutz,PG280100,Vormundschaftspflege,P280110,Vorbereitung und Vollzug von Geschäften,0.00,0.00,0.00,0.00,1232256.03,13354.50
+1200,"Direktion für Sicherheit,Umwelt,Energie",280,Amt für Erwachsenen- und Kindesschutz,PG280100,Vormundschaftspflege,P280120,Vertretung der Erw. u. Kindesschutzkomm.,0.00,0.00,0.00,0.00,205376.02,2225.75
+1200,"Direktion für Sicherheit,Umwelt,Energie",280,Amt für Erwachsenen- und Kindesschutz,PG280100,Vormundschaftspflege,P280130,Finanzen,0.00,0.00,0.00,0.00,513540.08,293311.15
+1200,"Direktion für Sicherheit,Umwelt,Energie",280,Amt für Erwachsenen- und Kindesschutz,PG280100,Vormundschaftspflege,P280140,Vaterschafts- und Unterhaltsregelungen,0.00,0.00,0.00,0.00,103773.23,42862.80
+1200,"Direktion für Sicherheit,Umwelt,Energie",280,Amt für Erwachsenen- und Kindesschutz,PG280200,Schutz von Erwachsenen und Kindern,P280210,Präventive Sozialarbeit Kindesschutz,1271966.58,10362.24,0.00,0.00,0.00,0.00
+1200,"Direktion für Sicherheit,Umwelt,Energie",280,Amt für Erwachsenen- und Kindesschutz,PG280200,Schutz von Erwachsenen und Kindern,P280220,Abklärung Kindesschutz,1006810.62,8178.60,0.00,0.00,0.00,0.00
+1200,"Direktion für Sicherheit,Umwelt,Energie",280,Amt für Erwachsenen- und Kindesschutz,PG280200,Schutz von Erwachsenen und Kindern,P280230,Vermittlung/Aufsicht Fam.-Pflegeplätze,132577.97,1091.76,0.00,0.00,0.00,0.00
+1200,"Direktion für Sicherheit,Umwelt,Energie",280,Amt für Erwachsenen- und Kindesschutz,PG280200,Schutz von Erwachsenen und Kindern,P280240,Fachstelle elterliche Sorge,266352.15,0.00,0.00,0.00,0.00,0.00
+1200,"Direktion für Sicherheit,Umwelt,Energie",280,Amt für Erwachsenen- und Kindesschutz,PG280200,Schutz von Erwachsenen und Kindern,P280250,Abklärung Erwachsenenschutz,1233734.06,12222.00,0.00,0.00,0.00,0.00
+1200,"Direktion für Sicherheit,Umwelt,Energie",280,Amt für Erwachsenen- und Kindesschutz,PG280200,Schutz von Erwachsenen und Kindern,P280260,Mandatsführung Kindes-/Erwachsenenschutz,8750974.82,823671.22,0.00,0.00,0.00,0.00
+1200,"Direktion für Sicherheit,Umwelt,Energie",280,Amt für Erwachsenen- und Kindesschutz,PG280200,Schutz von Erwachsenen und Kindern,P280270,Beratungsstelle PriMa,237974.00,0.00,0.00,0.00,0.00,0.00
+1200,"Direktion für Sicherheit,Umwelt,Energie",280,Amt für Erwachsenen- und Kindesschutz,PG280200,Schutz von Erwachsenen und Kindern,P280290,Zusammenfassung PG280200 alt,0.00,0.00,10936823.28,1368147.08,9438619.96,1612113.40
+1200,"Direktion für Sicherheit,Umwelt,Energie",280,Amt für Erwachsenen- und Kindesschutz,PG280300,Erbgang,P280310,Testamentsdienst,482407.64,363195.96,446904.64,363051.84,465397.85,330873.03
+1200,"Direktion für Sicherheit,Umwelt,Energie",280,Amt für Erwachsenen- und Kindesschutz,PG280300,Erbgang,P280320,Siegelungsdienst,1076361.86,268869.92,1202503.64,269328.20,1147127.64,311348.09
+1200,"Direktion für Sicherheit,Umwelt,Energie",280,Amt für Erwachsenen- und Kindesschutz,PG280300,Erbgang,P280330,Erbschaftsdienst,392407.56,173196.20,391904.48,173051.72,381892.22,157253.95
+1200,"Direktion für Sicherheit,Umwelt,Energie",290,Energie Wasser Bern (ewb),PG290100,Energie Wasser Bern (ewb),P290120,Gewinnablieferung,0.00,22500000.00,0.00,22500000.00,0.00,43000000.00
+1300,"Direktion für Bildung,Soziales und Sport",300,Direktionsstabsdienste,PG300100,Leistungen für Politik und Verw'führung,P300110,Führungsunterstützung,1431950.87,26000.00,1489617.00,21547.00,1578197.23,25382.20
+1300,"Direktion für Bildung,Soziales und Sport",300,Direktionsstabsdienste,PG300200,Koordinationsstelle Sucht,P300210,Schadenverminderung / Überlebenshilfe,49696.74,1573.08,51059.40,1869.84,51951.04,1786.26
+1300,"Direktion für Bildung,Soziales und Sport",300,Direktionsstabsdienste,PG300200,Koordinationsstelle Sucht,P300220,Therapie,24848.44,786.60,25529.76,934.92,24398.12,893.17
+1300,"Direktion für Bildung,Soziales und Sport",300,Direktionsstabsdienste,PG300200,Koordinationsstelle Sucht,P300230,Prävention,24848.44,786.60,25529.76,934.92,24398.12,893.17
+1300,"Direktion für Bildung,Soziales und Sport",300,Direktionsstabsdienste,PG300200,Koordinationsstelle Sucht,P300240,Dienstleistung / Koordination,149090.48,4719.22,368324.08,208688.32,368731.92,232654.45
+1300,"Direktion für Bildung,Soziales und Sport",300,Direktionsstabsdienste,PG300300,Zentrale Dienste,P300310,Finanzwesen,2100369.00,318500.00,2298639.60,335200.00,2228310.71,445819.14
+1300,"Direktion für Bildung,Soziales und Sport",300,Direktionsstabsdienste,PG300300,Zentrale Dienste,P300315,Lastenausgleich Sozialhilfe,52397000.00,131636876.00,62475000.00,125080610.00,62475000.00,129105838.95
+1300,"Direktion für Bildung,Soziales und Sport",300,Direktionsstabsdienste,PG300300,Zentrale Dienste,P300320,Personalwesen,1532774.00,227800.00,1581187.00,222300.00,1621550.65,206258.75
+1300,"Direktion für Bildung,Soziales und Sport",300,Direktionsstabsdienste,PG300300,Zentrale Dienste,P300330,Informatikkoordination,173627.00,1500.00,178380.00,1500.00,201076.60,1503.90
+1300,"Direktion für Bildung,Soziales und Sport",300,Direktionsstabsdienste,PG300300,Zentrale Dienste,P300350,Ausbildungswesen,341787.00,5000.00,313840.00,2800.00,322980.01,6922.85
+1300,"Direktion für Bildung,Soziales und Sport",300,Direktionsstabsdienste,PG300400,Kompetenzzentrum Integration,P300410,Koord. mit  Behörden und Migrationsbev.,268456.80,60048.40,291939.16,9990.28,291902.01,9980.09
+1300,"Direktion für Bildung,Soziales und Sport",300,Direktionsstabsdienste,PG300400,Kompetenzzentrum Integration,P300420,Beratung und Information,445935.20,129572.60,280534.73,17070.24,293256.78,32068.12
+1300,"Direktion für Bildung,Soziales und Sport",300,Direktionsstabsdienste,PG300400,Kompetenzzentrum Integration,P300430,Leist. Asyls. (2. Unterbringungsphase),5768191.65,5904480.00,5688530.97,5767941.82,5726840.38,5814440.44
+1300,"Direktion für Bildung,Soziales und Sport",310,Sozialamt,PG310100,Soziale Einrichtungen,P310110,Obdachlosenhilfe,3365643.16,304788.76,3261137.42,302732.24,3253700.03,286737.99
+1300,"Direktion für Bildung,Soziales und Sport",310,Sozialamt,PG310300,"Inkasso Sozialhilfe, Bevorschussung",P310310,Bevorschussung von Unterhaltsbeiträgen,5373757.64,14062.60,5381422.04,16355.16,5193362.74,7759.97
+1300,"Direktion für Bildung,Soziales und Sport",310,Sozialamt,PG310300,"Inkasso Sozialhilfe, Bevorschussung",P310320,Inkassi aufgrund Sozialhilfegesetz (SHG),867847.83,4240996.56,918404.30,4423103.70,885875.88,3899948.34
+1300,"Direktion für Bildung,Soziales und Sport",310,Sozialamt,PG310300,"Inkasso Sozialhilfe, Bevorschussung",P310330,U'haltbeitr. Aufgrund GIB einkassiert,535030.56,2796250.28,565687.80,2805420.50,561026.32,2837839.29
+1300,"Direktion für Bildung,Soziales und Sport",310,Sozialamt,PG310400,Ambulante Sozialhilfe,P310420,"Beratung,Betr.und Unterst.bed.Pers",125447981.86,30957624.88,117625642.21,30474045.09,122502538.51,28232941.10
+1300,"Direktion für Bildung,Soziales und Sport",310,Sozialamt,PG310600,Berufliche und soziale Integration,P310640,Abkl. u. Qualifizierung junge Erwachsene,3755007.68,3186138.24,4236282.40,3492761.64,3961497.45,3305896.43
+1300,"Direktion für Bildung,Soziales und Sport",310,Sozialamt,PG310600,Berufliche und soziale Integration,P310650,Abklärung und Qualifizierung Erwachsene,4272009.60,4173055.52,2787289.92,2590631.28,3150553.30,2934078.38
+1300,"Direktion für Bildung,Soziales und Sport",310,Sozialamt,PG310600,Berufliche und soziale Integration,P310660,Abklärung und Arbeitsvermittlung,7827070.00,6936256.24,7625419.24,6751973.08,8078379.68,7012745.06
+1300,"Direktion für Bildung,Soziales und Sport",320,Schulamt,PG320100,"Kindergärten, Volks- und Sonderschulen",P320110,Betrieb und Organisation,84592463.40,2503059.40,83711882.30,2325540.00,87256624.98,2949424.67
+1300,"Direktion für Bildung,Soziales und Sport",320,Schulamt,PG320100,"Kindergärten, Volks- und Sonderschulen",P320120,Angebote Integration/Chancengleichheit,569016.52,180594.36,905769.52,188912.00,863186.38,215407.09
+1300,"Direktion für Bildung,Soziales und Sport",320,Schulamt,PG320100,"Kindergärten, Volks- und Sonderschulen",P320130,Kulturvermittlung und -pädagogik,207808.08,2998.56,207376.96,3330.00,255343.71,50200.67
+1300,"Direktion für Bildung,Soziales und Sport",320,Schulamt,PG320100,"Kindergärten, Volks- und Sonderschulen",P320140,Innovation und Bildungsqualität,53061.68,599.76,57925.44,666.00,58673.99,724.37
+1300,"Direktion für Bildung,Soziales und Sport",320,Schulamt,PG320100,"Kindergärten, Volks- und Sonderschulen",P320160,Sonderschulen,10335981.00,10335981.00,10077736.00,10077736.00,10173912.47,10173912.47
+1300,"Direktion für Bildung,Soziales und Sport",320,Schulamt,PG320200,Tagesbetreuung,P320210,Tagesschulen,12347885.84,10067905.04,11696373.23,9466660.00,11595994.33,9693523.08
+1300,"Direktion für Bildung,Soziales und Sport",320,Schulamt,PG320200,Tagesbetreuung,P320220,Aufgabenhilfe,280000.00,0.00,300000.00,0.00,300000.00,0.00
+1300,"Direktion für Bildung,Soziales und Sport",320,Schulamt,PG320200,Tagesbetreuung,P320240,Ferieninseln,571823.88,126239.16,585126.20,89998.00,543190.28,100338.92
+1300,"Direktion für Bildung,Soziales und Sport",320,Schulamt,PG320300,Bildungsnahe Institutionen,P320310,Bibliotheken,3301806.00,0.00,3303328.32,0.00,3307101.81,0.00
+1300,"Direktion für Bildung,Soziales und Sport",320,Schulamt,PG320300,Bildungsnahe Institutionen,P320320,Musikschulen,3197806.00,180000.00,3394328.32,180000.00,3299957.71,150419.20
+1300,"Direktion für Bildung,Soziales und Sport",320,Schulamt,PG320300,Bildungsnahe Institutionen,P320330,Ludotheken,23006.00,0.00,24528.32,0.00,28301.81,0.00
+1300,"Direktion für Bildung,Soziales und Sport",320,Schulamt,PG320300,Bildungsnahe Institutionen,P320340,Gfeller-Fonds,17367.60,17367.60,18803.24,18803.24,22779.91,22779.91
+1300,"Direktion für Bildung,Soziales und Sport",320,Schulamt,PG320300,Bildungsnahe Institutionen,P320350,Volkshochschule,0.00,0.00,95000.00,0.00,95000.00,0.00
+1300,"Direktion für Bildung,Soziales und Sport",330,Jugendamt,PG330100,Kinder-u.Jugendförderung/Gemeinwesenarb.,P330110,Ferien- und Freizeitprojekte,259611.90,59473.60,303428.07,57014.16,305386.55,59756.72
+1300,"Direktion für Bildung,Soziales und Sport",330,Jugendamt,PG330100,Kinder-u.Jugendförderung/Gemeinwesenarb.,P330120,Offene Arbeit mit Kindern,1895634.11,5509.68,1916006.62,5563.40,2087176.73,5435.21
+1300,"Direktion für Bildung,Soziales und Sport",330,Jugendamt,PG330100,Kinder-u.Jugendförderung/Gemeinwesenarb.,P330130,Checkpoint,499693.18,17337.08,504818.13,21886.16,507970.11,17277.95
+1300,"Direktion für Bildung,Soziales und Sport",330,Jugendamt,PG330100,Kinder-u.Jugendförderung/Gemeinwesenarb.,P330140,Offene Jugendarbeit,2342801.51,6973.12,1930871.80,6761.84,2381049.65,6685.81
+1300,"Direktion für Bildung,Soziales und Sport",330,Jugendamt,PG330100,Kinder-u.Jugendförderung/Gemeinwesenarb.,P330150,Mitwirkung von Kindern und Jugendlichen,391167.71,7824.02,338939.75,6737.32,404452.82,58653.23
+1300,"Direktion für Bildung,Soziales und Sport",330,Jugendamt,PG330100,Kinder-u.Jugendförderung/Gemeinwesenarb.,P330160,Gemeinwesenarbeit und Fachstellen,1991729.78,17177.78,4316738.40,1060.00,4267532.50,1181.35
+1300,"Direktion für Bildung,Soziales und Sport",330,Jugendamt,PG330200,Ambulante Jugendhilfe,P330210,Kindesschutz,0.00,0.00,953830.12,21867.80,988013.34,20642.59
+1300,"Direktion für Bildung,Soziales und Sport",330,Jugendamt,PG330200,Ambulante Jugendhilfe,P330220,Präventive Sozialarbeit,0.00,0.00,1001505.48,22959.92,1031101.89,21738.55
+1300,"Direktion für Bildung,Soziales und Sport",330,Jugendamt,PG330200,Ambulante Jugendhilfe,P330240,Vermittl./Bew./Aufsicht Fam.pfl'plätzen,0.00,0.00,144565.61,3306.92,150325.34,3388.95
+1300,"Direktion für Bildung,Soziales und Sport",330,Jugendamt,PG330200,Ambulante Jugendhilfe,P330250,Gutachten,0.00,0.00,192240.72,12398.84,193024.85,5584.83
+1300,"Direktion für Bildung,Soziales und Sport",330,Jugendamt,PG330200,Ambulante Jugendhilfe,P330260,PINTO,1178307.81,29043.48,1133978.95,36331.75,1116944.19,31417.05
+1300,"Direktion für Bildung,Soziales und Sport",330,Jugendamt,PG330300,Kompetenzzentrum Jugend und Familie,P330310,Stat. Auf. Kindern/Jug. mittel-/langfr.,3217624.28,3217624.26,3218630.70,3218630.70,3082780.13,3082780.13
+1300,"Direktion für Bildung,Soziales und Sport",330,Jugendamt,PG330300,Kompetenzzentrum Jugend und Familie,P330320,Stat. Notaufnahme für Kinder/Jugendliche,2114622.24,2114622.28,2056585.48,2056585.48,1970310.40,1970310.40
+1300,"Direktion für Bildung,Soziales und Sport",330,Jugendamt,PG330300,Kompetenzzentrum Jugend und Familie,P330330,Stat. Auf. schw. Frauen m. Kleinkindern,1082271.34,1082271.32,1112005.51,1112005.51,1152775.82,1152775.82
+1300,"Direktion für Bildung,Soziales und Sport",330,Jugendamt,PG330300,Kompetenzzentrum Jugend und Familie,P330340,Tagesstruktur,0.00,0.00,0.00,0.00,0.00,0.00
+1300,"Direktion für Bildung,Soziales und Sport",330,Jugendamt,PG330300,Kompetenzzentrum Jugend und Familie,P330350,Familienbegleitung,482000.00,482000.00,503000.00,503000.00,474679.30,489407.25
+1300,"Direktion für Bildung,Soziales und Sport",330,Jugendamt,PG330400,Familienergänzende Tagesbet. für Kinder,P330410,Betr. Kinder/Jugendl. in Tagesstätten,49359652.23,16739139.88,40647986.86,7920182.98,37464299.21,8488380.74
+1300,"Direktion für Bildung,Soziales und Sport",330,Jugendamt,PG330400,Familienergänzende Tagesbet. für Kinder,P330440,Tagesbetreuung von Kindern bei Tageselt.,971513.88,732.24,980914.00,20000.00,1109200.00,0.00
+1300,"Direktion für Bildung,Soziales und Sport",350,Alters- und Versicherungsamt,PG350100,Sozialversicherungen,P350110,Sozialversicherungsbeiträge,2077135.08,1658288.60,2157423.20,1728638.40,2102013.99,1744599.96
+1300,"Direktion für Bildung,Soziales und Sport",350,Alters- und Versicherungsamt,PG350100,Sozialversicherungen,P350120,Kinderzulagen und Erwerbsersatz,751929.52,462203.00,872001.72,474064.68,798275.07,458807.61
+1300,"Direktion für Bildung,Soziales und Sport",350,Alters- und Versicherungsamt,PG350100,Sozialversicherungen,P350130,Ergänzungsleistungen und Zuschüsse,2068198.40,17800.36,2126292.60,32533.36,2113244.52,33172.97
+1300,"Direktion für Bildung,Soziales und Sport",350,Alters- und Versicherungsamt,PG350100,Sozialversicherungen,P350140,Gemeindebeiträge EL und Kinderzulagen NE,27634400.00,0.00,28050000.00,0.00,29110836.00,0.00
+1300,"Direktion für Bildung,Soziales und Sport",350,Alters- und Versicherungsamt,PG350100,Sozialversicherungen,P350150,Zuschüsse nach Dekret,1600000.00,500000.00,2000000.00,500000.00,1541962.20,1000204.74
+1300,"Direktion für Bildung,Soziales und Sport",350,Alters- und Versicherungsamt,PG350200,Stationäre Kranken- und Betagtenhilfe,P350220,Durch Dritte geführte Heime,0.00,0.00,0.00,0.00,0.00,0.00
+1300,"Direktion für Bildung,Soziales und Sport",350,Alters- und Versicherungsamt,PG350200,Stationäre Kranken- und Betagtenhilfe,P350230,Wohnheime,0.00,0.00,0.00,0.00,0.00,0.00
+1300,"Direktion für Bildung,Soziales und Sport",350,Alters- und Versicherungsamt,PG350200,Stationäre Kranken- und Betagtenhilfe,P350250,Tagesheime,0.00,0.00,0.00,0.00,0.00,0.00
+1300,"Direktion für Bildung,Soziales und Sport",350,Alters- und Versicherungsamt,PG350200,Stationäre Kranken- und Betagtenhilfe,P350260,Ferienbetten,0.00,0.00,0.00,0.00,0.00,0.00
+1300,"Direktion für Bildung,Soziales und Sport",350,Alters- und Versicherungsamt,PG350200,Stationäre Kranken- und Betagtenhilfe,P350270,Koordinationsstelle,0.00,0.00,0.00,0.00,0.00,0.00
+1300,"Direktion für Bildung,Soziales und Sport",350,Alters- und Versicherungsamt,PG350300,Ambulante Kranken- und Betagtenhilfe,P350310,Offener Mittagstisch,0.00,0.00,0.00,0.00,0.00,0.00
+1300,"Direktion für Bildung,Soziales und Sport",350,Alters- und Versicherungsamt,PG350300,Ambulante Kranken- und Betagtenhilfe,P350320,Ambulante pflegerische Leistungen,0.00,0.00,0.00,0.00,0.00,0.00
+1300,"Direktion für Bildung,Soziales und Sport",350,Alters- und Versicherungsamt,PG350300,Ambulante Kranken- und Betagtenhilfe,P350330,Hauswirtschaftliche Leistungen,0.00,0.00,0.00,0.00,0.00,0.00
+1300,"Direktion für Bildung,Soziales und Sport",350,Alters- und Versicherungsamt,PG350400,Offene Altersarbeit,P350410,Einsatzmöglichkeiten für Freiwillige,0.00,0.00,0.00,0.00,0.00,0.00
+1300,"Direktion für Bildung,Soziales und Sport",350,Alters- und Versicherungsamt,PG350400,Offene Altersarbeit,P350425,Präventive Hausbesuche,0.00,0.00,0.00,0.00,0.00,0.00
+1300,"Direktion für Bildung,Soziales und Sport",350,Alters- und Versicherungsamt,PG350400,Offene Altersarbeit,P350440,Lieferung von Mahlzeiten,0.00,0.00,0.00,0.00,0.00,0.00
+1300,"Direktion für Bildung,Soziales und Sport",350,Alters- und Versicherungsamt,PG350400,Offene Altersarbeit,P350490,Integrationsmassnahmen,0.00,0.00,0.00,0.00,0.00,0.00
+1300,"Direktion für Bildung,Soziales und Sport",350,Alters- und Versicherungsamt,PG350500,Alter,P350510,Städtisches Alters- und Pflegeheim,20657498.50,20657498.50,20574202.10,20574202.10,20253231.51,20253231.51
+1300,"Direktion für Bildung,Soziales und Sport",350,Alters- und Versicherungsamt,PG350500,Alter,P350520,Altersfreundlicher Lebensraum,376782.00,33536.44,462399.84,35014.64,346545.22,49234.95
+1300,"Direktion für Bildung,Soziales und Sport",350,Alters- und Versicherungsamt,PG350500,Alter,P350530,Information und Integration,630893.04,146024.60,707311.68,148733.88,737426.85,150481.33
+1300,"Direktion für Bildung,Soziales und Sport",360,Schulzahnmedizinischer Dienst,PG360100,Schulzahnpflege,P360110,Prophylaxeunterricht,286228.54,2986.06,294121.19,3011.14,333081.38,8089.72
+1300,"Direktion für Bildung,Soziales und Sport",360,Schulzahnmedizinischer Dienst,PG360100,Schulzahnpflege,P360120,Koordination Schulzahnpflege,115811.96,1701.90,128580.34,1751.94,131854.88,2762.27
+1300,"Direktion für Bildung,Soziales und Sport",360,Schulzahnmedizinischer Dienst,PG360100,Schulzahnpflege,P360130,Behandlungsbeiträge,537067.48,500557.64,539088.65,500557.64,425937.51,391500.11
+1300,"Direktion für Bildung,Soziales und Sport",360,Schulzahnmedizinischer Dienst,PG360200,Zahnmedizinische Leistungen,P360210,Behandlung Kinder und Jugendlicher,3538015.59,2698372.72,3874637.40,2668072.76,4053209.20,2924985.99
+1300,"Direktion für Bildung,Soziales und Sport",360,Schulzahnmedizinischer Dienst,PG360200,Zahnmedizinische Leistungen,P360215,Behandlung Erwachsener,573106.63,771783.14,607630.91,771783.14,519018.12,626839.93
+1300,"Direktion für Bildung,Soziales und Sport",360,Schulzahnmedizinischer Dienst,PG360200,Zahnmedizinische Leistungen,P360220,Leistungen für die Schulzahnpflege,287233.27,445491.67,325036.85,445716.51,322771.63,331653.68
+1300,"Direktion für Bildung,Soziales und Sport",360,Schulzahnmedizinischer Dienst,PG360200,Zahnmedizinische Leistungen,P360230,Gutachten,35986.83,90357.48,39006.07,90357.48,41464.25,78185.60
+1300,"Direktion für Bildung,Soziales und Sport",370,Gesundheitsdienst,PG370100,Gesundheitsvorsorge und -beratung,P370110,Schulärztliche Dienstleistungen,1404523.59,482424.72,1449381.36,482102.80,1502266.10,458386.37
+1300,"Direktion für Bildung,Soziales und Sport",370,Gesundheitsdienst,PG370100,Gesundheitsvorsorge und -beratung,P370140,Schulsozialarbeit,1696685.74,117975.00,1643953.28,151419.88,1541183.09,60194.44
+1300,"Direktion für Bildung,Soziales und Sport",370,Gesundheitsdienst,PG370100,Gesundheitsvorsorge und -beratung,P370150,Psychosoziale Vorsorge,198789.38,6884.84,185277.84,6778.64,185281.96,6700.53
+1300,"Direktion für Bildung,Soziales und Sport",370,Gesundheitsdienst,PG370200,Gesundheitsinformation,P370210,Auskünfte/Informationsveranstaltungen,168673.20,46214.96,174218.52,45631.52,178528.71,82491.92
+1300,"Direktion für Bildung,Soziales und Sport",370,Gesundheitsdienst,PG370200,Gesundheitsinformation,P370220,Gesundheitsgrundlagen,173762.88,1667.40,166642.60,1585.08,166688.56,1833.47
+1300,"Direktion für Bildung,Soziales und Sport",370,Gesundheitsdienst,PG370300,Gesundheitsförderung und Prävention,P370320,Gesundheitsförderung in der Schule,848216.72,5738.24,923718.68,6193.40,1051253.31,85179.91
+1300,"Direktion für Bildung,Soziales und Sport",370,Gesundheitsdienst,PG370300,Gesundheitsförderung und Prävention,P370340,Frühförderung,1076306.61,393884.84,1015789.68,229334.68,955509.48,677516.34
+1300,"Direktion für Bildung,Soziales und Sport",380,Sportamt,PG380100,Betriebe Eis und Wasser,P380110,Freibäder,6954233.48,996620.12,7511745.20,1172182.16,7166212.31,1125534.17
+1300,"Direktion für Bildung,Soziales und Sport",380,Sportamt,PG380100,Betriebe Eis und Wasser,P380120,Hallenbäder,7244277.74,2550830.00,7712401.56,2512887.08,7420448.56,2759021.76
+1300,"Direktion für Bildung,Soziales und Sport",380,Sportamt,PG380100,Betriebe Eis und Wasser,P380130,Kunsteisbahnen,3555146.80,839914.88,3838588.88,842493.32,3990404.83,819543.66
+1300,"Direktion für Bildung,Soziales und Sport",380,Sportamt,PG380200,"Sportanlagen, Sportbetrieb",P380210,Bereitstellung von Turn- / Sportanlagen,8316145.78,1731765.00,7756694.64,1729152.56,7602797.63,1293286.32
+1300,"Direktion für Bildung,Soziales und Sport",380,Sportamt,PG380200,"Sportanlagen, Sportbetrieb",P380220,Sportförderung und -beratung,1355415.92,144010.00,1160513.32,140934.88,1299193.34,177710.44
+1300,"Direktion für Bildung,Soziales und Sport",380,Sportamt,PG380200,"Sportanlagen, Sportbetrieb",P380220,,1355415.92,144010.00,1160513.32,140934.88,1299193.34,177710.44
+1500,"Direktion f. Tiefbau, Verkehr, Stadtgrün",500,Direktionsstabsdienste,PG500100,Leistungen für Politik und Verw'führung,P500110,Führungsunterstützung,1593705.30,31777.16,1629558.39,31673.48,1587251.15,67750.85
+1500,"Direktion f. Tiefbau, Verkehr, Stadtgrün",500,Direktionsstabsdienste,PG500400,Zentrale Dienste,P500410,Finanzwesen,613705.72,138920.48,657846.02,138060.16,633100.08,166221.96
+1500,"Direktion f. Tiefbau, Verkehr, Stadtgrün",500,Direktionsstabsdienste,PG500400,Zentrale Dienste,P500420,Informatikkoordination,146672.35,28500.00,147192.40,32419.57,148373.92,29826.20
+1500,"Direktion f. Tiefbau, Verkehr, Stadtgrün",500,Direktionsstabsdienste,PG500400,Zentrale Dienste,P500430,Personalwesen,775070.77,5836.79,786879.80,5533.00,780856.39,16649.49
+1500,"Direktion f. Tiefbau, Verkehr, Stadtgrün",500,Direktionsstabsdienste,PG500500,Konzepte/Koordination öff. Verkehr,P500510,Konzepte/Koordination öff. Verkehr,185045.26,1593.24,193741.00,1593.24,190784.67,1845.35
+1500,"Direktion f. Tiefbau, Verkehr, Stadtgrün",500,Direktionsstabsdienste,PG500500,Konzepte/Koordination öff. Verkehr,P500520,Beitrag der Stadt an den öff. Verkehr,36589652.00,622000.00,33487565.00,611000.00,31831247.20,634044.80
+1500,"Direktion f. Tiefbau, Verkehr, Stadtgrün",510,Tiefbauamt,PG510100,Entwicklung + Erhaltung,P510110,Gesamtwerterhaltungsplanung Infrastruk.,2238578.84,545093.10,2364877.20,400029.40,1860953.61,347599.01
+1500,"Direktion f. Tiefbau, Verkehr, Stadtgrün",510,Tiefbauamt,PG510100,Entwicklung + Erhaltung,P510130,Koordination im öffentlichen Raum,935482.88,306825.88,945941.60,277321.04,1001493.98,262217.64
+1500,"Direktion f. Tiefbau, Verkehr, Stadtgrün",510,Tiefbauamt,PG510200,Projektierung + Realisierung,P510210,Realisierung Verkehrsflächen,12183637.36,601754.70,10678526.94,656056.49,9937514.01,640350.75
+1500,"Direktion f. Tiefbau, Verkehr, Stadtgrün",510,Tiefbauamt,PG510200,Projektierung + Realisierung,P510220,Realisierung Kunstbauten,4710768.36,284522.70,4276751.36,264555.47,3722135.22,258277.29
+1500,"Direktion f. Tiefbau, Verkehr, Stadtgrün",510,Tiefbauamt,PG510200,Projektierung + Realisierung,P510230,Realisierung Wasserbau,1215715.62,84796.38,1076001.44,68804.90,1061749.01,67243.90
+1500,"Direktion f. Tiefbau, Verkehr, Stadtgrün",510,Tiefbauamt,PG510200,Projektierung + Realisierung,P510240,Realisierung Verkehrsmanagement,6216668.30,253569.60,5689322.78,367572.30,5070132.81,345172.51
+1500,"Direktion f. Tiefbau, Verkehr, Stadtgrün",510,Tiefbauamt,PG510300,Betrieb + Unterhalt,P510310,Betrieb/U'halt Strassen/Ufer-/Wanderwege,36660206.57,11108996.45,37594773.28,11247860.48,38173581.07,14215214.17
+1500,"Direktion f. Tiefbau, Verkehr, Stadtgrün",510,Tiefbauamt,PG510300,Betrieb + Unterhalt,P510320,Betrieb / Unterhalt Kunstbauten,1053036.40,6121.15,1073869.80,5414.76,943940.94,60517.28
+1500,"Direktion f. Tiefbau, Verkehr, Stadtgrün",510,Tiefbauamt,PG510300,Betrieb + Unterhalt,P510330,Dienstleistungen,3032847.93,2741226.45,3405716.08,2715224.80,3088462.14,2721779.69
+1500,"Direktion f. Tiefbau, Verkehr, Stadtgrün",510,Tiefbauamt,PG510300,Betrieb + Unterhalt,P510340,"Brunnen, Wartehallen, WC",0.00,0.00,3906932.00,210000.00,3914069.73,225170.95
+1500,"Direktion f. Tiefbau, Verkehr, Stadtgrün",510,Tiefbauamt,PG510300,Betrieb + Unterhalt,P510350,Rückerstattung Abfallgrundgebühren,0.00,0.00,0.00,0.00,19650000.00,0.00
+1500,"Direktion f. Tiefbau, Verkehr, Stadtgrün",510,Tiefbauamt,PG510400,Bewilligung / Bewirtschaftung,P510410,Bewirtschaftung des öffentlichen Bodens,1228398.80,12564220.40,988409.16,12045611.96,1398275.65,6619109.35
+1500,"Direktion f. Tiefbau, Verkehr, Stadtgrün",510,Tiefbauamt,PG510400,Bewilligung / Bewirtschaftung,P510420,Fachliche Stellungnahmen und Auskünfte,261243.20,34016.16,427418.52,42656.44,384758.30,42839.25
+1500,"Direktion f. Tiefbau, Verkehr, Stadtgrün",510,Tiefbauamt,PG510500,Stadtbeleuchtung,P510510,Stadtbeleuchtung,5850000.00,0.00,5830000.00,0.00,5836373.35,0.00
+1500,"Direktion f. Tiefbau, Verkehr, Stadtgrün",520,Stadtgrün Bern,PG520100,Grünraumgestaltung,P520110,Natur und Ökologie,222921.60,9333.96,217762.12,9453.72,353085.86,9825.14
+1500,"Direktion f. Tiefbau, Verkehr, Stadtgrün",520,Stadtgrün Bern,PG520100,Grünraumgestaltung,P520120,Realisierung Anlagen,599935.67,145617.36,566090.24,110999.60,968894.56,166748.24
+1500,"Direktion f. Tiefbau, Verkehr, Stadtgrün",520,Stadtgrün Bern,PG520100,Grünraumgestaltung,P520130,Bauherrenleistung,1041750.76,156718.60,995670.40,110416.76,443220.46,142067.90
+1500,"Direktion f. Tiefbau, Verkehr, Stadtgrün",520,Stadtgrün Bern,PG520200,Grünflächenpflege,P520210,Parkanlagen,5873735.09,568983.35,6389566.79,583649.19,5811867.47,605073.47
+1500,"Direktion f. Tiefbau, Verkehr, Stadtgrün",520,Stadtgrün Bern,PG520200,Grünflächenpflege,P520220,"Schul-, Sport- und Badeanlagen",5207826.89,3972172.97,5101424.46,3861216.82,4553846.27,3818931.36
+1500,"Direktion f. Tiefbau, Verkehr, Stadtgrün",520,Stadtgrün Bern,PG520200,Grünflächenpflege,P520230,Übriges öffentliches Grün,2178040.62,923681.40,2161585.56,895261.04,2684912.40,959331.98
+1500,"Direktion f. Tiefbau, Verkehr, Stadtgrün",520,Stadtgrün Bern,PG520200,Grünflächenpflege,P520240,Verkehrsgrün,2795011.34,283062.09,2869686.22,285422.86,3378029.85,288455.01
+1500,"Direktion f. Tiefbau, Verkehr, Stadtgrün",520,Stadtgrün Bern,PG520300,Naturerleben und -bildung,P520310,Naturerleben und -bildung,847716.81,141810.19,947620.52,173785.02,943669.32,149366.97
+1500,"Direktion f. Tiefbau, Verkehr, Stadtgrün",520,Stadtgrün Bern,PG520400,Friedhöfe,P520410,Bestattungen / Beisetzungen,617314.38,278531.56,610524.76,273753.86,620365.61,273766.49
+1500,"Direktion f. Tiefbau, Verkehr, Stadtgrün",520,Stadtgrün Bern,PG520400,Friedhöfe,P520420,Friedhof- und Grabanlagen,6189191.83,3159136.02,6137324.76,3173676.04,6347037.60,3234980.56
+1500,"Direktion f. Tiefbau, Verkehr, Stadtgrün",520,Stadtgrün Bern,PG520400,Friedhöfe,P520430,Übrige Dienstleistungen,1889485.03,987302.50,1890630.34,982465.09,1754783.03,970002.99
+1500,"Direktion f. Tiefbau, Verkehr, Stadtgrün",570,Vermessungsamt,PG570100,Geoinformation und Vermessung,P570110,Amtliche Vermessung,1746719.51,1036367.67,1833283.86,1048338.00,1907759.37,1147677.05
+1500,"Direktion f. Tiefbau, Verkehr, Stadtgrün",570,Vermessungsamt,PG570100,Geoinformation und Vermessung,P570120,GIS-Bern,1456522.57,653766.76,1560903.49,550952.64,1519897.14,537232.24
+1500,"Direktion f. Tiefbau, Verkehr, Stadtgrün",570,Vermessungsamt,PG570100,Geoinformation und Vermessung,P570130,Geoinformation,1534132.11,1898342.60,1681141.90,1892572.16,1629306.90,1797774.57
+1500,"Direktion f. Tiefbau, Verkehr, Stadtgrün",580,Verkehrsplanung,PG580100,Verkehrsplanung,P580110,Verkehrskonzepte,681862.40,9759.12,644137.56,9699.36,752679.83,26560.99
+1500,"Direktion f. Tiefbau, Verkehr, Stadtgrün",580,Verkehrsplanung,PG580100,Verkehrsplanung,P580120,Vorprojekte Verkehrsanlagen (Bau/Betr.),2877249.59,104331.76,2408942.98,104220.64,1809798.26,95537.56
+1500,"Direktion f. Tiefbau, Verkehr, Stadtgrün",580,Verkehrsplanung,PG580100,Verkehrsplanung,P580140,Förderung Fuss- und Veloverkehr,1252338.06,2337.96,1904328.99,654328.99,1341227.70,91227.70
+1600,"Dir. für Finanzen, Personal, Informatik",600,Direktionsstabsdienste,PG600100,Leistungen für Politik und Verw'führung,P600110,Führungsunterstützung,1277434.98,166215.08,1178941.23,174765.20,1268242.94,306907.40
+1600,"Dir. für Finanzen, Personal, Informatik",600,Direktionsstabsdienste,PG600300,Fachstelle Beschaffungswesen,P600310,Dienstleistungen Stadtintern,651115.92,16572.12,435363.22,32423.88,364621.77,12400.67
+1600,"Dir. für Finanzen, Personal, Informatik",600,Direktionsstabsdienste,PG600300,Fachstelle Beschaffungswesen,P600320,Dienstleistungen Extern,114902.84,101799.76,169307.95,170225.24,246697.98,332962.33
+1600,"Dir. für Finanzen, Personal, Informatik",610,Finanzverwaltung,PG610100,Finanzdienstleistungen Stadtverwaltung,P610110,Finanzhaushalt,764368.72,7122.68,803858.68,9032.80,971370.37,63195.85
+1600,"Dir. für Finanzen, Personal, Informatik",610,Finanzverwaltung,PG610100,Finanzdienstleistungen Stadtverwaltung,P610120,Leistungen für Behörden,28503.00,265.20,38292.48,414.60,27842.69,938.04
+1600,"Dir. für Finanzen, Personal, Informatik",610,Finanzverwaltung,PG610100,Finanzdienstleistungen Stadtverwaltung,P610130,Leistungen für Verwaltung,226514.76,2107.32,254600.68,2414.88,237080.72,5563.61
+1600,"Dir. für Finanzen, Personal, Informatik",610,Finanzverwaltung,PG610100,Finanzdienstleistungen Stadtverwaltung,P610140,Versicherungswesen,136113.60,201214.88,143418.28,141563.24,134751.58,151195.88
+1600,"Dir. für Finanzen, Personal, Informatik",610,Finanzverwaltung,PG610100,Finanzdienstleistungen Stadtverwaltung,P610150,Finanzwesen FPI,346714.68,64233.48,398574.12,73332.16,458903.82,92656.57
+1600,"Dir. für Finanzen, Personal, Informatik",610,Finanzverwaltung,PG610200,Vermögens- und Schuldenbewirtschaftung,P610210,DL Vermögens-/Schuldenbewirtschaftung,135744.30,2868701.04,266665.72,2220269.56,1785754.56,14475727.25
+1600,"Dir. für Finanzen, Personal, Informatik",610,Finanzverwaltung,PG610200,Vermögens- und Schuldenbewirtschaftung,P610220,Nettozinsen,57075727.37,87768288.14,61877242.10,78945836.62,56439095.13,66465672.15
+1600,"Dir. für Finanzen, Personal, Informatik",610,Finanzverwaltung,PG610400,Finanzausgleich und Beiträge,P610410,Beitragswesen,3735.87,34.88,16145.52,173.20,3148.28,41.17
+1600,"Dir. für Finanzen, Personal, Informatik",610,Finanzverwaltung,PG610400,Finanzausgleich und Beiträge,P610420,Beiträge,966675.00,0.00,258810.00,0.00,258724.60,0.00
+1600,"Dir. für Finanzen, Personal, Informatik",610,Finanzverwaltung,PG610400,Finanzausgleich und Beiträge,P610430,Finanz- und Lastenausgleich,64009139.00,63254000.00,63359194.70,72253600.00,55112269.00,63254000.00
+1600,"Dir. für Finanzen, Personal, Informatik",610,Finanzverwaltung,PG610400,Finanzausgleich und Beiträge,P610440,Abschreibungen auf Bilanzfehlbetrag,0.00,0.00,0.00,0.00,0.00,0.00
+1600,"Dir. für Finanzen, Personal, Informatik",620,Immobilien Stadt Bern,PG620100,Bewirtschaftung Immobilien VV,P620110,Bewirtschaftung Verwaltungsgebäude,13423859.92,13423864.20,0.00,0.00,0.00,0.00
+1600,"Dir. für Finanzen, Personal, Informatik",620,Immobilien Stadt Bern,PG620100,Bewirtschaftung Immobilien VV,P620120,Bewirtschaftung Schul- und Sportanlagen,57722637.56,57722635.56,0.00,0.00,0.00,0.00
+1600,"Dir. für Finanzen, Personal, Informatik",620,Immobilien Stadt Bern,PG620100,Bewirtschaftung Immobilien VV,P620130,Bewirtschaftung Spezialobjekte,27944539.64,26515999.81,0.00,0.00,0.00,0.00
+1600,"Dir. für Finanzen, Personal, Informatik",620,Immobilien Stadt Bern,PG620100,Bewirtschaftung Immobilien VV,P620140,Leistungen für Behörden und Verwaltung,547029.84,11837.00,0.00,0.00,0.00,0.00
+1600,"Dir. für Finanzen, Personal, Informatik",620,Immobilien Stadt Bern,PG620100,Bewirtschaftung Immobilien VV,P620150,Leistungen für Dritte,517988.04,11719.68,0.00,0.00,0.00,0.00
+1600,"Dir. für Finanzen, Personal, Informatik",620,Immobilien Stadt Bern,PG620200,Liegenschaften im öffentlichen Interesse,P620210,Liegenschaften im öffentlichen Interesse,478400.00,1195000.00,1488900.00,1161900.00,1692649.56,1182599.80
+1600,"Dir. für Finanzen, Personal, Informatik",620,Immobilien Stadt Bern,PG621100,Rebgut Neuenstadt,P621110,Rebgut Neuenstadt,1463000.00,1463000.00,1530500.00,1562000.00,1489069.96,1448973.63
+1600,"Dir. für Finanzen, Personal, Informatik",630,Steuerverwaltung,PG630100,Steuerregister / Veranlagung,P630110,Steuerregister und Veranlagung,4598706.12,187901.44,4689889.28,189451.32,4484411.24,202617.44
+1600,"Dir. für Finanzen, Personal, Informatik",630,Steuerverwaltung,PG630200,Steuerinkasso,P630210,Steuerinkasso,3080396.88,3924247.84,3236839.00,4015247.80,3020656.52,3887308.46
+1600,"Dir. für Finanzen, Personal, Informatik",630,Steuerverwaltung,PG630200,Steuerinkasso,P630220,Quellensteuerbezug,1293452.12,1452999.56,1382992.00,1452999.56,1351605.17,1437206.92
+1600,"Dir. für Finanzen, Personal, Informatik",630,Steuerverwaltung,PG630200,Steuerinkasso,P630230,Steuererlass,569759.16,361449.44,592468.52,352449.48,554820.46,360779.96
+1600,"Dir. für Finanzen, Personal, Informatik",630,Steuerverwaltung,PG630300,Erhebung besondere Gemeindesteuern,P630320,Übernachtungsabgabe,21450.84,35257.40,22296.88,35257.40,15319.26,35184.49
+1600,"Dir. für Finanzen, Personal, Informatik",630,Steuerverwaltung,PG630300,Erhebung besondere Gemeindesteuern,P630330,Liegenschaftssteuer / Beleuchtungsgebühr,854395.84,75676.64,916007.24,80676.72,877674.23,74624.76
+1600,"Dir. für Finanzen, Personal, Informatik",630,Steuerverwaltung,PG630300,Erhebung besondere Gemeindesteuern,P630340,Gemeindesteueranspruch und -teilung,521346.72,6067.56,490301.52,6067.60,490198.54,5729.71
+1600,"Dir. für Finanzen, Personal, Informatik",630,Steuerverwaltung,PG630400,Steuereinnahmen,P630410,Steuereinnahmen,8779602.00,439090000.00,9200000.00,431780000.00,9692120.26,427229365.23
+1600,"Dir. für Finanzen, Personal, Informatik",640,Personalamt,PG640100,Personaldienstleistungen Stadtverwaltung,P640110,Leistungen für Behörden,71471.40,5927.84,74369.56,4833.72,67813.66,5928.90
+1600,"Dir. für Finanzen, Personal, Informatik",640,Personalamt,PG640100,Personaldienstleistungen Stadtverwaltung,P640120,Leistungen für die Verwaltung,943238.04,19759.56,3374339.55,16112.52,1363506.22,19763.12
+1600,"Dir. für Finanzen, Personal, Informatik",640,Personalamt,PG640100,Personaldienstleistungen Stadtverwaltung,P640130,Personalpolitik und Personalrecht,687418.72,51374.76,714036.04,41892.60,697600.46,51484.00
+1600,"Dir. für Finanzen, Personal, Informatik",640,Personalamt,PG640100,Personaldienstleistungen Stadtverwaltung,P640140,Personalsysteme und -instrumente,629859.76,41495.12,724768.80,33836.40,531121.98,44750.05
+1600,"Dir. für Finanzen, Personal, Informatik",640,Personalamt,PG640100,Personaldienstleistungen Stadtverwaltung,P640150,Personal- und Organisationsentwicklung,1360251.94,462833.20,1484194.00,443950.20,1303571.90,528020.03
+1600,"Dir. für Finanzen, Personal, Informatik",640,Personalamt,PG640400,Personaldienst FPI / Telefonzentrale,P640410,Personalwesen FPI,726307.52,5783.76,367723.91,2799.96,382325.43,4975.98
+1600,"Dir. für Finanzen, Personal, Informatik",640,Personalamt,PG640400,Personaldienst FPI / Telefonzentrale,P640420,Ausbildungswesen FPI,438611.85,3247.56,227127.04,1984.32,225804.24,2453.32
+1600,"Dir. für Finanzen, Personal, Informatik",640,Personalamt,PG640400,Personaldienst FPI / Telefonzentrale,P640430,Städtische Telefonzentrale,595592.53,36885.98,587490.94,45024.12,579773.58,50630.40
+1600,"Dir. für Finanzen, Personal, Informatik",650,Informatikdienste,PG650100,Informatikservices,P650110,Zentrale städt. Informatikleistungen,14994357.00,15549081.08,14765156.75,14866299.49,15243026.73,15566462.90
+1600,"Dir. für Finanzen, Personal, Informatik",650,Informatikdienste,PG650100,Informatikservices,P650120,Migration Bürokommunikation,2941567.32,2870535.15,2747143.94,2777851.20,3679462.23,3514244.81
+1600,"Dir. für Finanzen, Personal, Informatik",660,Schul- und Büromaterialzentrale,PG660100,Handelsprodukte,P660110,Papier und Karton,1662802.28,1783002.45,1751245.09,1845187.04,1622325.79,1622716.27
+1600,"Dir. für Finanzen, Personal, Informatik",660,Schul- und Büromaterialzentrale,PG660100,Handelsprodukte,P660120,Drucksachen extern,1071629.16,1127099.27,995180.11,1025531.64,1133311.94,1084480.22
+1600,"Dir. für Finanzen, Personal, Informatik",660,Schul- und Büromaterialzentrale,PG660100,Handelsprodukte,P660140,"Schul-/Büromat., Handarbeiten, Werken",2620497.22,2740730.93,2495050.52,2593704.66,2511920.02,2512029.80
+1600,"Dir. für Finanzen, Personal, Informatik",660,Schul- und Büromaterialzentrale,PG660100,Handelsprodukte,P660150,"Mobiliar, Maschinen und Geräte",1319830.57,1348283.96,915910.63,926354.20,1228502.43,1228643.98
+1600,"Dir. für Finanzen, Personal, Informatik",660,Schul- und Büromaterialzentrale,PG660100,Handelsprodukte,P660160,Reinigungsmaterial und -geräte,1504007.26,1553715.29,1545224.22,1580119.65,1421109.80,1421260.56
+1600,"Dir. für Finanzen, Personal, Informatik",660,Schul- und Büromaterialzentrale,PG660200,Drucksachenproduktion,P660210,Kleinoffset/Kopierservice/Ausrüstarb.,874859.22,903353.74,730947.24,747068.07,880526.76,885163.22
+1600,"Dir. für Finanzen, Personal, Informatik",660,Schul- und Büromaterialzentrale,PG660300,Dienstleistungen,P660310,"Logistik, Entsorgung und Postdienste",2216957.51,2234911.40,2083768.31,2040957.91,2233478.50,2193859.21
+1600,"Dir. für Finanzen, Personal, Informatik",660,Schul- und Büromaterialzentrale,PG660300,Dienstleistungen,P660320,Reparaturdienst,12312.82,11936.20,13260.15,14122.10,12315.37,11936.20
+1600,"Dir. für Finanzen, Personal, Informatik",670,Finanzinspektorat,PG670100,Revision,P670110,"Revision verrechenbar, Stiftungsaufsicht",145520.84,283662.64,176406.08,321248.92,286450.78,468062.44
+1600,"Dir. für Finanzen, Personal, Informatik",670,Finanzinspektorat,PG670100,Revision,P670120,Revision nicht verrechenbar,1267303.06,11267.84,1536274.88,18985.92,1338196.90,15560.21
+1600,"Dir. für Finanzen, Personal, Informatik",690,Stadtbauten (StaBe),PG690100,Stadtbauten (StaBe),P690110,Gewinnablieferung,0.00,0.00,0.00,34572000.00,0.00,22500000.00
+1600,"Dir. für Finanzen, Personal, Informatik",690,Stadtbauten (StaBe),PG690100,Stadtbauten (StaBe),P690120,Kirchenunterhalt,0.00,0.00,3044045.00,0.00,3019814.50,0.00
+1600,"Dir. für Finanzen, Personal, Informatik",690,Stadtbauten (StaBe),PG690100,Stadtbauten (StaBe),P690120,,0.00,0.00,3044045.00,0.00,3019814.50,0.00
+2850,Sonderrechnung Stadtentwässerung,850,"Stadtentwässerung, Tiefbauamt",PG850100,Stadtentwässerung,P850110,Erhaltungs- Neu- und Ausbauplanung,541429.16,32804.28,541420.44,36585.96,278226.41,7335.02
+2850,Sonderrechnung Stadtentwässerung,850,"Stadtentwässerung, Tiefbauamt",PG850100,Stadtentwässerung,P850120,Richtplanung,582170.36,35272.80,582160.80,39339.00,416674.42,7887.04
+2850,Sonderrechnung Stadtentwässerung,850,"Stadtentwässerung, Tiefbauamt",PG850100,Stadtentwässerung,P850130,Realisierung,2628879.16,159280.08,2628835.72,177641.64,1730078.85,35614.91
+2850,Sonderrechnung Stadtentwässerung,850,"Stadtentwässerung, Tiefbauamt",PG850100,Stadtentwässerung,P850140,Betrieb und Unterhalt (KNB),5495772.44,332980.76,5495682.00,371366.52,6438428.77,535479.13
+2850,Sonderrechnung Stadtentwässerung,850,"Stadtentwässerung, Tiefbauamt",PG850100,Stadtentwässerung,P850150,Inspektorat und Inkasso,1473115.12,89253.84,1473090.84,99542.88,978476.73,148422.10
+2850,Sonderrechnung Stadtentwässerung,850,"Stadtentwässerung, Tiefbauamt",PG850100,Stadtentwässerung,P850160,Gebühren,36535000.00,42963500.00,33424000.00,41792000.00,30287857.47,38618484.76
+2850,Sonderrechnung Stadtentwässerung,850,"Stadtentwässerung, Tiefbauamt",PG850100,Stadtentwässerung,P850170,Rechnungsausgleich Spezialfinanzierung,0.00,3643274.48,0.00,1628713.80,0.00,776519.69
+2850,Sonderrechnung Stadtentwässerung,850,"Stadtentwässerung, Tiefbauamt",PG850100,Stadtentwässerung,P850170,,0.00,3643274.48,0.00,1628713.80,0.00,776519.69
+2860,Sonderrg. Fonds f. Boden-/Wohnbaupolitik,860,Fonds für Boden- und Wohnbaupolitik,PG860100,Fonds für Boden- und Wohnbaupolitik,P860111,Bewirtschaftung Wohnliegenschaften,23370584.78,18842646.68,30754464.84,23775954.16,25865282.03,24031608.78
+2860,Sonderrg. Fonds f. Boden-/Wohnbaupolitik,860,Fonds für Boden- und Wohnbaupolitik,PG860100,Fonds für Boden- und Wohnbaupolitik,P860112,Bewirtschaftung Geschäftsliegenschaften,20831476.55,20180037.20,12923724.00,18729873.04,13457396.01,21931141.65
+2860,Sonderrg. Fonds f. Boden-/Wohnbaupolitik,860,Fonds für Boden- und Wohnbaupolitik,PG860100,Fonds für Boden- und Wohnbaupolitik,P860113,Bewirtschaftung Landwirtschaft,1010731.60,409355.24,2142243.40,403250.04,899284.02,516653.82
+2860,Sonderrg. Fonds f. Boden-/Wohnbaupolitik,860,Fonds für Boden- und Wohnbaupolitik,PG860100,Fonds für Boden- und Wohnbaupolitik,P860114,Bewirtschaft. Baurechte/übrige Landparz.,12097531.00,12878365.12,5749943.88,11984523.00,5429310.80,12397364.03
+2860,Sonderrg. Fonds f. Boden-/Wohnbaupolitik,860,Fonds für Boden- und Wohnbaupolitik,PG860100,Fonds für Boden- und Wohnbaupolitik,P860120,Promotion/Entwicklung/Käufe/Verkäufe,0.00,0.00,12515861.40,1994200.00,10780403.09,4882015.46
+2860,Sonderrg. Fonds f. Boden-/Wohnbaupolitik,860,Fonds für Boden- und Wohnbaupolitik,PG860100,Fonds für Boden- und Wohnbaupolitik,P860130,Dienstleistungen für Dritte,632853.59,567945.36,530251.20,524799.68,506245.44,491061.37
+2860,Sonderrg. Fonds f. Boden-/Wohnbaupolitik,860,Fonds für Boden- und Wohnbaupolitik,PG860100,Fonds für Boden- und Wohnbaupolitik,P860140,Leistungen für Behörden und Verwaltung,37700.00,0.00,746607.80,5200.04,665296.20,16054.11
+2860,Sonderrg. Fonds f. Boden-/Wohnbaupolitik,860,Fonds für Boden- und Wohnbaupolitik,PG860100,Fonds für Boden- und Wohnbaupolitik,P860160,Beteiligungen Wohnbaugesellschaften,171592.48,336550.40,113063.48,334800.04,93715.36,350257.77
+2860,Sonderrg. Fonds f. Boden-/Wohnbaupolitik,860,Fonds für Boden- und Wohnbaupolitik,PG860100,Fonds für Boden- und Wohnbaupolitik,P860170,Einlagen Spezialfinanzierung,0.00,4937570.00,0.00,7723560.00,6919224.04,0.00
+2870,Sonderrechnung Entsorgung + Recycling,870,Entsorgung + Recycling,PG870100,Entsorgung + Recycling,P870110,Sammeldienst mobil,12092521.74,8987681.72,13089910.96,10300065.64,12330370.94,10381138.53
+2870,Sonderrechnung Entsorgung + Recycling,870,Entsorgung + Recycling,PG870100,Entsorgung + Recycling,P870120,Entsorgungshöfe/Sammelstellen stationär,6897478.03,3191629.60,7511226.44,2917977.68,6940723.34,2709948.86
+2870,Sonderrechnung Entsorgung + Recycling,870,Entsorgung + Recycling,PG870100,Entsorgung + Recycling,P870150,Öffentlichkeitsarbeit,2223196.07,90305.20,2165594.64,191716.12,2025887.59,198754.45
+2870,Sonderrechnung Entsorgung + Recycling,870,Entsorgung + Recycling,PG870100,Entsorgung + Recycling,P870160,Grundgebühren Abfallentsorgung,4203632.16,14928527.48,4070176.96,14706653.56,7764431.54,18657368.74
+2870,Sonderrechnung Entsorgung + Recycling,870,Entsorgung + Recycling,PG870100,Entsorgung + Recycling,P870170,Ausgleich Spezialfinanzierung,1781316.00,0.00,1279504.00,0.00,2885797.17,0.00
