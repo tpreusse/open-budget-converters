@@ -1,4 +1,4 @@
-level_0_id,level_0_name,level_1_id,level_1_name,level_2_id,level_2_name,level_3_id,level_3_name,value_revenue_accounts_2014,value_revenue_accounts_2014,value_revenue_accounts_2013,value_revenue_accounts_2013,value_revenue_accounts_2012,value_revenue_accounts_2012
+level_0_id,level_0_name,level_1_id,level_1_name,level_2_id,level_2_name,level_3_id,level_3_name,value_expense_budgets_2014,value_revenue_budgets_2014,value_expense_budgets_2013,value_revenue_budgets_2013,value_expense_accounts_2012,value_revenue_accounts_2012
 1000,Gemeinde und Behörden,010,Stadtrat,PG010000,Stadtrat,P010010,Stadtrat,814545.58,0.00,874811.62,0.00,906709.06,130.00
 1000,Gemeinde und Behörden,010,Stadtrat,PG010100,Ratssekretariat,P010110,Sitzungsmanagement,591379.68,7628.30,603655.14,8335.00,597615.27,9012.30
 1000,Gemeinde und Behörden,010,Stadtrat,PG010100,Ratssekretariat,P010120,Dienstleistungen,320748.30,0.00,327406.10,0.00,355643.10,0.00
@@ -215,7 +215,6 @@ level_0_id,level_0_name,level_1_id,level_1_name,level_2_id,level_2_name,level_3_
 1300,"Direktion für Bildung,Soziales und Sport",380,Sportamt,PG380100,Betriebe Eis und Wasser,P380130,Kunsteisbahnen,3555146.80,839914.88,3838588.88,842493.32,3990404.83,819543.66
 1300,"Direktion für Bildung,Soziales und Sport",380,Sportamt,PG380200,"Sportanlagen, Sportbetrieb",P380210,Bereitstellung von Turn- / Sportanlagen,8316145.78,1731765.00,7756694.64,1729152.56,7602797.63,1293286.32
 1300,"Direktion für Bildung,Soziales und Sport",380,Sportamt,PG380200,"Sportanlagen, Sportbetrieb",P380220,Sportförderung und -beratung,1355415.92,144010.00,1160513.32,140934.88,1299193.34,177710.44
-1300,"Direktion für Bildung,Soziales und Sport",380,Sportamt,PG380200,"Sportanlagen, Sportbetrieb",P380220,,1355415.92,144010.00,1160513.32,140934.88,1299193.34,177710.44
 1500,"Direktion f. Tiefbau, Verkehr, Stadtgrün",500,Direktionsstabsdienste,PG500100,Leistungen für Politik und Verw'führung,P500110,Führungsunterstützung,1593705.30,31777.16,1629558.39,31673.48,1587251.15,67750.85
 1500,"Direktion f. Tiefbau, Verkehr, Stadtgrün",500,Direktionsstabsdienste,PG500400,Zentrale Dienste,P500410,Finanzwesen,613705.72,138920.48,657846.02,138060.16,633100.08,166221.96
 1500,"Direktion f. Tiefbau, Verkehr, Stadtgrün",500,Direktionsstabsdienste,PG500400,Zentrale Dienste,P500420,Informatikkoordination,146672.35,28500.00,147192.40,32419.57,148373.92,29826.20
@@ -304,7 +303,6 @@ level_0_id,level_0_name,level_1_id,level_1_name,level_2_id,level_2_name,level_3_
 1600,"Dir. für Finanzen, Personal, Informatik",670,Finanzinspektorat,PG670100,Revision,P670120,Revision nicht verrechenbar,1267303.06,11267.84,1536274.88,18985.92,1338196.90,15560.21
 1600,"Dir. für Finanzen, Personal, Informatik",690,Stadtbauten (StaBe),PG690100,Stadtbauten (StaBe),P690110,Gewinnablieferung,0.00,0.00,0.00,34572000.00,0.00,22500000.00
 1600,"Dir. für Finanzen, Personal, Informatik",690,Stadtbauten (StaBe),PG690100,Stadtbauten (StaBe),P690120,Kirchenunterhalt,0.00,0.00,3044045.00,0.00,3019814.50,0.00
-1600,"Dir. für Finanzen, Personal, Informatik",690,Stadtbauten (StaBe),PG690100,Stadtbauten (StaBe),P690120,,0.00,0.00,3044045.00,0.00,3019814.50,0.00
 2850,Sonderrechnung Stadtentwässerung,850,"Stadtentwässerung, Tiefbauamt",PG850100,Stadtentwässerung,P850110,Erhaltungs- Neu- und Ausbauplanung,541429.16,32804.28,541420.44,36585.96,278226.41,7335.02
 2850,Sonderrechnung Stadtentwässerung,850,"Stadtentwässerung, Tiefbauamt",PG850100,Stadtentwässerung,P850120,Richtplanung,582170.36,35272.80,582160.80,39339.00,416674.42,7887.04
 2850,Sonderrechnung Stadtentwässerung,850,"Stadtentwässerung, Tiefbauamt",PG850100,Stadtentwässerung,P850130,Realisierung,2628879.16,159280.08,2628835.72,177641.64,1730078.85,35614.91
@@ -312,7 +310,6 @@ level_0_id,level_0_name,level_1_id,level_1_name,level_2_id,level_2_name,level_3_
 2850,Sonderrechnung Stadtentwässerung,850,"Stadtentwässerung, Tiefbauamt",PG850100,Stadtentwässerung,P850150,Inspektorat und Inkasso,1473115.12,89253.84,1473090.84,99542.88,978476.73,148422.10
 2850,Sonderrechnung Stadtentwässerung,850,"Stadtentwässerung, Tiefbauamt",PG850100,Stadtentwässerung,P850160,Gebühren,36535000.00,42963500.00,33424000.00,41792000.00,30287857.47,38618484.76
 2850,Sonderrechnung Stadtentwässerung,850,"Stadtentwässerung, Tiefbauamt",PG850100,Stadtentwässerung,P850170,Rechnungsausgleich Spezialfinanzierung,0.00,3643274.48,0.00,1628713.80,0.00,776519.69
-2850,Sonderrechnung Stadtentwässerung,850,"Stadtentwässerung, Tiefbauamt",PG850100,Stadtentwässerung,P850170,,0.00,3643274.48,0.00,1628713.80,0.00,776519.69
 2860,Sonderrg. Fonds f. Boden-/Wohnbaupolitik,860,Fonds für Boden- und Wohnbaupolitik,PG860100,Fonds für Boden- und Wohnbaupolitik,P860111,Bewirtschaftung Wohnliegenschaften,23370584.78,18842646.68,30754464.84,23775954.16,25865282.03,24031608.78
 2860,Sonderrg. Fonds f. Boden-/Wohnbaupolitik,860,Fonds für Boden- und Wohnbaupolitik,PG860100,Fonds für Boden- und Wohnbaupolitik,P860112,Bewirtschaftung Geschäftsliegenschaften,20831476.55,20180037.20,12923724.00,18729873.04,13457396.01,21931141.65
 2860,Sonderrg. Fonds f. Boden-/Wohnbaupolitik,860,Fonds für Boden- und Wohnbaupolitik,PG860100,Fonds für Boden- und Wohnbaupolitik,P860113,Bewirtschaftung Landwirtschaft,1010731.60,409355.24,2142243.40,403250.04,899284.02,516653.82

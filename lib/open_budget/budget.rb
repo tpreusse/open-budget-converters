@@ -1,10 +1,12 @@
 # encoding: UTF-8
 
+require './lib/open_budget/mappers/generic'
 require './lib/open_budget/mappers/canton_bern'
 require './lib/open_budget/mappers/zurich'
 
 module OpenBudget
   class Budget
+    include OpenBudget::Mappers::Generic
     include OpenBudget::Mappers::CantonBern
     include OpenBudget::Mappers::Zurich
 
@@ -20,19 +22,23 @@ module OpenBudget
       @node_index[id]
     end
 
-    def get_or_create_node id_path, names
+    def get_or_create_node id_path, names, intermediary = false
       id = id_path.join '_'
       node = @node_index[id] = get_node(id_path) || lambda do
         node = Node.new
         node.id = id
 
+        if intermediary
+          # allow for aggregate creation
+          node.touch
+        end
+
         # add to collection
         if id_path.length > 1
-          parent = get_or_create_node id_path.take(id_path.length - 1), names.take(names.length - 1)
+          parent = get_or_create_node id_path.take(id_path.length - 1), names.take(names.length - 1), true
           node.parent = parent
           parent.children
         else
-          node.touch
           @nodes
         end << node
 

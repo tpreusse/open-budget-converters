@@ -1,6 +1,13 @@
 # encoding: UTF-8
 
 namespace :bern do
+  desc "creates bern json file from normalized csv"
+  task :generate_json_from_csv do
+    budget = OpenBudget::Budget.new
+    budget.load_csv 'source/bern/2014/PG-Budget_Stadt_Bern_2014_normalized.csv'
+    budget.save_pretty_json 'data/bern/data.json'
+  end
+
   desc "normalize bern csv to generic budget csv"
   task :normalize_csv do
     csv = CSV.read('source/bern/2014/PG-Budget_Stadt_Bern_2014.csv', :encoding => 'iso-8859-1:utf-8', :col_sep => ';', :headers => true)
@@ -18,8 +25,8 @@ namespace :bern do
       if number_header
         number_headers << {
           key: header,
-          collection: number_header[:collection] == 'aufwand' ? 'expense' : 'revenue',
-          type: number_header[:type] == 'budget' ? 'budgets' : 'accounts',
+          collection: number_header[:collection] == 'Aufwand' ? 'expense' : 'revenue',
+          type: number_header[:type] == 'Budget' ? 'budgets' : 'accounts',
           year: number_header[:year]
         }
       end
@@ -44,6 +51,11 @@ namespace :bern do
           id: row_level_ids.last,
           name: row['Bezeichnung']
         }
+
+        # known duplicate rows
+        if %w(P380220 P690120 P850170).include?(row_level[:id]) && row_level[:name].blank?
+          next
+        end
 
         if row_level_ids.length == levels.length
           # number row
