@@ -10,7 +10,7 @@ namespace :bern do
 
   desc "normalize bern csv to generic budget csv"
   task :normalize_csv do
-    csv = CSV.read('source/bern/2014/PG-Budget_Stadt_Bern_2014.csv', :encoding => 'iso-8859-1:utf-8', :col_sep => ';', :headers => true)
+    csv = CSV.read('source/bern/2014/PG-Budget_Stadt_Bern_2014.csv', 'r:bom|utf-8', :headers => true)
 
     levels = [
       'Direktion',
@@ -52,11 +52,6 @@ namespace :bern do
           name: row['Bezeichnung']
         }
 
-        # known duplicate rows
-        if %w(P380220 P690120 P850170).include?(row_level[:id]) && row_level[:name].blank?
-          next
-        end
-
         if row_level_ids.length == levels.length
           # number row
           if row_context_levels.length != levels.length - 1
@@ -70,7 +65,7 @@ namespace :bern do
               [level[:id], level[:name]]
             end
             values += number_headers.collect do |number_header|
-              row[number_header[:key]].sub(/-$/, '')
+              row[number_header[:key]].sub(/^-/, '')
             end
             normalize_csv << values.flatten
           end
