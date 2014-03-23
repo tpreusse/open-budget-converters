@@ -85,6 +85,7 @@ module OpenBudget
         }
         num = num.to_s.gsub(',', comma_map[options[:comma]])
       end
+      num = num.to_s.gsub('\'', '')
       num = num.to_f
       if options[:exponent]
         num = num * (10 ** options[:exponent])
@@ -103,6 +104,29 @@ module OpenBudget
       budget = new
       budget.load_nodes File.read(file_path)
       budget
+    end
+
+
+    def get_leaf_nodes
+      find_leaf_nodes @nodes
+    end
+
+    # force cleaning -> create aggregates
+    def touch
+      get_leaf_nodes.each do |leaf|
+        leaf.parent.touch
+      end
+    end
+
+    protected
+    def find_leaf_nodes nodes
+      nodes.collect do |node|
+        if node.children.empty?
+          node
+        else
+          find_leaf_nodes node.children
+        end
+      end.flatten
     end
 
   end
